@@ -1,0 +1,828 @@
+.pfr_loginModalContent {
+    border-radius: 20px;
+    max-height: 640px;
+    height: 640px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 40px;
+}
+
+.pfr_loginModalDialog {
+    max-width: 500px;
+}
+
+.pfr_loginModalBody::-webkit-scrollbar {
+    display: none;
+}
+
+.pfr_loginModalHeader {
+    flex-direction: row;
+    border: none;
+    padding: 0px;
+}
+
+.pfr_loginModalHeader .btn-close, .pfr_loginModalHeader .btn-close:focus {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    background-size: 14px;
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    outline: none;
+    box-shadow: none;
+}
+
+.pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
+    background: #f3f3f3 url('../../../assets/img/back_arrow.png') center/1em auto no-repeat;
+}
+
+.pfr_loginModalHeadCreer {
+    color: #000;
+    background-color: #eeeeee;
+    border-radius: 40px;
+    padding: 20px 20px;
+    font-size: 15.5px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    cursor: pointer;
+}
+
+.pfr_loginModalBody {
+    padding: 0px 0px;
+    margin-top: 22px;
+}
+
+.pfr_loginModalH2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 7px;
+    letter-spacing: -0.4px;
+}
+
+.pfr_loginModalp {
+    font-size: 17.5px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 5px;
+    line-height: 22.5px;
+}
+
+.pfr_loginModalSeparatorDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.pfr_loginModalSeparatorDiv span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    padding: 0 18px;
+}
+
+.pfr_loginModalSeparator {
+    height: 1px;
+    width: 100%;
+    background: #cccccc;
+}
+
+.pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
+    background: #0d6efd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 0px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    height: 69px;
+    margin-top: 8px;
+    letter-spacing: 0.9px;
+}
+
+.pfr_loginModalBottomBtnCol div {
+    margin-bottom: 22px;
+}
+
+.pfr_loginModalBottomBtnCol div:last-child {
+    margin-bottom: 0px;
+}
+
+.pfr_loginModalIconBtn, .pfr_loginModalIconBtn:hover, .pfr_loginModalIconBtn:focus {
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 17px;
+    padding-top: 2px;
+    font-weight: 700;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #cccccc;
+    height: 70px;
+    position: relative;
+}
+
+.pfr_loginModalIconBtn img {
+    width: 20px;
+    position: absolute;
+    left: 15px;
+}
+
+.pfr_loginModalTelInputDiv {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.pfr_loginModalTelInput {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+}
+
+.pfr_loginModalTelInput .PhoneInputCountry {
+    border: 0;
+    border-right: 1px solid #cccccc;
+    padding: 10px;
+    outline: 0;
+}
+
+.pfr_loginModalTelInput .PhoneInputCountryIcon--border {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.pfr_loginModalTelInput .PhoneInputCountrySelectArrow {
+    outline: 0;
+    display: block;
+    content: '';
+    width: var(--PhoneInputCountrySelectArrow-width);
+    height: var(--PhoneInputCountrySelectArrow-width);
+    margin-left: var(--PhoneInputCountrySelectArrow-marginLeft);
+    border-style: solid;
+    border-color: #000;
+    border-top-width: 0;
+    border-bottom-width: var(--PhoneInputCountrySelectArrow-borderWidth);
+    border-left-width: 0;
+    border-right-width: var(--PhoneInputCountrySelectArrow-borderWidth);
+    transform: var(--PhoneInputCountrySelectArrow-transform);
+    opacity: var(--PhoneInputCountrySelectArrow-opacity);
+}
+
+.pfr_loginModalTelInput input {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 17.45px;
+    font-weight: 600;
+    color: #000;
+    z-index: 2;
+    padding-left: 4px;
+    padding-top: 12px;
+}
+
+.pfr_loginModalTelInputInnerDiv {
+    position: relative;
+}
+
+.pfr_loginModalTelInputLabel {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+}
+
+.pfr_loginModalTelInputInnerDiv .PhoneInput--focus~.pfr_loginModalTelInputLabel, .pfr_loginModalTelInputLabel.toFloat {
+    opacity: .70;
+    transform: scale(.85) translateY(-0.5rem) translateX(0);
+}
+
+.pfr_inputFloat.form-floating>.form-control:focus~label, .pfr_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .pfr_inputFloat.form-floating>.form-select~label {
+    opacity: .70;
+    transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
+    padding: 0.95rem 1.1rem;
+}
+
+.pfr_inputFloatDiv {
+    margin-bottom: 10px;
+}
+
+.pfr_inputFloat input, .pfr_inputFloat input:active, .pfr_inputFloat input:focus {
+    height: 64px !important;
+    font-size: 17.3px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 17px 0px 17px !important;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    outline: none;
+    box-shadow: none;
+}
+
+.pfr_loginEmail label {
+    padding: 17px 18px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+
+.pfr_loginShowPass {
+    width: 18px;
+    position: absolute;
+    right: 24px;
+    cursor: pointer;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.pfr_loginForgotPassDiv {
+    margin: 15px 10px;
+}
+
+.pfr_loginForgotPassDiv span {
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pfr_signupModalNameDiv {
+    margin-top: 5px;
+}
+
+.pfr_signUpNumberVerify {
+    width: 100% !important;
+}
+
+.pfr_signUpNumberVerify div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pfr_signUpNumberVerify input {
+    width: 25% !important;
+    height: 66px !important;
+    border-radius: 10px !important;
+    border: 1px solid #cccccc !important;
+    margin: 0px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.pfr_signUpNumberVerify input:nth-child(1) {
+    margin-left: 0;
+}
+
+.pfr_signUpNumberVerify input:last-child {
+    margin-right: 0;
+}
+
+.pfr_signUpResendDiv {
+    margin-top: -15px;
+    margin-bottom: 8px;
+}
+
+.pfr_signUpResendP {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 18px;
+    line-height: 20px;
+    color: #757575;
+}
+
+.pfr_signUpResendP span {
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) and (orientation:portrait) {
+
+    /*mobile*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /*mobile*/
+    .pfr_loginModalContent {
+        max-height: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .pfr_loginModalDialog {
+        max-width: 100%;
+    }
+
+    .pfr_loginModalHeader {
+        padding: 0px;
+    }
+
+    .pfr_loginModalHeader .btn-close, .pfr_loginModalHeader .btn-close:focus {
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        background-size: 12px;
+        padding: 16px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .pfr_loginModalHeadCreer {
+        padding: 16px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pfr_loginModalBody {
+        padding: 0px 0px;
+        overflow-x: hidden;
+        margin-top: 20px;
+    }
+
+    .pfr_loginModalH2 {
+        font-size: 23.5px;
+        font-weight: 700;
+        margin-bottom: 7px;
+        line-height: 32px;
+    }
+
+    .pfr_loginModalp {
+        font-size: 15.4px;
+        font-weight: 400;
+        margin-bottom: 3px;
+        letter-spacing: -0.2px;
+        line-height: 20px;
+    }
+
+    .pfr_loginModalSeparatorDiv {
+        margin: 30px 0px;
+    }
+
+    .pfr_loginModalSeparatorDiv span {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+
+    .pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        border-radius: 10px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    .pfr_loginModalBottomBtnCol div {
+        margin-bottom: 20px;
+    }
+
+    .pfr_loginModalBottomBtnCol div:last-child {
+        margin-bottom: 0px;
+    }
+
+    .pfr_loginModalIconBtn, .pfr_loginModalIconBtn:hover, .pfr_loginModalIconBtn:focus {
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        height: 60px;
+        padding-left: 50px;
+        letter-spacing: -0.2px;
+        justify-content: flex-start;
+    }
+
+    .pfr_loginModalIconBtn img {
+        width: 20px;
+        left: 15px;
+    }
+
+    .pfr_loginModalTelInputDiv {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .pfr_loginModalTelInput {
+        border-radius: 10px;
+        height: 62px;
+        width: 100%;
+    }
+
+    .pfr_loginModalTelInput .PhoneInputCountry {
+        padding: 10px;
+    }
+
+    .pfr_loginModalTelInput input {
+        width: 100%;
+        height: 45px;
+        padding-top: 13px;
+        padding-left: 5px;
+        font-size: 16px;
+    }
+
+    .pfr_loginModalTelInputLabel {
+        left: 68px;
+        font-size: 15.5px;
+        font-weight: 500;
+        height: 58px;
+    }
+
+    .pfr_signUpNumberVerify div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pfr_signUpNumberVerify input {
+        height: 62px !important;
+        margin: 0px 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .pfr_signUpResendDiv {
+        margin-top: -18px;
+        margin-bottom: 3px;
+    }
+
+    .pfr_inputFloat input, .pfr_inputFloat input:active, .pfr_inputFloat input:focus {
+        height: 62px !important;
+    }
+
+    .pfr_inputFloat.form-floating>.form-control:focus~label, .pfr_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .pfr_inputFloat.form-floating>.form-select~label {
+        opacity: .70;
+        transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
+        padding: 0.95rem 1.15rem;
+    }
+
+    .pfr_signUpResendP {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+
+    /*mobile*/
+    .pfr_loginModalContent {
+        max-height: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .pfr_loginModalDialog {
+        max-width: 100%;
+    }
+
+    .pfr_loginModalHeader {
+        padding: 0px;
+    }
+
+    .pfr_loginModalHeader .btn-close, .pfr_loginModalHeader .btn-close:focus {
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        background-size: 12px;
+        padding: 16px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .pfr_loginModalHeadCreer {
+        padding: 16px 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pfr_loginModalBody {
+        padding: 0px 0px;
+        overflow-x: hidden;
+        margin-top: 20px;
+    }
+
+    .pfr_loginModalH2 {
+        font-size: 23.5px;
+        font-weight: 700;
+        margin-bottom: 7px;
+        line-height: 32px;
+    }
+
+    .pfr_loginModalp {
+        font-size: 15.4px;
+        font-weight: 400;
+        margin-bottom: 3px;
+        line-height: 20px;
+        letter-spacing: -0.2px;
+    }
+
+    .pfr_loginModalSeparatorDiv {
+        margin: 30px 0px;
+    }
+
+    .pfr_loginModalSeparatorDiv span {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+
+    .pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        border-radius: 10px;
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    .pfr_loginModalBottomBtnCol div {
+        margin-bottom: 20px;
+    }
+
+    .pfr_loginModalBottomBtnCol div:last-child {
+        margin-bottom: 0px;
+    }
+
+    .pfr_loginModalIconBtn, .pfr_loginModalIconBtn:hover, .pfr_loginModalIconBtn:focus {
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        height: 60px;
+        padding-left: 50px;
+        letter-spacing: -0.2px;
+        justify-content: flex-start;
+    }
+
+    .pfr_loginModalIconBtn img {
+        width: 20px;
+        left: 15px;
+    }
+
+    .pfr_loginModalTelInputDiv {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .pfr_loginModalTelInput {
+        border-radius: 10px;
+        height: 62px;
+        width: 100%;
+    }
+
+    .pfr_loginModalTelInput .PhoneInputCountry {
+        padding: 10px;
+    }
+
+    .pfr_loginModalTelInput input {
+        width: 100%;
+        height: 45px;
+        padding-top: 13px;
+        padding-left: 5px;
+        font-size: 16px;
+    }
+
+    .pfr_loginModalTelInputLabel {
+        left: 68px;
+        font-size: 15.5px;
+        font-weight: 500;
+        height: 58px;
+    }
+
+    .pfr_signUpNumberVerify div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pfr_signUpNumberVerify input {
+        height: 62px !important;
+        margin: 0px 5px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .pfr_signUpResendDiv {
+        margin-top: -18px;
+        margin-bottom: 3px;
+    }
+
+    .pfr_inputFloat input, .pfr_inputFloat input:active, .pfr_inputFloat input:focus {
+        height: 62px !important;
+    }
+
+    .pfr_inputFloat.form-floating>.form-control:focus~label, .pfr_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .pfr_inputFloat.form-floating>.form-select~label {
+        opacity: .70;
+        transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
+        padding: 0.95rem 1.15rem;
+    }
+
+    .pfr_signUpResendP {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+
+    /*ipad*/
+
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+
+    /*ipad*/
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    /*ipad pro*/
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+    /*large desktop*/
+    .pfr_loginModalContent {
+        border-radius: 20px;
+        max-height: 650px;
+        height: 650px;
+        padding: 40px;
+    }
+
+    .pfr_loginModalDialog {
+        max-width: 500px;
+    }
+
+    .pfr_loginModalHeader {
+        padding: 0px;
+    }
+
+    .pfr_loginModalHeader .btn-close, .pfr_loginModalHeader .btn-close:focus {
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        background-size: 12px;
+        padding: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .pfr_loginModalHeadCreer {
+        padding: 18px 18px;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0.35px;
+    }
+
+    .pfr_loginModalBody {
+        padding: 0px 0px;
+        margin-top: 22px;
+    }
+
+    .pfr_loginModalH2 {
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 7px;
+        letter-spacing: -0.4px;
+    }
+
+    .pfr_loginModalp {
+        font-size: 17.5px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        line-height: 22.5px;
+    }
+
+    .pfr_loginModalSeparatorDiv {
+        margin: 30px 0px;
+    }
+
+    .pfr_loginModalSeparatorDiv span {
+        font-size: 14px;
+        font-weight: 800;
+        padding: 0 18px;
+    }
+
+    .pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 12px;
+        height: 69px;
+        margin-top: 8px;
+        padding-bottom: 5px;
+        letter-spacing: 0.9px;
+    }
+
+    .pfr_loginModalBottomBtnCol div {
+        margin-bottom: 22px;
+    }
+
+    .pfr_loginModalBottomBtnCol div:last-child {
+        margin-bottom: 0px;
+    }
+
+    .pfr_loginModalIconBtn, .pfr_loginModalIconBtn:hover, .pfr_loginModalIconBtn:focus {
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        height: 70px;
+    }
+
+    .pfr_loginModalIconBtn img {
+        width: 22px;
+        left: 15px;
+    }
+
+    .pfr_loginModalTelInputDiv {
+        margin-top: 20px;
+        margin-bottom: 14px;
+    }
+
+    .pfr_loginModalTelInput {
+        border-radius: 10px;
+        height: 70px;
+        width: 100%;
+    }
+
+    .pfr_loginModalTelInput .PhoneInputCountry {
+        padding: 10px;
+    }
+
+    .pfr_loginModalTelInput input {
+        width: 100%;
+        height: 45px;
+        padding-top: 12px;
+    }
+
+    .pfr_loginModalTelInputLabel {
+        left: 65px;
+        font-size: 17px;
+        font-weight: 500;
+        height: 60px;
+    }
+
+    .pfr_signUpNumberVerify div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pfr_signUpNumberVerify input {
+        height: 66px !important;
+        margin: 0px 5px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .pfr_signUpResendDiv {
+        margin-top: -15px;
+        margin-bottom: 8px;
+    }
+
+    .pfr_signUpResendP {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        line-height: 20px;
+    }
+
+    .pfr_inputFloat.form-floating>.form-control:focus~label, .pfr_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .pfr_inputFloat.form-floating>.form-select~label {
+        opacity: .70;
+        transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
+        padding: 0.95rem 1.1rem;
+    }
+}

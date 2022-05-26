@@ -1,0 +1,521 @@
+.pfr_homeDiv1 {
+    height: 100vh;
+    background: gray;
+    position: relative;
+}
+
+.pfr_homeDivForm {
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    z-index: 2;
+}
+
+.pfr_homeFormBack {
+    background-image: url('../../../assets/img/blue_desktop.png');
+    height: 70vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: left;
+}
+
+.pfr_homeMainDiv {
+    margin-top: 150px;
+}
+
+.pfr_homeInput1 input::-webkit-input-placeholder {
+    font-weight: 400 !important;
+}
+
+.pfr_homeInput2 input::-webkit-input-placeholder {
+    font-weight: 700 !important;
+}
+
+.pfr_homeInput .input-group-text {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.pfr_homeInput img {
+    width: 19px;
+    padding-bottom: 4px;
+    margin-left: 5px;
+}
+
+.pfr_homeInput input, .pfr_homeInput input:hover, .pfr_homeInput input:active, .pfr_homeInput select, .pfr_homeInput select:hover, .pfr_homeInput select:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 0;
+    height: 68px;
+    padding-bottom: 4.5px;
+}
+
+.pfr_homeSubmitBtn, .pfr_homeSubmitBtn:hover {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    height: 68px;
+    width: 70%;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.pfr_homeHeading {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.pfr_homeInputRow {
+    padding: 10px 20px;
+}
+
+.pfr_homeInputCol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pfr_homeInputDiv {
+    width: 330px;
+    margin-right: 10px;
+}
+
+.pfr_homeParkingh2 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 22px;
+    padding-right: 23px;
+    padding-bottom: 22px;
+    padding-left: 23px;
+    color: #000;
+}
+
+.pfr_homeParkingSuggestion {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    background: #fff;
+    z-index: 3;
+    border-radius: 12px;
+    max-width: 560px !important;
+    user-select: none;
+}
+
+.pfr_homeParkingSuggestion div::-webkit-scrollbar {
+    display: none;
+}
+
+.pfr_homeParkingDiv {
+    padding-bottom: 23px;
+    margin-left: 23px;
+    white-space: nowrap;
+}
+
+.pfr_homeParkingDivH2 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+    color: #000;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    letter-spacing: -0.3px;
+}
+
+.pfr_homeParkingSubDiv1 {
+    position: relative;
+    height: 138px;
+    width: 210px;
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pfr_homeParkingSubDiv1 span {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    padding: 4px 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.pfr_homeParkingSubDiv2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pfr_homeParkingSubDiv2 img {
+    width: 18px;
+    margin-right: 4px;
+}
+
+.pfr_homeParkingSubDiv2 span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: -0.4px;
+}
+
+.pfr_homeParkingSubDiv2Mbl {
+    display: none;
+}
+
+.pfr_homeParkingSubDiv2MblSubDiv {}
+
+.pfr_homeParkingSubDiv2MblSubDiv:nth-child(1) {
+    margin-right: 10px;
+}
+
+.pfr_homeParkingSubDiv2MblSubDiv img {
+    width: 12px;
+    margin-right: 3px;
+}
+
+.pfr_homeParkingSubDiv2MblSubDiv span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+}
+
+.pfr_homeParkingArrowLeft {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    color: #000;
+    font-size: 22px;
+    border: 0;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    border-radius: 0;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 15px 42px 0px rgb(0 0 0 / 36%);
+    cursor: pointer;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.pfr_homeParkingArrowRight {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    color: #000;
+    font-size: 22px;
+    border: 0;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    border-radius: 0;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 15px 42px 0px rgb(0 0 0 / 36%);
+    cursor: pointer;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.pfr_homeParkingCol {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.pfr_homeParkingCol .pfr_homeParkingDiv:last-child {
+    margin-right: 20px;
+}
+
+.pfr_homeMapDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0 0 0 / 20%);
+}
+
+.pfr_homeMapOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0 0 0 / 40%);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.pfr_homeInputMbl input::-webkit-input-placeholder {
+    color: #000 !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*mobile*/
+    .pfr_homeFormBack {
+        background-image: url('../../../assets/img/blue_mbl.png') !important;
+        height: 33vh !important;
+        background-size: cover !important;
+        background-position: top center !important;
+    }
+
+    .pfr_homeHeading {
+        font-size: 22.5px !important;
+        font-weight: 600 !important;
+        color: #fff;
+        margin-top: 21px !important;
+        margin-bottom: 0px !important;
+        line-height: 1.3 !important;
+        letter-spacing: -.2px !important;
+    }
+
+    .pfr_homeInput img {
+        padding-bottom: 5px;
+    }
+
+    .pfr_homeInputMbl input, .pfr_homeInputMbl input:hover {
+        height: 44px;
+        padding-bottom: 3px;
+        font-size: 13.5px;
+        font-weight: 500;
+        background-color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /*mobile*/
+
+    .pfr_homeMainDiv {
+        margin-top: 42px;
+    }
+
+    .pfr_homeInputRow {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+    }
+
+    .pfr_homeInputMbl input, .pfr_homeInputMbl input:hover {
+        border-radius: 5px;
+        height: 52px;
+        padding-bottom: 3px;
+        font-size: 14.5px;
+        font-weight: 500;
+        background-color: #fff !important;
+    }
+
+    .pfr_homeInputMbl .input-group-text {
+        border-radius: 5px;
+    }
+
+    .pfr_homeParkingSubDiv2 {
+        display: none;
+    }
+
+    .pfr_homeParkingSubDiv2Mbl {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .pfr_homeParkingCol {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pfr_homeParkingSuggestion {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        left: 5%;
+        right: 5%;
+        bottom: 12%;
+        width: auto;
+    }
+
+    .pfr_homeParkingArrowRight, .pfr_homeParkingArrowLeft {
+        display: none;
+    }
+
+    .pfr_homeParkingh2 {
+        font-size: 19px;
+        padding: 20px 20px;
+        margin-top: -3px;
+        margin-bottom: -3px;
+    }
+
+    .pfr_homeParkingDiv {
+        /* width: 150px; */
+        padding-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .pfr_homeParkingDivH2 {
+        font-size: 17.5px;
+        padding-top: 6px;
+        margin-bottom: -2px;
+    }
+
+    .pfr_homeParkingSubDiv1 {
+        height: 103px;
+        width: 167px;
+        border-radius: 10px;
+    }
+
+    .pfr_homeParkingSubDiv1 span {
+        top: 10%;
+        left: 5%;
+        background: #fff;
+        border-radius: 5px;
+        color: #000;
+        padding: 4px 7px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+
+    /*mobile*/
+    .pfr_homeFormBack {
+        background-image: url('../../../assets/img/blue_mbl.png');
+        height: 33vh;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .pfr_homeDivForm {
+        width: 100%;
+    }
+
+    .pfr_homeHeading {
+        font-size: 22.7px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        line-height: 1.30;
+        letter-spacing: -0.2px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
+
+    /*ipad*/
+
+    .pfr_homeFormBack {
+        background-image: url('../../../assets/img/blue_tablet.png');
+        height: 55vh;
+    }
+
+    .pfr_homeDivForm {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
+
+    /*ipad*/
+
+    .pfr_homeFormBack {
+        background-image: url('../../../assets/img/blue_desktop.png');
+        height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    /*ipad pro*/
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+    /*large desktop*/
+    .pfr_homeFormBack {
+        height: 100vh;
+    }
+
+    .pfr_homeHeading {
+        font-size: 51px;
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .pfr_homeInputRow {
+        padding: 10px 20px;
+    }
+
+    .pfr_homeInput img {
+        width: 21px;
+    }
+
+    .pfr_homeInput input, .pfr_homeInput input:hover, .pfr_homeInput input:active, .pfr_homeInput select, .pfr_homeInput select:hover, .pfr_homeInput select:active {
+        font-size: 17.5px;
+        border-radius: 0;
+        padding-bottom: 4.5px !important;
+        font-weight: 700;
+        height: 70px;
+    }
+
+    .pfr_homeSubmitBtn {
+        height: 70px;
+        width: 62%;
+        font-weight: 600;
+        font-size: 17.5px;
+    }
+
+    .pfr_homeInputDiv {
+        width: 410px;
+        margin-right: 10px;
+    }
+
+    .pfr_homeMainDiv {
+        margin-top: 165px;
+    }
+
+}

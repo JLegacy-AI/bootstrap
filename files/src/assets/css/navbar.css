@@ -1,0 +1,891 @@
+.pfr_navbarNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+}
+
+.pfr_navbarNavInnerPages {
+    box-shadow: 0px 0px 5px #ddd;
+    background: #fff !important;
+    position: relative;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1020; */
+}
+
+.pfr_navbarRow {
+    padding: 27px 20px;
+    width: 100vw;
+}
+
+.pfr_navbarToggle, .pfr_navbarToggle:focus {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.pfr_navbarToggle img {
+    width: 24px;
+}
+
+.pfr_navbarLogo {
+    align-items: center;
+    margin-left: 30px;
+}
+
+.pfr_navbarLogo img {
+    padding-top: 8px;
+    width: 220px;
+}
+
+.pfr_navbarLogo h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.pfr_navbarRightTxt {
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.pfr_navbarRightTxt i {
+    font-size: 10px;
+    color: #000;
+    padding-left: 5px;
+}
+
+.pfr_navbarRightTxt a,
+.pfr_navbarRightTxt a:hover {
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    background: #000;
+    border-radius: 50px;
+    color: #fff !important;
+    padding: 10px 20px;
+}
+
+
+.pfr_navbarRightTxt a:nth-child(1) {
+    margin-right: 5px;
+}
+
+.pfr_navbarRightTxt a:last-child {
+    margin-left: 5px;
+}
+
+.pfr_navbarRightTxt span {
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 50px;
+    color: #000 !important;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfr_navbarRightTxt span:nth-child(1) {
+    margin-right: 5px;
+}
+
+.pfr_navbarRightTxt span:last-child {
+    margin-left: 5px;
+}
+
+.pfr_navBarInnerPageH2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+/* Drawer css */
+.pfr_navOffCanvas {
+    width: 328px;
+}
+
+.pfr_navusernotactive {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pfr_navusernotactive button, .pfr_navusernotactive button:active, .pfr_navusernotactive button:hover, .pfr_navusernotactive button:focus {
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 59px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfr_navusernotactive button:last-child {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.pfr_navuseractive {
+    padding: 20px 24px;
+    justify-content: flex-start;
+}
+
+.pfr_navuseractive span {
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #eee;
+    border-radius: 8px;
+    color: #000 !important;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.pfr_navuseractive h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px 0px;
+}
+
+.pfr_navOffCanvasBody {
+    padding: 0;
+    position: relative;
+}
+
+.pfr_drawermenuitem, .pfr_drawermenuitem:hover, .pfr_drawermenuitem:focus {
+    display: block;
+    padding-left: 41px;
+    padding-right: 30px;
+    padding-bottom: 36px;
+    padding-top: 30px;
+    width: 100%;
+    cursor: pointer;
+    background-position: center;
+    transition: background 1s;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pfr_drawermenuitem.activeNav {
+    background-color: rgb(13 110 253 / 10%);
+    background-size: 100%;
+    transition: background 0s;
+    font-weight: 600;
+}
+
+.pfr_drawermenuitem:hover {
+    background-color: rgb(13 110 253 / 10%);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.pfr_drawermenuitem:active {
+    background-color: rgb(13 110 253 / 10%);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.pfr_drawermenuitemdiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pfr_drawermenuitemdiv div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.pfr_drawermenuitemdiv span {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    padding-left: 30px;
+    white-space: nowrap;
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitemdiv span {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.pfr_drawermenuitem1 {
+    background-image: url(../img/drawer_m1.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem1 {
+    background-image: url(../img/drawer_m1_active.png);
+}
+
+.pfr_drawermenuitem2 {
+    background-image: url(../img/drawer_m2.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem2 {
+    background-image: url(../img/drawer_m2_active.png);
+}
+
+.pfr_drawermenuitem3 {
+    background-image: url(../img/drawer_m3.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem3 {
+    background-image: url(../img/drawer_m3_active.png);
+}
+
+.pfr_drawermenuitem4 {
+    background-image: url(../img/drawer_m4.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem4 {
+    background-image: url(../img/drawer_m4_active.png);
+}
+
+.pfr_drawermenuitem5 {
+    background-image: url(../img/drawer_m5.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem5 {
+    background-image: url(../img/drawer_m5_active.png);
+}
+
+.pfr_drawermenuitem6 {
+    background-image: url(../img/drawer_m6.png);
+}
+
+.pfr_drawermenuitem.activeNav .pfr_drawermenuitem6 {
+    background-image: url(../img/drawer_m6_active.png);
+}
+
+.pfr_drawermenuline {
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px;
+    background: rgb(0 0 0 / 10%);
+}
+
+.pfr_drawermenulogoutdiv {
+    margin: 30px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfr_drawermenulogout, .pfr_drawermenulogout:hover, .pfr_drawermenulogout:active, .pfr_drawermenulogout:focus {
+    background: #fff;
+    color: red;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pfr_drawermenufooter {
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    width: 328px;
+}
+
+.pfr_drawermenufooterblue {
+    padding: 20px 20px;
+    background: #0d6efd;
+    position: relative;
+    overflow: hidden;
+}
+
+.pfr_drawermenufooterblue h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #fff;
+    line-height: 26px;
+    width: 95%;
+}
+
+.pfr_drawermenufooterblue button, .pfr_drawermenufooterblue button:active, .pfr_drawermenufooterblue button:hover, .pfr_drawermenufooterblue button:focus {
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    font-size: 15.5px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-bottom: 8px;
+}
+
+.pfr_drawermenufooterblue img {
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 100px;
+}
+
+.pfr_drawermenufooterblack {
+    padding: 20px 20px;
+    background: #000;
+}
+
+.pfr_drawermenufooter span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pfr_drawermenufooter p {
+    font-size: 15.5px;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.pfr_navbarinput .input-group-text {
+    background: #eee !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.pfr_navbar_select_parking {
+    background: #eee !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    height: 58px !important;
+    padding-bottom: 2px !important;
+}
+
+.pfr_navbar_to_show_desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 550px) {
+
+    /*mobile*/
+    .pfr_navbarRow {
+        padding: 5px 10px;
+        width: 100vw;
+    }
+
+    .pfr_navbar_to_show_desktop {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /*mobile*/
+    .pfr_navbar_to_show_desktop {
+        display: none;
+    }
+
+    .pfr_navbarNavInnerPages {
+        box-shadow: none;
+    }
+
+    .pfr_navBarInnerPageH2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .pfr_navbarRow {
+        padding: 4px 10px;
+        width: 100vw;
+    }
+
+    .pfr_navbarToggle img {
+        width: 18px;
+    }
+
+    .pfr_navbarRightTxt span {
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: -0.3px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+    }
+
+    .pfr_navbarLogo {
+        margin-left: 15px;
+    }
+
+    .pfr_navbarLogo img {
+        width: 135px;
+    }
+
+    .pfr_navbarRightTxt span:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .pfr_navOffCanvas {
+        width: 300px;
+    }
+
+    .pfr_navusernotactive {
+        padding-top: 18px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 10px;
+    }
+
+    .pfr_navusernotactive button, .pfr_navusernotactive button:active, .pfr_navusernotactive button:hover, .pfr_navusernotactive button:focus {
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        width: 100%;
+        height: 49px;
+        margin-right: 10px;
+    }
+
+    .pfr_navusernotactive button:last-child {
+        margin-right: 0px;
+        margin-left: 2px;
+    }
+
+    .pfr_navuseractive {
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 10px;
+        padding-top: 18px;
+    }
+
+    .pfr_navuseractive span {
+        font-size: 15px;
+        border-radius: 8px;
+        padding: 10px 20px;
+        height: 49px;
+    }
+
+    .pfr_navuseractive h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0px;
+    }
+
+    .pfr_navOffCanvasBody {
+        padding: 0;
+    }
+
+    .pfr_drawermenuitem, .pfr_drawermenuitem:hover, .pfr_drawermenuitem:focus {
+        padding-top: 25px;
+        padding-left: 34px;
+        padding-right: 25px;
+        padding-bottom: 22px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+        height: 48px;
+    }
+
+    .pfr_drawermenuitemdiv div {
+        width: 17px;
+        height: 17px;
+    }
+
+    .pfr_drawermenuitemdiv span {
+        font-size: 15px;
+        font-weight: 500;
+        padding-left: 20px;
+    }
+
+    .pfr_drawermenuline {
+        margin: 10px 0px;
+    }
+
+    .pfr_drawermenulogoutdiv {
+        margin: 30px 30px 0 30px;
+    }
+
+    .pfr_drawermenulogout, .pfr_drawermenulogout:hover, .pfr_drawermenulogout:active, .pfr_drawermenulogout:focus {
+        font-size: 18px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    .pfr_drawermenufooter {
+        width: 300px;
+    }
+
+    .pfr_drawermenufooterblue {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooterblack {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooter span {
+        font-size: 12px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .pfr_drawermenufooterblue h2 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #fff;
+        line-height: 20px;
+        width: 95%;
+    }
+
+    .pfr_drawermenufooterblue button, .pfr_drawermenufooterblue button:active, .pfr_drawermenufooterblue button:focus, .pfr_drawermenufooterblue button:hover {
+        font-size: 12px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 0px;
+    }
+
+    .pfr_drawermenufooterblue img {
+        width: 80px;
+    }
+
+    .pfr_drawermenufooter p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /*ipad*/
+    .pfr_navbar_to_show_desktop {
+        display: none;
+    }
+
+    .pfr_navbarRow {
+        padding: 30px 20px;
+        width: 100vw;
+    }
+
+    .pfr_navbarToggle img {
+        width: 20px;
+    }
+
+    .pfr_navbarLogo {
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .pfr_navbarLogo img {
+        padding-top: 8px;
+        width: 130px;
+    }
+
+    .pfr_navbarRightTxt span {
+        font-weight: 500;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .pfr_navOffCanvas {
+        width: 400px;
+    }
+
+    .pfr_navusernotactive {
+        padding: 20px 20px;
+    }
+
+    .pfr_navusernotactive button, .pfr_navusernotactive button:active, .pfr_navusernotactive button:hover, .pfr_navusernotactive button:focus {
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .pfr_navusernotactive button:last-child {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .pfr_navuseractive {
+        padding: 20px 24px;
+    }
+
+    .pfr_navuseractive span {
+        font-size: 15px;
+        border-radius: 8px;
+        padding: 10px 20px;
+    }
+
+    .pfr_navuseractive h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0px;
+    }
+
+    .pfr_navOffCanvasBody {
+        padding: 0;
+    }
+
+    .pfr_drawermenuitem, .pfr_drawermenuitem:hover, .pfr_drawermenuitem:focus {
+        padding: 30px 30px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+        height: 50px;
+    }
+
+    .pfr_drawermenuitemdiv div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pfr_drawermenuitemdiv span {
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+
+    .pfr_drawermenuline {
+        margin: 10px 0px;
+    }
+
+    .pfr_drawermenulogoutdiv {
+        margin: 30px 30px 0 30px;
+    }
+
+    .pfr_drawermenulogout, .pfr_drawermenulogout:hover, .pfr_drawermenulogout:active, .pfr_drawermenulogout:focus {
+        font-size: 18px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    .pfr_drawermenufooter {
+        width: 400px;
+    }
+
+    .pfr_drawermenufooterblue {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooterblack {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooter span {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .pfr_drawermenufooter p {
+        font-size: 15.5px;
+        line-height: 1.45;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    /*ipad pro*/
+    .pfr_navbarRow {
+        padding: 30px 20px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    /*large desktop*/
+    .pfr_navbarRow {
+        padding: 30px 20px;
+        width: 100vw;
+    }
+
+    .pfr_navbarToggle img {
+        width: 24px;
+    }
+
+    .pfr_navbarLogo {
+        align-items: center;
+        margin-left: 35px;
+    }
+
+    .pfr_navbarLogo img {
+        padding-top: 8px;
+        width: 240px;
+    }
+
+    .pfr_navbarRightTxt a,
+    .pfr_navbarRightTxt a:hover {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .pfr_navbarRightTxt a:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .pfr_navbarRightTxt a:last-child {
+        margin-left: 5px;
+    }
+
+    .pfr_navbarRightTxt span {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .pfr_navbarRightTxt span:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .pfr_navbarRightTxt span:last-child {
+        margin-left: 5px;
+    }
+
+    .pfr_navOffCanvas {
+        width: 328px;
+    }
+
+    .pfr_navusernotactive {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .pfr_navusernotactive button, .pfr_navusernotactive button:active, .pfr_navusernotactive button:hover, .pfr_navusernotactive button:focus {
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 600;
+        width: 100%;
+        height: 59px;
+        margin-right: 3px;
+    }
+
+    .pfr_navusernotactive button:last-child {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .pfr_navuseractive {
+        padding: 20px 24px;
+    }
+
+    .pfr_navuseractive span {
+        font-size: 17px;
+        border-radius: 8px;
+        padding: 10px 20px;
+    }
+
+    .pfr_navuseractive h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0px;
+    }
+
+    .pfr_navOffCanvasBody {
+        padding: 0;
+    }
+
+    .pfr_drawermenuitem, .pfr_drawermenuitem:hover, .pfr_drawermenuitem:focus {
+        padding-left: 41px;
+        padding-right: 30px;
+        padding-bottom: 36px;
+        padding-top: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+        height: 50px;
+    }
+
+    .pfr_drawermenuitemdiv div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pfr_drawermenuitemdiv span {
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 30px;
+    }
+
+    .pfr_drawermenuline {
+        margin: 10px 0px;
+    }
+
+    .pfr_drawermenulogoutdiv {
+        margin: 30px 30px 0 30px;
+    }
+
+    .pfr_drawermenulogout, .pfr_drawermenulogout:hover, .pfr_drawermenulogout:active, .pfr_drawermenulogout:focus {
+        font-size: 18px;
+        font-weight: 500;
+        height: 50px;
+    }
+
+    .pfr_drawermenufooter {
+        width: 328px;
+    }
+
+    .pfr_drawermenufooterblue {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooterblack {
+        padding: 20px 20px;
+    }
+
+    .pfr_drawermenufooter span {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .pfr_drawermenufooter p {
+        font-size: 15.5px;
+        line-height: 1.45;
+        margin: 0;
+    }
+}
