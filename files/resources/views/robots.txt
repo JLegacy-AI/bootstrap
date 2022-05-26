@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+https://www.parkme.fr/sitemap.xml
