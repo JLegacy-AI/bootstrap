@@ -331,6 +331,52 @@
     color: #000;
 }
 
+/* Vehicle CSS */
+.pfr_vehicle_dropdown, .pfr_vehicle_dropdown:hover, .pfr_vehicle_dropdown:active, .pfr_vehicle_dropdown:focus {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #cccccc !important;
+    height: 64px;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.pfr_vehicle_dropdownmenu {
+    width: 100%;
+}
+
+.pfr_vehicle_dropdown_menuoptions {
+    height: 58px;
+}
+
+.pfr_vehicle_dropdown_menuoptions:hover, .pfr_vehicle_dropdown_menuoptions:active, .pfr_vehicle_dropdown_menuoptions:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e9ecef;
+}
+
+.pfr_vehicle_dropdowndiv {}
+
+.pfr_vehicle_dropdowndiv img, .pfr_vehicle_dropdown_menuoptions img {
+    width: 30px;
+}
+
+.pfr_vehicle_dropdowndiv span, .pfr_vehicle_dropdown_menuoptions span {
+    font-size: 17.3px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 10px;
+}
+
+.pfr_lineseparator {
+    background: #e9ecef;
+    height: 1px;
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 550px) {
 
     /*mobile*/
