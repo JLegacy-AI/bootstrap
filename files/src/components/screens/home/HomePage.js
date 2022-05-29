@@ -166,7 +166,7 @@ class HomePage extends Component {
                             <Container fluid>
                                 <Row className="pfr_homeInputRow pfr_homeMainDiv">
                                     <Col className="p-0">
-                                        <h1 className="pfr_homeHeading">Bonjour, Où voulez-vous vous garer ?</h1>
+                                        <h1 className="pfr_homeHeading">Bonjour ?</h1>
                                     </Col>
                                 </Row>
                                 <Row className="d-none d-md-flex pfr_homeInputRow">
