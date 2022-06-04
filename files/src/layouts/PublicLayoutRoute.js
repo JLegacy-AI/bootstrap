@@ -5,12 +5,8 @@ import Navbar from './Navbar';
 
 const PublicLayout = ({ children }) => (
   <Container fluid style={{ paddingLeft: 0, paddingRight: 0, overflow: 'hidden' }}>
-    <Navbar isLayoutTransparent={true} />
-    <Row>
-      <Col>
-        {children}
-      </Col>
-    </Row>
+    <Navbar/>
+    {children}
   </Container>
 );
 

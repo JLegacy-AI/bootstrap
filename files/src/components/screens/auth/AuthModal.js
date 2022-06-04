@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Col, Form, Row, Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import './auth-modal.css';
-import 'react-phone-number-input/style.css'
-import PhoneInput, { isPossiblePhoneNumber, formatPhoneNumberIntl } from 'react-phone-number-input';
-import ReactCodeInput from 'react-verification-code-input';
+import 'react-phone-number-input/style.css';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 
@@ -69,7 +67,7 @@ class AuthModal extends Component {
     render() {
         return (
             <Modal
-                show={this.props.isLoginModel}
+                show={this.props.isLoginModal}
                 onHide={this.props.toggleAuthModal}
                 backdrop="static"
                 keyboard={false}

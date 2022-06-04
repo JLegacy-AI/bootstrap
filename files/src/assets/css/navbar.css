@@ -1,9 +1,10 @@
 .pfr_navbarNav {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1020;
+    z-index: 1020; */
+    border-bottom: 1px solid #ddd;
 }
 
 .pfr_navbarNavInnerPages {
@@ -17,7 +18,7 @@
 }
 
 .pfr_navbarRow {
-    padding: 27px 20px;
+    /* padding: 27px 20px; */
     width: 100vw;
 }
 
