@@ -1,5 +1,171 @@
+.clt-section-1-div {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
 
+.clt-section-1-div video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
 
+.clt-section-1-div div {
+    z-index: 1;
+    position: relative;
+}
+
+.clt-section-1-h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Mulish';
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.clt-section-1-btn, .clt-section-1-btn:hover, .clt-section-1-btn:focus, .clt-section-1-btn:active {
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fff;
+    height: 50px;
+    position: relative;
+}
+
+.clt-section-2 {}
+
+.clt-section-2-divs {}
+
+.clt-section-2-divs img {
+    width: 15%;
+}
+
+.clt-section-2-divs h2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #7f7f7f;
+    line-height: 16px;
+}
+
+.clt-section-3 {
+    border-bottom: 1px solid #ddd;
+    padding: 40px 0px;
+}
+
+.clt-section-3-cards-div div:last-child {
+    margin-right: 0px;
+}
+
+.clt-section-3-cards {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 15px;
+    cursor: default;
+    user-select: none;
+}
+
+.clt-section-3-cards-main {
+    background: #24775b;
+    background-repeat: no-repeat;
+    background-position: right 10px bottom;
+    background-size: 30%;
+    background-image: url(../../../assets/img/icon-card-marraige.png);
+}
+
+.clt-section-3-cards-main h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Mulish;
+    margin-bottom: 0;
+    margin-top: 40px;
+    padding: 20px;
+    color: #fff;
+    width: 80%;
+    line-height: 24px;
+}
+
+.clt-section-3-cards-secondary {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.clt-section-3-cards-secondary h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Mulish;
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 24px;
+}
+
+.clt-section-3-cards-secondary span {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Mulish;
+    color: #000;
+}
+
+.clt-section-3-cards-secondary p {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Mulish;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.clt-section-3-cards-end {
+    background: #24775b;
+    padding: 30px 20px;
+}
+.clt-section-3-cards-end h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Mulish;
+    margin-bottom: 30px;
+    color: #fff;
+    line-height: 24px;
+}
+.clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-family: 'Mulish';
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fff;
+    position: relative;
+    padding: 0px 10px;
+}
+.clt-section-3-cards-button i {
+    font-family: fontawesome;
+}
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
