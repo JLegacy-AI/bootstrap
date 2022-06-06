@@ -33,7 +33,7 @@ const Navbar = () => {
                 />
               </HomeNavbar.Toggle>
               <HomeNavbar.Brand href="/" className="d-flex pfr_navbarLogo">
-                Chateau la tournelle
+                Château la tournelle
               </HomeNavbar.Brand>
             </Col>
             <Col

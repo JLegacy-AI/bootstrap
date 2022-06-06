@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 const HomePage = () => {
   return (
@@ -18,13 +18,13 @@ const HomePage = () => {
               </video>
               <div className="">
                 <h2 className="clt-section-1-h2">
-                  Some text here according to design
+                  Découvrez un château à 20min de Toulouse
                 </h2>
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-1-btn shadow-none"
                 >
-                  <span>Discover</span>
+                  <span>Découvrir</span>
                 </Button>
               </div>
             </div>
@@ -46,7 +46,7 @@ const HomePage = () => {
                         className=""
                         alt="ParkingAeroPortFr"
                       />
-                      <h2>Marraige</h2>
+                      <h2>Mariage</h2>
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs">
                       <img
@@ -56,7 +56,7 @@ const HomePage = () => {
                         className=""
                         alt="ParkingAeroPortFr"
                       />
-                      <h2>Environemt professional</h2>
+                      <h2>Événement professionnel</h2>
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs">
                       <img
@@ -66,7 +66,7 @@ const HomePage = () => {
                         className=""
                         alt="ParkingAeroPortFr"
                       />
-                      <h2>Anniverse</h2>
+                      <h2>Anniversaire</h2>
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs">
                       <img
@@ -76,7 +76,7 @@ const HomePage = () => {
                         className=""
                         alt="ParkingAeroPortFr"
                       />
-                      <h2>Envent religion</h2>
+                      <h2>Événement religieux</h2>
                     </div>
                   </div>
                 </Col>
@@ -89,48 +89,50 @@ const HomePage = () => {
         <Row>
           <Col>
             <div className="clt-section-3">
-              <h2>Marraige</h2>
+              <h2>Mariage</h2>
               <div className="d-flex flex-row justify-content-start align-items-center clt-section-3-cards-div">
                 <div className="d-flex justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-main">
-                  <h2>Votre lieu de maraige</h2>
+                  <h2>Votre lieu de mariage</h2>
                 </div>
                 <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                   <h2>1</h2>
                   <div>
-                    <span>some heading</span>
+                    <span>Le château</span>
                     <p>
-                      SOme text here some text here some text here some text
-                      here
+                      Ce lieu permet d'accueillir des cérémonies et des
+                      réceptions jusqu’à 100 invités.
                     </p>
                   </div>
                 </div>
                 <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                   <h2>2</h2>
                   <div>
-                    <span>some heading</span>
-                    <p>
-                      SOme text here some text here some text here some text
-                      here
-                    </p>
+                    <span>Optionnel: Prestataire</span>
+                    <p>Traiteur, fleur, décoration, photographe…</p>
+                    <p>Une sélection de prestataire pouvant vous accompagner</p>
                   </div>
                 </div>
                 <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                   <h2>3</h2>
                   <div>
-                    <span>some heading</span>
+                    <span>Optionnel: Dortoir</span>
                     <p>
-                      SOme text here some text here some text here some text
-                      here
+                      Faites dormir vous et vos proches directement dans le
+                      château.
                     </p>
                   </div>
                 </div>
                 <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-end">
-                  <h2>Some text here some text here some text</h2>
+                  <h2>
+                    Retrouver toutes les informations sur la page du château
+                  </h2>
                   <Button
                     onClick={() => console.log("clicked!")}
                     className="clt-section-3-cards-button shadow-none"
                   >
-                    <span>En savor plus <i className="fa-solid fa-arrow-right"></i></span>
+                    <span>
+                      En savoir plus <i className="fa-solid fa-arrow-right"></i>
+                    </span>
                   </Button>
                 </div>
               </div>
@@ -141,8 +143,48 @@ const HomePage = () => {
       <Container>
         <Row>
           <Col>
-            <div className="clt-section-4">
-              <h2>Planifiez votre maraige ideal</h2>
+            <div className="border_bottom_light">
+              <div className="clt-section-4">
+                <h2>Planifiez votre événement idéal</h2>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <div className="clt-section-5">
+              <h2 className="clt-section-5-h2">Questions fréquentes pour votre événement</h2>
+              <Accordion
+                defaultActiveKey="0"
+                className="clt-section-5-accordion"
+              >
+                <Accordion.Item
+                  eventKey="0"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                    Ask 1 - Wedding
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 1 - Wedding</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="1"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                    Ask 2 - Wedding
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 2 - Wedding</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
             </div>
           </Col>
         </Row>

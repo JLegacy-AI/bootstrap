@@ -1,5 +1,5 @@
 .clt-section-1-div {
-    height: 350px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -120,7 +120,7 @@
 }
 
 .clt-section-3-cards-secondary span {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     font-family: Mulish;
     color: #000;
@@ -135,10 +135,12 @@
     line-height: 18px;
     margin-top: 5px;
 }
+
 .clt-section-3-cards-end {
     background: #24775b;
     padding: 30px 20px;
 }
+
 .clt-section-3-cards-end h2 {
     font-size: 24px;
     font-weight: 500;
@@ -147,6 +149,7 @@
     color: #fff;
     line-height: 24px;
 }
+
 .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
     background: #fff;
     color: #000;
@@ -163,9 +166,88 @@
     position: relative;
     padding: 0px 10px;
 }
+
 .clt-section-3-cards-button i {
     font-family: fontawesome;
 }
+
+.clt-section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 40px 0px;
+}
+
+.clt-section-4 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Mulish';
+    margin-bottom: 0;
+    width: 20%;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+}
+
+.clt-section-5 {
+    padding: 30px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.clt-section-5-h2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'MULISH';
+    line-height: 28px;
+    margin: 30px 0px;
+}
+
+.clt-section-5-accordion-header button {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'MULISH';
+    background: #fff !important;
+    padding: 30px 30px;
+}
+
+.clt-section-5-accordion-header button:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    color: #000;
+}
+
+.clt-section-5-accordion-item:first-of-type {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    overflow: hidden;
+}
+
+.clt-section-5-accordion-item:last-of-type {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    overflow: hidden;
+}
+
+.clt-section-5-accordion-body {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'MULISH';
+    padding: 0px 30px 30px 30px;
+}
+
+.clt-section-5-accordion-header button:not(.collapsed) {
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+.clt-section-5-accordion-body a, .clt-section-5-accordion-body a:hover {
+    color: #000;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
