@@ -155,7 +155,9 @@ const HomePage = () => {
         <Row>
           <Col>
             <div className="clt-section-5">
-              <h2 className="clt-section-5-h2">Questions fréquentes pour votre événement</h2>
+              <h2 className="clt-section-5-h2">
+                Questions fréquentes pour votre événement
+              </h2>
               <Accordion
                 defaultActiveKey="0"
                 className="clt-section-5-accordion"
@@ -185,6 +187,76 @@ const HomePage = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <div className="border_bottom_light">
+              <div className="clt-section-6">
+                <h2>Retrouvez plus de détail sur notre page dédiée</h2>
+                <img
+                  src={
+                    require(`../../../assets/img/home-section-6.png`).default
+                  }
+                  className=""
+                  alt="ParkingAeroPortFr"
+                />
+                <Button
+                  onClick={() => console.log("clicked!")}
+                  className="clt-section-6-btn shadow-none"
+                >
+                  <span>Continuer</span>
+                </Button>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <div className="border_bottom_light">
+              <div className="clt-section-7">
+                <h2>Besoin d’aide ?</h2>
+                <p>
+                  Résolvez votre problème ici. Nous vous mettrons en relation
+                  avec le support téléphonique si besoin.
+                </p>
+                <Button
+                  onClick={() => console.log("clicked!")}
+                  className="clt-section-7-btn shadow-none"
+                >
+                  <span>
+                    Visitez le centre d’aide{" "}
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </span>
+                </Button>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <div className="">
+              <div className="clt-section-8">
+                <div className="d-flex flex-column mb-5">
+                  <a href="#">Centre d’aide</a>
+                  <a href="#">Connexion</a>
+                  <a href="#">Créer un compte</a>
+                </div>
+                <div>
+                  <p>@2022 Château la tournelle</p>
+                  <p>
+                    <a href="#">Conditions générales de ventes</a> -{" "}
+                    <a href="#">Mentions légales</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </Col>
         </Row>
