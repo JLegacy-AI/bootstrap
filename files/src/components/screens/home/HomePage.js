@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
+
 const HomePage = () => {
+  const [index, setIndex] = useState(0);
   return (
     <React.Fragment>
       <Container>
         <Row>
           <Col>
-            <div className="clt-section-1-div d-flex flex-column align-items-start justify-content-center">
+            <div className="clt-section-1-div d-flex flex-column align-items-start justify-content-start">
               <video autoPlay loop muted>
                 <source
                   src={
@@ -16,7 +18,7 @@ const HomePage = () => {
                   type="video/mp4"
                 />
               </video>
-              <div className="">
+              <div className="clt-section-1-div-inner">
                 <h2 className="clt-section-1-h2">
                   Découvrez un château à 20min de Toulouse
                 </h2>
@@ -32,7 +34,7 @@ const HomePage = () => {
         </Row>
       </Container>
       <Container fluid>
-        <Row>
+        <Row className="clt-section-2-row">
           <Col>
             <Container>
               <Row>
@@ -90,50 +92,55 @@ const HomePage = () => {
           <Col>
             <div className="clt-section-3">
               <h2>Mariage</h2>
-              <div className="d-flex flex-row justify-content-start align-items-center clt-section-3-cards-div">
-                <div className="d-flex justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-main">
-                  <h2>Votre lieu de mariage</h2>
-                </div>
-                <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
-                  <h2>1</h2>
-                  <div>
-                    <span>Le château</span>
-                    <p>
-                      Ce lieu permet d'accueillir des cérémonies et des
-                      réceptions jusqu’à 100 invités.
-                    </p>
+              <div>
+                <div className="d-flex flex-row justify-content-start align-items-center clt-section-3-cards-div">
+                  <div className="d-flex justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-main">
+                    <h2>Votre lieu de mariage</h2>
                   </div>
-                </div>
-                <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
-                  <h2>2</h2>
-                  <div>
-                    <span>Optionnel: Prestataire</span>
-                    <p>Traiteur, fleur, décoration, photographe…</p>
-                    <p>Une sélection de prestataire pouvant vous accompagner</p>
+                  <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
+                    <h2>1</h2>
+                    <div>
+                      <span>Le château</span>
+                      <p>
+                        Ce lieu permet d'accueillir des cérémonies et des
+                        réceptions jusqu’à 100 invités.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
-                  <h2>3</h2>
-                  <div>
-                    <span>Optionnel: Dortoir</span>
-                    <p>
-                      Faites dormir vous et vos proches directement dans le
-                      château.
-                    </p>
+                  <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
+                    <h2>2</h2>
+                    <div>
+                      <span>Optionnel: Prestataire</span>
+                      <p>Traiteur, fleur, décoration, photographe…</p>
+                      <p>
+                        Une sélection de prestataire pouvant vous accompagner
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-end">
-                  <h2>
-                    Retrouver toutes les informations sur la page du château
-                  </h2>
-                  <Button
-                    onClick={() => console.log("clicked!")}
-                    className="clt-section-3-cards-button shadow-none"
-                  >
-                    <span>
-                      En savoir plus <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </Button>
+                  <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
+                    <h2>3</h2>
+                    <div>
+                      <span>Optionnel: Dortoir</span>
+                      <p>
+                        Faites dormir vous et vos proches directement dans le
+                        château.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-end">
+                    <h2>
+                      Retrouver toutes les informations sur la page du château
+                    </h2>
+                    <Button
+                      onClick={() => console.log("clicked!")}
+                      className="clt-section-3-cards-button shadow-none"
+                    >
+                      <span>
+                        En savoir plus{" "}
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </span>
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,6 +152,13 @@ const HomePage = () => {
           <Col>
             <div className="border_bottom_light">
               <div className="clt-section-4">
+                <img
+                  src={
+                    require(`../../../assets/img/home-section-4.png`).default
+                  }
+                  className=""
+                  alt="ParkingAeroPortFr"
+                />
                 <h2>Planifiez votre événement idéal</h2>
               </div>
             </div>

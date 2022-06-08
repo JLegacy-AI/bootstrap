@@ -6,6 +6,7 @@
     padding: 40px;
     border-radius: 20px;
     margin-top: 30px;
+    background: #000000b5;
 }
 
 .clt-section-1-div video {
@@ -15,11 +16,13 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
 }
 
-.clt-section-1-div div {
+.clt-section-1-div-inner {
     z-index: 1;
     position: relative;
+    margin-top: 75px;
 }
 
 .clt-section-1-h2 {
@@ -50,10 +53,34 @@
 
 .clt-section-2 {}
 
-.clt-section-2-divs {}
+.clt-section-2-row {
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.clt-section-2-row::-webkit-scrollbar {
+    display: none;
+}
+.clt-section-2-row{
+    -ms-overflow-style: none;
+}
+/* .clt-section-2 div:last-child {
+    margin-right: 0px;
+} */
+
+.clt-section-2-divs {
+    margin-right: 30px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    user-select: none;
+}
 
 .clt-section-2-divs img {
-    width: 15%;
+    width: 20px;
 }
 
 .clt-section-2-divs h2 {
@@ -173,21 +200,23 @@
 }
 
 .clt-section-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
+    position: relative;
     background-color: #000;
     border-radius: 20px;
     overflow: hidden;
     margin: 40px 0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75%;
-    background-image: url(../../../assets/img/home-section-4.png);
+    padding: 40px;
+}
+
+.clt-section-4 img {
+    width: 100%;
 }
 
 .clt-section-4 h2 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
     font-size: 30px;
     font-weight: 700;
     font-family: 'Mulish';
