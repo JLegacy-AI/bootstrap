@@ -3,7 +3,6 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 
 const HomePage = () => {
-  const [index, setIndex] = useState(0);
   return (
     <React.Fragment>
       <Container>
