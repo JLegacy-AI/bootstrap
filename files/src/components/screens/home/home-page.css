@@ -1,9 +1,9 @@
 .clt-section-1-div {
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    padding: 40px;
+    padding: 52 px;
     border-radius: 20px;
     margin-top: 30px;
     background: #000000b5;
@@ -22,15 +22,15 @@
 .clt-section-1-div-inner {
     z-index: 1;
     position: relative;
-    margin-top: 75px;
+    margin-top: 107px;
 }
 
 .clt-section-1-h2 {
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 42px;
+    font-weight: 700;
     font-family: 'Mulish';
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
 .clt-section-1-btn, .clt-section-1-btn:hover, .clt-section-1-btn:focus, .clt-section-1-btn:active {
@@ -39,23 +39,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    font-family: 'Mulish';
-    font-size: 17px;
+    border-radius: 9px;
+    font-family: 'Inter';
+    font-size: 18px;
     font-weight: 700;
     box-shadow: none;
     outline: none;
     border: 1px solid #fff;
-    height: 40px;
+    height: 50px;
     position: relative;
-    width: 40%;
+    width: 17%;
 }
 
 .clt-section-2 {}
 
 .clt-section-2-row {
     border-bottom: 1px solid #ddd;
-    padding-top: 20px;
+    padding-top: 30px;
     flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -87,28 +87,28 @@
 }
 
 .clt-section-2-divs {
-    margin-right: 30px;
+    margin-right: 40px;
     cursor: pointer;
     user-select: none;
 }
 
 .clt-section-2-divs img {
-    width: 20px;
+    width: 23px;
 }
 
 .clt-section-2-divs h2 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Inter';
     margin-bottom: 0px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-bottom: 21px;
+    margin-top: 14px;
     color: #7f7f7f;
     line-height: 16px;
 }
 
 .clt-section-3 {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e0e0e0;
     padding: 40px 0px;
 }
 
@@ -153,8 +153,8 @@
 }
 
 .clt-section-3-h2 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 700;
     font-family: Mulish;
     margin-bottom: 0px;
     color: #000;
@@ -174,7 +174,7 @@
 }
 
 .clt-section-3-cards-arrowBtn.disable, .clt-section-3-cards-arrowBtn.disable:focus {
-    opacity: 0.5;
+    opacity: 0.35;
     user-select: none;
     cursor: default;
 }
@@ -198,25 +198,28 @@
 }
 
 .clt-section-3-cards-main h2 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 600;
     font-family: Mulish;
     margin-bottom: 0;
     margin-top: 40px;
-    padding: 20px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     color: #fff;
     width: 80%;
-    line-height: 24px;
+    line-height: 32px;
 }
 
 .clt-section-3-cards-secondary {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #e0e0e0;
     padding: 20px;
 }
 
 .clt-section-3-cards-secondary h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 500;
     font-family: Mulish;
     margin-bottom: 30px;
@@ -225,16 +228,16 @@
 }
 
 .clt-section-3-cards-secondary span {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     font-family: Mulish;
     color: #000;
 }
 
 .clt-section-3-cards-secondary p {
-    font-weight: 500;
-    font-size: 16px;
-    font-family: Mulish;
+    font-weight: 400;
+    font-size: 188px;
+    font-family: Inter;
     color: #000;
     margin-bottom: 0px;
     line-height: 18px;
@@ -491,7 +494,7 @@
 }
 
 .clt-hr-mbl hr {
-    color: #ddd;
+    color: #e0e0e0;
     height: 2px;
     margin: 0;
 }
