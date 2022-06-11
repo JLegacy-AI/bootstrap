@@ -253,12 +253,13 @@
 }
 
 .clt-section-3-cards-end h2 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 600;
     font-family: Mulish;
     margin-bottom: 30px;
+    margin-top: 10px;
     color: #fff;
-    line-height: 24px;
+    line-height: 32px;
 }
 
 .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
@@ -269,7 +270,7 @@
     align-items: center;
     border-radius: 50px;
     font-family: 'Mulish';
-    font-size: 15px;
+    font-size: 16.5px;
     font-weight: 700;
     box-shadow: none;
     outline: none;
@@ -280,6 +281,7 @@
 
 .clt-section-3-cards-button i {
     font-family: fontawesome;
+    margin-left: 5px;
 }
 
 .clt-section-4 {
@@ -316,9 +318,9 @@
 }
 
 .clt-section-5 {
-    padding-top: 13px;
+    padding-top: 20px;
     padding-right: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 46px;
     padding-left: 0px;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -328,9 +330,9 @@
     font-weight: 700;
     font-family: 'MULISH';
     line-height: 28px;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-right: 0px;
-    margin-bottom: 52px;
+    margin-bottom: 34px;
     margin-left: 0px;
 }
 
@@ -381,7 +383,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 432px;
     background-color: #24775b;
     border-radius: 20px;
     overflow: hidden;
