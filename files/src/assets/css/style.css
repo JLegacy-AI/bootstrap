@@ -9,3 +9,7 @@ body {
 .border_bottom_light{
     border-bottom: 1px solid #ddd;
 }
+i{
+    font-family: fontAwesome;
+    font-style: unset;
+}
