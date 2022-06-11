@@ -1,9 +1,10 @@
 .pfr_navbarNav {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1020;
+    z-index: 1020; */
+    border-bottom: 1px solid #ddd;
 }
 
 .pfr_navbarNavInnerPages {
@@ -17,7 +18,6 @@
 }
 
 .pfr_navbarRow {
-    padding: 27px 20px;
     width: 100vw;
 }
 
@@ -245,51 +245,51 @@
 }
 
 .pfr_drawermenuitem1 {
-    background-image: url(../img/drawer_m1.png);
+    /* background-image: url(../img/drawer_m1.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem1 {
-    background-image: url(../img/drawer_m1_active.png);
+    /* background-image: url(../img/drawer_m1_active.png); */
 }
 
 .pfr_drawermenuitem2 {
-    background-image: url(../img/drawer_m2.png);
+    /* background-image: url(../img/drawer_m2.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem2 {
-    background-image: url(../img/drawer_m2_active.png);
+    /* background-image: url(../img/drawer_m2_active.png); */
 }
 
 .pfr_drawermenuitem3 {
-    background-image: url(../img/drawer_m3.png);
+    /* background-image: url(../img/drawer_m3.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem3 {
-    background-image: url(../img/drawer_m3_active.png);
+    /* background-image: url(../img/drawer_m3_active.png); */
 }
 
 .pfr_drawermenuitem4 {
-    background-image: url(../img/drawer_m4.png);
+    /* background-image: url(../img/drawer_m4.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem4 {
-    background-image: url(../img/drawer_m4_active.png);
+    /* background-image: url(../img/drawer_m4_active.png); */
 }
 
 .pfr_drawermenuitem5 {
-    background-image: url(../img/drawer_m5.png);
+    /* background-image: url(../img/drawer_m5.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem5 {
-    background-image: url(../img/drawer_m5_active.png);
+    /* background-image: url(../img/drawer_m5_active.png); */
 }
 
 .pfr_drawermenuitem6 {
-    background-image: url(../img/drawer_m6.png);
+    /* background-image: url(../img/drawer_m6.png); */
 }
 
 .pfr_drawermenuitem.activeNav .pfr_drawermenuitem6 {
-    background-image: url(../img/drawer_m6_active.png);
+    /* background-image: url(../img/drawer_m6_active.png); */
 }
 
 .pfr_drawermenuline {
@@ -402,7 +402,6 @@
 
     /*mobile*/
     .pfr_navbarRow {
-        padding: 5px 10px;
         width: 100vw;
     }
 
@@ -431,7 +430,6 @@
     }
 
     .pfr_navbarRow {
-        padding: 4px 10px;
         width: 100vw;
     }
 
@@ -601,7 +599,6 @@
     }
 
     .pfr_navbarRow {
-        padding: 30px 20px;
         width: 100vw;
     }
 
@@ -730,7 +727,6 @@
 
     /*ipad pro*/
     .pfr_navbarRow {
-        padding: 30px 20px;
         width: 100vw;
     }
 }
@@ -739,7 +735,6 @@
 
     /*large desktop*/
     .pfr_navbarRow {
-        padding: 30px 20px;
         width: 100vw;
     }
 
