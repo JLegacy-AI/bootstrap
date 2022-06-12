@@ -268,10 +268,10 @@ const HomeMaraige = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Pouvons-nous visité le château ? et quand ?
+                   Quel budget faut-il prévoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Oui, une visite du château est programmable selon vos disponibilités. Pour ce faire, veuillez nous contacter depuis la page détail.</p>
+                    <p>Les différentes prestations et espaces du château liée à votre événement peuvent variés selon vos besoins. Effectué une simulation depuis la page détail pour voir le budget à prévoir.</p>
                     <a href="#">Accèder à la page détail</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -280,10 +280,10 @@ const HomeMaraige = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Avez-vous un dortoir ?
+                   Pouvons-nous visité le château ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une option payante liée à votre événement est le "dortoir". Cette option vous permet de faire directement jusqu'à 40 personnes directement au château. </p>
+                    <p>Une visite du château est programmable selon vos disponibilités. Pour ce faire, veuillez nous contacter depuis la page détail.</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -292,10 +292,10 @@ const HomeMaraige = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Avez-vous un parking ?
+                   Avez-vous un dortoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Le château disposent d'un parking pouvant accueilir jusqu'à 80 véhicules. </p>
+                    <p>Une option payante liée à votre événement est le "dortoir". Cette option vous permet de faire directement jusqu'à 40 personnes directement au château. </p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
