@@ -149,13 +149,8 @@
 }
 
 .clt-section-3-row-col {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-}
-
-.clt-section-3 div:last-child {
-    /* margin-right: 0px;
-    padding-right: 15px; */
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .clt-section-3-cards-div div:last-child {
