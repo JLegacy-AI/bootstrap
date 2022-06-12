@@ -453,9 +453,9 @@
     }
 
     .pfr_navbarLogo {
-        margin-left: 10px;
+        margin-left: 15px;
         font-size: 22px;
-        letter-spacing: -1px;
+        letter-spacing: -0.2px;
     }
 
     .pfr_navbarLogo img {
