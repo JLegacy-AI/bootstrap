@@ -57,7 +57,7 @@
 
 .clt-section-2-row {
     border-bottom: 1px solid #dedddd;
-    padding-top: 30px;
+    padding-top: 14px;
     flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -79,8 +79,8 @@
 }
 
 .clt-section-2-row-col {
-    padding-left: 22px !important;
-    padding-right: 22px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .clt-section-2-row.stickyBar.row.is-sticky {
@@ -598,7 +598,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
-        padding-top: 30px;
+        padding-top: 14px;
         flex-wrap: nowrap;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -850,7 +850,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
-        padding-top: 30px;
+        padding-top: 14px;
         flex-wrap: nowrap;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -1101,7 +1101,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
-        padding-top: 30px;
+        padding-top: 14px;
         flex-wrap: nowrap;
         overflow-x: scroll;
         overflow-y: hidden;
