@@ -72,13 +72,27 @@
 }
 
 .clt-section-2-row-container {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .clt-section-2-row-col {
     padding-left: 15px !important;
     padding-right: 15px !important;
+}
+
+.clt-section-2-row.stickyBar.row.is-sticky {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 2;
+}
+
+.clt-section-2-row.stickyBar.row {
+    position: unset;
+    width: unset;
+    z-index: unset;
 }
 
 .clt-section-2 div:last-child {
@@ -541,6 +555,11 @@
         width: 100%;
     }
 
+    .clt-section-2-row-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
     .clt-section-3 {
         padding: 40px 0px;
         border-bottom: none;
@@ -560,10 +579,12 @@
         width: 80%;
         line-height: 24px;
     }
+
     .clt-section-3-cards-secondary span {
         font-weight: 700;
         font-size: 18px;
     }
+
     .clt-section-3-cards-secondary p {
         font-weight: 500;
         font-size: 16px;
@@ -571,12 +592,14 @@
         line-height: 18px;
         margin-top: 5px;
     }
+
     .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
         border-radius: 50px;
         font-size: 15px;
         font-weight: 700;
         padding: 0px 10px;
     }
+
     .clt-section-4 {
         position: relative;
         margin: 40px 0px;
@@ -744,6 +767,11 @@
         width: 100%;
     }
 
+    .clt-section-2-row-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
     .clt-section-3 {
         padding: 40px 0px;
         border-bottom: none;
@@ -763,10 +791,12 @@
         width: 80%;
         line-height: 24px;
     }
+
     .clt-section-3-cards-secondary span {
         font-weight: 700;
         font-size: 18px;
     }
+
     .clt-section-3-cards-secondary p {
         font-weight: 500;
         font-size: 16px;
@@ -774,12 +804,14 @@
         line-height: 18px;
         margin-top: 5px;
     }
+
     .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
         border-radius: 50px;
         font-size: 15px;
         font-weight: 700;
         padding: 0px 10px;
     }
+
     .clt-section-4 {
         position: relative;
         margin: 40px 0px;
@@ -947,6 +979,11 @@
         width: 100%;
     }
 
+    .clt-section-2-row-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
     .clt-section-3 {
         padding: 40px 0px;
         border-bottom: none;
@@ -966,10 +1003,12 @@
         width: 80%;
         line-height: 24px;
     }
+
     .clt-section-3-cards-secondary span {
         font-weight: 700;
         font-size: 18px;
     }
+
     .clt-section-3-cards-secondary p {
         font-weight: 500;
         font-size: 16px;
@@ -977,12 +1016,14 @@
         line-height: 18px;
         margin-top: 5px;
     }
+
     .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {
         border-radius: 50px;
         font-size: 15px;
         font-weight: 700;
         padding: 0px 10px;
     }
+
     .clt-section-4 {
         position: relative;
         margin: 40px 0px;

@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import Img1 from "../../../assets/img/icon-card-1.png";
 import Img2 from "../../../assets/img/icon-card-2.png";
 import Img3 from "../../../assets/img/icon-card-3.png";
@@ -13,62 +11,37 @@ import HomeAnniversary from "./HomeAnniversary";
 import HomeReligiousEvent from "./HomeReligiousEvent";
 
 const HomePage = () => {
+  const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState({
     type: 1,
     color: "#0ca672",
     background: "#24775b",
     img: Img1,
   });
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 4,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-  const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
-    const {
-      carouselState: { currentSlide, totalItems, slidesToShow },
-    } = rest;
-    const disableState = totalItems - slidesToShow;
-    return (
-      <div className="d-flex justify-content-between mt-3 mb-3">
-        <h2 className="clt-section-3-h2">Mariage</h2>
-        <div>
-          <Button
-            className={
-              currentSlide === 0
-                ? "disable clt-section-3-cards-arrowBtn me-2"
-                : "clt-section-3-cards-arrowBtn me-2"
-            }
-            onClick={() => previous()}
-          >
-            <i class="fa-solid fa-chevron-left"></i>
-          </Button>
-          <Button
-            className={
-              currentSlide === disableState
-                ? "disable clt-section-3-cards-arrowBtn"
-                : "clt-section-3-cards-arrowBtn"
-            }
-            onClick={() => next()}
-          >
-            <i class="fa-solid fa-chevron-right"></i>
-          </Button>
-        </div>
-      </div>
-    );
+  useEffect(() => {
+    const stickyBarEl = document
+      .querySelector(".stickyBar")
+      .getBoundingClientRect();
+    setstickyBarTop(stickyBarEl.top);
+  }, []);
+
+  useEffect(() => {
+    if (!stickyBarTop) return;
+
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  }, [stickyBarTop]);
+
+  const isSticky = (e) => {
+    const stickyBarEl = document.querySelector(".stickyBar");
+    const scrollTop = window.scrollY;
+    if (scrollTop >= stickyBarTop - 10) {
+      stickyBarEl.classList.add("is-sticky");
+    } else {
+      stickyBarEl.classList.remove("is-sticky");
+    }
   };
   return (
     <React.Fragment>
@@ -100,7 +73,7 @@ const HomePage = () => {
         </Row>
       </Container>
       <Container fluid>
-        <Row className="clt-section-2-row">
+        <Row className="clt-section-2-row stickyBar">
           <Col>
             <Container className="clt-section-2-row-container">
               <Row>
