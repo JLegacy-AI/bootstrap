@@ -15,7 +15,7 @@ import HomeReligiousEvent from "./HomeReligiousEvent";
 const HomePage = () => {
   const [eventType, setEventType] = useState({
     type: 1,
-    color: "#0ca672",
+    color: "#08875c",
     background: "#24775b",
     img: Img1,
   });
@@ -111,7 +111,7 @@ const HomePage = () => {
                       onClick={() =>
                         setEventType({
                           type: 1,
-                          color: "#0ca672",
+                          color: "#08875c",
                           background: "#24775b",
                           img: Img1,
                         })
