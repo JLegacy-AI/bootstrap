@@ -288,7 +288,7 @@ const HomeMaraige = (props) => {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
-                  eventKey="2"
+                  eventKey="3"
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
@@ -300,7 +300,7 @@ const HomeMaraige = (props) => {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
-                  eventKey="2"
+                  eventKey="4"
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">

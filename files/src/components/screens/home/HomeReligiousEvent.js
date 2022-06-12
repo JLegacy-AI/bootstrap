@@ -63,7 +63,7 @@ const HomeReligiousEvent = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Lieu pour un événement religieux</h2>
+                        <h2>Pour votre événement religieux</h2>
                       </div>
                     </div>
                     <div>
@@ -155,7 +155,7 @@ const HomeReligiousEvent = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Lieu pour un événement religieux</h2>
+                    <h2>Pour votre événement religieux</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>

@@ -56,8 +56,8 @@
 }
 
 .clt-section-2-row {
-    border-bottom: 1px solid #dedddd;
-    padding-top: 16px;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 19px;
     flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -117,17 +117,17 @@
     font-weight: 600;
     font-family: 'Inter';
     margin-bottom: 0px;
-    padding-bottom: 21px;
-    margin-top: 14px;
+    padding-bottom: 18px;
+    margin-top: 12px;
     color: #7f7f7f;
     line-height: 16px;
 }
 
 .clt-section-3 {
     border-bottom: 1px solid #e0e0e0;
-    padding-top: 40px;
+    padding-top: 23px;
     padding-right: 0px;
-    padding-bottom: 52px;
+    padding-bottom: 49px;
     padding-left: 0px;
 }
 
@@ -271,7 +271,7 @@
 
 .clt-section-3-cards-end h2 {
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: Mulish;
     margin-bottom: 30px;
     margin-top: 10px;
@@ -631,7 +631,7 @@
 
     .clt-section-3-cards-end h2 {
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: Mulish;
         margin-bottom: 30px;
         margin-top: 10px;
@@ -883,7 +883,7 @@
 
     .clt-section-3-cards-end h2 {
         font-size: 32px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: Mulish;
         margin-bottom: 30px;
         margin-top: 10px;
@@ -1134,7 +1134,7 @@
 
     .clt-section-3-cards-end h2 {
         font-size: 32px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: Mulish;
         margin-bottom: 30px;
         margin-top: 10px;

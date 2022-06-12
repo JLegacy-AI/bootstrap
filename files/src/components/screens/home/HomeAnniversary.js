@@ -63,7 +63,7 @@ const HomeAnniversary = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Lieu pour un anniversaire</h2>
+                        <h2>Pour votre anniversaire</h2>
                       </div>
                     </div>
                     <div>
@@ -155,7 +155,7 @@ const HomeAnniversary = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Lieu pour un anniversaire</h2>
+                    <h2>Pour votre anniversaire</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>
@@ -281,7 +281,7 @@ const HomeAnniversary = (props) => {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
-                  eventKey="2"
+                  eventKey="3"
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
@@ -293,7 +293,7 @@ const HomeAnniversary = (props) => {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
-                  eventKey="2"
+                  eventKey="4"
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
