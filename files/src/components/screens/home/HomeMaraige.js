@@ -275,6 +275,42 @@ const HomeMaraige = (props) => {
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 3 - Wedding
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 3 - Wedding</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 4 - Wedding
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 4 - Wedding</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 5 - Wedding
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 5 - Wedding</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
               </Accordion>
             </div>
           </Col>

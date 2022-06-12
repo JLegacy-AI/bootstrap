@@ -14,7 +14,7 @@ const HomePage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState({
     type: 1,
-    color: "#0ca672",
+    color: "#08875c",
     background: "#24775b",
     img: Img1,
   });
@@ -84,7 +84,7 @@ const HomePage = () => {
                       onClick={() =>
                         setEventType({
                           type: 1,
-                          color: "#0ca672",
+                          color: "#08875c",
                           background: "#24775b",
                           img: Img1,
                         })
@@ -106,7 +106,7 @@ const HomePage = () => {
                           eventType.type === 1
                             ? {
                                 color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
+                                borderBottom: `3px solid ${eventType.color}`,
                               }
                             : {
                                 color: `#7f7f7f`,
