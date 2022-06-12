@@ -80,7 +80,7 @@ const HomeReligiousEvent = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Votre lieu de mariage</h2>
+                        <h2>Lieu pour un événement religieux</h2>
                       </div>
                     </div>
                     <div>
@@ -100,10 +100,9 @@ const HomeReligiousEvent = (props) => {
                         <h2>2</h2>
                         <div>
                           <span>Optionnel: Prestataire</span>
-                          <p>Traiteur, fleur, décoration, photographe…</p>
                           <p>
-                            Une sélection de prestataire pouvant vous
-                            accompagner
+                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous
+                          accompagner
                           </p>
                         </div>
                       </div>

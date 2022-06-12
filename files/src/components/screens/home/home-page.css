@@ -165,7 +165,7 @@
     font-family: Mulish;
     margin-bottom: 0px;
     color: #000;
-    line-height: 24px;
+    line-height: 32px;
 }
 
 .clt-section-3-cards-arrowBtn, .clt-section-3-cards-arrowBtn:hover, .clt-section-3-cards-arrowBtn:active, .clt-section-3-cards-arrowBtn:focus, .clt-section-3-cards-arrowBtn:active:focus {
@@ -206,7 +206,7 @@
 
 .clt-section-3-cards-main h2 {
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: Mulish;
     margin-bottom: 0;
     margin-top: 40px;
@@ -949,7 +949,7 @@
     }
 
     .clt-section-1-div {
-        height: 425px;
+        height: 418px;
         padding-top: 32px;
         padding-right: 20px;
         padding-bottom: 32px;
@@ -966,7 +966,7 @@
     }
 
     .clt-section-1-h2 {
-        font-size: 29px;
+        font-size: 32px;
         font-weight: 700;
         font-family: 'inter';
         margin-bottom: 20px;
@@ -1027,7 +1027,7 @@
         font-weight: 400;
         font-size: 18px;
         margin-bottom: 0px;
-        line-height: 18px;
+        line-height: 21px;
         margin-top: 5px;
     }
     .clt-section-3-cards-button, .clt-section-3-cards-button:hover, .clt-section-3-cards-button:focus, .clt-section-3-cards-button:active {

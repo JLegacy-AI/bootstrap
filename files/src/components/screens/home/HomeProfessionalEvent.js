@@ -80,7 +80,7 @@ const HomeProfessionalEvent = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Votre lieu de mariage</h2>
+                        <h2>Lieu pour votre événement professionnel</h2>
                       </div>
                     </div>
                     <div>
@@ -269,10 +269,10 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 1 - Wedding
+                    Ask 1 - pro
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 1 - Wedding</p>
+                    <p>Answer 1 - pro</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>

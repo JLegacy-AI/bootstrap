@@ -80,7 +80,7 @@ const HomeAnniversary = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Votre lieu de mariage</h2>
+                        <h2>Lieu pour un anniversaire</h2>
                       </div>
                     </div>
                     <div>
@@ -89,8 +89,7 @@ const HomeAnniversary = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu permet d'accueillir des cérémonies et des
-                            réceptions jusqu’à 100 invités.
+                          Ce lieu met à disposition une salle intérieur et extérieur pouvant accueillir jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -100,10 +99,9 @@ const HomeAnniversary = (props) => {
                         <h2>2</h2>
                         <div>
                           <span>Optionnel: Prestataire</span>
-                          <p>Traiteur, fleur, décoration, photographe…</p>
                           <p>
-                            Une sélection de prestataire pouvant vous
-                            accompagner
+                            Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous
+                            accompagner durant votre événement.
                           </p>
                         </div>
                       </div>
@@ -112,10 +110,9 @@ const HomeAnniversary = (props) => {
                       <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                         <h2>3</h2>
                         <div>
-                          <span>Optionnel: Dortoir</span>
+                          <span>Équipement</span>
                           <p>
-                            Faites dormir vous et vos proches directement dans
-                            le château.
+                          Table, chaise, matériel sonore, lumière, cuisine disponible, pour mener à bien votre événement.
                           </p>
                         </div>
                       </div>
