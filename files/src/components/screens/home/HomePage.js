@@ -133,7 +133,7 @@ const HomePage = () => {
                           eventType.type === 1
                             ? {
                                 color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
+                                borderBottom: `3px solid ${eventType.color}`,
                               }
                             : {
                                 color: `#7f7f7f`,
