@@ -89,8 +89,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu permet d'accueillir des cérémonies et des
-                            réceptions jusqu’à 100 invités.
+                            Ce lieu permet d'accueillir des cérémonies et des réceptions jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -101,8 +100,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous
-                          accompagner
+                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner
                           </p>
                         </div>
                       </div>
@@ -113,8 +111,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Dortoir</span>
                           <p>
-                            Faites dormir vous et vos proches directement dans
-                            le château.
+                            Faites dormir vous et vos proches directement dans le château.
                           </p>
                         </div>
                       </div>
@@ -175,15 +172,14 @@ const HomeReligiousEvent = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Votre lieu de mariage</h2>
+                    <h2>Lieu pour un événement religieux</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu permet d'accueillir des cérémonies et des
-                        réceptions jusqu’à 100 invités.
+                      Ce lieu permet d'accueillir des cérémonies et des réceptions jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -193,7 +189,7 @@ const HomeReligiousEvent = (props) => {
                       <span>Optionnel: Prestataire</span>
                       <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner
+                      Une sélection de prestataire pouvant vous accompagner
                       </p>
                     </div>
                   </div>
@@ -202,8 +198,7 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Optionnel: Dortoir</span>
                       <p>
-                        Faites dormir vous et vos proches directement dans le
-                        château.
+                      Faites dormir vous et vos proches directement dans le château.
                       </p>
                     </div>
                   </div>
@@ -272,10 +267,10 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 1 - Wedding
+                    Ask 1 - Revent
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 1 - Wedding</p>
+                    <p>Answer 1 - Revent</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -284,10 +279,46 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 2 - Wedding
+                    Ask 2 - Revent
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 2 - Wedding</p>
+                    <p>Answer 2 - Revent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 3 - Revent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 3 - Revent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="3"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 4 - Revent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 4 - Revent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="4"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 5 - Revent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 5 - Revent</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>

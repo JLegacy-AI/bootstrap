@@ -179,28 +179,25 @@ const HomeProfessionalEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu permet d'accueillir des cérémonies et des
-                        réceptions jusqu’à 100 invités.
+                      Ce lieu met à disposition une salle intérieur et extérieur pouvant accueillir jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>2</h2>
                     <div>
-                      <span>Optionnel: Prestataire</span>
-                      <p>Traiteur, fleur, décoration, photographe…</p>
+                      <span>Équipement</span>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner
+                      Microphone, vidéoprojecteur, connexion internet pour mener à bien votre événement.
                       </p>
                     </div>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>3</h2>
                     <div>
-                      <span>Optionnel: Dortoir</span>
+                      <span>Optionnel: Prestataire</span>
                       <p>
-                        Faites dormir vous et vos proches directement dans le
-                        château.
+                      Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner.
                       </p>
                     </div>
                   </div>
@@ -281,10 +278,46 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 2 - Wedding
+                    Ask 2 - pro
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 2 - Wedding</p>
+                    <p>Answer 2 - pro</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                    Ask 3 - pro
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 3 - pro</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="3"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                    Ask 4 - pro
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 4 - pro</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="4"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                    Ask 5 - pro
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 5 - pro</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>

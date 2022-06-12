@@ -100,8 +100,7 @@ const HomeAnniversary = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                            Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous
-                            accompagner durant votre événement.
+                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner durant votre événement.
                           </p>
                         </div>
                       </div>
@@ -173,15 +172,14 @@ const HomeAnniversary = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Votre lieu de mariage</h2>
+                    <h2>Lieu pour un anniversaire</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu permet d'accueillir des cérémonies et des
-                        réceptions jusqu’à 100 invités.
+                      Ce lieu met à disposition une salle intérieur et extérieur pouvant accueillir jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -189,19 +187,17 @@ const HomeAnniversary = (props) => {
                     <h2>2</h2>
                     <div>
                       <span>Optionnel: Prestataire</span>
-                      <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner
+                      Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner durant votre événement.
                       </p>
                     </div>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>3</h2>
                     <div>
-                      <span>Optionnel: Dortoir</span>
+                      <span>Équipement</span>
                       <p>
-                        Faites dormir vous et vos proches directement dans le
-                        château.
+                      Table, chaise, matériel sonore, lumière, cuisine disponible, pour mener à bien votre événement.
                       </p>
                     </div>
                   </div>
@@ -270,10 +266,10 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 1 - Wedding
+                    Ask 1 - Bevent
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 1 - Wedding</p>
+                    <p>Answer 1 - Bevent</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -282,10 +278,46 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 2 - Wedding
+                    Ask 2 - Bevent
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 2 - Wedding</p>
+                    <p>Answer 2 - Bevent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 3 - Bevent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 3 - Bevent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 4 - Bevent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 4 - Bevent</p>
+                    <a href="#">Tous les sujets</a>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item
+                  eventKey="2"
+                  className="clt-section-5-accordion-item"
+                >
+                  <Accordion.Header className="clt-section-5-accordion-header">
+                   Ask 5 - Bevent
+                  </Accordion.Header>
+                  <Accordion.Body className="clt-section-5-accordion-body">
+                    <p>Answer 5 - Bevent</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>

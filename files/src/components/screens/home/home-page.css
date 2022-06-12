@@ -55,8 +55,6 @@
     padding-left: 28px;
 }
 
-.clt-section-2 {}
-
 .clt-section-2-row {
     border-bottom: 1px solid rgb(255, 255, 255);
     padding-top: 30px;
@@ -522,8 +520,8 @@
 }
 
 .clt-hr-mbl hr {
-    color: #e0e0e0;
-    height: 2px;
+    color: #232323;
+    height: 1px;
     margin: 0;
 }
 
@@ -739,6 +737,10 @@
 
     .showMobile {
         display: flex !important;
+    }
+
+    .clt-section-2-row{
+        border-bottom: 1px solid #dedddd;
     }
 
     .hideMobile {
@@ -972,6 +974,8 @@
         margin-bottom: 20px;
         text-align: center;
         padding: 0px 0px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     .clt-section-2-divs h2{
         padding-bottom: 18px;
