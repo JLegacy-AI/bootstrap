@@ -249,11 +249,11 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 1 - Bevent
+                   Comment réserver ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 1 - Bevent</p>
-                    <a href="#">Tous les sujets</a>
+                    <p>Le château est idéal pour votre évenement et vous êtes sur le point de réserver ! Premièrement, créer un compte pour pouvoir faire une réservation. Deuxièmement, depuis la page "détail", sélectionné votre type d'évenement puis suivez les étapes pour réserver.</p>
+                    <a href="#">Faire une réservation</a>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
@@ -261,11 +261,11 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Ask 2 - Bevent
+                   Quel budget faut-il prévoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 2 - Bevent</p>
-                    <a href="#">Tous les sujets</a>
+                    <p>Les différentes prestations et espaces du château liée à votre événement peuvent variés selon vos besoins. Effectué une simulation depuis la page détail en ajoutant vos dates et options pour voir le budget à prévoir.</p>
+                    <a href="#">Faire une simulation</a>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
@@ -273,11 +273,11 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Ask 3 - Bevent
+                   Pouvons-nous visité le château ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 3 - Bevent</p>
-                    <a href="#">Tous les sujets</a>
+                    <p>Une visite du château est programmable selon vos disponibilités. Pour ce faire, veuillez nous contacter depuis la page détail.</p>
+                    <a href="#">Programmer une visite</a>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item
@@ -285,10 +285,10 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Ask 4 - Bevent
+                   Avez-vous un dortoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 4 - Bevent</p>
+                    <p>Une option payante liée à votre événement est le "dortoir". Cette option vous permet de faire directement jusqu'à 40 personnes directement au château.</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -297,11 +297,11 @@ const HomeAnniversary = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Ask 5 - Bevent
+                   Qu'est-ce que le centre d'aide ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Answer 5 - Bevent</p>
-                    <a href="#">Tous les sujets</a>
+                    <p>Le centre d'aide est une page du site internet permettant de résoudre chacune de vos questions.</p>
+                    <a href="#">Visitez le centre d'aide</a>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
