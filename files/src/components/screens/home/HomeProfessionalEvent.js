@@ -249,10 +249,10 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Comment réserver ?
+                   Comment réserver pour un événement profesionnel ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Le château est idéal pour votre évenement et vous êtes sur le point de réserver ! Premièrement, créer un compte pour pouvoir faire une réservation. Deuxièmement, depuis la page "détail", sélectionné votre type d'évenement puis suivez les étapes pour réserver.</p>
+                    <p>Vous pouvez réserver depuis le site internet.</p>
                     <a href="#">Faire une réservation</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -273,10 +273,10 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Pouvons-nous visité le château ? et quand ?
+                   Pouvons-nous faire une visite ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une visite du château est programmable selon vos disponibilités. Pour ce faire, veuillez nous contacter depuis la page détail.</p>
+                    <p>Une visite du château est programmable depuis le site internet.</p>
                     <a href="#">Programmer une visite</a>
                   </Accordion.Body>
                 </Accordion.Item>

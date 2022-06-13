@@ -250,10 +250,10 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Comment réserver ? 
+                   Comment réserver pour un événement religieux ? 
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Le château est idéal pour votre évenement et vous êtes sur le point de réserver ! Premièrement, créer un compte pour pouvoir faire une réservation. Deuxièmement, depuis la page "détail", sélectionné votre type d'évenement puis suivez les étapes pour réserver.</p>
+                    <p>Vous pouvez réserver depuis le site internet.</p>
                     <a href="#">Faire une réservation</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -274,10 +274,10 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Pouvons-nous visité le château ? et quand ?
+                   Pouvons-nous faire une visite ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une visite du château est programmable selon vos disponibilités. Pour ce faire, veuillez nous contacter depuis la page détail.</p>
+                    <p>Une visite du château est programmable depuis le site internet.</p>
                     <a href="#">Programmer une visite</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -289,7 +289,7 @@ const HomeReligiousEvent = (props) => {
                    Avez-vous un dortoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une option payante liée à votre événement est le "dortoir". Cette option vous permet de faire directement jusqu'à 40 personnes directement au château.</p>
+                    <p>Vous pouvez sélectionné dans votre réservation l'option "dortoir". Faites dormir jusqu'à 40 invités directement sur place.</p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>

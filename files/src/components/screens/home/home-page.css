@@ -79,8 +79,8 @@
 }
 
 .clt-section-2-row-col {
-    padding-left: 12px !important;
-    padding-right: 12px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
 }
 
 .clt-section-2-row.stickyBar.row.is-sticky {
@@ -356,7 +356,7 @@
 .clt-section-5-accordion-header button {
     font-size: 18px;
     font-weight: 700;
-    font-family: 'MULISH';
+    font-family: 'Inter';
     background: #fff !important;
     padding: 30px 30px;
 }
@@ -562,7 +562,7 @@
         padding-bottom: 18px;
         padding-left: 18px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .clt-section-1-div-inner {
@@ -600,8 +600,9 @@
     }
 
     .clt-section-2-divs h2{
-        padding-bottom: 16px;
+        padding-bottom: 18px;
         margin-top: 11px;
+        letter-spacing: -0.4px;
     }
 
     .clt-section-2-row {
@@ -612,6 +613,11 @@
         overflow-y: hidden;
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .clt-section-2-row-col {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
 
     .clt-section-3 {
@@ -715,13 +721,13 @@
 
     .clt-section-5-accordion-header button {
         font-size: 17px;
-        font-weight: 700;
+        font-weight: 600;
         padding: 25px 20px;
     }
 
     .clt-section-5-accordion-body {
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 400;
         padding: 0px 20px 25px 20px;
     }
 
@@ -826,7 +832,7 @@
         padding-bottom: 32px;
         padding-left: 20px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .clt-section-1-div-inner {
@@ -865,8 +871,10 @@
     }
 
     .clt-section-2-divs h2{
-        padding-bottom: 16px;
+        padding-bottom: 18px;
         margin-top: 11px;
+        letter-spacing: -0.4px;
+
     }
 
     .clt-section-2-row {
@@ -877,6 +885,11 @@
         overflow-y: hidden;
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .clt-section-2-row-col {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
 
     .clt-section-3 {
@@ -979,13 +992,13 @@
 
     .clt-section-5-accordion-header button {
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 600;
         padding: 25px 20px;
     }
 
     .clt-section-5-accordion-body {
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
         padding: 0px 20px 25px 20px;
     }
 
@@ -1090,7 +1103,7 @@
         padding-bottom: 32px;
         padding-left: 20px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .clt-section-1-div-inner {
@@ -1128,8 +1141,9 @@
     }
 
     .clt-section-2-divs h2{
-        padding-bottom: 16px;
+        padding-bottom: 18px;
         margin-top: 11px;
+        letter-spacing: -0.4px;
     }
 
     .clt-section-2-row {
@@ -1142,6 +1156,11 @@
         -webkit-overflow-scrolling: touch;
     }
     
+    .clt-section-2-row-col {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
     .clt-section-3 {
         padding-top: 26px;
         padding-right: 0px;
@@ -1242,13 +1261,13 @@
 
     .clt-section-5-accordion-header button {
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 600;
         padding: 25px 20px;
     }
 
     .clt-section-5-accordion-body {
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
         padding: 0px 20px 25px 20px;
     }
 
