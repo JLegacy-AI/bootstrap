@@ -89,6 +89,7 @@
     background: #fff;
     width: 100%;
     z-index: 2;
+    box-shadow: 0px 2px 3px 0px #ddd;
 }
 
 .clt-section-2-row.stickyBar.row {
@@ -99,7 +100,7 @@
 
 .clt-section-2 div:last-child {
     margin-right: 0px;
-    padding-right: 15px;
+    padding-right: 22px;
 }
 
 .clt-section-2-divs {
@@ -543,6 +544,19 @@
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
+    .clt-navbar-row-col-pd-left {
+        padding-left: 22px !important;
+    }
+
+    .clt-navbar-row-col-pd-right {
+        padding-right: 22px !important;
+    }
+
+    .clt-section-row-col-pd {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+
     .clt-hr-mbl {
         display: block !important;
     }
@@ -599,7 +613,7 @@
         user-select: none;
     }
 
-    .clt-section-2-divs h2{
+    .clt-section-2-divs h2 {
         padding-bottom: 18px;
         margin-top: 11px;
         letter-spacing: -0.4px;
@@ -647,7 +661,7 @@
         line-height: 35px;
     }
 
-    
+
     .clt-section-3-cards-end h2 {
         font-size: 30px;
         font-weight: 700;
@@ -813,6 +827,18 @@
 @media only screen and (max-width: 767px) {
 
     /*mobile*/
+    .clt-navbar-row-col-pd-left {
+        padding-left: 22px !important;
+    }
+
+    .clt-navbar-row-col-pd-right {
+        padding-right: 22px !important;
+    }
+    .clt-section-row-col-pd {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+
     .clt-hr-mbl {
         display: block !important;
     }
@@ -870,7 +896,7 @@
         user-select: none;
     }
 
-    .clt-section-2-divs h2{
+    .clt-section-2-divs h2 {
         padding-bottom: 18px;
         margin-top: 11px;
         letter-spacing: -0.4px;
@@ -1084,6 +1110,18 @@
 @media only screen and (max-width: 767px) and (orientation:portrait) {
 
     /*mobile*/
+    .clt-navbar-row-col-pd-left {
+        padding-left: 22px !important;
+    }
+
+    .clt-navbar-row-col-pd-right {
+        padding-right: 22px !important;
+    }
+    .clt-section-row-col-pd {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+
     .clt-hr-mbl {
         display: block !important;
     }
@@ -1140,7 +1178,7 @@
         user-select: none;
     }
 
-    .clt-section-2-divs h2{
+    .clt-section-2-divs h2 {
         padding-bottom: 18px;
         margin-top: 11px;
         letter-spacing: -0.4px;
@@ -1155,7 +1193,7 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
     }
-    
+
     .clt-section-2-row-col {
         padding-left: 12px !important;
         padding-right: 12px !important;

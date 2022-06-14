@@ -1,23 +1,52 @@
 import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
-import Img1 from "../../../assets/img/icon-card-1.png";
-import Img2 from "../../../assets/img/icon-card-2.png";
-import Img3 from "../../../assets/img/icon-card-3.png";
-import Img4 from "../../../assets/img/icon-card-4.png";
+import MaraigeImg from "../../../assets/img/icon-card-1.png";
+import AnniversaireImg from "../../../assets/img/icon-card-2.png";
+import ProfesionnelImg from "../../../assets/img/icon-card-3.png";
+import ReligieuxImg from "../../../assets/img/icon-card-4.png";
+import IconBar1 from "../../../assets/img/icon-bar-1.png";
+import IconBar1Active from "../../../assets/img/icon-bar-1-active.png";
+import IconBar2 from "../../../assets/img/icon-bar-2.png";
+import IconBar2Active from "../../../assets/img/icon-bar-2-active.png";
+import IconBar3 from "../../../assets/img/icon-bar-3.png";
+import IconBar3Active from "../../../assets/img/icon-bar-3-active.png";
+import IconBar4 from "../../../assets/img/icon-bar-4.png";
+import IconBar4Active from "../../../assets/img/icon-bar-4-active.png";
+import VideoDesktop from "../../../assets/vid/home-background.mp4";
+import VideoMobile from "../../../assets/vid/home-background.mp4";
 import HomeMaraige from "./HomeMaraige";
 import HomeProfessionalEvent from "./HomeProfessionalEvent";
 import HomeAnniversary from "./HomeAnniversary";
 import HomeReligiousEvent from "./HomeReligiousEvent";
 
 const HomePage = () => {
-  const [stickyBarTop, setstickyBarTop] = useState(undefined);
-  const [eventType, setEventType] = useState({
+  const maraigeData = {
     type: 1,
     color: "#08875c",
     background: "#24775b",
-    img: Img1,
-  });
+    img: MaraigeImg,
+  };
+  const anniversaireData = {
+    type: 2,
+    color: "#015eea",
+    background: "#015eea",
+    img: AnniversaireImg,
+  };
+  const profesionnelData = {
+    type: 3,
+    color: "#ad1eac",
+    background: "#c72fc3",
+    img: ProfesionnelImg,
+  };
+  const religieuxData = {
+    type: 4,
+    color: "#b3846d",
+    background: "#d2997e",
+    img: ReligieuxImg,
+  };
+  const [stickyBarTop, setstickyBarTop] = useState(undefined);
+  const [eventType, setEventType] = useState(maraigeData);
   useEffect(() => {
     const stickyBarEl = document
       .querySelector(".stickyBar")
@@ -47,15 +76,13 @@ const HomePage = () => {
     <React.Fragment>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="clt-section-1-div d-flex flex-column align-items-start justify-content-start">
-              <video autoPlay loop muted>
-                <source
-                  src={
-                    require(`../../../assets/vid/home-background.mp4`).default
-                  }
-                  type="video/mp4"
-                />
+              <video autoPlay loop muted className="hideMobile">
+                <source src={VideoDesktop} type="video/mp4" />
+              </video>
+              <video autoPlay loop muted className="showMobile">
+                <source src={VideoMobile} type="video/mp4" />
               </video>
               <div className="clt-section-1-div-inner">
                 <h2 className="clt-section-1-h2">
@@ -81,23 +108,10 @@ const HomePage = () => {
                   <div className="d-flex justify-content-start align-items-center clt-section-2">
                     <div
                       className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() =>
-                        setEventType({
-                          type: 1,
-                          color: "#08875c",
-                          background: "#24775b",
-                          img: Img1,
-                        })
-                      }
+                      onClick={() => setEventType(maraigeData)}
                     >
                       <img
-                        src={
-                          require(`../../../assets/img/${
-                            eventType.type === 1
-                              ? "icon-bar-1-active"
-                              : "icon-bar-1"
-                          }.png`).default
-                        }
+                        src={eventType.type === 1 ? IconBar1Active : IconBar1}
                         className=""
                         alt="ParkingAeroPortFr"
                       />
@@ -106,7 +120,7 @@ const HomePage = () => {
                           eventType.type === 1
                             ? {
                                 color: `${eventType.color}`,
-                                borderBottom: `3px solid ${eventType.color}`,
+                                borderBottom: `2px solid ${eventType.color}`,
                               }
                             : {
                                 color: `#7f7f7f`,
@@ -119,23 +133,10 @@ const HomePage = () => {
                     </div>
                     <div
                       className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() =>
-                        setEventType({
-                          type: 2,
-                          color: "#015eea",
-                          background: "#015eea",
-                          img: Img2,
-                        })
-                      }
+                      onClick={() => setEventType(anniversaireData)}
                     >
                       <img
-                        src={
-                          require(`../../../assets/img/${
-                            eventType.type === 2
-                              ? "icon-bar-2-active"
-                              : "icon-bar-2"
-                          }.png`).default
-                        }
+                        src={eventType.type === 2 ? IconBar2Active : IconBar2}
                         className=""
                         alt="ParkingAeroPortFr"
                       />
@@ -157,23 +158,10 @@ const HomePage = () => {
                     </div>
                     <div
                       className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() =>
-                        setEventType({
-                          type: 3,
-                          color: "#ad1eac",
-                          background: "#c72fc3",
-                          img: Img3,
-                        })
-                      }
+                      onClick={() => setEventType(profesionnelData)}
                     >
                       <img
-                        src={
-                          require(`../../../assets/img/${
-                            eventType.type === 3
-                              ? "icon-bar-3-active"
-                              : "icon-bar-3"
-                          }.png`).default
-                        }
+                        src={eventType.type === 3 ? IconBar3Active : IconBar3}
                         className=""
                         alt="ParkingAeroPortFr"
                       />
@@ -195,23 +183,10 @@ const HomePage = () => {
                     </div>
                     <div
                       className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() =>
-                        setEventType({
-                          type: 4,
-                          color: "#b3846d",
-                          background: "#d2997e",
-                          img: Img4,
-                        })
-                      }
+                      onClick={() => setEventType(religieuxData)}
                     >
                       <img
-                        src={
-                          require(`../../../assets/img/${
-                            eventType.type === 4
-                              ? "icon-bar-4-active"
-                              : "icon-bar-4"
-                          }.png`).default
-                        }
+                        src={eventType.type === 4 ? IconBar4Active : IconBar4}
                         className=""
                         alt="ParkingAeroPortFr"
                       />

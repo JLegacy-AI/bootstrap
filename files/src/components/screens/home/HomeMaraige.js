@@ -4,6 +4,9 @@ import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import responsive from "../../../constants";
+import HomeSection4Desktop from "../../../assets/img/home-section-4-maraige.png";
+import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-maraige.jpg";
+import HomeSection6 from "../../../assets/img/home-section-6.png";
 
 const HomeMaraige = (props) => {
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
@@ -43,7 +46,7 @@ const HomeMaraige = (props) => {
     <React.Fragment>
       <Container className="showMobile">
         <Row>
-          <Col className="clt-section-3-h2-mt">
+          <Col className="clt-section-3-h2-mt clt-section-row-col-pd">
             <h2 className="clt-section-3-h2">Mariage</h2>
           </Col>
         </Row>
@@ -134,7 +137,7 @@ const HomeMaraige = (props) => {
       </Container>
       <Container className="clt-hr-mbl">
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <hr />
           </Col>
         </Row>
@@ -216,22 +219,17 @@ const HomeMaraige = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div className="clt-section-4">
                 <img
-                  src={
-                    require(`../../../assets/img/home-section-4.png`).default
-                  }
+                  src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
                   alt="ParkingAeroPortFr"
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
-                  src={
-                    require(`../../../assets/img/home-section-4-mbl.jpg`)
-                      .default
-                  }
+                  src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
                   alt="ParkingAeroPortFr"
                 />
@@ -242,7 +240,7 @@ const HomeMaraige = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="clt-section-5">
               <h2 className="clt-section-5-h2">
                 Questions fréquentes pour votre événement
@@ -318,7 +316,7 @@ const HomeMaraige = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div
                 className="clt-section-6"
@@ -326,9 +324,7 @@ const HomeMaraige = (props) => {
               >
                 <h2>Retrouvez plus de détail sur notre page dédiée</h2>
                 <img
-                  src={
-                    require(`../../../assets/img/home-section-6.png`).default
-                  }
+                  src={HomeSection6}
                   className=""
                   alt="ParkingAeroPortFr"
                 />
@@ -345,7 +341,7 @@ const HomeMaraige = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div className="clt-section-7">
                 <h2>Besoin d’aide ?</h2>
@@ -369,7 +365,7 @@ const HomeMaraige = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="">
               <div className="clt-section-8">
                 <div className="d-flex flex-column mb-5">

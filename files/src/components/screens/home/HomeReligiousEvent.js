@@ -4,6 +4,9 @@ import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import responsive from "../../../constants";
+import HomeSection4Desktop from "../../../assets/img/home-section-4-religieux.png";
+import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-religieux.jpg";
+import HomeSection6 from "../../../assets/img/home-section-6.png";
 
 const HomeReligiousEvent = (props) => {
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
@@ -43,7 +46,7 @@ const HomeReligiousEvent = (props) => {
     <React.Fragment>
       <Container className="showMobile">
         <Row>
-          <Col className="clt-section-3-h2-mt">
+          <Col className="clt-section-3-h2-mt clt-section-row-col-pd">
             <h2 className="clt-section-3-h2">Événement religieux</h2>
           </Col>
         </Row>
@@ -72,7 +75,8 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu permet d'accueillir des cérémonies et des réceptions jusqu’à 100 invités.
+                            Ce lieu permet d'accueillir des cérémonies et des
+                            réceptions jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -83,7 +87,8 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner
+                            Traiteur, fleur, décoration, photographe… Une
+                            sélection de prestataire pouvant vous accompagner
                           </p>
                         </div>
                       </div>
@@ -94,7 +99,8 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Dortoir</span>
                           <p>
-                            Faites dormir vous et vos proches directement dans le château.
+                            Faites dormir vous et vos proches directement dans
+                            le château.
                           </p>
                         </div>
                       </div>
@@ -130,7 +136,7 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container className="clt-hr-mbl">
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <hr />
           </Col>
         </Row>
@@ -162,7 +168,8 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                      Ce lieu permet d'accueillir des cérémonies et des réceptions jusqu’à 100 invités.
+                        Ce lieu permet d'accueillir des cérémonies et des
+                        réceptions jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -172,7 +179,7 @@ const HomeReligiousEvent = (props) => {
                       <span>Optionnel: Prestataire</span>
                       <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                      Une sélection de prestataire pouvant vous accompagner
+                        Une sélection de prestataire pouvant vous accompagner
                       </p>
                     </div>
                   </div>
@@ -181,7 +188,8 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Optionnel: Dortoir</span>
                       <p>
-                      Faites dormir vous et vos proches directement dans le château.
+                        Faites dormir vous et vos proches directement dans le
+                        château.
                       </p>
                     </div>
                   </div>
@@ -210,22 +218,17 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div className="clt-section-4">
                 <img
-                  src={
-                    require(`../../../assets/img/home-section-4.png`).default
-                  }
+                  src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
                   alt="ParkingAeroPortFr"
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
-                  src={
-                    require(`../../../assets/img/home-section-4-mbl.jpg`)
-                      .default
-                  }
+                  src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
                   alt="ParkingAeroPortFr"
                 />
@@ -236,7 +239,7 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="clt-section-5">
               <h2 className="clt-section-5-h2">
                 Questions fréquentes pour votre événement
@@ -250,7 +253,7 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Comment réserver pour un événement religieux ? 
+                    Comment réserver pour un événement religieux ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
                     <p>Vous pouvez réserver depuis le site internet.</p>
@@ -262,10 +265,15 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Quel budget faut-il prévoir ?
+                    Quel budget faut-il prévoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Les différentes prestations et espaces du château liée à votre événement peuvent variés selon vos besoins. Effectué une simulation depuis la page détail en ajoutant vos dates et options pour voir le budget à prévoir.</p>
+                    <p>
+                      Les différentes prestations et espaces du château liée à
+                      votre événement peuvent variés selon vos besoins. Effectué
+                      une simulation depuis la page détail en ajoutant vos dates
+                      et options pour voir le budget à prévoir.
+                    </p>
                     <a href="#">Faire une simulation</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -274,10 +282,13 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Pouvons-nous faire une visite ? et quand ?
+                    Pouvons-nous faire une visite ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une visite du château est programmable depuis le site internet.</p>
+                    <p>
+                      Une visite du château est programmable depuis le site
+                      internet.
+                    </p>
                     <a href="#">Programmer une visite</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -286,10 +297,14 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Avez-vous un dortoir ?
+                    Avez-vous un dortoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Vous pouvez sélectionné dans votre réservation l'option "dortoir". Faites dormir jusqu'à 40 invités directement sur place.</p>
+                    <p>
+                      Vous pouvez sélectionné dans votre réservation l'option
+                      "dortoir". Faites dormir jusqu'à 40 invités directement
+                      sur place.
+                    </p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -298,10 +313,13 @@ const HomeReligiousEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Qu'est-ce que le centre d'aide ?
+                    Qu'est-ce que le centre d'aide ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Le centre d'aide est une page du site internet permettant de résoudre chacune de vos questions.</p>
+                    <p>
+                      Le centre d'aide est une page du site internet permettant
+                      de résoudre chacune de vos questions.
+                    </p>
                     <a href="#">Visitez le centre d'aide</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -312,20 +330,14 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div
                 className="clt-section-6"
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
                 <h2>Retrouvez plus de détail sur notre page dédiée</h2>
-                <img
-                  src={
-                    require(`../../../assets/img/home-section-6.png`).default
-                  }
-                  className=""
-                  alt="ParkingAeroPortFr"
-                />
+                <img src={HomeSection6} className="" alt="ParkingAeroPortFr" />
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-6-btn shadow-none"
@@ -339,7 +351,7 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="border_bottom_light">
               <div className="clt-section-7">
                 <h2>Besoin d’aide ?</h2>
@@ -363,7 +375,7 @@ const HomeReligiousEvent = (props) => {
       </Container>
       <Container>
         <Row>
-          <Col>
+          <Col className="clt-section-row-col-pd">
             <div className="">
               <div className="clt-section-8">
                 <div className="d-flex flex-column mb-5">

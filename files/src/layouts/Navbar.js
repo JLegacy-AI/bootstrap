@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Navbar as HomeNavbar, Row, Col } from "react-bootstrap";
 import AuthModal from "../components/screens/auth/AuthModal";
+import MenuBlack from "../assets/img/menu_black.png";
 
 const Navbar = () => {
   const [isLoginModal, setIsLoginModal] = useState(false);
@@ -20,17 +21,13 @@ const Navbar = () => {
               md={6}
               sm={6}
               xs={6}
-              className="d-flex justify-content-start"
+              className="d-flex justify-content-start clt-navbar-row-col-pd-left"
             >
               <HomeNavbar.Toggle
                 aria-controls="offcanvasNavbar"
                 className="pfr_navbarToggle"
               >
-                <img
-                  src={require(`../assets/img/menu_black.png`).default}
-                  className=""
-                  alt="ParkingAeroPortFr"
-                />
+                <img src={MenuBlack} className="" alt="ParkingAeroPortFr" />
               </HomeNavbar.Toggle>
               <HomeNavbar.Brand href="/" className="d-flex pfr_navbarLogo">
                 Château la tournelle
@@ -41,7 +38,7 @@ const Navbar = () => {
               md={6}
               sm={6}
               xs={6}
-              className="d-flex justify-content-end"
+              className="d-flex justify-content-end clt-navbar-row-col-pd-right"
             >
               <HomeNavbar.Text className="d-flex pfr_navbarRightTxt">
                 {userToken ? (
