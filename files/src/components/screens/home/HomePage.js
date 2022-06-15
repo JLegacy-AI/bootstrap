@@ -30,7 +30,7 @@ const HomePage = () => {
   const anniversaireData = {
     type: 2,
     color: "#015eea",
-    background: "#015eea",
+    background: "#025adf",
     img: AnniversaireImg,
   };
   const profesionnelData = {

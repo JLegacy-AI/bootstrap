@@ -162,7 +162,7 @@ const HomeMaraige = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Votre lieu de mariage</h2>
+                    <h2>Pour votre mariage</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>
