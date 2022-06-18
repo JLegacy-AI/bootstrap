@@ -42,6 +42,7 @@
 
 .pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
     background: #f3f3f3 url('../../../assets/img/back_arrow.png') center/1em auto no-repeat;
+    background-size: 9px;
 }
 
 .pfr_loginModalHeadCreer {
@@ -366,6 +367,10 @@
         width: 15px;
         height: 15px;
     }
+    
+    .pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
+        background-size: 9px;
+    }
 
     .pfr_loginModalHeadCreer {
         padding: 16px 16px;
@@ -525,6 +530,10 @@
         padding: 16px;
         width: 15px;
         height: 15px;
+    }
+    
+    .pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
+        background-size: 9px;
     }
 
     .pfr_loginModalHeadCreer {
@@ -705,6 +714,14 @@
         padding: 20px;
         width: 7px;
         height: 7px;
+    }
+
+    .pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
+        background-size: 9px;
+    }
+
+    .pfr_loginModalHeader .btn-back, .pfr_loginModalHeader .btn-back:focus {
+        background-size: 9px;
     }
 
     .pfr_loginModalHeadCreer {
