@@ -29,8 +29,8 @@
     background-color: #eeeeee;
     background-size: 14px;
     padding: 20px;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     opacity: 1;
     outline: none;
     box-shadow: none;
@@ -44,8 +44,8 @@
     color: #000;
     background-color: #eeeeee;
     border-radius: 40px;
-    padding: 20px 20px;
-    font-size: 15.5px;
+    padding: 13px 15px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.35px;
     cursor: pointer;
@@ -59,16 +59,17 @@
 .pfr_loginModalH2 {
     font-size: 27px;
     font-weight: 700;
+    font-family: 'mulish';
     color: #000;
     margin-bottom: 7px;
     letter-spacing: -0.4px;
 }
 
 .pfr_loginModalp {
-    font-size: 17.5px;
+    font-size: 17px;
     font-weight: 400;
     color: #000;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     line-height: 22.5px;
 }
 
@@ -80,10 +81,10 @@
 }
 
 .pfr_loginModalSeparatorDiv span {
-    font-size: 14px;
-    font-weight: 800;
+    font-size: 13px;
+    font-weight: 500;
     color: #000;
-    padding: 0 18px;
+    padding: 0 11px;
 }
 
 .pfr_loginModalSeparator {
@@ -99,15 +100,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     padding: 0px 0px;
     padding-bottom: 5px;
     border-radius: 12px;
     box-shadow: none;
     outline: none;
     border: 0;
-    height: 69px;
+    height: 56px;
     margin-top: 8px;
     letter-spacing: 0.9px;
 }
@@ -128,13 +129,13 @@
     align-items: center;
     width: 100%;
     border-radius: 12px;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 2px;
-    font-weight: 700;
+    font-weight: 600;
     box-shadow: none;
     outline: none;
     border: 1px solid #cccccc;
-    height: 70px;
+    height: 60px;
     position: relative;
 }
 
@@ -698,12 +699,12 @@
         border-radius: 10px;
         background-size: 12px;
         padding: 20px;
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
 
     .pfr_loginModalHeadCreer {
-        padding: 18px 18px;
+        padding: 13px 15px;
         font-size: 15px;
         font-weight: 600;
         letter-spacing: 0.35px;
@@ -722,9 +723,9 @@
     }
 
     .pfr_loginModalp {
-        font-size: 17.5px;
+        font-size: 17px;
         font-weight: 400;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         line-height: 22.5px;
     }
 
@@ -733,16 +734,16 @@
     }
 
     .pfr_loginModalSeparatorDiv span {
-        font-size: 14px;
-        font-weight: 800;
-        padding: 0 18px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0 11px;
     }
 
     .pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         border-radius: 12px;
-        height: 69px;
+        height: 56px;
         margin-top: 8px;
         padding-bottom: 5px;
         letter-spacing: 0.9px;
@@ -758,9 +759,9 @@
 
     .pfr_loginModalIconBtn, .pfr_loginModalIconBtn:hover, .pfr_loginModalIconBtn:focus {
         border-radius: 10px;
-        font-size: 17px;
-        font-weight: 700;
-        height: 70px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 60px;
     }
 
     .pfr_loginModalIconBtn img {
