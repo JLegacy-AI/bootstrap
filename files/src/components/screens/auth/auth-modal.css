@@ -94,7 +94,7 @@
 }
 
 .pfr_loginModalBtn, .pfr_loginModalBtn:hover, .pfr_loginModalBtn:active, .pfr_loginModalBtn:focus {
-    background: #0d6efd;
+    background: #000;
     color: #fff;
     display: flex;
     justify-content: center;
