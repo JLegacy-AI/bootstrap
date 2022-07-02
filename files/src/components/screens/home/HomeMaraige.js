@@ -75,8 +75,8 @@ const HomeMaraige = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu permet d'accueillir des cérémonies et des
-                            réceptions jusqu’à 100 invités.
+                           Ce lieu vous permet d'accueillir des cérémonies et des 
+                           réceptions de mariage jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -86,10 +86,8 @@ const HomeMaraige = (props) => {
                         <h2>2</h2>
                         <div>
                           <span>Optionnel: Prestataire</span>
-                          <p>Traiteur, fleur, décoration, photographe…</p>
                           <p>
-                            Une sélection de prestataire pouvant vous
-                            accompagner
+                           Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -169,8 +167,8 @@ const HomeMaraige = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu permet d'accueillir des cérémonies et des
-                        réceptions jusqu’à 100 invités.
+                        Ce lieu vous permet d'accueillir des cérémonies et des
+                        réceptions de mariage jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -178,9 +176,8 @@ const HomeMaraige = (props) => {
                     <h2>2</h2>
                     <div>
                       <span>Optionnel: Prestataire</span>
-                      <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner
+                        Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>

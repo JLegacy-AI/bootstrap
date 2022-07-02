@@ -75,8 +75,7 @@ const HomeAnniversary = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu met à disposition une salle intérieur et
-                            extérieur pouvant accueillir jusqu’à 100 invités.
+                           Ce lieu vous permet d'organiser votre anniversaire et d'accueilir jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -87,9 +86,7 @@ const HomeAnniversary = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                            Traiteur, fleur, décoration, photographe… Une
-                            sélection de prestataire pouvant vous accompagner
-                            durant votre événement.
+                           Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -169,8 +166,7 @@ const HomeAnniversary = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu met à disposition une salle intérieur et
-                        extérieur pouvant accueillir jusqu’à 100 invités.
+                       Ce lieu vous permet d'organiser votre anniversaire et d'accueilir jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -179,9 +175,7 @@ const HomeAnniversary = (props) => {
                     <div>
                       <span>Optionnel: Prestataire</span>
                       <p>
-                        Traiteur, fleur, décoration, photographe… Une sélection
-                        de prestataire pouvant vous accompagner durant votre
-                        événement.
+                       Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>

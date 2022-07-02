@@ -75,8 +75,8 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu permet d'accueillir des cérémonies et des
-                            réceptions jusqu’à 100 invités.
+                           Ce lieu vous permet d'accueillir des cérémonies et des 
+                           réceptions d'événement religieux avec jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -87,8 +87,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                            Traiteur, fleur, décoration, photographe… Une
-                            sélection de prestataire pouvant vous accompagner
+                           Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -99,7 +98,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Dortoir</span>
                           <p>
-                            Faites dormir vous et vos proches directement dans
+                           Faites dormir vous et vos proches directement dans
                             le château.
                           </p>
                         </div>
@@ -168,8 +167,8 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu permet d'accueillir des cérémonies et des
-                        réceptions jusqu’à 100 invités.
+                        Ce lieu vous permet d'accueillir des cérémonies et des 
+                        réceptions d'événement religieux avec jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -179,7 +178,7 @@ const HomeReligiousEvent = (props) => {
                       <span>Optionnel: Prestataire</span>
                       <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner
+                       Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>
