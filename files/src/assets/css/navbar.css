@@ -403,9 +403,32 @@
     display: block;
 }
 
+/* Inner Navbar */
+.pfr_innerNav_container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pfr_navbarRightShare{
+    cursor: pointer;
+}
+.pfr_navbarRightShare img{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 @media only screen and (max-width: 550px) {
 
     /*mobile*/
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .pfr_navbarRow {
         width: 100vw;
     }
@@ -413,12 +436,15 @@
     .pfr_navbar_to_show_desktop {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
 
     /*mobile*/
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .pfr_navbar_to_show_desktop {
         display: none;
     }
@@ -601,6 +627,10 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 
     /*ipad*/
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .pfr_navbar_to_show_desktop {
         display: none;
     }
@@ -733,6 +763,10 @@
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
 
     /*ipad pro*/
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .pfr_navbarRow {
         width: 100vw;
     }
@@ -741,6 +775,10 @@
 @media only screen and (min-width: 1600px) {
 
     /*large desktop*/
+    .pfr_innerNav_container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .pfr_navbarRow {
         width: 100vw;
     }

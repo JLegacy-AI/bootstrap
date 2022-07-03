@@ -10,7 +10,7 @@ const PublicLayout = ({ children }) => (
   </Container>
 );
 
-const PublicLayoutRoute = ({ component: Component, ...rest }) => {
+const PublicMainLayoutRoute = ({ component: Component, ...rest }) => {
   return (
     <Route {...rest} render={matchProps => (
       <PublicLayout>
@@ -20,4 +20,4 @@ const PublicLayoutRoute = ({ component: Component, ...rest }) => {
   )
 };
 
-export default PublicLayoutRoute;
+export default PublicMainLayoutRoute;

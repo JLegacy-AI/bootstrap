@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, BrowserRouter } from 'react-router-dom';
 
 /** CSS **/
 import './App.css';
@@ -7,18 +7,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/index.css';
 
 /** Layouts **/
-import PublicLayoutRoute from "./layouts/PublicLayoutRoute";
+import PublicMainLayoutRoute from "./layouts/PublicMainLayoutRoute";
+import PublicInnerLayoutRoute from './layouts/PublicInnerLayoutRoute';
 
 /** Components **/
 import HomePage from './components/screens/home/HomePage';
+import DetailPage from './components/screens/detail/DetailPage';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Switch>
-        <PublicLayoutRoute path="/" exact component={HomePage} />
+        <PublicMainLayoutRoute path="/" exact component={HomePage} />
+        <PublicInnerLayoutRoute path="/detail"  exact component={DetailPage} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
 

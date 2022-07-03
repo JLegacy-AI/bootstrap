@@ -14,14 +14,14 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <HomeNavbar expand={false} className="pfr_navbarNav">
-        <Container>
+        <Container fluid className="pfr_innerNav_container">
           <Row className="pfr_navbarRow">
             <Col
               lg={6}
               md={6}
               sm={6}
               xs={6}
-              className="d-flex justify-content-start clt-navbar-row-col-pd-left"
+              className="d-flex justify-content-start"
             >
               <HomeNavbar.Toggle
                 aria-controls="offcanvasNavbar"
@@ -38,7 +38,7 @@ const Navbar = () => {
               md={6}
               sm={6}
               xs={6}
-              className="d-flex justify-content-end clt-navbar-row-col-pd-right"
+              className="d-flex justify-content-end"
             >
               <HomeNavbar.Text className="d-flex pfr_navbarRightTxt">
                 {userToken ? (
