@@ -448,109 +448,131 @@ const DetailPage = () => {
             </Row>
           </Col>
           <Col lg={4} xs={12} className="">
-            <div>
-              <div>
-                <span onClick={() => setFormType("reserve")}>Reserve</span>
-                <span onClick={() => setFormType("contact")}>Contact Us</span>
+            <div className="clt-detail-right-main">
+              <div className="clt-detail-right-toggle">
+                <span
+                  className={
+                    formType === "reserve"
+                      ? "clt-detail-right-toggle-tab active"
+                      : "clt-detail-right-toggle-tab"
+                  }
+                  onClick={() => setFormType("reserve")}
+                >
+                  Reserve
+                </span>
+                <span
+                  className={
+                    formType === "contact"
+                      ? "clt-detail-right-toggle-tab active"
+                      : "clt-detail-right-toggle-tab"
+                  }
+                  onClick={() => setFormType("contact")}
+                >
+                  Contact Us
+                </span>
               </div>
               {formType === "contact" && (
                 <div>
-                  <div>
-                    <h2>Wedding</h2>
-                    <div>
-                      <span>Title</span> / subtitle
+                  <div className="clt-detail-right-head-div">
+                    <h2 className="clt-detail-right-head-heading">Wedding</h2>
+                    <div className="clt-detail-right-head-sub-div">
+                      <span>Title</span>/ subtitle
                     </div>
                   </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        id="floatingInput1"
-                        type="email"
-                        placeholder="Adresse e-mail"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
+                  <div className="clt-detail-right-form-contact">
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          id="floatingInput1"
+                          type="text"
+                          placeholder="Name"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Name</label>
+                      </Form.Floating>
+                    </div>
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          id="floatingInput1"
+                          type="email"
+                          placeholder="Email"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Email</label>
+                      </Form.Floating>
+                    </div>
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          id="floatingInput1"
+                          type="number"
+                          placeholder="Phone"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Phone</label>
+                      </Form.Floating>
+                    </div>
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          id="floatingInput1"
+                          type="text"
+                          placeholder="Date"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Date</label>
+                      </Form.Floating>
+                    </div>
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          as="textarea"
+                          placeholder="Leave a comment here"
+                          style={{ height: "100px" }}
+                          id="floatingInput1"
+                          type="text"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Message</label>
+                      </Form.Floating>
+                    </div>
+                    <Button
+                      onClick={() => console.log("")}
+                      className="clt_formButton shadow-none"
+                    >
+                      <span>Contact Us</span>
+                    </Button>
                   </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        id="floatingInput1"
-                        type="email"
-                        placeholder="Adresse e-mail"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
-                  </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        id="floatingInput1"
-                        type="email"
-                        placeholder="Adresse e-mail"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
-                  </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        id="floatingInput1"
-                        type="email"
-                        placeholder="Adresse e-mail"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
-                  </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        as="textarea"
-                        placeholder="Leave a comment here"
-                        style={{ height: "100px" }}
-                        id="floatingInput1"
-                        type="email"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
-                  </div>
-                  <Button
-                    onClick={() => console.log("")}
-                    className="pfr_loginModalIconBtn shadow-none"
-                  >
-                    <span>Contact Us</span>
-                  </Button>
                 </div>
               )}
               {formType === "reserve" && (
                 <div>
-                  <div>
-                    <h2>Wedding</h2>
-                    <div>
-                      <span>Title</span>
+                  <div className="clt-detail-right-head-div">
+                    <h2 className="clt-detail-right-head-heading">Wedding</h2>
+                    <div className="clt-detail-right-head-sub-div">
+                      <span>Title</span>/ subtitle
                     </div>
                   </div>
-                  <div className="pfr_inputFloatDiv">
-                    <Form.Floating className="pfr_inputFloat">
-                      <Form.Control
-                        id="floatingInput1"
-                        type="email"
-                        placeholder="Adresse e-mail"
-                        onChange={(event) => console.log(event.target.value)}
-                      />
-                      <label htmlFor="floatingInput1">Adresse e-mail</label>
-                    </Form.Floating>
+                  <div className="clt-detail-right-form-reserve">
+                    <div className="clt_inputFloatDiv">
+                      <Form.Floating className="clt_inputFloat">
+                        <Form.Control
+                          id="floatingInput1"
+                          type="text"
+                          placeholder="Name"
+                          onChange={(event) => console.log(event.target.value)}
+                        />
+                        <label htmlFor="floatingInput1">Name</label>
+                      </Form.Floating>
+                    </div>
+                    <Button
+                      onClick={() => console.log("")}
+                      className="clt_formButton shadow-none"
+                    >
+                      <span>Reserve</span>
+                    </Button>
                   </div>
-                  <Button
-                    onClick={() => console.log("")}
-                    className="pfr_loginModalIconBtn shadow-none"
-                  >
-                    <span>Reserve</span>
-                  </Button>
                 </div>
               )}
             </div>

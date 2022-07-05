@@ -344,3 +344,129 @@
 .clt-detail-left-section-2-header {
     margin-bottom: 30px;
 }
+
+.clt-detail-right-main {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px #eee;
+    padding: 30px 25px;
+}
+
+.clt-detail-right-toggle {
+    border-radius: 50px;
+    background: #eee;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+}
+
+.clt-detail-right-toggle-tab {
+    background: #eee;
+    padding: 6px;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Mulish';
+    color: #000;
+}
+
+.clt-detail-right-toggle-tab.active {
+    background: #fff;
+}
+
+.clt-detail-right-head-div {
+    margin: 10px 0px 20px 0px;
+}
+
+.clt-detail-right-head-heading {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Mulish';
+    color: #26af7c;
+    margin-bottom: 10px;
+}
+
+.clt-detail-right-head-sub-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Mulish';
+}
+
+.clt-detail-right-head-sub-div span {
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.clt_inputFloat.form-floating>.form-control:focus~label, .clt_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .clt_inputFloat.form-floating>.form-select~label {
+    opacity: .70;
+    transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
+    padding: 0.95rem 1.1rem;
+}
+
+.clt_inputFloat input, .clt_inputFloat input:active, .clt_inputFloat input:focus {
+    height: 64px !important;
+    font-size: 17.3px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 17px 0px 17px !important;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.clt_inputFloat textarea, .clt_inputFloat textarea:active, .clt_inputFloat textarea:focus {
+    font-size: 17.3px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.clt-detail-right-form-contact > div:first-of-type .clt_inputFloat input{
+    border-top: 1px solid #cccccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.clt-detail-right-form-contact > div:last-of-type .clt_inputFloat textarea{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.clt-detail-right-form-reserve > div:first-of-type .clt_inputFloat input{
+    border-top: 1px solid #cccccc;
+    border-radius: 10px;
+}
+.clt_formButton, .clt_formButton:hover, .clt_formButton:focus {
+    background: #28b07d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 16px;
+    padding-top: 2px;
+    font-weight: 600;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #29b07d;
+    height: 60px;
+    position: relative;
+    margin-top: 30px;
+}
