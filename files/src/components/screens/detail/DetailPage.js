@@ -53,6 +53,25 @@ const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [mainGallery, setMainGallery] = useState([
+    {
+      img: DetailSlider_1_1,
+      text: "1/4",
+    },
+    {
+      img: DetailSlider_1_2,
+      text: "2/4",
+    },
+    {
+      img: DetailSlider_1_3,
+      text: "3/4",
+    },
+    {
+      img: DetailSlider_1_4,
+      text: "4/4",
+    },
+  ]);
   useEffect(() => {
     const stickyBarEl = document
       .querySelector(".stickyBar")
@@ -116,6 +135,12 @@ const DetailPage = () => {
       items: 1,
       slidesToSlide: 1,
     },
+  };
+  const openGallery = (type) => {
+    if (type === "main") {
+      // open gallery with main
+      setIsGalleryOpen(true);
+    }
   };
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
@@ -294,8 +319,8 @@ const DetailPage = () => {
                   autoPlay={false}
                   // autoPlaySpeed={1000}
                   // keyBoardControl={true}
-                  customTransition="all 5"
-                  transitionDuration={1500}
+                  // customTransition="all 5"
+                  // transitionDuration={1500}
                   // containerClass="carousel-container"
                   // removeArrowOnDeviceType={["tablet", "mobile"]}
                   // deviceType={this.props.deviceType}
@@ -303,38 +328,20 @@ const DetailPage = () => {
                   // itemClass="carousel-item-padding-40-px"
                   className="clt-detail-slider-main"
                 >
-                  <div
-                    className="clt-detail-slider-main-imgdiv"
-                    style={{
-                      backgroundImage: `url(${DetailSlider_1_1})`,
-                    }}
-                  >
-                    <span>1/4</span>
-                  </div>
-                  <div
-                    className="clt-detail-slider-main-imgdiv"
-                    style={{
-                      backgroundImage: `url(${DetailSlider_1_2})`,
-                    }}
-                  >
-                    <span>2/4</span>
-                  </div>
-                  <div
-                    className="clt-detail-slider-main-imgdiv"
-                    style={{
-                      backgroundImage: `url(${DetailSlider_1_3})`,
-                    }}
-                  >
-                    <span>3/4</span>
-                  </div>
-                  <div
-                    className="clt-detail-slider-main-imgdiv"
-                    style={{
-                      backgroundImage: `url(${DetailSlider_1_4})`,
-                    }}
-                  >
-                    <span>4/4</span>
-                  </div>
+                  {mainGallery.map((value, index) => {
+                    return (
+                      <div
+                        key={index}
+                        className="clt-detail-slider-main-imgdiv"
+                        style={{
+                          backgroundImage: `url(${value.img})`,
+                        }}
+                        onClick={() => openGallery("main")}
+                      >
+                        <span>{value.text}</span>
+                      </div>
+                    );
+                  })}
                 </Carousel>
               </Col>
             </Row>
@@ -579,6 +586,56 @@ const DetailPage = () => {
           </Col>
         </Row>
       </Container>
+      {isGalleryOpen && (
+        <Container fluid className="clt-gallery-container">
+          <Row>
+            <Col>
+              <Row className="clt-gallery-container-header">
+                <Col className="clt-gallery-container-header-col d-flex justify-content-start align-items-center">
+                  <Button className="d-flex justify-content-start align-items-center pfr_navbarToggle">
+                    <i className="fa-light fa-chevron-left"></i>
+                  </Button>
+                  <span className="d-flex pfr_navbarLogo">1.1</span>
+                </Col>
+              </Row>
+              <Row className="clt-gallery-container-body">
+                <Col className="clt-detail-slider-maindiv">
+                  <Carousel
+                    swipeable={true}
+                    draggable={true}
+                    showDots={false}
+                    responsive={responsive}
+                    infinite={true}
+                    shouldResetAutoplay={false}
+                    autoPlay={false}
+                    className="clt-detail-slider-main"
+                  >
+                    {mainGallery.map((value, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="clt-detail-slider-main-imgdiv"
+                          style={{
+                            backgroundImage: `url(${value.img})`,
+                          }}
+                          onClick={() => openGallery("main")}
+                        >
+                          <span>{value.text}</span>
+                        </div>
+                      );
+                    })}
+                  </Carousel>
+                </Col>
+              </Row>
+              <Row className="clt-gallery-container-footer">
+                <Col>
+                  <span className="d-flex pfr_navbarLogo">1.1</span>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      )}
     </React.Fragment>
   );
 };

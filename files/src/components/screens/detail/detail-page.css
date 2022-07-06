@@ -30,6 +30,21 @@
     border-radius: 10px;
 }
 
+.clt-detail-slider-main .react-multiple-carousel__arrow{
+    background: rgb(255 255 255) !important;
+    min-width: 35px !important;
+    min-height: 35px !important;
+}
+.clt-detail-slider-main .react-multiple-carousel__arrow::before {
+    font-size: 20px;
+    color: #000 !important;
+}
+.clt-detail-slider-main .react-multiple-carousel__arrow--left{
+    left: 3%;
+}
+.clt-detail-slider-main .react-multiple-carousel__arrow--right{
+    right: 3%;
+}
 .clt-detail-slider-main-imgdiv {
     background-size: cover;
     width: 100%;
@@ -469,4 +484,34 @@
     height: 60px;
     position: relative;
     margin-top: 30px;
+}
+.clt-gallery-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 9999;
+    background: #000;
+}
+.clt-gallery-container-header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+}
+.clt-gallery-container-header-col{
+    padding: 0px 50px;
+}
+.clt-gallery-container-body{
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+}
+.clt-gallery-container-footer{
+    position: fixed;
+    bottom: 0;
 }
