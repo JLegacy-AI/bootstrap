@@ -54,7 +54,26 @@ const DetailPage = () => {
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [fullScreenGallery, setFullScreenGallery] = useState([]);
   const [mainGallery, setMainGallery] = useState([
+    {
+      img: DetailSlider_1_1,
+      text: "1/4",
+    },
+    {
+      img: DetailSlider_1_2,
+      text: "2/4",
+    },
+    {
+      img: DetailSlider_1_3,
+      text: "3/4",
+    },
+    {
+      img: DetailSlider_1_4,
+      text: "4/4",
+    },
+  ]);
+  const [secondaryGallery, setSecondaryGallery] = useState([
     {
       img: DetailSlider_1_1,
       text: "1/4",
@@ -111,7 +130,7 @@ const DetailPage = () => {
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
+      slidesToSlide: 1,
     },
   };
   const responsive2 = {
@@ -138,8 +157,12 @@ const DetailPage = () => {
   };
   const openGallery = (type) => {
     if (type === "main") {
-      // open gallery with main
       setIsGalleryOpen(true);
+      setFullScreenGallery(mainGallery);
+    }
+    if (type === "secondary") {
+      setIsGalleryOpen(true);
+      setFullScreenGallery(secondaryGallery);
     }
   };
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
@@ -400,38 +423,20 @@ const DetailPage = () => {
                       responsive={responsive2}
                       className="clt-detail-left-section-2-cards-div"
                     >
-                      <div
-                        className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
-                        style={{
-                          backgroundImage: `url(${DetailSlider_1_1})`,
-                        }}
-                      >
-                        <span>1/4</span>
-                      </div>
-                      <div
-                        className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
-                        style={{
-                          backgroundImage: `url(${DetailSlider_1_2})`,
-                        }}
-                      >
-                        <span>2/4</span>
-                      </div>
-                      <div
-                        className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
-                        style={{
-                          backgroundImage: `url(${DetailSlider_1_3})`,
-                        }}
-                      >
-                        <span>3/4</span>
-                      </div>
-                      <div
-                        className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
-                        style={{
-                          backgroundImage: `url(${DetailSlider_1_4})`,
-                        }}
-                      >
-                        <span>4/4</span>
-                      </div>
+                      {secondaryGallery.map((value, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
+                            style={{
+                              backgroundImage: `url(${value.img})`,
+                            }}
+                            onClick={() => openGallery("secondary")}
+                          >
+                            <span>{value.text}</span>
+                          </div>
+                        );
+                      })}
                     </Carousel>
                   </div>
                 </div>
@@ -592,14 +597,23 @@ const DetailPage = () => {
             <Col>
               <Row className="clt-gallery-container-header">
                 <Col className="clt-gallery-container-header-col d-flex justify-content-start align-items-center">
-                  <Button className="d-flex justify-content-start align-items-center pfr_navbarToggle">
-                    <i className="fa-light fa-chevron-left"></i>
+                  <Button
+                    className="d-flex justify-content-start align-items-center pfr_navbarToggle"
+                    onClick={() => setIsGalleryOpen(false)}
+                  >
+                    <i className="fa-light fa-times"></i>
                   </Button>
-                  <span className="d-flex pfr_navbarLogo">1.1</span>
+                  <span className="d-flex">1.1</span>
                 </Col>
               </Row>
               <Row className="clt-gallery-container-body">
-                <Col className="clt-detail-slider-maindiv">
+                <Col
+                  lg={{ span: 8, offset: 2 }}
+                  md={{ span: 8, offset: 2 }}
+                  sm={12}
+                  xs={12}
+                  className="clt-detail-slider-maindiv"
+                >
                   <Carousel
                     swipeable={true}
                     draggable={true}
@@ -610,26 +624,26 @@ const DetailPage = () => {
                     autoPlay={false}
                     className="clt-detail-slider-main"
                   >
-                    {mainGallery.map((value, index) => {
-                      return (
-                        <div
-                          key={index}
-                          className="clt-detail-slider-main-imgdiv"
-                          style={{
-                            backgroundImage: `url(${value.img})`,
-                          }}
-                          onClick={() => openGallery("main")}
-                        >
-                          <span>{value.text}</span>
-                        </div>
-                      );
-                    })}
+                    {fullScreenGallery &&
+                      fullScreenGallery.map((value, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="clt-detail-slider-main-imgdiv"
+                            style={{
+                              backgroundImage: `url(${value.img})`,
+                            }}
+                          >
+                            <span>{value.text}</span>
+                          </div>
+                        );
+                      })}
                   </Carousel>
                 </Col>
               </Row>
               <Row className="clt-gallery-container-footer">
                 <Col>
-                  <span className="d-flex pfr_navbarLogo">1.1</span>
+                  <span className="">1.1</span>
                 </Col>
               </Row>
             </Col>
