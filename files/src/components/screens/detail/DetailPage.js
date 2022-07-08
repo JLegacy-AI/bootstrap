@@ -24,6 +24,12 @@ import IconBar3Active from "../../../assets/img/icon-bar-3-active.png";
 import IconBar4 from "../../../assets/img/icon-bar-4.png";
 import IconBar4Active from "../../../assets/img/icon-bar-4-active.png";
 import InnerNavbar from "../../../layouts/InnerNavbar";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile,
+} from "react-device-detect";
 
 const DetailPage = () => {
   const maraigeData = {
@@ -110,7 +116,10 @@ const DetailPage = () => {
   const isSticky = (e) => {
     const stickyBarEl = document.querySelector(".stickyBar");
     const scrollTop = window.scrollY;
-    if (scrollTop >= stickyBarTop - 10) {
+    const check = isMobile
+      ? scrollTop >= stickyBarTop + 300
+      : scrollTop >= stickyBarTop - 10;
+    if (check) {
       stickyBarEl.classList.add("is-sticky");
     } else {
       stickyBarEl.classList.remove("is-sticky");
@@ -146,13 +155,13 @@ const DetailPage = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 1,
+      items: 2.1,
+      slidesToSlide: 0.1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1,
+      items: 1.1,
+      slidesToSlide: 0.1,
     },
   };
   const openGallery = (type) => {
@@ -201,6 +210,48 @@ const DetailPage = () => {
   return (
     <React.Fragment>
       <InnerNavbar title="Title Header" backClick="/" titleClick="/detail" />
+      <Container>
+        <Row>
+          <Col className="clt-detail-slider-maindiv">
+            <Carousel
+              swipeable={true}
+              draggable={true}
+              showDots={false}
+              responsive={responsive}
+              // ssr={true} // means to render carousel on server-side.
+              arrows={false}
+              infinite={true}
+              shouldResetAutoplay={false}
+              autoPlay={false}
+              // autoPlaySpeed={1000}
+              // keyBoardControl={true}
+              // customTransition="all 5"
+              // transitionDuration={1500}
+              // containerClass="carousel-container"
+              // removeArrowOnDeviceType={["tablet", "mobile"]}
+              // deviceType={this.props.deviceType}
+              // dotListClass="custom-dot-list-style"
+              // itemClass="carousel-item-padding-40-px"
+              className="clt-detail-slider-main showMobile"
+            >
+              {mainGallery.map((value, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="clt-detail-slider-main-imgdiv"
+                    style={{
+                      backgroundImage: `url(${value.img})`,
+                    }}
+                    onClick={() => openGallery("main")}
+                  >
+                    <span>{value.text}</span>
+                  </div>
+                );
+              })}
+            </Carousel>
+          </Col>
+        </Row>
+      </Container>
       <Container>
         <Row>
           <Col className="clt-detail-section-1">
@@ -349,7 +400,7 @@ const DetailPage = () => {
                   // deviceType={this.props.deviceType}
                   // dotListClass="custom-dot-list-style"
                   // itemClass="carousel-item-padding-40-px"
-                  className="clt-detail-slider-main"
+                  className="clt-detail-slider-main hideMobile"
                 >
                   {mainGallery.map((value, index) => {
                     return (
@@ -368,7 +419,7 @@ const DetailPage = () => {
                 </Carousel>
               </Col>
             </Row>
-            <Row>
+            <Row className="hideMobile">
               <Col className="clt-section-hr-pd">
                 <hr className="p-0 m-0 clt-hr" />
               </Col>
@@ -411,9 +462,43 @@ const DetailPage = () => {
                 <hr className="p-0 m-0 clt-hr" />
               </Col>
             </Row>
-            <Row>
+            <Row className="showMobile">
+              <Col className="clt-detail-left-section-2-h2-mt clt-section-row-col-pd">
+                <h2 className="clt-detail-left-section-2-h2">
+                  Title Section 2
+                </h2>
+              </Col>
+            </Row>
+            <Row className="clt-detail-left-section-2-row showMobile">
               <Col>
-                <div className="clt-detail-left-section-2">
+                <Container className="clt-detail-left-section-2-row-container">
+                  <Row>
+                    <Col className="clt-detail-left-section-2-row-col">
+                      <div className="d-flex justify-content-start align-items-center clt-detail-left-section-2">
+                        {secondaryGallery.map((value, index) => {
+                          return (
+                            <div key={index}>
+                              <div
+                                className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
+                                style={{
+                                  backgroundImage: `url(${value.img})`,
+                                }}
+                                onClick={() => openGallery("secondary")}
+                              >
+                                <span>{value.text}</span>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
+              </Col>
+            </Row>
+            <Row className="hideMobile">
+              <Col className="clt-detail-left-section-2-col">
+                <div className="clt-detail-left-section-2-dsk">
                   <div className="d-flex flex-column-reverse">
                     <Carousel
                       shouldResetAutoplay={false}
@@ -447,7 +532,7 @@ const DetailPage = () => {
                 <hr className="p-0 m-0 clt-hr" />
               </Col>
             </Row>
-            <Row>
+            <Row className="clt-detail-footer-mb">
               <Col>
                 <div className="clt-detail-left-section-3">
                   <div className="d-flex justify-content-start align-items-center clt-detail-left-section-3-subdiv">
@@ -459,7 +544,7 @@ const DetailPage = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={4} xs={12} className="">
+          <Col lg={4} xs={12} className="hideMobile">
             <div className="clt-detail-right-main">
               <div className="clt-detail-right-toggle">
                 <span
@@ -588,6 +673,22 @@ const DetailPage = () => {
                 </div>
               )}
             </div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="clt-detail-footer-mbl">
+        <Row>
+          <Col className="d-flex flex-column justify-content-center clt-detail-footer-h-div">
+              <h2>Title</h2>
+              <span>/ subtitle</span>
+          </Col>
+          <Col>
+            <Button
+              onClick={() => console.log("")}
+              className="clt-detail-footer-mblButton shadow-none"
+            >
+              <span>Contact Us <i className="fa-light fa-chevron-down"></i></span>
+            </Button>
           </Col>
         </Row>
       </Container>
