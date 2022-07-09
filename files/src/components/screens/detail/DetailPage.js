@@ -38,6 +38,7 @@ import DetailGallery from "./components/DetailGallery";
 import DetailContactForm from "./components/DetailContactForm";
 import DetailReserveForm from "./components/DetailReserveForm";
 import CustomModal from "../../reusable/CustomModal";
+import CustomCarousel from "../../reusable/CustomCarousel";
 
 const DetailPage = () => {
   const maraigeData = {
@@ -234,42 +235,20 @@ const DetailPage = () => {
       <Container>
         <Row>
           <Col className="clt-detail-slider-maindiv">
-            <Carousel
+            <CustomCarousel
+              responsive={responsive}
+              mainGallery={mainGallery}
+              openGallery={() => openGallery("main")}
               swipeable={true}
               draggable={true}
               showDots={false}
-              responsive={responsive}
-              // ssr={true} // means to render carousel on server-side.
               arrows={false}
               infinite={true}
               shouldResetAutoplay={false}
               autoPlay={false}
-              // autoPlaySpeed={1000}
-              // keyBoardControl={true}
-              // customTransition="all 5"
-              // transitionDuration={1500}
-              // containerClass="carousel-container"
-              // removeArrowOnDeviceType={["tablet", "mobile"]}
-              // deviceType={this.props.deviceType}
-              // dotListClass="custom-dot-list-style"
-              // itemClass="carousel-item-padding-40-px"
               className="clt-detail-slider-main showMobile"
-            >
-              {mainGallery.map((value, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="clt-detail-slider-main-imgdiv"
-                    style={{
-                      backgroundImage: `url(${value.img})`,
-                    }}
-                    onClick={() => openGallery("main")}
-                  >
-                    <span>{value.text}</span>
-                  </div>
-                );
-              })}
-            </Carousel>
+              classNameSlider="clt-detail-slider-main-imgdiv"
+            />
           </Col>
         </Row>
       </Container>
@@ -403,31 +382,20 @@ const DetailPage = () => {
           <Col lg={8} xs={12}>
             <Row>
               <Col className="clt-detail-slider-maindiv">
-                <Carousel
+                <CustomCarousel
+                  responsive={responsive}
+                  mainGallery={mainGallery}
+                  openGallery={() => openGallery("main")}
                   swipeable={true}
                   draggable={true}
                   showDots={false}
-                  responsive={responsive}
+                  arrows={true}
                   infinite={true}
                   shouldResetAutoplay={false}
                   autoPlay={false}
                   className="clt-detail-slider-main hideMobile"
-                >
-                  {mainGallery.map((value, index) => {
-                    return (
-                      <div
-                        key={index}
-                        className="clt-detail-slider-main-imgdiv"
-                        style={{
-                          backgroundImage: `url(${value.img})`,
-                        }}
-                        onClick={() => openGallery("main")}
-                      >
-                        <span>{value.text}</span>
-                      </div>
-                    );
-                  })}
-                </Carousel>
+                  classNameSlider="clt-detail-slider-main-imgdiv"
+                />
               </Col>
             </Row>
             <Row className="hideMobile">
@@ -511,29 +479,17 @@ const DetailPage = () => {
               <Col className="clt-detail-left-section-2-col">
                 <div className="clt-detail-left-section-2-dsk">
                   <div className="d-flex flex-column-reverse">
-                    <Carousel
-                      shouldResetAutoplay={false}
+                    <CustomCarousel
+                      responsive={responsive2}
+                      mainGallery={secondaryGallery}
+                      openGallery={() => openGallery("secondary")}
                       arrows={false}
+                      shouldResetAutoplay={false}
                       renderButtonGroupOutside={true}
                       customButtonGroup={<ButtonGroup />}
-                      responsive={responsive2}
                       className="clt-detail-left-section-2-cards-div"
-                    >
-                      {secondaryGallery.map((value, index) => {
-                        return (
-                          <div
-                            key={index}
-                            className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
-                            style={{
-                              backgroundImage: `url(${value.img})`,
-                            }}
-                            onClick={() => openGallery("secondary")}
-                          >
-                            <span>{value.text}</span>
-                          </div>
-                        );
-                      })}
-                    </Carousel>
+                      classNameSlider="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
+                    />
                   </div>
                 </div>
               </Col>
@@ -580,8 +536,20 @@ const DetailPage = () => {
                 </span>
               </div>
 
-              {formType === "contact" && <DetailContactForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" />}
-              {formType === "reserve" && <DetailReserveForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" />}
+              {formType === "contact" && (
+                <DetailContactForm
+                  formTitle="Title"
+                  formSubtitle="subtitle"
+                  formEventType="Wedding"
+                />
+              )}
+              {formType === "reserve" && (
+                <DetailReserveForm
+                  formTitle="Title"
+                  formSubtitle="subtitle"
+                  formEventType="Wedding"
+                />
+              )}
             </div>
           </Col>
         </Row>
@@ -628,14 +596,35 @@ const DetailPage = () => {
       <CustomModal
         show={isFormModal}
         onHide={toggleForm}
-        title={(formType === "contact" && "Contact Header") || (formType === "reserve" && "Reserve Title")}
+        title={
+          (formType === "contact" && "Contact Header") ||
+          (formType === "reserve" && "Reserve Title")
+        }
       >
-        {formType === "contact" && <DetailContactForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" isModal={true} customFooterButton="clt-custom-modal-footer-btn" />}
-        {formType === "reserve" && <DetailReserveForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" isModal={true} customFooterButton="clt-custom-modal-footer-btn" />}
+        {formType === "contact" && (
+          <DetailContactForm
+            formTitle="Title"
+            formSubtitle="subtitle"
+            formEventType="Wedding"
+            isModal={true}
+            customFooterButton="clt-custom-modal-footer-btn"
+          />
+        )}
+        {formType === "reserve" && (
+          <DetailReserveForm
+            formTitle="Title"
+            formSubtitle="subtitle"
+            formEventType="Wedding"
+            isModal={true}
+            customFooterButton="clt-custom-modal-footer-btn"
+          />
+        )}
       </CustomModal>
 
       {isGalleryOpen && (
         <DetailGallery
+          galleryHeaderTitle="1.1"
+          galleryFooterTitle="1.1"
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
           responsive={responsive}
           isBrowser={isBrowser}

@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Col, Container, Modal, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import CustomCarousel from "../../../reusable/CustomCarousel";
 
 const DetailGallery = (props) => {
   return (
@@ -16,7 +17,7 @@ const DetailGallery = (props) => {
               >
                 <i className="fa-light fa-times"></i>
               </Button>
-              <span className="d-flex">1.1</span>
+              <span className="d-flex">{props.galleryHeaderTitle}</span>
             </Col>
           </Row>
           <Row className="clt-gallery-container-body">
@@ -27,37 +28,25 @@ const DetailGallery = (props) => {
               xs={12}
               className="clt-detail-slider-maindiv"
             >
-              <Carousel
+              <CustomCarousel
+                responsive={props.responsive}
+                mainGallery={props.fullScreenGallery}
+                openGallery={props.setIsGalleryOpen}
                 swipeable={true}
                 draggable={true}
                 showDots={false}
-                responsive={props.responsive}
+                arrows={props.isBrowser}
                 infinite={true}
                 shouldResetAutoplay={false}
                 autoPlay={false}
-                arrows={props.isBrowser}
                 className="clt-detail-slider-main"
-              >
-                {props.fullScreenGallery &&
-                  props.fullScreenGallery.map((value, index) => {
-                    return (
-                      <div
-                        key={index}
-                        className="clt-detail-slider-main-imgdiv"
-                        style={{
-                          backgroundImage: `url(${value.img})`,
-                        }}
-                      >
-                        <span>{value.text}</span>
-                      </div>
-                    );
-                  })}
-              </Carousel>
+                classNameSlider="clt-detail-slider-main-imgdiv"
+              />
             </Col>
           </Row>
           <Row className="clt-gallery-container-footer">
             <Col>
-              <span className="">1.1</span>
+              <span className="">{props.galleryFooterTitle}</span>
             </Col>
           </Row>
         </Col>
