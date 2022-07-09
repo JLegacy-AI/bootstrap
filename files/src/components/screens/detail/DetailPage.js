@@ -32,6 +32,12 @@ import {
   isBrowser,
   isMobile,
 } from "react-device-detect";
+import FooterBottomUp from "../../reusable/FooterBottomUp";
+import DetailFooter from "./components/DetailFooter";
+import DetailGallery from "./components/DetailGallery";
+import DetailContactForm from "./components/DetailContactForm";
+import DetailReserveForm from "./components/DetailReserveForm";
+import CustomModal from "../../reusable/CustomModal";
 
 const DetailPage = () => {
   const maraigeData = {
@@ -62,7 +68,7 @@ const DetailPage = () => {
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
   const [bottomUp, setBottomUp] = useState(false);
-  const [isContactModal, setIsContactModal] = useState(false);
+  const [isFormModal, setIsFormModal] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const [fullScreenGallery, setFullScreenGallery] = useState([]);
   const [mainGallery, setMainGallery] = useState([
@@ -177,6 +183,17 @@ const DetailPage = () => {
       setIsGalleryOpen(true);
       setFullScreenGallery(secondaryGallery);
     }
+  };
+  const openForm = (type) => {
+    setBottomUp(false);
+    setIsFormModal(true);
+    setFormType(type);
+  };
+  const toggleBottomUp = () => {
+    setBottomUp((prevState) => !prevState);
+  };
+  const toggleForm = () => {
+    setIsFormModal((prevState) => !prevState);
   };
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
@@ -391,19 +408,9 @@ const DetailPage = () => {
                   draggable={true}
                   showDots={false}
                   responsive={responsive}
-                  // ssr={true} // means to render carousel on server-side.
                   infinite={true}
                   shouldResetAutoplay={false}
                   autoPlay={false}
-                  // autoPlaySpeed={1000}
-                  // keyBoardControl={true}
-                  // customTransition="all 5"
-                  // transitionDuration={1500}
-                  // containerClass="carousel-container"
-                  // removeArrowOnDeviceType={["tablet", "mobile"]}
-                  // deviceType={this.props.deviceType}
-                  // dotListClass="custom-dot-list-style"
-                  // itemClass="carousel-item-padding-40-px"
                   className="clt-detail-slider-main hideMobile"
                 >
                   {mainGallery.map((value, index) => {
@@ -572,288 +579,68 @@ const DetailPage = () => {
                   Contact Us
                 </span>
               </div>
-              {formType === "contact" && (
-                <div>
-                  <div className="clt-detail-right-head-div">
-                    <h2 className="clt-detail-right-head-heading">Wedding</h2>
-                    <div className="clt-detail-right-head-sub-div">
-                      <span>Title</span>/ subtitle
-                    </div>
-                  </div>
-                  <div className="clt-detail-right-form-contact">
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          id="floatingInput1"
-                          type="text"
-                          placeholder="Name"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">Name</label>
-                      </Form.Floating>
-                    </div>
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          id="floatingInput1"
-                          type="email"
-                          placeholder="Email"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">Email</label>
-                      </Form.Floating>
-                    </div>
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          id="floatingInput1"
-                          type="number"
-                          placeholder="Phone"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">Phone</label>
-                      </Form.Floating>
-                    </div>
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          id="floatingInput1"
-                          type="text"
-                          placeholder="Date"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">Date</label>
-                      </Form.Floating>
-                    </div>
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          as="textarea"
-                          placeholder="Leave a comment here"
-                          style={{ height: "100px" }}
-                          id="floatingInput1"
-                          type="text"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">Message</label>
-                      </Form.Floating>
-                    </div>
-                    <Button
-                      onClick={() => console.log("")}
-                      className="clt_formButton shadow-none"
-                    >
-                      <span>Contact Us</span>
-                    </Button>
-                  </div>
-                </div>
-              )}
-              {formType === "reserve" && (
-                <div>
-                  <div className="clt-detail-right-head-div">
-                    <h2 className="clt-detail-right-head-heading">Wedding</h2>
-                    <div className="clt-detail-right-head-sub-div">
-                      <span>Title</span>/ subtitle
-                    </div>
-                  </div>
-                  <div className="clt-detail-right-form-reserve">
-                    <div className="clt_inputFloatDiv">
-                      <Form.Floating className="clt_inputFloat">
-                        <Form.Control
-                          id="floatingInput1"
-                          type="text"
-                          placeholder="Date Arrival and Return"
-                          onChange={(event) => console.log(event.target.value)}
-                        />
-                        <label htmlFor="floatingInput1">
-                          Date Arrival and Return
-                        </label>
-                      </Form.Floating>
-                    </div>
-                    <Button
-                      onClick={() => console.log("")}
-                      className="clt_formButton shadow-none"
-                    >
-                      <span>Reserve</span>
-                    </Button>
-                  </div>
-                </div>
-              )}
+
+              {formType === "contact" && <DetailContactForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" />}
+              {formType === "reserve" && <DetailReserveForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" />}
             </div>
           </Col>
         </Row>
       </Container>
-      <Container className="clt-detail-footer-mbl">
-        <Row>
-          <Col className="d-flex flex-column justify-content-center clt-detail-footer-h-div">
-            <h2>Title</h2>
-            <span>/ subtitle</span>
-          </Col>
-          <Col>
-            <Button
-              onClick={() => setBottomUp(true)}
-              className="clt-detail-footer-mblButton shadow-none"
-            >
-              <span>
-                Contact Us <i className="fa-light fa-chevron-down"></i>
-              </span>
-            </Button>
-          </Col>
-        </Row>
-      </Container>
-      {/* <div
-        className="clt-detail-footer-bottom-up-background"
-        onClick={() => {
-          setBottomUp(false);
-        }}
-        style={bottomUp ? { visibility: "visible" } : { visibility: "hidden" }}
-      >
-        <Container
-          className="clt-detail-footer-bottom-up"
-          style={
-            bottomUp
-              ? { transform: "translateY(0%)" }
-              : { transform: "translateY(100%)" }
-          }
-        >
-          <Row>
-            <Col lg={12} className="">
-              <h2 className="clt-detail-footer-bottom-up-h2">
-                What do you want to do?
-              </h2>
-            </Col>
-            <Col lg={12} className="clt-detail-footer-bottom-up-menus-div">
-              <div
-                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
-                onClick={() => {
-                  setBottomUp(true);
-                  setIsContactModal(true);
-                }}
-              >
-                <img src={IconReserve} />
-                <span>Reserve</span>
-              </div>
-              <div
-                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
-                onClick={() => setIsContactModal(true)}
-              >
-                <img src={IconContactUs} />
-                <span>Contact us (Ask, Visit...)</span>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
-      <Modal
-        show={bottomUp}
-        onHide={() => setBottomUp(false)}
-        // backdrop="none"
-        keyboard={false}
-        centered
-        size="md"
-        fullscreen="md-down"
+      <DetailFooter
+        title="Title"
+        subtitle="subtitle"
+        setBottomUp={() => setBottomUp(!bottomUp)}
+      />
+      <FooterBottomUp
+        bottomUp={bottomUp}
+        toggleBottomUp={toggleBottomUp}
+        centered={true}
+        size={"lg"}
+        fullscreen={true}
         className="clt_footer_bottom_up_modal"
         contentClassName="clt_footer_bottom_up_modal_content"
         dialogClassName="clt_footer_bottom_up_modal_dailog"
       >
-        {/* <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header> */}
-        {/* <Modal.Body> */}
-          <Row>
-            <Col lg={12} className="">
-              <h2 className="clt-detail-footer-bottom-up-h2">
-                What do you want to do?
-              </h2>
-            </Col>
-            <Col lg={12} className="clt-detail-footer-bottom-up-menus-div">
-              <div
-                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
-                onClick={() => {
-                  setBottomUp(true);
-                  setIsContactModal(true);
-                }}
-              >
-                <img src={IconReserve} />
-                <span>Reserve</span>
-              </div>
-              <div
-                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
-                onClick={() => setIsContactModal(true)}
-              >
-                <img src={IconContactUs} />
-                <span>Contact us (Ask, Visit...)</span>
-              </div>
-            </Col>
-          </Row>
-        {/* </Modal.Body> */}
-        {/* <Modal.Footer>
-          <Button variant="secondary" onClick={""}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={""}>
-            Save Changes
-          </Button>
-        </Modal.Footer> */}
-      </Modal>
+        <Row>
+          <Col lg={12} className="">
+            <h2 className="clt-detail-footer-bottom-up-h2">
+              What do you want to do?
+            </h2>
+          </Col>
+          <Col lg={12} className="clt-detail-footer-bottom-up-menus-div">
+            <div
+              className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+              onClick={() => openForm("reserve")}
+            >
+              <img src={IconReserve} />
+              <span>Reserve</span>
+            </div>
+            <div
+              className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+              onClick={() => openForm("contact")}
+            >
+              <img src={IconContactUs} />
+              <span>Contact us (Ask, Visit...)</span>
+            </div>
+          </Col>
+        </Row>
+      </FooterBottomUp>
+      <CustomModal
+        show={isFormModal}
+        onHide={toggleForm}
+        title={(formType === "contact" && "Contact Header") || (formType === "reserve" && "Reserve Title")}
+      >
+        {formType === "contact" && <DetailContactForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" isModal={true} customFooterButton="clt-custom-modal-footer-btn" />}
+        {formType === "reserve" && <DetailReserveForm formTitle="Title" formSubtitle="subtitle" formEventType="Wedding" isModal={true} customFooterButton="clt-custom-modal-footer-btn" />}
+      </CustomModal>
+
       {isGalleryOpen && (
-        <Container fluid className="clt-gallery-container">
-          <Row>
-            <Col>
-              <Row className="clt-gallery-container-header">
-                <Col className="clt-gallery-container-header-col d-flex justify-content-start align-items-center">
-                  <Button
-                    className="d-flex justify-content-start align-items-center pfr_navbarToggle"
-                    onClick={() => setIsGalleryOpen(false)}
-                  >
-                    <i className="fa-light fa-times"></i>
-                  </Button>
-                  <span className="d-flex">1.1</span>
-                </Col>
-              </Row>
-              <Row className="clt-gallery-container-body">
-                <Col
-                  lg={{ span: 8, offset: 2 }}
-                  md={{ span: 8, offset: 2 }}
-                  sm={12}
-                  xs={12}
-                  className="clt-detail-slider-maindiv"
-                >
-                  <Carousel
-                    swipeable={true}
-                    draggable={true}
-                    showDots={false}
-                    responsive={responsive}
-                    infinite={true}
-                    shouldResetAutoplay={false}
-                    autoPlay={false}
-                    arrows={isBrowser}
-                    className="clt-detail-slider-main"
-                  >
-                    {fullScreenGallery &&
-                      fullScreenGallery.map((value, index) => {
-                        return (
-                          <div
-                            key={index}
-                            className="clt-detail-slider-main-imgdiv"
-                            style={{
-                              backgroundImage: `url(${value.img})`,
-                            }}
-                          >
-                            <span>{value.text}</span>
-                          </div>
-                        );
-                      })}
-                  </Carousel>
-                </Col>
-              </Row>
-              <Row className="clt-gallery-container-footer">
-                <Col>
-                  <span className="">1.1</span>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
+        <DetailGallery
+          setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
+          responsive={responsive}
+          isBrowser={isBrowser}
+          fullScreenGallery={fullScreenGallery}
+        />
       )}
     </React.Fragment>
   );
