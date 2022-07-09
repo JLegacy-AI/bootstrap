@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
 import "./detail-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -23,6 +23,8 @@ import IconBar3 from "../../../assets/img/icon-bar-3.png";
 import IconBar3Active from "../../../assets/img/icon-bar-3-active.png";
 import IconBar4 from "../../../assets/img/icon-bar-4.png";
 import IconBar4Active from "../../../assets/img/icon-bar-4-active.png";
+import IconContactUs from "../../../assets/img/icon_contact_us.png";
+import IconReserve from "../../../assets/img/icon_reserve.png";
 import InnerNavbar from "../../../layouts/InnerNavbar";
 import {
   BrowserView,
@@ -59,6 +61,8 @@ const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
+  const [bottomUp, setBottomUp] = useState(false);
+  const [isContactModal, setIsContactModal] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const [fullScreenGallery, setFullScreenGallery] = useState([]);
   const [mainGallery, setMainGallery] = useState([
@@ -657,10 +661,12 @@ const DetailPage = () => {
                         <Form.Control
                           id="floatingInput1"
                           type="text"
-                          placeholder="Name"
+                          placeholder="Date Arrival and Return"
                           onChange={(event) => console.log(event.target.value)}
                         />
-                        <label htmlFor="floatingInput1">Name</label>
+                        <label htmlFor="floatingInput1">
+                          Date Arrival and Return
+                        </label>
                       </Form.Floating>
                     </div>
                     <Button
@@ -679,19 +685,116 @@ const DetailPage = () => {
       <Container className="clt-detail-footer-mbl">
         <Row>
           <Col className="d-flex flex-column justify-content-center clt-detail-footer-h-div">
-              <h2>Title</h2>
-              <span>/ subtitle</span>
+            <h2>Title</h2>
+            <span>/ subtitle</span>
           </Col>
           <Col>
             <Button
-              onClick={() => console.log("")}
+              onClick={() => setBottomUp(true)}
               className="clt-detail-footer-mblButton shadow-none"
             >
-              <span>Contact Us <i className="fa-light fa-chevron-down"></i></span>
+              <span>
+                Contact Us <i className="fa-light fa-chevron-down"></i>
+              </span>
             </Button>
           </Col>
         </Row>
       </Container>
+      {/* <div
+        className="clt-detail-footer-bottom-up-background"
+        onClick={() => {
+          setBottomUp(false);
+        }}
+        style={bottomUp ? { visibility: "visible" } : { visibility: "hidden" }}
+      >
+        <Container
+          className="clt-detail-footer-bottom-up"
+          style={
+            bottomUp
+              ? { transform: "translateY(0%)" }
+              : { transform: "translateY(100%)" }
+          }
+        >
+          <Row>
+            <Col lg={12} className="">
+              <h2 className="clt-detail-footer-bottom-up-h2">
+                What do you want to do?
+              </h2>
+            </Col>
+            <Col lg={12} className="clt-detail-footer-bottom-up-menus-div">
+              <div
+                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+                onClick={() => {
+                  setBottomUp(true);
+                  setIsContactModal(true);
+                }}
+              >
+                <img src={IconReserve} />
+                <span>Reserve</span>
+              </div>
+              <div
+                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+                onClick={() => setIsContactModal(true)}
+              >
+                <img src={IconContactUs} />
+                <span>Contact us (Ask, Visit...)</span>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div> */}
+      <Modal
+        show={bottomUp}
+        onHide={() => setBottomUp(false)}
+        // backdrop="none"
+        keyboard={false}
+        centered
+        size="md"
+        fullscreen="md-down"
+        className="clt_footer_bottom_up_modal"
+        contentClassName="clt_footer_bottom_up_modal_content"
+        dialogClassName="clt_footer_bottom_up_modal_dailog"
+      >
+        {/* <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header> */}
+        {/* <Modal.Body> */}
+          <Row>
+            <Col lg={12} className="">
+              <h2 className="clt-detail-footer-bottom-up-h2">
+                What do you want to do?
+              </h2>
+            </Col>
+            <Col lg={12} className="clt-detail-footer-bottom-up-menus-div">
+              <div
+                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+                onClick={() => {
+                  setBottomUp(true);
+                  setIsContactModal(true);
+                }}
+              >
+                <img src={IconReserve} />
+                <span>Reserve</span>
+              </div>
+              <div
+                className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
+                onClick={() => setIsContactModal(true)}
+              >
+                <img src={IconContactUs} />
+                <span>Contact us (Ask, Visit...)</span>
+              </div>
+            </Col>
+          </Row>
+        {/* </Modal.Body> */}
+        {/* <Modal.Footer>
+          <Button variant="secondary" onClick={""}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={""}>
+            Save Changes
+          </Button>
+        </Modal.Footer> */}
+      </Modal>
       {isGalleryOpen && (
         <Container fluid className="clt-gallery-container">
           <Row>
@@ -723,6 +826,7 @@ const DetailPage = () => {
                     infinite={true}
                     shouldResetAutoplay={false}
                     autoPlay={false}
+                    arrows={isBrowser}
                     className="clt-detail-slider-main"
                   >
                     {fullScreenGallery &&
