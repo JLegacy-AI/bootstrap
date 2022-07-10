@@ -335,7 +335,7 @@ class SignUp extends Component {
                                                 <img src={require(`../../../assets/img/${props.ispasswordhide ? 'icon_pass_hide.png' : 'icon_pass_show.png'}`).default}
                                                     className="pfr_loginShowPass"
                                                     onClick={props.showHidePass}
-                                                    alt="CLT"
+                                                    alt="ParkingAeroPortFr"
                                                 />
                                             </Form.Floating>
                                         </Col>

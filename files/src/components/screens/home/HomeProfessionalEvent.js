@@ -224,13 +224,13 @@ const HomeProfessionalEvent = (props) => {
                 <img
                   src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
-                  alt="CLT"
+                  alt="ParkingAeroPortFr"
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
                   src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
-                  alt="CLT"
+                  alt="ParkingAeroPortFr"
                 />
               </div>
             </div>
@@ -337,7 +337,7 @@ const HomeProfessionalEvent = (props) => {
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
                 <h2>Retrouvez plus de détail sur notre page dédiée</h2>
-                <img src={HomeSection6} className="" alt="CLT" />
+                <img src={HomeSection6} className="" alt="ParkingAeroPortFr" />
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-6-btn shadow-none"

@@ -125,7 +125,7 @@ class ForgotPassword extends Component {
                                                     <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => this.onChangeLoginType('email')}>
                                                         <img src={require('../../../assets/img/icon_email.png').default}
                                                             className=""
-                                                            alt="CLT" />
+                                                            alt="ParkingAeroPortFr" />
                                                         <span>Réinitialiser avec Adresse e-mail</span>
                                                     </Button>
                                                 </Col>
@@ -137,7 +137,7 @@ class ForgotPassword extends Component {
                                                     <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => this.onChangeLoginType('phone')}>
                                                         <img src={require('../../../assets/img/icon_phone.png').default}
                                                             className=""
-                                                            alt="CLT" />
+                                                            alt="ParkingAeroPortFr" />
                                                         <span>Réinitialiser avec un téléphone</span>
                                                     </Button>
                                                 </Col>
