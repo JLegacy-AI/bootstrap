@@ -6,9 +6,9 @@ const FooterBottomUp = (props) => {
       show={props.bottomUp}
       onHide={props.toggleBottomUp}
       keyboard={false}
-      centered={props.centered && true}
-      size={props.size && "lg"}
-      fullscreen={props.fullscreen && true}
+      centered={props.centered ? props.centered : true}
+      size={props.size ? props.size : "lg"}
+      fullscreen={props.fullscreen ? props.fullscreen : "sm-down"}
       className={props.className}
       contentClassName={props.contentClassName}
       dialogClassName={props.dialogClassName}

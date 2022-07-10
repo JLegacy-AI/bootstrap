@@ -3,7 +3,7 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import responsive from "../../../constants";
+import homeSliderResponsive from "../../../constants";
 import HomeSection4Desktop from "../../../assets/img/home-section-4-professionnel.png";
 import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-professionnel.jpg";
 import HomeSection6 from "../../../assets/img/home-section-6.png";
@@ -148,7 +148,7 @@ const HomeProfessionalEvent = (props) => {
                   arrows={false}
                   renderButtonGroupOutside={true}
                   customButtonGroup={<ButtonGroup />}
-                  responsive={responsive}
+                  responsive={homeSliderResponsive}
                   className="clt-section-3-cards-div"
                 >
                   <div

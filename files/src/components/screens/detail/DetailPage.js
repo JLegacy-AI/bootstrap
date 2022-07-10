@@ -39,6 +39,10 @@ import DetailContactForm from "./components/DetailContactForm";
 import DetailReserveForm from "./components/DetailReserveForm";
 import CustomModal from "../../reusable/CustomModal";
 import CustomCarousel from "../../reusable/CustomCarousel";
+import DetailSection1 from "./sections/DetailSection1";
+import DetailSection2 from "./sections/DetailSection2";
+import CustomHr from "../../reusable/CustomHr";
+import DetailSection3 from "./sections/DetailSection3";
 
 const DetailPage = () => {
   const maraigeData = {
@@ -136,24 +140,21 @@ const DetailPage = () => {
       stickyBarEl.classList.remove("is-sticky");
     }
   };
-  const responsive = {
+  const mainSliderResponsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 1,
-      slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1,
     },
   };
-  const responsive2 = {
+  const secondarySliderResponsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 2.1,
@@ -196,7 +197,7 @@ const DetailPage = () => {
   const toggleForm = () => {
     setIsFormModal((prevState) => !prevState);
   };
-  const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
+  const DetailMainSliderArrows = ({ next, previous, goToSlide, ...rest }) => {
     const {
       carouselState: { currentSlide, totalItems, slidesToShow },
     } = rest;
@@ -236,7 +237,7 @@ const DetailPage = () => {
         <Row>
           <Col className="clt-detail-slider-maindiv">
             <CustomCarousel
-              responsive={responsive}
+              responsive={mainSliderResponsive}
               mainGallery={mainGallery}
               openGallery={() => openGallery("main")}
               swipeable={true}
@@ -252,17 +253,11 @@ const DetailPage = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row>
-          <Col className="clt-detail-section-1">
-            <h2>Title</h2>
-            <div className="clt-detail-section-1-subdiv d-flex justify-content-start align-items-center">
-              <img src={DetailIcon1} />
-              <span>Sub title</span>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <DetailSection1
+        titleSection1="Title"
+        subTitleSection1="Sub title"
+        imgIconSection1={DetailIcon1}
+      />
       <Container fluid>
         <Row className="clt-section-2-row stickyBar">
           <Col>
@@ -383,7 +378,7 @@ const DetailPage = () => {
             <Row>
               <Col className="clt-detail-slider-maindiv">
                 <CustomCarousel
-                  responsive={responsive}
+                  responsive={mainSliderResponsive}
                   mainGallery={mainGallery}
                   openGallery={() => openGallery("main")}
                   swipeable={true}
@@ -398,49 +393,35 @@ const DetailPage = () => {
                 />
               </Col>
             </Row>
-            <Row className="hideMobile">
-              <Col className="clt-section-hr-pd">
-                <hr className="p-0 m-0 clt-hr" />
-              </Col>
-            </Row>
-            <Row>
-              <Col className="clt-detail-left-section-1">
-                <h2 className="clt-detail-left-section-1-heading">
-                  Title Section 1
-                </h2>
-                <div className="clt-detail-left-section-subdiv-1">
-                  <div className="d-flex justify-content-start align-items-center clt-detail-left-section-subdiv-1-div">
-                    <div className="clt-detail-left-section-subdiv-1-div-img">
-                      <img src={DetailIcon2} />
-                    </div>
-                    <div className="d-flex flex-column justify-content-center align-items-start clt-detail-left-section-subdiv-1-div-txt">
-                      <h3>Text 1</h3>
-                      <p>Subtext 1</p>
-                    </div>
-                  </div>
-                  <div className="d-flex justify-content-start align-items-center clt-detail-left-section-subdiv-1-div">
-                    <div className="clt-detail-left-section-subdiv-1-div-img">
-                      <img src={DetailIcon3} />
-                    </div>
-                    <div className="d-flex flex-column justify-content-center align-items-start clt-detail-left-section-subdiv-1-div-txt">
-                      <h3>Text 1</h3>
-                      <p>Subtext 1</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-start align-items-center clt-detail-left-section-subdiv-2">
-                  <span>subtext</span>
-                  <span>subtext</span>
-                  <span>subtext</span>
-                  <span>subtext</span>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="clt-section-hr-pd">
-                <hr className="p-0 m-0 clt-hr" />
-              </Col>
-            </Row>
+            <CustomHr
+              rowClass="hideMobile"
+              colClass="clt-section-hr-pd"
+              hrClass="p-0 m-0 clt-hr"
+            />
+
+            <DetailSection2
+              headTitleSection2="Title Section 1"
+              imgIconSection2_1={DetailIcon2}
+              innerTitlesSection2={[
+                {
+                  imgIcon: DetailIcon2,
+                  title: "Text 1",
+                  subTitle: "Sub Text 1",
+                },
+                {
+                  imgIcon: DetailIcon3,
+                  title: "Text 2",
+                  subTitle: "Sub Text 2",
+                },
+              ]}
+              innerSubTextsSection2={[
+                "subtext",
+                "subtext",
+                "subtext",
+                "subtext",
+              ]}
+            />
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
             <Row className="showMobile">
               <Col className="clt-detail-left-section-2-h2-mt clt-section-row-col-pd">
                 <h2 className="clt-detail-left-section-2-h2">
@@ -480,13 +461,13 @@ const DetailPage = () => {
                 <div className="clt-detail-left-section-2-dsk">
                   <div className="d-flex flex-column-reverse">
                     <CustomCarousel
-                      responsive={responsive2}
+                      responsive={secondarySliderResponsive}
                       mainGallery={secondaryGallery}
                       openGallery={() => openGallery("secondary")}
                       arrows={false}
                       shouldResetAutoplay={false}
                       renderButtonGroupOutside={true}
-                      customButtonGroup={<ButtonGroup />}
+                      customButtonGroup={<DetailMainSliderArrows />}
                       className="clt-detail-left-section-2-cards-div"
                       classNameSlider="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
                     />
@@ -494,22 +475,13 @@ const DetailPage = () => {
                 </div>
               </Col>
             </Row>
-            <Row>
-              <Col className="clt-section-hr-pd">
-                <hr className="p-0 m-0 clt-hr" />
-              </Col>
-            </Row>
-            <Row className="clt-detail-footer-mb">
-              <Col>
-                <div className="clt-detail-left-section-3">
-                  <div className="d-flex justify-content-start align-items-center clt-detail-left-section-3-subdiv">
-                    <img src={DetailIcon4} />
-                    <h2>Title Section 3</h2>
-                  </div>
-                  <p>Text section 3</p>
-                </div>
-              </Col>
-            </Row>
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
+
+            <DetailSection3
+              imgIconSection3={DetailIcon4}
+              titleSection3="Title Section 3"
+              subTextSection3="Text section 3"
+            />
           </Col>
           <Col lg={4} xs={12} className="hideMobile">
             <div className="clt-detail-right-main">
@@ -626,7 +598,7 @@ const DetailPage = () => {
           galleryHeaderTitle="1.1"
           galleryFooterTitle="1.1"
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
-          responsive={responsive}
+          responsive={mainSliderResponsive}
           isBrowser={isBrowser}
           fullScreenGallery={fullScreenGallery}
         />
