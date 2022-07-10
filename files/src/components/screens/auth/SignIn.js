@@ -273,7 +273,7 @@ class SignIn extends Component {
                                                     <img src={require(`../../../assets/img/${props.ispasswordhide ? 'icon_pass_hide.png' : 'icon_pass_show.png'}`).default}
                                                         className="pfr_loginShowPass"
                                                         onClick={props.showHidePass}
-                                                        alt="ParkingAeroPortFr"
+                                                        alt="CLT"
                                                     />
                                                 </Form.Floating>
                                             </Col>
@@ -309,7 +309,7 @@ class SignIn extends Component {
                                                 <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => props.onChangeLoginType('email')}>
                                                     <img src={require('../../../assets/img/icon_email.png').default}
                                                         className=""
-                                                        alt="ParkingAeroPortFr" />
+                                                        alt="CLT" />
                                                     <span>Continuer avec Adresse e-mail</span>
                                                 </Button>
                                             </Col>
@@ -321,7 +321,7 @@ class SignIn extends Component {
                                                 <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => props.onChangeLoginType('phone')}>
                                                     <img src={require('../../../assets/img/icon_phone.png').default}
                                                         className=""
-                                                        alt="ParkingAeroPortFr" />
+                                                        alt="CLT" />
                                                     <span>Continuer avec un téléphone</span>
                                                 </Button>
                                             </Col>
@@ -332,7 +332,7 @@ class SignIn extends Component {
                                             <Button onClick={() => this.ConnectWithGoogle()} className='pfr_loginModalIconBtn shadow-none'>
                                                 <img src={require('../../../assets/img/icon_google.png').default}
                                                     className=""
-                                                    alt="ParkingAeroPortFr" />
+                                                    alt="CLT" />
                                                 <span>Continuer avec Google</span>
                                             </Button>
                                         </Col>
@@ -342,7 +342,7 @@ class SignIn extends Component {
                                             <Button onClick={() => this.ConnectWithFacebook()} className='pfr_loginModalIconBtn shadow-none'>
                                                 <img src={require('../../../assets/img/icon_fb.png').default}
                                                     className=""
-                                                    alt="ParkingAeroPortFr" />
+                                                    alt="CLT" />
                                                 <span>Continuer avec Facebook</span>
                                             </Button>
                                         </Col>

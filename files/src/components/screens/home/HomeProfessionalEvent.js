@@ -3,7 +3,7 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import homeSliderResponsive from "../../../constants";
+import { homeSliderResponsive } from "../../../constants";
 import HomeSection4Desktop from "../../../assets/img/home-section-4-professionnel.png";
 import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-professionnel.jpg";
 import HomeSection6 from "../../../assets/img/home-section-6.png";
@@ -75,7 +75,8 @@ const HomeProfessionalEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                          Ce lieu met à disposition une salle intérieur et extérieur pouvant accueillir jusqu’à 100 invités.
+                            Ce lieu met à disposition une salle intérieur et
+                            extérieur pouvant accueillir jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -86,7 +87,8 @@ const HomeProfessionalEvent = (props) => {
                         <div>
                           <span>Équipement</span>
                           <p>
-                          Microphone, vidéoprojecteur, connexion internet pour mener à bien votre événement.
+                            Microphone, vidéoprojecteur, connexion internet pour
+                            mener à bien votre événement.
                           </p>
                         </div>
                       </div>
@@ -97,7 +99,8 @@ const HomeProfessionalEvent = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                          Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner.
+                            Traiteur, fleur, décoration, photographe… Une
+                            sélection de prestataire pouvant vous accompagner.
                           </p>
                         </div>
                       </div>
@@ -165,7 +168,8 @@ const HomeProfessionalEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                      Ce lieu met à disposition une salle intérieur et extérieur pouvant accueillir jusqu’à 100 invités.
+                        Ce lieu met à disposition une salle intérieur et
+                        extérieur pouvant accueillir jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -174,7 +178,8 @@ const HomeProfessionalEvent = (props) => {
                     <div>
                       <span>Équipement</span>
                       <p>
-                      Microphone, vidéoprojecteur, connexion internet pour mener à bien votre événement.
+                        Microphone, vidéoprojecteur, connexion internet pour
+                        mener à bien votre événement.
                       </p>
                     </div>
                   </div>
@@ -183,7 +188,8 @@ const HomeProfessionalEvent = (props) => {
                     <div>
                       <span>Optionnel: Prestataire</span>
                       <p>
-                      Traiteur, fleur, décoration, photographe… Une sélection de prestataire pouvant vous accompagner.
+                        Traiteur, fleur, décoration, photographe… Une sélection
+                        de prestataire pouvant vous accompagner.
                       </p>
                     </div>
                   </div>
@@ -218,13 +224,13 @@ const HomeProfessionalEvent = (props) => {
                 <img
                   src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
-                  alt="ParkingAeroPortFr"
+                  alt="CLT"
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
                   src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
-                  alt="ParkingAeroPortFr"
+                  alt="CLT"
                 />
               </div>
             </div>
@@ -247,7 +253,7 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Comment réserver pour un événement profesionnel ?
+                    Comment réserver pour un événement profesionnel ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
                     <p>Vous pouvez réserver depuis le site internet.</p>
@@ -259,10 +265,15 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Quel budget faut-il prévoir ?
+                    Quel budget faut-il prévoir ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Les différentes prestations et espaces du château liée à votre événement peuvent variés selon vos besoins. Effectué une simulation depuis la page détail en ajoutant vos dates et options pour voir le budget à prévoir.</p>
+                    <p>
+                      Les différentes prestations et espaces du château liée à
+                      votre événement peuvent variés selon vos besoins. Effectué
+                      une simulation depuis la page détail en ajoutant vos dates
+                      et options pour voir le budget à prévoir.
+                    </p>
                     <a href="#">Faire une simulation</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -271,10 +282,13 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Pouvons-nous faire une visite ? et quand ?
+                    Pouvons-nous faire une visite ? et quand ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Une visite du château est programmable depuis le site internet.</p>
+                    <p>
+                      Une visite du château est programmable depuis le site
+                      internet.
+                    </p>
                     <a href="#">Programmer une visite</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -283,10 +297,14 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                    Quel type d'évenement profesionnel proposez-vous ? 
+                    Quel type d'évenement profesionnel proposez-vous ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Séminaire, convention, conférence, réunion, journée d'étude dans un espace entièrement modulable pouvant accueilir jusqu'à 100 invités..</p>
+                    <p>
+                      Séminaire, convention, conférence, réunion, journée
+                      d'étude dans un espace entièrement modulable pouvant
+                      accueilir jusqu'à 100 invités..
+                    </p>
                     <a href="#">Tous les sujets</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -295,10 +313,13 @@ const HomeProfessionalEvent = (props) => {
                   className="clt-section-5-accordion-item"
                 >
                   <Accordion.Header className="clt-section-5-accordion-header">
-                   Qu'est-ce que le centre d'aide ?
+                    Qu'est-ce que le centre d'aide ?
                   </Accordion.Header>
                   <Accordion.Body className="clt-section-5-accordion-body">
-                    <p>Le centre d'aide est une page du site internet permettant de résoudre chacune de vos questions.</p>
+                    <p>
+                      Le centre d'aide est une page du site internet permettant
+                      de résoudre chacune de vos questions.
+                    </p>
                     <a href="#">Visitez le centre d'aide</a>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -316,11 +337,7 @@ const HomeProfessionalEvent = (props) => {
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
                 <h2>Retrouvez plus de détail sur notre page dédiée</h2>
-                <img
-                  src={HomeSection6}
-                  className=""
-                  alt="ParkingAeroPortFr"
-                />
+                <img src={HomeSection6} className="" alt="CLT" />
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-6-btn shadow-none"

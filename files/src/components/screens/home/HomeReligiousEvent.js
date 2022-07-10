@@ -3,7 +3,7 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import homeSliderResponsive from "../../../constants";
+import { homeSliderResponsive } from "../../../constants";
 import HomeSection4Desktop from "../../../assets/img/home-section-4-religieux.png";
 import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-religieux.jpg";
 import HomeSection6 from "../../../assets/img/home-section-6.png";
@@ -75,8 +75,9 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                           Ce lieu vous permet d'accueillir des cérémonies et des 
-                           réceptions d'événement religieux avec jusqu’à 100 invités.
+                            Ce lieu vous permet d'accueillir des cérémonies et
+                            des réceptions d'événement religieux avec jusqu’à
+                            100 invités.
                           </p>
                         </div>
                       </div>
@@ -87,7 +88,9 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Prestataire</span>
                           <p>
-                           Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
+                            Une sélection de prestataire pouvant vous
+                            accompagner: Traiteur, fleur, décoration,
+                            photographe…
                           </p>
                         </div>
                       </div>
@@ -98,7 +101,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Optionnel: Dortoir</span>
                           <p>
-                           Faites dormir vous et vos proches directement dans
+                            Faites dormir vous et vos proches directement dans
                             le château.
                           </p>
                         </div>
@@ -167,8 +170,9 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu vous permet d'accueillir des cérémonies et des 
-                        réceptions d'événement religieux avec jusqu’à 100 invités.
+                        Ce lieu vous permet d'accueillir des cérémonies et des
+                        réceptions d'événement religieux avec jusqu’à 100
+                        invités.
                       </p>
                     </div>
                   </div>
@@ -178,7 +182,8 @@ const HomeReligiousEvent = (props) => {
                       <span>Optionnel: Prestataire</span>
                       <p>Traiteur, fleur, décoration, photographe…</p>
                       <p>
-                       Une sélection de prestataire pouvant vous accompagner: Traiteur, fleur, décoration, photographe…
+                        Une sélection de prestataire pouvant vous accompagner:
+                        Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>
@@ -223,13 +228,13 @@ const HomeReligiousEvent = (props) => {
                 <img
                   src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
-                  alt="ParkingAeroPortFr"
+                  alt="CLT"
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
                   src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
-                  alt="ParkingAeroPortFr"
+                  alt="CLT"
                 />
               </div>
             </div>
@@ -336,7 +341,7 @@ const HomeReligiousEvent = (props) => {
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
                 <h2>Retrouvez plus de détail sur notre page dédiée</h2>
-                <img src={HomeSection6} className="" alt="ParkingAeroPortFr" />
+                <img src={HomeSection6} className="" alt="CLT" />
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-6-btn shadow-none"

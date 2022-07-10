@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Modal, Row } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 const FooterBottomUp = (props) => {
   return (
     <Modal

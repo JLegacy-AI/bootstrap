@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./detail-page.css";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import DetailIcon1 from "../../../assets/img/detail_icon_1.png";
 import DetailIcon2 from "../../../assets/img/detail_icon_2.png";
 import DetailIcon3 from "../../../assets/img/detail_icon_3.png";
@@ -11,27 +9,10 @@ import DetailSlider_1_1 from "../../../assets/img/detail_slider_1_1.png";
 import DetailSlider_1_2 from "../../../assets/img/detail_slider_1_2.png";
 import DetailSlider_1_3 from "../../../assets/img/detail_slider_1_3.png";
 import DetailSlider_1_4 from "../../../assets/img/detail_slider_1_4.png";
-import MaraigeImg from "../../../assets/img/icon-card-1.png";
-import AnniversaireImg from "../../../assets/img/icon-card-2.png";
-import ProfesionnelImg from "../../../assets/img/icon-card-3.png";
-import ReligieuxImg from "../../../assets/img/icon-card-4.png";
-import IconBar1 from "../../../assets/img/icon-bar-1.png";
-import IconBar1Active from "../../../assets/img/icon-bar-1-active.png";
-import IconBar2 from "../../../assets/img/icon-bar-2.png";
-import IconBar2Active from "../../../assets/img/icon-bar-2-active.png";
-import IconBar3 from "../../../assets/img/icon-bar-3.png";
-import IconBar3Active from "../../../assets/img/icon-bar-3-active.png";
-import IconBar4 from "../../../assets/img/icon-bar-4.png";
-import IconBar4Active from "../../../assets/img/icon-bar-4-active.png";
 import IconContactUs from "../../../assets/img/icon_contact_us.png";
 import IconReserve from "../../../assets/img/icon_reserve.png";
 import InnerNavbar from "../../../layouts/InnerNavbar";
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile,
-} from "react-device-detect";
+import { isBrowser, isMobile } from "react-device-detect";
 import FooterBottomUp from "../../reusable/FooterBottomUp";
 import DetailFooter from "./components/DetailFooter";
 import DetailGallery from "./components/DetailGallery";
@@ -43,32 +24,17 @@ import DetailSection1 from "./sections/DetailSection1";
 import DetailSection2 from "./sections/DetailSection2";
 import CustomHr from "../../reusable/CustomHr";
 import DetailSection3 from "./sections/DetailSection3";
+import {
+  anniversaireData,
+  detailMainSliderResponsive,
+  detailSecondarySliderResponsive,
+  maraigeData,
+  profesionnelData,
+  religieuxData,
+} from "../../../constants";
+import EventsNavbar from "../../reusable/EventsNavbar";
 
 const DetailPage = () => {
-  const maraigeData = {
-    type: 1,
-    color: "#08875c",
-    background: "#24775b",
-    img: MaraigeImg,
-  };
-  const anniversaireData = {
-    type: 2,
-    color: "#015eea",
-    background: "#025adf",
-    img: AnniversaireImg,
-  };
-  const profesionnelData = {
-    type: 3,
-    color: "#ad1eac",
-    background: "#c72fc3",
-    img: ProfesionnelImg,
-  };
-  const religieuxData = {
-    type: 4,
-    color: "#b3846d",
-    background: "#d2997e",
-    img: ReligieuxImg,
-  };
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
@@ -140,42 +106,7 @@ const DetailPage = () => {
       stickyBarEl.classList.remove("is-sticky");
     }
   };
-  const mainSliderResponsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-  const secondarySliderResponsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 2.1,
-      slidesToSlide: 0.5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 2.1,
-      slidesToSlide: 0.5,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2.1,
-      slidesToSlide: 0.1,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1.1,
-      slidesToSlide: 0.1,
-    },
-  };
+
   const openGallery = (type) => {
     if (type === "main") {
       setIsGalleryOpen(true);
@@ -237,7 +168,7 @@ const DetailPage = () => {
         <Row>
           <Col className="clt-detail-slider-maindiv">
             <CustomCarousel
-              responsive={mainSliderResponsive}
+              responsive={detailMainSliderResponsive}
               mainGallery={mainGallery}
               openGallery={() => openGallery("main")}
               swipeable={true}
@@ -258,127 +189,20 @@ const DetailPage = () => {
         subTitleSection1="Sub title"
         imgIconSection1={DetailIcon1}
       />
-      <Container fluid>
-        <Row className="clt-section-2-row stickyBar">
-          <Col>
-            <Container className="clt-section-2-row-container">
-              <Row>
-                <Col className="clt-section-2-row-col">
-                  <div className="d-flex justify-content-start align-items-center clt-section-2">
-                    <div
-                      className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() => setEventType(maraigeData)}
-                    >
-                      <img
-                        src={eventType.type === 1 ? IconBar1Active : IconBar1}
-                        className=""
-                        alt="ParkingAeroPortFr"
-                      />
-                      <h2
-                        style={
-                          eventType.type === 1
-                            ? {
-                                color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
-                              }
-                            : {
-                                color: `#7f7f7f`,
-                                borderBottom: `2px solid transparent`,
-                              }
-                        }
-                      >
-                        Mariage
-                      </h2>
-                    </div>
-                    <div
-                      className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() => setEventType(anniversaireData)}
-                    >
-                      <img
-                        src={eventType.type === 2 ? IconBar2Active : IconBar2}
-                        className=""
-                        alt="ParkingAeroPortFr"
-                      />
-                      <h2
-                        style={
-                          eventType.type === 2
-                            ? {
-                                color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
-                              }
-                            : {
-                                color: `#7f7f7f`,
-                                borderBottom: `2px solid transparent`,
-                              }
-                        }
-                      >
-                        Événement professionnel
-                      </h2>
-                    </div>
-                    <div
-                      className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() => setEventType(profesionnelData)}
-                    >
-                      <img
-                        src={eventType.type === 3 ? IconBar3Active : IconBar3}
-                        className=""
-                        alt="ParkingAeroPortFr"
-                      />
-                      <h2
-                        style={
-                          eventType.type === 3
-                            ? {
-                                color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
-                              }
-                            : {
-                                color: `#7f7f7f`,
-                                borderBottom: `2px solid transparent`,
-                              }
-                        }
-                      >
-                        Anniversaire
-                      </h2>
-                    </div>
-                    <div
-                      className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                      onClick={() => setEventType(religieuxData)}
-                    >
-                      <img
-                        src={eventType.type === 4 ? IconBar4Active : IconBar4}
-                        className=""
-                        alt="ParkingAeroPortFr"
-                      />
-                      <h2
-                        style={
-                          eventType.type === 4
-                            ? {
-                                color: `${eventType.color}`,
-                                borderBottom: `2px solid ${eventType.color}`,
-                              }
-                            : {
-                                color: `#7f7f7f`,
-                                borderBottom: `2px solid transparent`,
-                              }
-                        }
-                      >
-                        Événement religieux
-                      </h2>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </Col>
-        </Row>
-      </Container>
+      <EventsNavbar
+        eventType={eventType}
+        setEventTypeMaraige={() => setEventType(maraigeData)}
+        setEventTypeAnniversaire={() => setEventType(anniversaireData)}
+        setEventTypeReligieux={() => setEventType(religieuxData)}
+        setEventTypeProfesionnel={() => setEventType(profesionnelData)}
+      />
       <Container>
         <Row className="clt-detail-sections-div">
           <Col lg={8} xs={12}>
             <Row>
               <Col className="clt-detail-slider-maindiv">
                 <CustomCarousel
-                  responsive={mainSliderResponsive}
+                  responsive={detailMainSliderResponsive}
                   mainGallery={mainGallery}
                   openGallery={() => openGallery("main")}
                   swipeable={true}
@@ -461,7 +285,7 @@ const DetailPage = () => {
                 <div className="clt-detail-left-section-2-dsk">
                   <div className="d-flex flex-column-reverse">
                     <CustomCarousel
-                      responsive={secondarySliderResponsive}
+                      responsive={detailSecondarySliderResponsive}
                       mainGallery={secondaryGallery}
                       openGallery={() => openGallery("secondary")}
                       arrows={false}
@@ -598,7 +422,7 @@ const DetailPage = () => {
           galleryHeaderTitle="1.1"
           galleryFooterTitle="1.1"
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
-          responsive={mainSliderResponsive}
+          responsive={detailMainSliderResponsive}
           isBrowser={isBrowser}
           fullScreenGallery={fullScreenGallery}
         />

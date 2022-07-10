@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Modal, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 const CustomHr = (props) => {
   return (
     <Row className={props.rowClass}>

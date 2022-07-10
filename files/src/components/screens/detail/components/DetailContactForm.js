@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 const DetailContactForm = (props) => {
   return (
     <div>
@@ -10,7 +10,9 @@ const DetailContactForm = (props) => {
           </div>
         ) : (
           <>
-            <h2 className="clt-detail-right-head-heading">{props.formEventType}</h2>
+            <h2 className="clt-detail-right-head-heading">
+              {props.formEventType}
+            </h2>
             <div className="clt-detail-right-head-sub-div">
               <span>{props.formTitle}</span>/ {props.formSubtitle}
             </div>

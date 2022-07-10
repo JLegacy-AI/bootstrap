@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Modal, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 const DetailFooter = (props) => {
   return (
     <Container className="clt-detail-footer-mbl">

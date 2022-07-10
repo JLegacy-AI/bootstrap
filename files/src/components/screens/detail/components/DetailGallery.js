@@ -1,7 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Modal, Row } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import CustomCarousel from "../../../reusable/CustomCarousel";
 
 const DetailGallery = (props) => {

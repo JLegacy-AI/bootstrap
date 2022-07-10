@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const DetailSection1 = (props) => {
   return (
     <Container>
@@ -7,7 +7,7 @@ const DetailSection1 = (props) => {
         <Col className="clt-detail-section-1">
           <h2>{props.titleSection1}</h2>
           <div className="clt-detail-section-1-subdiv d-flex justify-content-start align-items-center">
-            <img src={props.imgIconSection1} />
+            <img src={props.imgIconSection1} alt="CLT" />
             <span>{props.subTitleSection1}</span>
           </div>
         </Col>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Modal, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const CustomCarousel = (props) => {

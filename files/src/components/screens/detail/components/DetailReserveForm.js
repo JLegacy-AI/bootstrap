@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Form, Modal, Row } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 const DetailReserveForm = (props) => {
   return (
     <div>
