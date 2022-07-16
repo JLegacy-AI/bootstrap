@@ -14,8 +14,10 @@ import {
   religieuxData,
 } from "../../../constants";
 import EventsNavbar from "../../reusable/EventsNavbar";
+import { useHistory } from "react-router-dom";
 
 const HomePage = () => {
+  const history = useHistory();
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [eventType, setEventType] = useState(maraigeData);
   useEffect(() => {
@@ -60,7 +62,7 @@ const HomePage = () => {
                   Découvrez un château à 20min de Toulouse
                 </h2>
                 <Button
-                  onClick={() => console.log("clicked!")}
+                  onClick={() => history.push(`/detail`)}
                   className="clt-section-1-btn shadow-none"
                 >
                   <span>Découvrir</span>
