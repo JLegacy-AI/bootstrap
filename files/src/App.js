@@ -16,10 +16,10 @@ import DetailPage from './components/screens/detail/DetailPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Switch>
         <PublicMainLayoutRoute path="/" exact component={HomePage} />
-        <PublicInnerLayoutRoute path="/detail" component={DetailPage} />
+        <PublicInnerLayoutRoute path="/detail" exact component={DetailPage} />
       </Switch>
     </BrowserRouter>
   );
