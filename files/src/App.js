@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <PublicMainLayoutRoute path="/" exact component={HomePage} />
-        <PublicInnerLayoutRoute path="/detail"  exact component={DetailPage} />
+        <PublicInnerLayoutRoute path="/detail" component={DetailPage} />
       </Switch>
     </BrowserRouter>
   );
