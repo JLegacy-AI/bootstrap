@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, BrowserRouter, Route } from "react-router-dom";
+import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 
 /** CSS **/
 import "./App.css";
@@ -17,15 +17,13 @@ import PageNotFound from "./components/screens/404/PageNotFound";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <Router basename="/">
       <Switch>
         <PublicMainLayoutRoute path="/" exact component={HomePage} />
         <PublicInnerLayoutRoute path="/detail" exact component={DetailPage} />
-        <Route path="*">
-          <PageNotFound />
-        </Route>
+        <Route path="*" component={PageNotFound} />
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
