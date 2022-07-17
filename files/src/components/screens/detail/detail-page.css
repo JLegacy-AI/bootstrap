@@ -1,14 +1,14 @@
 .clt-detail-section-1 {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .clt-detail-section-1 h2 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     font-family: 'Mulish';
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .clt-detail-section-1-subdiv img {
@@ -16,7 +16,7 @@
 }
 
 .clt-detail-section-1-subdiv span {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Mulish';
     color: #000;
@@ -32,14 +32,16 @@
 
 .clt-detail-slider-main .react-multiple-carousel__arrow {
     background: rgb(255 255 255) !important;
-    min-width: 35px !important;
-    min-height: 35px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
     z-index: 0;
 }
 
 .clt-detail-slider-main .react-multiple-carousel__arrow::before {
-    font-size: 20px;
-    color: #000 !important;
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 900;
+    color: #000!important;
 }
 
 .clt-detail-slider-main .react-multiple-carousel__arrow--left {
@@ -61,43 +63,44 @@
 
 .clt-detail-slider-main-imgdiv span {
     color: #fff;
-    background: #000000a1;
-    padding: 5px 10px;
-    border-radius: 5px;
+    background: rgba(0,0,0,.6313725490196078);
+    padding: 5px 11px;
+    border-radius: 10px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
-    font-size: 12px;
+    bottom: 20px;
+    right: 23px;
+    font-size: 15px;
     font-weight: 500;
-    font-family: 'Mulish';
+    font-family: "Inter";
 }
 
 .clt-section-hr-pd {
-    padding: 30px 15px;
+    padding: 38px 15px;
 }
 
 .clt-detail-left-section-1 {}
 
 .clt-detail-left-section-1-heading {
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Mulish';
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Mulish";
     margin-bottom: 0;
+    letter-spacing: -0.6px;
 }
 
 .clt-detail-left-section-subdiv-1 {
-    margin-top: 20px;
+    margin-top: 28px;
 }
 
 .clt-detail-left-section-subdiv-1-div {
-    margin-bottom: 10px;
+    margin-bottom: 22px;
     height: 50px;
 }
 
 .clt-detail-left-section-subdiv-1-div-img {
     width: 50px;
     height: 100%;
-    margin-right: 10px;
+    margin-right: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,18 +116,18 @@
 .clt-detail-left-section-subdiv-1-div-txt {}
 
 .clt-detail-left-section-subdiv-1-div-txt h3 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     color: #000;
-    margin-bottom: 0;
-    font-family: 'Mulish';
+    margin-bottom: 1px;
+    font-family: 'Inter';
 }
 
 .clt-detail-left-section-subdiv-1-div-txt p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    color: #aaa;
-    font-family: 'Mulish';
+    color: #000;
+    font-family: 'Inter';
     margin-bottom: 0;
 }
 
@@ -133,15 +136,15 @@
 }
 
 .clt-detail-left-section-subdiv-2 span {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15.5px;
+    font-weight: 700;
     color: #000;
-    font-family: 'Mulish';
+    font-family: "Inter";
     background: #eee;
-    padding: 5px 15px;
+    padding: 4px 18px;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-right: 13px;
+    margin-top: 11px;
 }
 
 .clt-detail-left-section-2 {}
@@ -185,19 +188,19 @@
 }
 
 .clt-detail-left-section-2-h2 {
-    font-size: 31px;
+    font-size: 25px;
     font-weight: 700;
     font-family: Mulish;
     margin-bottom: 0px;
     color: #000;
     line-height: 32px;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.6px;
 }
 
 .clt-detail-left-section-2-cards-arrowBtn, .clt-detail-left-section-2-cards-arrowBtn:hover, .clt-detail-left-section-2-cards-arrowBtn:active, .clt-detail-left-section-2-cards-arrowBtn:focus, .clt-detail-left-section-2-cards-arrowBtn:active:focus {
-    width: 40px;
-    height: 40px;
-    border-radius: 50pc;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
     overflow: hidden;
     background: #ddd;
     border: 1px solid #ddd;
@@ -213,11 +216,11 @@
 }
 
 .clt-detail-left-section-2-cards {
-    width: 400px;
-    height: 310px;
+    width: 386px;
+    height: 246px;
     border-radius: 20px;
     overflow: hidden;
-    margin-right: 15px;
+    margin-right: 10px;
     cursor: default;
     user-select: none;
 }
@@ -227,21 +230,21 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 14px;
     position: relative;
 }
 
 .clt-detail-left-section-2-cards-main span {
     color: #fff;
-    background: #000000a1;
-    padding: 5px 10px;
-    border-radius: 5px;
+    background: rgba(0,0,0,.6313725490196078);
+    padding: 4px 10px;
+    border-radius: 7px;
     position: absolute;
-    top: 30px;
-    left: 30px;
-    font-size: 12px;
+    top: 19px;
+    left: 17px;
+    font-size: 14px;
     font-weight: 500;
-    font-family: 'Mulish';
+    font-family: "Inter";
 }
 
 .clt-detail-left-section-2-cards-main h2 {
@@ -329,9 +332,12 @@
 }
 
 .clt-detail-left-section-3 {
-    border-radius: 10px;
-    border: 1px solid #eee;
-    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #cbcbcb;
+    padding-top: 27px;
+    padding-right: 20px;
+    padding-bottom: 36px;
+    padding-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -343,18 +349,18 @@
 }
 
 .clt-detail-left-section-3-subdiv h2 {
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 600;
     color: #000;
-    margin-bottom: 0;
+    margin-bottom: 1px;
+    font-family: 'Inter';
 }
 
 .clt-detail-left-section-3 p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    font-family: 'Mulish';
     color: #000;
+    font-family: 'Inter';
     margin-bottom: 0;
     margin-top: 20px;
     padding-left: 5px;
@@ -374,7 +380,7 @@
 .clt-detail-right-toggle {
     border-radius: 50px;
     background: #eee;
-    padding: 5px 5px;
+    padding: 3px 3px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -383,12 +389,12 @@
 
 .clt-detail-right-toggle-tab {
     background: #eee;
-    padding: 6px;
-    border-radius: 50px;
+    padding: 8px;
+    border-radius: 60px;
     width: 100%;
     text-align: center;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16.5px;
     font-weight: 500;
     font-family: 'Mulish';
     color: #000;
@@ -403,18 +409,21 @@
 }
 
 .clt-detail-right-head-heading {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
+    letter-spacing: -0.3px;
     font-family: 'Mulish';
     color: #26af7c;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 16px;
 }
 
 .clt-detail-right-head-sub-div {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    font-size: 14px;
+    font-size: 17px;
+    letter-spacing: -0.2px;
     color: #000;
     font-weight: 400;
     font-family: 'Mulish';
@@ -422,22 +431,30 @@
 
 .clt-detail-right-head-sub-div span {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 5px;
 }
 
 .clt_inputFloat.form-floating>.form-control:focus~label, .clt_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .clt_inputFloat.form-floating>.form-select~label {
-    opacity: .70;
-    transform: scale(.80) translateY(-0.35rem) translateX(0.28rem);
-    padding: 0.95rem 1.1rem;
+    opacity: .7;
+    transform: scale(.8) translateY(-0.35rem) translateX(0.28rem);
+    padding-top: 0.5rem;
+    padding-right: 1.1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.1rem;
+    margin-top: 7.5px;
+    font-size: 17px;
 }
 
 .clt_inputFloat input, .clt_inputFloat input:active, .clt_inputFloat input:focus {
-    height: 64px !important;
-    font-size: 17.3px;
-    font-weight: 600;
+    height: 71px !important;
+    font-size: 18px;
+    font-weight: 500;
     color: #000;
-    padding: 10px 17px 0px 17px !important;
+    padding-top: 10px !important;
+    padding-right: 17.1335px !important;
+    padding-bottom: 0px !important;
+    padding-left: 17.1335px !important;
     border-radius: 0px;
     border: 1px solid #cccccc;
     border-top: none;
@@ -483,14 +500,15 @@
     width: 100%;
     border-radius: 12px;
     font-size: 16px;
-    padding-top: 2px;
+    padding-top: 0px;
     font-weight: 600;
     box-shadow: none;
     outline: none;
     border: 1px solid #29b07d;
-    height: 60px;
+    height: 56px;
     position: relative;
-    margin-top: 30px;
+    margin-top: 26px;
+    letter-spacing: .9px;
 }
 
 .clt-gallery-container {
