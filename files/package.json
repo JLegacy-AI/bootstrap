@@ -26,7 +26,8 @@
     "react-swipeable-views": "^0.14.0",
     "react-verification-code-input": "^1.2.9",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webpack-dev-server": "^3.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
