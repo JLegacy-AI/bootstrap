@@ -384,7 +384,7 @@ const HomeReligiousEvent = (props) => {
               <div className="clt-section-8">
                 <div className="d-flex flex-column mb-5">
                   <a href="#">Centre d’aide</a>
-                  <a href="#">Connexion</a>
+                  <a href="#">Se connecter</a>
                   <a href="#">Créer un compte</a>
                 </div>
                 <div>

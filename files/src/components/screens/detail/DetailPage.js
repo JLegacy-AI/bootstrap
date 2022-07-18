@@ -336,14 +336,14 @@ const DetailPage = () => {
                 <DetailContactForm
                   formTitle="Title"
                   formSubtitle="subtitle"
-                  formEventType="Wedding"
+                  formEventType="WEDDING"
                 />
               )}
               {formType === "reserve" && (
                 <DetailReserveForm
                   formTitle="Title"
                   formSubtitle="subtitle"
-                  formEventType="Wedding"
+                  formEventType="WEDDING"
                 />
               )}
             </div>
@@ -401,7 +401,7 @@ const DetailPage = () => {
           <DetailContactForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="Wedding"
+            formEventType="WEDDING"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
           />
@@ -410,7 +410,7 @@ const DetailPage = () => {
           <DetailReserveForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="Wedding"
+            formEventType="WEDDING"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
           />

@@ -55,7 +55,8 @@
 .clt-detail-slider-main-imgdiv {
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 450px;
+    border-radius: 13px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -82,8 +83,9 @@
 
 .clt-detail-left-section-1-heading {
     font-size: 25px;
-    font-weight: 700;
-    font-family: "Mulish";
+    font-weight: 600;
+    color: #000;
+    font-family: "Inter";
     margin-bottom: 0;
     letter-spacing: -0.6px;
 }
@@ -136,7 +138,7 @@
 }
 
 .clt-detail-left-section-subdiv-2 span {
-    font-size: 15.5px;
+    font-size: 15px;
     font-weight: 700;
     color: #000;
     font-family: "Inter";
@@ -189,8 +191,8 @@
 
 .clt-detail-left-section-2-h2 {
     font-size: 25px;
-    font-weight: 700;
-    font-family: Mulish;
+    font-weight: 600;
+    font-family: "Inter";
     margin-bottom: 0px;
     color: #000;
     line-height: 32px;
@@ -198,8 +200,8 @@
 }
 
 .clt-detail-left-section-2-cards-arrowBtn, .clt-detail-left-section-2-cards-arrowBtn:hover, .clt-detail-left-section-2-cards-arrowBtn:active, .clt-detail-left-section-2-cards-arrowBtn:focus, .clt-detail-left-section-2-cards-arrowBtn:active:focus {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     border-radius: 50px;
     overflow: hidden;
     background: #ddd;
@@ -389,14 +391,14 @@
 
 .clt-detail-right-toggle-tab {
     background: #eee;
-    padding: 8px;
+    padding: 7px;
     border-radius: 60px;
     width: 100%;
     text-align: center;
     cursor: pointer;
-    font-size: 16.5px;
-    font-weight: 500;
-    font-family: 'Mulish';
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter';
     color: #000;
 }
 

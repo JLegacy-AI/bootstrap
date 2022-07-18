@@ -5,8 +5,8 @@
     right: 0;
     z-index: 1020; */
     border-bottom: 1px solid #dedddd;
-    padding-top: 0.37rem !important;
-    padding-bottom: 0.37rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
 
 .pfr_navbarNavInnerPages {
@@ -30,13 +30,14 @@
 }
 
 .pfr_navbarToggle img {
-    width: 20px;
+    width: 18px;
+    margin-bottom: 3.5px;
 }
 
 .pfr_navbarLogo {
     align-items: center;
-    margin-left: 10px;
-    margin-bottom: 4px;
+    margin-left: 22px;
+    margin-bottom: 2px;
     font-size: 25px;
     letter-spacing: -1px;
     font-weight: 500;
@@ -96,7 +97,7 @@
     background: #eee;
     border-radius: 50px;
     color: #000 !important;
-    padding: 10px 20px;
+    padding: 10px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -786,14 +787,14 @@
     }
 
     .pfr_navbarToggle img {
-        width: 20px;
+        width: 18px;
+        margin-bottom: 3.5px;
     }
 
     .pfr_navbarLogo {
         align-items: center;
-        margin-left: 35px;
-        margin-left: 10px;
-        margin-bottom: 4px;
+        margin-left: 22px;
+        margin-bottom: 2px;
     }
 
     .pfr_navbarLogo img {
