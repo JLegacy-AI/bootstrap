@@ -17,8 +17,8 @@
 
 .clt-detail-section-1-subdiv span {
     font-size: 18px;
-    font-weight: 600;
-    font-family: 'Mulish';
+    font-weight: 400;
+    font-family: 'Inter';
     color: #000;
 }
 
@@ -632,24 +632,25 @@
     box-shadow: none;
     outline: none;
     border: 1px solid #29b07d;
-    height: 60px;
+    height: 50px;
     position: relative;
 }
 
 .clt-detail-footer-h-div h2 {
-    font-size: 22px;
-    font-weight: 600;
-    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
     color: #000;
-    margin-bottom: 0px;
+    margin-bottom: -1px;
 }
 
 .clt-detail-footer-h-div span {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    font-family: 'Mulish';
+    letter-spacing: -0.1px;
+    font-family: "INTER";
     color: #000;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .clt_footer_bottom_up_modal {
@@ -741,27 +742,33 @@
     }
 
     .clt-detail-slider-main-imgdiv {
-        height: 300px;
+        height: 205px;
+        border-radius: 0px;
     }
 
     .clt-detail-slider-main-imgdiv span {
-        padding: 5px 10px;
+        padding: 5px 12px;
         bottom: 20px;
         right: 20px;
-        font-size: 12px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+    
+    .clt-detail-sections-div {
+        margin-top: 25px;
     }
 
     .clt-detail-section-1 {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 5px;
         padding-left: 22px;
         padding-right: 22px;
     }
 
     .clt-detail-section-1 h2 {
         font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 10px;
+        font-weight: 700;
+        margin-bottom: 5px;
     }
 
     .clt-detail-section-1-subdiv img {
@@ -769,8 +776,8 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
     }
 
     .clt-detail-left-section-1 {
@@ -779,7 +786,7 @@
     }
 
     .clt-detail-left-section-1-heading {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
     }
@@ -794,26 +801,26 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 50px;
-        height: 100%;
+        width: 42px;
+        height: 84%;
         margin-right: 10px;
         border-radius: 5px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
-        width: 30px;
+        width: 24px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -823,12 +830,13 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 14px;
+        font-size: 13px;
+        letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 5px 15px;
+        padding: 4px 13px;
         border-radius: 10px;
         margin-right: 10px;
-        margin-top: 20px;
+        margin-top: 19px;
     }
 
     .clt-detail-left-section-2-col {
@@ -840,7 +848,7 @@
     }
 
     .clt-detail-left-section-2-h2 {
-        font-size: 31px;
+        font-size: 22px;
         font-weight: 700;
         font-family: Mulish;
         margin-bottom: 0px;
@@ -856,6 +864,12 @@
         margin-right: 15px;
     }
 
+    .clt-detail-left-section-2-cards-main span {
+        top: 19px;
+        left: 17px;
+        font-size: 13px;
+    }
+    
     .clt-detail-footer-mb {
         margin-bottom: 10vh;
     }
@@ -881,27 +895,33 @@
     }
 
     .clt-detail-slider-main-imgdiv {
-        height: 300px;
+        height: 215px;
+        border-radius: 0px;
     }
 
     .clt-detail-slider-main-imgdiv span {
-        padding: 5px 10px;
+        padding: 5px 12px;
         bottom: 20px;
         right: 20px;
-        font-size: 12px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+    
+    .clt-detail-sections-div {
+        margin-top: 25px;
     }
 
     .clt-detail-section-1 {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 5px;
         padding-left: 22px;
         padding-right: 22px;
     }
 
     .clt-detail-section-1 h2 {
         font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 10px;
+        font-weight: 700;
+        margin-bottom: 5px;
     }
 
     .clt-detail-section-1-subdiv img {
@@ -909,8 +929,8 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
     }
 
     .clt-detail-left-section-1 {
@@ -919,7 +939,7 @@
     }
 
     .clt-detail-left-section-1-heading {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
     }
@@ -934,26 +954,26 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 50px;
-        height: 100%;
+        width: 42px;
+        height: 84%;
         margin-right: 10px;
         border-radius: 5px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
-        width: 30px;
+        width: 24px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -963,12 +983,13 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 14px;
+        font-size: 13px;
+        letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 5px 15px;
+        padding: 4px 13px;
         border-radius: 10px;
         margin-right: 10px;
-        margin-top: 20px;
+        margin-top: 19px;
     }
 
     .clt-detail-left-section-2-col {
@@ -1021,27 +1042,33 @@
     }
 
     .clt-detail-slider-main-imgdiv {
-        height: 300px;
+        height: 215px;
+        border-radius: 0px;
     }
 
     .clt-detail-slider-main-imgdiv span {
-        padding: 5px 10px;
+        padding: 5px 12px;
         bottom: 20px;
         right: 20px;
-        font-size: 12px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+    
+    .clt-detail-sections-div {
+        margin-top: 25px;
     }
 
     .clt-detail-section-1 {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 5px;
         padding-left: 22px;
         padding-right: 22px;
     }
 
     .clt-detail-section-1 h2 {
         font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 10px;
+        font-weight: 700;
+        margin-bottom: 5px;
     }
 
     .clt-detail-section-1-subdiv img {
@@ -1049,8 +1076,8 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 400;
     }
 
     .clt-detail-left-section-1 {
@@ -1059,7 +1086,7 @@
     }
 
     .clt-detail-left-section-1-heading {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
     }
@@ -1074,26 +1101,26 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 50px;
-        height: 100%;
+        width: 42px;
+        height: 84%;
         margin-right: 10px;
         border-radius: 5px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
-        width: 30px;
+        width: 24px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -1103,12 +1130,13 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 14px;
+        font-size: 13px;
+        letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 5px 15px;
+        padding: 4px 13px;
         border-radius: 10px;
         margin-right: 10px;
-        margin-top: 20px;
+        margin-top: 19px;
     }
 
     .clt-detail-left-section-2-col {
@@ -1136,6 +1164,12 @@
         margin-right: 15px;
     }
 
+    .clt-detail-left-section-2-cards-main span {
+        top: 19px;
+        left: 17px;
+        font-size: 13px;
+    }
+    
     .clt-detail-footer-mb {
         margin-bottom: 10vh;
     }
