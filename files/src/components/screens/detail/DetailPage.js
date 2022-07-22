@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./detail-page.css";
-import DetailIcon1 from "../../../assets/img/detail_icon_1.png";
-import DetailIcon2 from "../../../assets/img/detail_icon_2.png";
-import DetailIcon3 from "../../../assets/img/detail_icon_3.png";
-import DetailIcon4 from "../../../assets/img/detail_icon_4.png";
+import DetailIcon1 from "../../../assets/img/detail_icon_1.jpg";
+import DetailIcon2 from "../../../assets/img/detail_icon_2.jpg";
+import DetailIcon3 from "../../../assets/img/detail_icon_3.jpg";
+import DetailIcon4 from "../../../assets/img/detail_icon_4.jpg";
 import DetailSlider_1_1 from "../../../assets/img/detail_slider_1_1.jpg";
 import DetailSlider_1_2 from "../../../assets/img/detail_slider_1_2.jpg";
 import DetailSlider_1_3 from "../../../assets/img/detail_slider_1_3.png";
