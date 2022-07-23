@@ -689,7 +689,7 @@
 }
 
 .clt-detail-footer-bottom-up-menus img {
-    width: 21px;
+    width: 23px;
     margin: 20px;
 }
 
@@ -697,11 +697,11 @@
     font-size: 17px;
     font-weight: 600;
     font-family: 'inter';
-    color: #000;
+    color: #2b2929;
     border-bottom: 1px solid #dedddd;
     width: 100%;
     letter-spacing: -0.4px;
-    padding: 20px 0;
+    padding: 22px 0;
 }
 
 .clt-detail-footer-bottom-up-menus-div .clt-detail-footer-bottom-up-menus:last-child span {
