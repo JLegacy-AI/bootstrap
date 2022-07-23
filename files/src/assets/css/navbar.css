@@ -438,8 +438,8 @@
     .pfr_navbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .pfr_navbarRow {
@@ -448,8 +448,8 @@
 
 
     .pfr_navbarRightShare img{
-        width: 36px;
-        height: 38px;
+        width: 37px;
+        height: 39px;
         border: 1px solid #ffffff;
     }
    
@@ -472,8 +472,8 @@
     .pfr_navbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .pfr_navbarNavInnerPages {
@@ -497,8 +497,8 @@
 
         
     .pfr_navbarRightShare img{
-        width: 37px;
-        height: 39px;
+        width: 39px;
+        height: 41px;
         border: 1px solid #ffffff;
     }
 
@@ -514,7 +514,7 @@
 
     .pfr_navbarLogo {
         margin-left: 5px;
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }
@@ -673,13 +673,13 @@
     .pfr_navbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .pfr_navbarRightShare img{
-        width: 37px;
-        height: 39px;
+        width: 39px;
+        height: 41px;
         border: 1px solid #ffffff;
     }
 
@@ -693,7 +693,7 @@
 
     .pfr_navbarLogo {
         margin-left: 5px;
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }
@@ -821,8 +821,8 @@
     .pfr_navbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .pfr_navbarRow {
@@ -849,7 +849,7 @@
     .pfr_navbarLogo {
         align-items: center;
         margin-left: 5px;
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }
