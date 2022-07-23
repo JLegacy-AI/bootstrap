@@ -108,7 +108,7 @@
     justify-content: center;
     align-items: center;
     background: #fff;
-    border: 1px solid #eee;
+    border: 1px solid #dedddd;
     border-radius: 9px;
 }
 
@@ -741,7 +741,7 @@
     }
 
     .clt-section-hr-pd {
-        padding: 32px 15px;
+        padding: 28px 22px;
     }
     
     .clt-detail-slider-main {
@@ -804,7 +804,7 @@
     }
 
     .clt-detail-left-section-subdiv-1-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
         height: 50px;
     }
 
@@ -822,13 +822,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 0;
+        font-size: 17px;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 18px;
+        font-size: 17px;
+        letter-spacing: -0.4px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -838,10 +841,10 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 13px;
+        font-size: 13.5px;
         letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 4px 13px;
+        padding: 3px 13px;
         border-radius: 10px;
         margin-right: 10px;
         margin-top: 19px;
@@ -867,8 +870,8 @@
 
     .clt-detail-left-section-2-cards {
         width: 300px;
-        height: 185px;
-        border-radius: 11px;
+        height: 195px;
+        border-radius: 12px;
         margin-right: 15px;
     }
 
@@ -904,7 +907,7 @@
     }
 
     .clt-section-hr-pd {
-        padding: 32px 15px;
+        padding: 28px 22px;
     }
 
     .clt-detail-slider-main-imgdiv {
@@ -963,7 +966,7 @@
     }
 
     .clt-detail-left-section-subdiv-1-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
         height: 50px;
     }
 
@@ -981,13 +984,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 0;
+        font-size: 17px;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 18px;
+        font-size: 17px;
+        letter-spacing: -0.4px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -997,10 +1003,10 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 13px;
+        font-size: 13.5px;
         letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 4px 13px;
+        padding: 3px 13px;
         border-radius: 10px;
         margin-right: 10px;
         margin-top: 19px;
@@ -1026,8 +1032,8 @@
 
     .clt-detail-left-section-2-cards {
         width: 300px;
-        height: 185px;
-        border-radius: 20px;
+        height: 195px;
+        border-radius: 12px;
         margin-right: 15px;
     }
 
@@ -1063,7 +1069,7 @@
     }
 
     .clt-section-hr-pd {
-        padding: 32px 15px;
+        padding: 28px 22px;
     }
     
     .clt-detail-slider-main-imgdiv {
@@ -1122,7 +1128,7 @@
     }
 
     .clt-detail-left-section-subdiv-1-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
         height: 50px;
     }
 
@@ -1140,13 +1146,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 0;
+        font-size: 17px;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 18px;
+        font-size: 17px;
+        letter-spacing: -0.4px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -1156,10 +1165,10 @@
     }
 
     .clt-detail-left-section-subdiv-2 span {
-        font-size: 13px;
+        font-size: 13.5px;
         letter-spacing: -0.1px;
         font-weight: 600;
-        padding: 4px 13px;
+        padding: 3px 13px;
         border-radius: 10px;
         margin-right: 10px;
         margin-top: 19px;
@@ -1185,8 +1194,8 @@
 
     .clt-detail-left-section-2-cards {
         width: 300px;
-        height: 185px;
-        border-radius: 20px;
+        height: 195px;
+        border-radius: 12px;
         margin-right: 15px;
     }
 
