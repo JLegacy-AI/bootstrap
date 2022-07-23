@@ -434,6 +434,12 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .pfr_navbarNav {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+    
     .pfr_navbarRow {
         width: 100vw;
     }
@@ -460,6 +466,11 @@
         display: none;
     }
 
+    .pfr_navbarNav {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+    
     .pfr_navbarNavInnerPages {
         box-shadow: none;
     }
@@ -497,7 +508,7 @@
 
     .pfr_navbarLogo {
         margin-left: 15px;
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: -0.2px;
     }
 
@@ -652,6 +663,11 @@
         display: none;
     }
     
+    .pfr_navbarNav {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+    
     .pfr_navbarRightShare img{
         width: 39px;
         height: 41px;
@@ -668,6 +684,7 @@
     .pfr_navbarLogo {
         align-items: center;
         margin-left: 30px;
+        font-size: 20px;
     }
 
     .pfr_navbarLogo img {
@@ -790,6 +807,11 @@
         padding-right: 15px;
     }
 
+    .pfr_navbarNav {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+    
     .pfr_navbarRow {
         width: 100vw;
     }
@@ -813,7 +835,7 @@
 
     .pfr_navbarLogo {
         align-items: center;
-        margin-left: 22px;
+        margin-left: 20px;
         margin-bottom: 2px;
     }
 
