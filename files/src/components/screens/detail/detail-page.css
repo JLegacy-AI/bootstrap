@@ -449,18 +449,18 @@
     padding-bottom: 0.5rem;
     padding-left: 1.1rem;
     margin-top: 7.5px;
-    font-size: 17px;
+    font-size: 15.5px;
 }
 
 .clt_inputFloat input, .clt_inputFloat input:active, .clt_inputFloat input:focus {
-    height: 71px !important;
-    font-size: 18px;
+    height: 67px !important;
+    font-size: 16.5px;
     font-weight: 500;
     color: #000;
     padding-top: 10px !important;
-    padding-right: 17.1335px !important;
+    padding-right: 15.5px !important;
     padding-bottom: 0px !important;
-    padding-left: 17.1335px !important;
+    padding-left: 15.5px !important;
     border-radius: 0px;
     border: 1px solid #cccccc;
     border-top: none;
@@ -469,11 +469,11 @@
 }
 
 .clt_inputFloat textarea, .clt_inputFloat textarea:active, .clt_inputFloat textarea:focus {
-    font-size: 17.3px;
-    font-weight: 600;
+    font-size: 16.5px;
+    font-weight: 500;
     color: #000;
-    padding-left: 17px !important;
-    padding-right: 17px !important;
+    padding-left: 15.5px !important;
+    padding-right: 15.5px !important;
     border-radius: 0px;
     border: 1px solid #cccccc;
     border-top: none;
@@ -680,7 +680,7 @@
     font-size: 17px;
     font-weight: 600;
     font-family: 'inter';
-    color: #000;
+    color: #2f2323;
     text-align: center;
     letter-spacing: -0.2px;
     padding: 20px 0;
