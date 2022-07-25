@@ -23,8 +23,11 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeMaraige}
                   >
                     <img
-                      src={
-                        props.eventType.type === 1 ? IconBar1Active : IconBar1
+                      src={IconBar1Active}
+                      style={
+                        props.eventType.type === 1
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt="ParkingAeroPortFr"
@@ -50,10 +53,13 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeAnniversaire}
                   >
                     <img
-                      src={
-                        props.eventType.type === 2 ? IconBar2Active : IconBar2
-                      }
+                      src={IconBar2Active}
                       className=""
+                      style={
+                        props.eventType.type === 2
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
+                      }
                       alt="ParkingAeroPortFr"
                     />
                     <h2
@@ -77,8 +83,11 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeProfesionnel}
                   >
                     <img
-                      src={
-                        props.eventType.type === 3 ? IconBar3Active : IconBar3
+                      src={IconBar3Active}
+                      style={
+                        props.eventType.type === 3
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt="ParkingAeroPortFr"
@@ -104,8 +113,11 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeReligieux}
                   >
                     <img
-                      src={
-                        props.eventType.type === 4 ? IconBar4Active : IconBar4
+                      src={IconBar4Active}
+                      style={
+                        props.eventType.type === 4
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt="ParkingAeroPortFr"
