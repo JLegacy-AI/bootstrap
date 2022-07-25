@@ -5,9 +5,9 @@ import ShareIcon from "../assets/img/share.png";
 const InnerNavbar = (props) => {
   return (
     <React.Fragment>
-      <HomeNavbar expand={false} className="pfr_navbarNav">
+      <HomeNavbar expand={false} className="pfr_innerNavbarNav">
         <Container fluid className="pfr_innerNav_container">
-          <Row className="pfr_navbarRow">
+          <Row className="pfr_innerNavbarRow">
             <Col
               lg={6}
               md={6}
@@ -17,13 +17,13 @@ const InnerNavbar = (props) => {
             >
               <HomeNavbar.Brand
                 href={props.backClick}
-                className="d-flex justify-content-start align-items-center pfr_navbarToggle"
+                className="d-flex justify-content-start align-items-center pfr_innerNavbarToggle"
               >
                 <i className="fa-light fa-chevron-left"></i>
               </HomeNavbar.Brand>
               <HomeNavbar.Brand
                 href={props.titleClick}
-                className="d-flex pfr_navbarLogo"
+                className="d-flex pfr_innerNavbarLogo"
               >
                 {props.title}
               </HomeNavbar.Brand>
@@ -35,7 +35,7 @@ const InnerNavbar = (props) => {
               xs={6}
               className="d-flex justify-content-end"
             >
-              <HomeNavbar.Text className="d-flex pfr_navbarRightShare">
+              <HomeNavbar.Text className="d-flex pfr_innerNavbarRightShare">
                 <img src={ShareIcon} />
               </HomeNavbar.Text>
             </Col>

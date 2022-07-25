@@ -1,4 +1,4 @@
-.pfr_navbarNav {
+.pfr_innerNavbarNav {
     /* position: absolute;
     top: 0;
     left: 0;
@@ -9,7 +9,7 @@
     padding-bottom: 0.5rem !important;
 }
 
-.pfr_navbarNavInnerPages {
+.pfr_innerNavbarNavInnerPages {
     box-shadow: 0px 0px 5px #ddd;
     background: #fff !important;
     position: relative;
@@ -19,22 +19,22 @@
     z-index: 1020; */
 }
 
-.pfr_navbarRow {
+.pfr_innerNavbarRow {
     width: 100vw;
 }
 
-.pfr_navbarToggle, .pfr_navbarToggle:focus {
+.pfr_innerNavbarToggle, .pfr_innerNavbarToggle:focus {
     border: none;
     box-shadow: none;
     padding: 0;
 }
 
-.pfr_navbarToggle img {
+.pfr_innerNavbarToggle img {
     width: 18px;
     margin-bottom: 3.5px;
 }
 
-.pfr_navbarLogo {
+.pfr_innerNavbarLogo {
     align-items: center;
     margin-left: 22px;
     margin-bottom: 2px;
@@ -43,12 +43,12 @@
     font-weight: 500;
 }
 
-.pfr_navbarLogo img {
+.pfr_innerNavbarLogo img {
     padding-top: 8px;
     width: 220px;
 }
 
-.pfr_navbarLogo h2 {
+.pfr_innerNavbarLogo h2 {
     font-size: 24px;
     color: #000;
     font-weight: 600;
@@ -56,21 +56,21 @@
     margin-top: 4px;
 }
 
-.pfr_navbarRightTxt {
+.pfr_innerNavbarRightTxt {
     color: #fff !important;
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
 }
 
-.pfr_navbarRightTxt i {
+.pfr_innerNavbarRightTxt i {
     font-size: 10px;
     color: #000;
     padding-left: 5px;
 }
 
-.pfr_navbarRightTxt a,
-.pfr_navbarRightTxt a:hover {
+.pfr_innerNavbarRightTxt a,
+.pfr_innerNavbarRightTxt a:hover {
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
@@ -81,15 +81,15 @@
 }
 
 
-.pfr_navbarRightTxt a:nth-child(1) {
+.pfr_innerNavbarRightTxt a:nth-child(1) {
     margin-right: 5px;
 }
 
-.pfr_navbarRightTxt a:last-child {
+.pfr_innerNavbarRightTxt a:last-child {
     margin-left: 5px;
 }
 
-.pfr_navbarRightTxt span {
+.pfr_innerNavbarRightTxt span {
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
@@ -103,16 +103,16 @@
     align-items: center;
 }
 
-.pfr_navbarRightTxt span:nth-child(1) {
+.pfr_innerNavbarRightTxt span:nth-child(1) {
     margin-right: 5px;
 }
 
-.pfr_navbarRightTxt span:last-child {
+.pfr_innerNavbarRightTxt span:last-child {
     margin-left: 5px;
     font-weight: 600;
 }
 
-.pfr_navBarInnerPageH2 {
+.pfr_innerNavbarInnerPageH2 {
     font-size: 24px;
     color: #000;
     font-weight: 500;
@@ -388,13 +388,13 @@
     margin: 0;
 }
 
-.pfr_navbarinput .input-group-text {
+.pfr_innerNavbarinput .input-group-text {
     background: #eee !important;
     border-top-left-radius: 50px !important;
     border-bottom-left-radius: 50px !important;
 }
 
-.pfr_navbar_select_parking {
+.pfr_innerNavbar_select_parking {
     background: #eee !important;
     border-top-right-radius: 50px !important;
     border-bottom-right-radius: 50px !important;
@@ -402,16 +402,20 @@
     padding-bottom: 2px !important;
 }
 
-.pfr_navbar_to_show_desktop {
+.pfr_innerNavbar_to_show_desktop {
     display: block;
 }
 
 /* Inner Navbar */
-.pfr_navbarRightShare{
+.pfr_innerNav_container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pfr_innerNavbarRightShare{
     cursor: pointer;
 }
 
-.pfr_navbarRightShare img{
+.pfr_innerNavbarRightShare img{
     border: 1px solid #cbcbcb;
     border-radius: 8px;
     padding: 10px;
@@ -426,25 +430,30 @@
 @media only screen and (max-width: 550px) {
 
     /*mobile*/
-    .pfr_navbarNav {
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pfr_innerNavbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
         padding-left: 5px;
         padding-right: 5px;
     }
     
-    .pfr_navbarRow {
+    .pfr_innerNavbarRow {
         width: 100vw;
     }
 
 
-    .pfr_navbarRightShare img{
+    .pfr_innerNavbarRightShare img{
         width: 37px;
         height: 39px;
         border: 1px solid #ffffff;
     }
    
-    .pfr_navbar_to_show_desktop {
+    .pfr_innerNavbar_to_show_desktop {
         display: none;
     }
 }
@@ -452,44 +461,48 @@
 @media only screen and (max-width: 767px) {
 
     /*mobile*/
-    .pfr_navbar_to_show_desktop {
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pfr_innerNavbar_to_show_desktop {
         display: none;
     }
 
-    .pfr_navbarNav {
+    .pfr_innerNavbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
         padding-left: 5px;
         padding-right: 5px;
     }
     
-    .pfr_navbarNavInnerPages {
+    .pfr_innerNavbarNavInnerPages {
         box-shadow: none;
     }
 
-    .pfr_navBarInnerPageH2 {
+    .pfr_innerNavbarInnerPageH2 {
         font-size: 24px;
         font-weight: 500;
         margin-bottom: 0px;
         margin-top: 5px;
     }
 
-    .pfr_navbarRow {
+    .pfr_innerNavbarRow {
         width: 100vw;
     }
 
-    .pfr_navbarToggle img {
+    .pfr_innerNavbarToggle img {
         width: 18px;
     }
 
         
-    .pfr_navbarRightShare img{
+    .pfr_innerNavbarRightShare img{
         width: 39px;
         height: 41px;
         border: 1px solid #ffffff;
     }
 
-    .pfr_navbarRightTxt span {
+    .pfr_innerNavbarRightTxt span {
         font-weight: 500;
         font-size: 13px;
         letter-spacing: -0.3px;
@@ -499,18 +512,18 @@
         padding-top: 4px;
     }
 
-    .pfr_navbarLogo {
+    .pfr_innerNavbarLogo {
         margin-left: 5px;
         font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }
 
-    .pfr_navbarLogo img {
+    .pfr_innerNavbarLogo img {
         width: 135px;
     }
 
-    .pfr_navbarRightTxt span:nth-child(1) {
+    .pfr_innerNavbarRightTxt span:nth-child(1) {
         margin-right: 0;
     }
 
@@ -649,44 +662,48 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 
     /*ipad*/
-    .pfr_navbar_to_show_desktop {
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pfr_innerNavbar_to_show_desktop {
         display: none;
     }
     
-    .pfr_navbarNav {
+    .pfr_innerNavbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
         padding-left: 5px;
         padding-right: 5px;
     }
     
-    .pfr_navbarRightShare img{
+    .pfr_innerNavbarRightShare img{
         width: 39px;
         height: 41px;
         border: 1px solid #ffffff;
     }
 
-    .pfr_navbarRow {
+    .pfr_innerNavbarRow {
         width: 100vw;
     }
 
-    .pfr_navbarToggle img {
+    .pfr_innerNavbarToggle img {
         width: 20px;
     }
 
-    .pfr_navbarLogo {
+    .pfr_innerNavbarLogo {
         margin-left: 5px;
         font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }
 
-    .pfr_navbarLogo img {
+    .pfr_innerNavbarLogo img {
         padding-top: 8px;
         width: 130px;
     }
 
-    .pfr_navbarRightTxt span {
+    .pfr_innerNavbarRightTxt span {
         font-weight: 500;
         font-size: 15px;
         padding: 5px 10px;
@@ -796,14 +813,19 @@
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
 
     /*ipad pro*/
-    .pfr_navbarNav {
+    .pfr_innerNav_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pfr_innerNavbarNav {
         padding-top: 0.1rem !important;
         padding-bottom: 0.1rem !important;
         padding-left: 5px;
         padding-right: 5px;
     }
     
-    .pfr_navbarRow {
+    .pfr_innerNavbarRow {
         width: 100vw;
     }
 }
@@ -811,16 +833,20 @@
 @media only screen and (min-width: 1600px) {
 
     /*large desktop*/
-    .pfr_navbarRow {
+    .pfr_innerNav_container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .pfr_innerNavbarRow {
         width: 100vw;
     }
 
-    .pfr_navbarToggle img {
+    .pfr_innerNavbarToggle img {
         width: 18px;
         margin-bottom: 3.5px;
     }
 
-    .pfr_navbarLogo {
+    .pfr_innerNavbarLogo {
         align-items: center;
         margin-left: 22px;
         font-size: 22.5px;
@@ -828,35 +854,35 @@
         font-weight: 600;
     }
 
-    .pfr_navbarLogo img {
+    .pfr_innerNavbarLogo img {
         padding-top: 8px;
         width: 240px;
     }
 
-    .pfr_navbarRightTxt a,
-    .pfr_navbarRightTxt a:hover {
+    .pfr_innerNavbarRightTxt a,
+    .pfr_innerNavbarRightTxt a:hover {
         font-weight: 500;
         font-size: 15px;
     }
 
-    .pfr_navbarRightTxt a:nth-child(1) {
+    .pfr_innerNavbarRightTxt a:nth-child(1) {
         margin-right: 5px;
     }
 
-    .pfr_navbarRightTxt a:last-child {
+    .pfr_innerNavbarRightTxt a:last-child {
         margin-left: 5px;
     }
 
-    .pfr_navbarRightTxt span {
+    .pfr_innerNavbarRightTxt span {
         font-weight: 500;
         font-size: 15px;
     }
 
-    .pfr_navbarRightTxt span:nth-child(1) {
+    .pfr_innerNavbarRightTxt span:nth-child(1) {
         margin-right: 5px;
     }
 
-    .pfr_navbarRightTxt span:last-child {
+    .pfr_innerNavbarRightTxt span:last-child {
         margin-left: 5px;
     }
 
