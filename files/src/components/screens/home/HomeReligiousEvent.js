@@ -75,9 +75,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Ce lieu vous permet d'accueillir des cérémonies et
-                            des réceptions d'événement religieux avec jusqu’à
-                            100 invités.
+                            Célebrer un événement religieux avec jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -86,11 +84,9 @@ const HomeReligiousEvent = (props) => {
                       <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                         <h2>2</h2>
                         <div>
-                          <span>Optionnel: Prestataire</span>
+                          <span>Prestataire</span>
                           <p>
-                            Une sélection de prestataire pouvant vous
-                            accompagner: Traiteur, fleur, décoration,
-                            photographe…
+                            Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -99,10 +95,10 @@ const HomeReligiousEvent = (props) => {
                       <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                         <h2>3</h2>
                         <div>
-                          <span>Optionnel: Dortoir</span>
+                          <span>Équipement</span>
                           <p>
-                            Faites dormir vous et vos proches directement dans
-                            le château.
+                          Table, chaise, matériel sonore, lumière, cuisine
+                          disponible, pour mener à bien votre événement.
                           </p>
                         </div>
                       </div>
@@ -170,30 +166,26 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Ce lieu vous permet d'accueillir des cérémonies et des
-                        réceptions d'événement religieux avec jusqu’à 100
-                        invités.
+                        Célebrer un événement religieux avec jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>2</h2>
                     <div>
-                      <span>Optionnel: Prestataire</span>
-                      <p>Traiteur, fleur, décoration, photographe…</p>
+                      <span>Prestataire</span>
                       <p>
-                        Une sélection de prestataire pouvant vous accompagner:
-                        Traiteur, fleur, décoration, photographe…
+                        Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>3</h2>
                     <div>
-                      <span>Optionnel: Dortoir</span>
+                      <span>Équipement</span>
                       <p>
-                        Faites dormir vous et vos proches directement dans le
-                        château.
+                        Table, chaise, matériel sonore, lumière, cuisine
+                        disponible, pour mener à bien votre événement.
                       </p>
                     </div>
                   </div>
@@ -202,14 +194,14 @@ const HomeReligiousEvent = (props) => {
                     style={{ backgroundColor: `${props.eventType.background}` }}
                   >
                     <h2>
-                      Retrouver toutes les informations sur la page du château
+                      Découvrez le château en détail
                     </h2>
                     <Button
                       onClick={() => console.log("clicked!")}
                       className="clt-section-3-cards-button shadow-none"
                     >
                       <span>
-                        En savoir plus{" "}
+                        Continuer{" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </span>
                     </Button>
@@ -340,7 +332,7 @@ const HomeReligiousEvent = (props) => {
                 className="clt-section-6"
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
-                <h2>Retrouvez plus de détail sur notre page dédiée</h2>
+                <h2>Découvrez le château en détail</h2>
                 <img src={HomeSection6} className="" alt="ParkingAeroPortFr" />
                 <Button
                   onClick={() => console.log("clicked!")}
@@ -383,6 +375,9 @@ const HomeReligiousEvent = (props) => {
             <div className="">
               <div className="clt-section-8">
                 <div className="d-flex flex-column mb-5">
+                  <a href="#">Nous contacter</a>
+                  <a href="#">Programmer une visite</a>
+                  <a href="#">Réserver</a>
                   <a href="#">Centre d’aide</a>
                   <a href="#">Se connecter</a>
                   <a href="#">Créer un compte</a>
