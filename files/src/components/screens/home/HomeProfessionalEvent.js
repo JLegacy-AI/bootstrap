@@ -66,7 +66,7 @@ const HomeProfessionalEvent = (props) => {
                           backgroundImage: `url(${props.eventType.img})`,
                         }}
                       >
-                        <h2>Pour votre séminaire / réunion</h2>
+                        <h2>Pour votre événement profesionnel</h2>
                       </div>
                     </div>
                     <div>
@@ -75,7 +75,7 @@ const HomeProfessionalEvent = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Organiser un évenement profesionnel avec jusqu’à 100 invités.
+                            Organiser un seminaire ou une réunion avec jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -86,7 +86,7 @@ const HomeProfessionalEvent = (props) => {
                         <div>
                           <span>Prestataire</span>
                           <p>
-                            Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
+                            Sélectionner des prestataires selon vos besoins: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -159,14 +159,14 @@ const HomeProfessionalEvent = (props) => {
                       backgroundImage: `url(${props.eventType.img})`,
                     }}
                   >
-                    <h2>Pour votre séminaire / réunion</h2>
+                    <h2>Pour votre événement profesionnel</h2>
                   </div>
                   <div className="d-flex flex-column justify-content-start align-items-start clt-section-3-cards clt-section-3-cards-secondary">
                     <h2>1</h2>
                     <div>
                       <span>Le château</span>
                       <p>
-                        Organiser un évenement profesionnel avec jusqu’à 100 invités.
+                        Organiser un seminaire ou une réunion avec jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ const HomeProfessionalEvent = (props) => {
                     <div>
                       <span>Prestataire</span>
                       <p>
-                        Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
+                        Sélectionner des prestataires selon vos besoins: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ const HomeProfessionalEvent = (props) => {
                     style={{ backgroundColor: `${props.eventType.background}` }}
                   >
                     <h2>
-                      Découvrez le château en détail
+                    Découvrez toutes les informations du château en détail
                     </h2>
                     <Button
                       onClick={() => console.log("clicked!")}

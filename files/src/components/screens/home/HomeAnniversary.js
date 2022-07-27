@@ -86,7 +86,7 @@ const HomeAnniversary = (props) => {
                         <div>
                           <span>Prestataire</span>
                           <p>
-                            Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
+                            Sélectionner des prestataires selon vos besoins: Traiteur, fleur, décoration, photographe…
                           </p>
                         </div>
                       </div>
@@ -175,7 +175,7 @@ const HomeAnniversary = (props) => {
                     <div>
                       <span>Prestataire</span>
                       <p>
-                        Sélectionner des prestataires si vous en avez besoin: Traiteur, fleur, décoration, photographe…
+                        Sélectionner des prestataires selon vos besoins: Traiteur, fleur, décoration, photographe…
                       </p>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ const HomeAnniversary = (props) => {
                     style={{ backgroundColor: `${props.eventType.background}` }}
                   >
                     <h2>
-                      Découvrez le château en détail
+                      Découvrez toutes les informations du château en détail
                     </h2>
                     <Button
                       onClick={() => console.log("clicked!")}
