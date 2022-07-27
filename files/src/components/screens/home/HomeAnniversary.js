@@ -378,9 +378,13 @@ const HomeAnniversary = (props) => {
                   <a href="#">Nous contacter</a>
                   <a href="#">Programmer une visite</a>
                   <a href="#">Réserver</a>
-                  <a href="#">Centre d’aide</a>
+                  <a href="#"></a>
+                  <a href="#"></a>
                   <a href="#">Se connecter</a>
                   <a href="#">Créer un compte</a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#">Centre d’aide</a>
                 </div>
                 <div>
                   <p>@2022 Château la tournelle</p>
