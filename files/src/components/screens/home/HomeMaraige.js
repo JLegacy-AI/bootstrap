@@ -75,7 +75,7 @@ const HomeMaraige = (props) => {
                         <div>
                           <span>Le château</span>
                           <p>
-                            Célebrer une cérémonie et des réceptions de mariage jusqu’à 100 invités.
+                            Célebrer une cérémonie et des réceptions de mariage avec jusqu’à 100 invités.
                           </p>
                         </div>
                       </div>
@@ -97,8 +97,7 @@ const HomeMaraige = (props) => {
                         <div>
                           <span>Équipement</span>
                           <p>
-                            Table, chaise, matériel sonore, lumière, cuisine
-                            disponible, pour mener à bien votre événement.
+                            Retrouver les équipements nécessaires pour mener à bien votre événement: Table, chaise, matériel sonore, lumière, cuisine...
                           </p>
                         </div>
                       </div>
@@ -111,15 +110,14 @@ const HomeMaraige = (props) => {
                         }}
                       >
                         <h2>
-                          Retrouver toutes les informations sur la page du
-                          château
+                          Découvrez toutes les informations du château en détail
                         </h2>
                         <Button
                           onClick={() => console.log("clicked!")}
                           className="clt-section-3-cards-button shadow-none"
                         >
                           <span>
-                            En savoir plus{" "}
+                            Continuer{" "}
                             <i className="fa-solid fa-arrow-right"></i>
                           </span>
                         </Button>
@@ -166,7 +164,7 @@ const HomeMaraige = (props) => {
                     <div>
                       <span>Le château</span>
                       <p>
-                        Célebrer une cérémonie et des réceptions de mariage jusqu’à 100 invités.
+                        Célebrer une cérémonie et des réceptions de mariage avec jusqu’à 100 invités.
                       </p>
                     </div>
                   </div>
@@ -184,8 +182,7 @@ const HomeMaraige = (props) => {
                     <div>
                       <span>Équipement</span>
                       <p>
-                        Table, chaise, matériel sonore, lumière, cuisine
-                        disponible, pour mener à bien votre événement.
+                        Retrouver les équipements nécessaires pour mener à bien votre événement: Table, chaise, matériel sonore, lumière, cuisine...
                       </p>
                     </div>
                   </div>

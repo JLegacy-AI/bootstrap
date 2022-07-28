@@ -97,8 +97,7 @@ const HomeReligiousEvent = (props) => {
                         <div>
                           <span>Équipement</span>
                           <p>
-                          Table, chaise, matériel sonore, lumière, cuisine
-                          disponible, pour mener à bien votre événement.
+                            Retrouver les équipements nécessaires pour mener à bien votre événement: Table, chaise, matériel sonore, lumière, cuisine...
                           </p>
                         </div>
                       </div>
@@ -111,15 +110,14 @@ const HomeReligiousEvent = (props) => {
                         }}
                       >
                         <h2>
-                          Retrouver toutes les informations sur la page du
-                          château
+                          Découvrez toutes les informations du château en détail
                         </h2>
                         <Button
                           onClick={() => console.log("clicked!")}
                           className="clt-section-3-cards-button shadow-none"
                         >
                           <span>
-                            En savoir plus{" "}
+                            Continuer{" "}
                             <i className="fa-solid fa-arrow-right"></i>
                           </span>
                         </Button>
@@ -184,8 +182,7 @@ const HomeReligiousEvent = (props) => {
                     <div>
                       <span>Équipement</span>
                       <p>
-                        Table, chaise, matériel sonore, lumière, cuisine
-                        disponible, pour mener à bien votre événement.
+                        Retrouver les équipements nécessaires pour mener à bien votre événement: Table, chaise, matériel sonore, lumière, cuisine...
                       </p>
                     </div>
                   </div>
