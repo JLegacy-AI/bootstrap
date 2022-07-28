@@ -683,6 +683,8 @@
     .clt-section-3-cards {
         white-space: normal;
         flex-shrink: 0;
+        width: 30px;
+        height: 300px;
     }
 
     .clt-section-3-cards-main h2 {
@@ -967,6 +969,8 @@
     .clt-section-3-cards {
         white-space: normal;
         flex-shrink: 0;
+        width: 300px;
+        height: 300px;
     }
 
     .clt-section-3-h2-mt {
@@ -1252,6 +1256,8 @@
     .clt-section-3-cards {
         white-space: normal;
         flex-shrink: 0;
+        width: 300px;
+        height: 300px;
     }
 
     .clt-section-3-h2-mt {
