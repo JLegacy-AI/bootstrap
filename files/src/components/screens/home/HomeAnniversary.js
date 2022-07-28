@@ -241,7 +241,6 @@ const HomeAnniversary = (props) => {
                 Questions fréquentes pour votre événement
               </h2>
               <Accordion
-                defaultActiveKey="0"
                 className="clt-section-5-accordion"
               >
                 <Accordion.Item
