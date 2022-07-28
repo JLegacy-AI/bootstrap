@@ -380,8 +380,10 @@ const HomeProfessionalEvent = (props) => {
                   <a href="#">Réserver</a>
                   <a href="#"></a>
                   <a href="#"></a>
-                  <a href="#">Se connecter</a>
+                  <a href="#"></a>
+                  <a href="#">Connexion</a>
                   <a href="#">Créer un compte</a>
+                  <a href="#"></a>
                   <a href="#"></a>
                   <a href="#"></a>
                   <a href="#">Centre d’aide</a>

@@ -335,7 +335,10 @@
     border-radius: 20px;
     overflow: hidden;
     margin: 40px 0px;
-    padding: 40px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
 }
 
 .clt-section-4-img-desktop {
@@ -375,6 +378,7 @@
     font-weight: 700;
     font-family: 'MULISH';
     line-height: 28px;
+    color: #000;
     margin-top: 18px;
     margin-right: 0px;
     margin-bottom: 34px;
