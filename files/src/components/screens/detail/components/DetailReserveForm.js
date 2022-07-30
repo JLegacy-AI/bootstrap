@@ -31,6 +31,7 @@ const DetailReserveForm = (props) => {
             <label htmlFor="floatingInput1">Date Arrival and Return</label>
           </Form.Floating>
         </div>
+        {props.isModal && <div className="clt-form-space-bottom" />}
         <div className={props.customFooterButton}>
           <Button
             onClick={() => console.log("")}

@@ -30,6 +30,7 @@ const DetailGallery = (props) => {
                 responsive={props.responsive}
                 mainGallery={props.fullScreenGallery}
                 openGallery={props.setIsGalleryOpen}
+                isFullScreenGallery={props.isFullScreenGallery}
                 swipeable={true}
                 draggable={true}
                 showDots={false}

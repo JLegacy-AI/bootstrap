@@ -77,6 +77,7 @@ const DetailContactForm = (props) => {
             <label htmlFor="floatingInput1">Message</label>
           </Form.Floating>
         </div>
+        {props.isModal && <div className="clt-form-space-bottom" />}
         <div className={props.customFooterButton}>
           <Button
             onClick={() => console.log("")}

@@ -24,7 +24,7 @@ const CustomCarousel = (props) => {
             style={{
               backgroundImage: `url(${value.img})`,
             }}
-            onClick={props.openGallery}
+            onClick={!props.isFullScreenGallery && props.openGallery}
           >
             <span>{value.text}</span>
           </div>

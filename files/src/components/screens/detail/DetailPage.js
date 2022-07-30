@@ -12,7 +12,7 @@ import DetailSlider_1_4 from "../../../assets/img/detail_slider_1_4.png";
 import IconContactUs from "../../../assets/img/icon_contact_us.png";
 import IconReserve from "../../../assets/img/icon_reserve.png";
 import InnerNavbar from "../../../layouts/InnerNavbar";
-import { isBrowser, isMobile } from "react-device-detect";
+import { isBrowser, isMobile, isTablet } from "react-device-detect";
 import FooterBottomUp from "../../reusable/FooterBottomUp";
 import DetailFooter from "./components/DetailFooter";
 import DetailGallery from "./components/DetailGallery";
@@ -36,6 +36,7 @@ import EventsNavbar from "../../reusable/EventsNavbar";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
+  const [stickySidebar, setStickySidebar] = useState(undefined);
   const [eventType, setEventType] = useState(maraigeData);
   const [formType, setFormType] = useState("contact");
   const [bottomUp, setBottomUp] = useState(false);
@@ -83,6 +84,10 @@ const DetailPage = () => {
       .querySelector(".stickyBar")
       .getBoundingClientRect();
     setstickyBarTop(stickyBarEl.top);
+    const stickySideBarEl = document
+      .querySelector(".stickySideBar")
+      .getBoundingClientRect();
+    setStickySidebar(stickySideBarEl.top);
   }, []);
 
   useEffect(() => {
@@ -93,17 +98,50 @@ const DetailPage = () => {
       window.removeEventListener("scroll", isSticky);
     };
   }, [stickyBarTop]);
+  useEffect(() => {
+    if (!stickySidebar) return;
+
+    window.addEventListener("scroll", isSidebarSticky);
+    return () => {
+      window.removeEventListener("scroll", isSidebarSticky);
+    };
+  }, [stickySidebar]);
 
   const isSticky = (e) => {
     const stickyBarEl = document.querySelector(".stickyBar");
     const scrollTop = window.scrollY;
-    const check = isMobile
-      ? scrollTop >= stickyBarTop + 300
-      : scrollTop >= stickyBarTop - 10;
+    let check;
+    if (isTablet) {
+      check = scrollTop >= stickyBarTop - 10;
+    } else if (isMobile) {
+      check = scrollTop >= stickyBarTop + 200;
+    } else {
+      check = scrollTop >= stickyBarTop - 10;
+    }
+
     if (check) {
       stickyBarEl.classList.add("is-sticky");
     } else {
       stickyBarEl.classList.remove("is-sticky");
+    }
+  };
+
+  const isSidebarSticky = (e) => {
+    const stickySideBarEl = document.querySelector(".stickySideBar");
+    const scrollTop = window.scrollY;
+    let check;
+    if (isTablet) {
+      check = false;
+    } else if (isMobile) {
+      check = false;
+    } else {
+      check = scrollTop >= stickySidebar - 10;
+    }
+
+    if (check) {
+      stickySideBarEl.classList.add("is-sticky");
+    } else {
+      stickySideBarEl.classList.remove("is-sticky");
     }
   };
 
@@ -213,7 +251,7 @@ const DetailPage = () => {
                   shouldResetAutoplay={false}
                   autoPlay={false}
                   className="clt-detail-slider-main hideMobile"
-                  classNameSlider="clt-detail-slider-main-imgdiv"
+                  classNameSlider="clt-detail-slider-main-imgdiv cursor-zoom-in"
                 />
               </Col>
             </Row>
@@ -293,7 +331,7 @@ const DetailPage = () => {
                       renderButtonGroupOutside={true}
                       customButtonGroup={<DetailMainSliderArrows />}
                       className="clt-detail-left-section-2-cards-div"
-                      classNameSlider="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main"
+                      classNameSlider="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main cursor-zoom-in"
                     />
                   </div>
                 </div>
@@ -307,46 +345,54 @@ const DetailPage = () => {
               subTextSection3="Text section 3"
             />
           </Col>
-          <Col lg={4} xs={12} className="hideMobile">
-            <div className="clt-detail-right-main">
-              <div className="clt-detail-right-toggle">
-                <span
-                  className={
-                    formType === "reserve"
-                      ? "clt-detail-right-toggle-tab active"
-                      : "clt-detail-right-toggle-tab"
-                  }
-                  onClick={() => setFormType("reserve")}
-                >
-                  Reserve
-                </span>
-                <span
-                  className={
-                    formType === "contact"
-                      ? "clt-detail-right-toggle-tab active"
-                      : "clt-detail-right-toggle-tab"
-                  }
-                  onClick={() => setFormType("contact")}
-                >
-                  Contact Us
-                </span>
-              </div>
+          <Col
+            lg={4}
+            xs={12}
+            className="hideMobile"
+          >
+            <Row className="clt-sidebar-forms stickySideBar">
+              <Col>
+                <div className="clt-detail-right-main">
+                  <div className="clt-detail-right-toggle">
+                    <span
+                      className={
+                        formType === "reserve"
+                          ? "clt-detail-right-toggle-tab active"
+                          : "clt-detail-right-toggle-tab"
+                      }
+                      onClick={() => setFormType("reserve")}
+                    >
+                      Reserve
+                    </span>
+                    <span
+                      className={
+                        formType === "contact"
+                          ? "clt-detail-right-toggle-tab active"
+                          : "clt-detail-right-toggle-tab"
+                      }
+                      onClick={() => setFormType("contact")}
+                    >
+                      Contact Us
+                    </span>
+                  </div>
 
-              {formType === "contact" && (
-                <DetailContactForm
-                  formTitle="Title"
-                  formSubtitle="subtitle"
-                  formEventType="WEDDING"
-                />
-              )}
-              {formType === "reserve" && (
-                <DetailReserveForm
-                  formTitle="Title"
-                  formSubtitle="subtitle"
-                  formEventType="WEDDING"
-                />
-              )}
-            </div>
+                  {formType === "contact" && (
+                    <DetailContactForm
+                      formTitle="Title"
+                      formSubtitle="subtitle"
+                      formEventType="WEDDING"
+                    />
+                  )}
+                  {formType === "reserve" && (
+                    <DetailReserveForm
+                      formTitle="Title"
+                      formSubtitle="subtitle"
+                      formEventType="WEDDING"
+                    />
+                  )}
+                </div>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
@@ -376,14 +422,14 @@ const DetailPage = () => {
               className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
               onClick={() => openForm("reserve")}
             >
-              <img src={IconReserve} />
+              <img src={IconReserve} alt="CLT" />
               <span>Reserve</span>
             </div>
             <div
               className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
               onClick={() => openForm("contact")}
             >
-              <img src={IconContactUs} />
+              <img src={IconContactUs} alt="CLT" />
               <span>Contact us (Ask, Visit...)</span>
             </div>
           </Col>
@@ -396,6 +442,9 @@ const DetailPage = () => {
           (formType === "contact" && "Contact Header") ||
           (formType === "reserve" && "Reserve Title")
         }
+        className="clt-detail-custom-modal-class"
+        contentClassName="clt-detail-custom-modal-content-class"
+        dialogClassName="clt-detail-custom-modal-dialog-class"
       >
         {formType === "contact" && (
           <DetailContactForm
@@ -424,6 +473,7 @@ const DetailPage = () => {
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
           responsive={detailMainSliderResponsive}
           isBrowser={isBrowser}
+          isFullScreenGallery={true}
           fullScreenGallery={fullScreenGallery}
         />
       )}
