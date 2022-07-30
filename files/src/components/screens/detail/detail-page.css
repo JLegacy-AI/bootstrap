@@ -665,7 +665,7 @@
     align-items: center;
     width: 100%;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 2px;
     font-weight: 600;
     box-shadow: none;
@@ -676,7 +676,7 @@
 }
 
 .clt-detail-footer-mblButton i {
-    font-size: 12.5px;
+    font-size: 13px;
 }
 
 .clt-detail-footer-h-div h2 {
@@ -789,8 +789,8 @@
 .clt-detail-custom-modal-content-class .modal-header {
     padding-left: 22px;
     padding-right: 22px;
-    padding-bottom: 19px;
-    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .clt-form-space-bottom {
@@ -855,8 +855,6 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
-        padding-bottom: 19px;
-        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
@@ -969,8 +967,8 @@
     .clt-detail-custom-modal-content-class .modal-header {
         padding-left: 22px;
         padding-right: 22px;
-        padding-bottom: 19px;
-        padding-top: 19px;
+        padding-bottom: 18px;
+        padding-top: 18px;
     }
     
     .clt-detail-footer-mbl {
@@ -1036,8 +1034,6 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
-        padding-bottom: 19px;
-        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
@@ -1138,8 +1134,8 @@
     .clt-detail-custom-modal-content-class .modal-header {
         padding-left: 22px;
         padding-right: 22px;
-        padding-bottom: 19px;
-        padding-top: 19px;
+        padding-bottom: 18px;
+        padding-top: 18px;
     }
     
     .clt-detail-footer-mb {
@@ -1217,8 +1213,6 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
-        padding-bottom: 19px;
-        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
