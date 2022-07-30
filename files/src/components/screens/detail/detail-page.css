@@ -657,7 +657,7 @@
     padding: 12px 22px;
 }
 
-.clt-detail-footer-mblButton, .clt-detail-footer-mblButton:hover, .clt-detail-footer-mblButton:focus {
+.clt-detail-footer-mblButton, .clt-detail-footer-mblButton:hover, n:focus {
     background: #28b07d;
     color: #fff;
     display: flex;
@@ -665,7 +665,7 @@
     align-items: center;
     width: 100%;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 2px;
     font-weight: 600;
     box-shadow: none;
@@ -855,6 +855,8 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
+        padding-bottom: 19px;
+        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
@@ -1034,6 +1036,8 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
+        padding-bottom: 19px;
+        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
@@ -1213,6 +1217,8 @@
     .clt-detail-left-section-1 {
         padding-left: 22px;
         padding-right: 22px;
+        padding-bottom: 19px;
+        padding-top: 19px;
     }
 
     .clt-detail-left-section-1-heading {
