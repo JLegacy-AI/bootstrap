@@ -676,7 +676,7 @@
 }
 
 .clt-detail-footer-mblButton i {
-    font-size: 14px;
+    font-size: 12.5px;
 }
 
 .clt-detail-footer-h-div h2 {
@@ -789,6 +789,8 @@
 .clt-detail-custom-modal-content-class .modal-header {
     padding-left: 22px;
     padding-right: 22px;
+    padding-bottom: 19px;
+    padding-top: 19px;
 }
 
 .clt-form-space-bottom {
@@ -962,6 +964,13 @@
         padding: 0px 20px;
     }
 
+    .clt-detail-custom-modal-content-class .modal-header {
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-bottom: 19px;
+        padding-top: 19px;
+    }
+    
     .clt-detail-footer-mbl {
         display: block;
     }
@@ -1122,6 +1131,13 @@
         padding-left: 16px;
     }
 
+    .clt-detail-custom-modal-content-class .modal-header {
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-bottom: 19px;
+        padding-top: 19px;
+    }
+    
     .clt-detail-footer-mb {
         margin-bottom: 10vh;
     }

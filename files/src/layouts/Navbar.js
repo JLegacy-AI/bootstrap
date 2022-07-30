@@ -46,7 +46,7 @@ const Navbar = () => {
                     Name<i className="fas fa-chevron-down"></i>
                   </span>
                 ) : (
-                  <span onClick={toggleAuthModal}>Se connecter</span>
+                  <span onClick={toggleAuthModal}>Connexion</span>
                 )}
               </HomeNavbar.Text>
             </Col>
