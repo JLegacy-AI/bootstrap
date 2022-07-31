@@ -38,8 +38,8 @@ const DetailGallery = (props) => {
                 infinite={true}
                 shouldResetAutoplay={false}
                 autoPlay={false}
-                className="clt-detail-slider-main"
-                classNameSlider="clt-detail-slider-main-imgdiv"
+                className="clt-detail-slider-gallery"
+                classNameSlider="clt-detail-slider-gallery-imgdiv"
               />
             </Col>
           </Row>
