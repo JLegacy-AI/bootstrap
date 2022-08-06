@@ -33,6 +33,7 @@ import {
   religieuxData,
 } from "../../../constants";
 import EventsNavbar from "../../reusable/EventsNavbar";
+import { baseUrl } from "../../../config";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
@@ -201,7 +202,7 @@ const DetailPage = () => {
   };
   return (
     <React.Fragment>
-      <InnerNavbar title="Title Header" backClick="/" titleClick="/detail" />
+      <InnerNavbar title="Title Header" backClick="/" titleClick="/detail" shareTitle="Chateau La Tournelle" shareLink={`${baseUrl}/detail`} shareText="Chateau La Tournelle" />
       <Container>
         <Row>
           <Col className="clt-detail-slider-maindiv">

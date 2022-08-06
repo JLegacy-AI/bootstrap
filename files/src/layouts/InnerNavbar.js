@@ -39,12 +39,12 @@ const InnerNavbar = (props) => {
               <HomeNavbar.Text className="d-flex pfr_innerNavbarRightShare">
                 <RWebShare
                   data={{
-                    text: "Like humans, flamingos make friends for life",
-                    url: "https://chateaulatournelle.com/",
-                    title: "Flamingos",
+                    text: props.shareText,
+                    url: props.shareLink,
+                    title: props.shareTitle,
                   }}
                 >
-                  <img src={ShareIcon} />
+                  <img src={ShareIcon} alt="Chateau La Tournelle" />
                 </RWebShare>
               </HomeNavbar.Text>
             </Col>
