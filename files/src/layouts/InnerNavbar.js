@@ -37,17 +37,14 @@ const InnerNavbar = (props) => {
               className="d-flex justify-content-end"
             >
               <HomeNavbar.Text className="d-flex pfr_innerNavbarRightShare">
-                {/* <img src={ShareIcon} /> */}
                 <RWebShare
                   data={{
                     text: "Like humans, flamingos make friends for life",
                     url: "https://chateaulatournelle.com/",
                     title: "Flamingos",
                   }}
-                  onBlur={() => console.log("shared successfully!")}
-                  // onClick={() => console.log("shared successfully!")}
                 >
-                  <button>Share 🔗</button>
+                  <img src={ShareIcon} />
                 </RWebShare>
               </HomeNavbar.Text>
             </Col>
