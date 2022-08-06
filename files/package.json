@@ -25,6 +25,7 @@
     "react-slick": "^0.28.1",
     "react-swipeable-views": "^0.14.0",
     "react-verification-code-input": "^1.2.9",
+    "react-web-share": "^1.1.6",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.2"
   },

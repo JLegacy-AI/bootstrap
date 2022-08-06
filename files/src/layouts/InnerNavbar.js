@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Navbar as HomeNavbar, Row, Col } from "react-bootstrap";
 import ShareIcon from "../assets/img/share.png";
+import { RWebShare } from "react-web-share";
 
 const InnerNavbar = (props) => {
   return (
@@ -36,7 +37,18 @@ const InnerNavbar = (props) => {
               className="d-flex justify-content-end"
             >
               <HomeNavbar.Text className="d-flex pfr_innerNavbarRightShare">
-                <img src={ShareIcon} />
+                {/* <img src={ShareIcon} /> */}
+                <RWebShare
+                  data={{
+                    text: "Like humans, flamingos make friends for life",
+                    url: "https://chateaulatournelle.com/",
+                    title: "Flamingos",
+                  }}
+                  onBlur={() => console.log("shared successfully!")}
+                  // onClick={() => console.log("shared successfully!")}
+                >
+                  <button>Share 🔗</button>
+                </RWebShare>
               </HomeNavbar.Text>
             </Col>
           </Row>
