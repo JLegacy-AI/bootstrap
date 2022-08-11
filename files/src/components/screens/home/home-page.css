@@ -57,7 +57,8 @@
 
 .clt-section-2-row {
     border-bottom: 1px solid #dedddd;
-    padding-top: 20px;
+    border-top: 1px solid #dedddd;
+    padding-top: 15px;
     flex-wrap: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -655,6 +656,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
+        border-top: 1px solid #dedddd;
         padding-top: 16px;
         flex-wrap: nowrap;
         overflow-x: scroll;
@@ -945,6 +947,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
+        border-top: 1px solid #dedddd;
         padding-top: 16px;
         flex-wrap: nowrap;
         overflow-x: scroll;
@@ -1232,6 +1235,7 @@
 
     .clt-section-2-row {
         border-bottom: 1px solid #dedddd;
+        border-top: 1px solid #dedddd;
         padding-top: 16px;
         flex-wrap: nowrap;
         overflow-x: scroll;
