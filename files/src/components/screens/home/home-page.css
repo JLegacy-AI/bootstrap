@@ -1,5 +1,5 @@
 .clt-section-1-div {
-    height: 500px;
+    height: 420px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -22,15 +22,16 @@
 .clt-section-1-div-inner {
     z-index: 1;
     position: relative;
-    margin-top: 107px;
+    margin-top: 43px;
 }
 
 .clt-section-1-h2 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 600;
     font-family: 'inter';
     color: #fff;
     margin-bottom: 26px;
+    margin-right: 817px;
 }
 
 .clt-section-1-btn, .clt-section-1-btn:hover, .clt-section-1-btn:focus, .clt-section-1-btn:active {
@@ -39,17 +40,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 50px;
     font-family: 'Inter';
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 17.5px;
+    font-weight: 600;
     box-shadow: none;
     outline: none;
     border: 1px solid #fff;
-    height: 50px;
+    height: 34px;
     position: relative;
-    width: 17%;
-    padding-top: 10px;
+    width: 14%;
+    padding-top: 13px;
     padding-right: 28px;
     padding-bottom: 15px;
     padding-left: 28px;
