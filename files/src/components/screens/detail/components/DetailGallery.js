@@ -13,7 +13,7 @@ const DetailGallery = (props) => {
                 className="d-flex justify-content-start align-items-center pfr_navbarToggle"
                 onClick={props.setIsGalleryOpen}
               >
-                <i className="fa-light fa-times"></i>
+                <i className="fa-light fa-chevron-left"></i>
               </Button>
               <span className="d-flex">{props.galleryHeaderTitle}</span>
             </Col>

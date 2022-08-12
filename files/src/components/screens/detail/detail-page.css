@@ -634,7 +634,7 @@
     font-size: 16px;
     box-shadow: none !important;
     outline: none !important;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .clt-gallery-container-header-col span {
@@ -656,7 +656,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 10vh;
+    height: 1vh;
 }
 
 .clt-gallery-container-footer span {
@@ -1035,7 +1035,7 @@
     }
 
     .clt-gallery-container-header-col span {
-        margin-left: 22px;
+        margin-left: 21px;
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
@@ -1264,7 +1264,7 @@
     }
     
     .clt-gallery-container-header-col span {
-        margin-left: 22px;
+        margin-left: 21px;
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
@@ -1465,7 +1465,7 @@
     }
 
     .clt-gallery-container-header-col span {
-        margin-left: 22px;
+        margin-left: 21px;
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
