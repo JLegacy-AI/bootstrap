@@ -28,9 +28,6 @@ const DetailGallery = (props) => {
             >
               <CustomCarousel
                 responsive={props.responsive}
-                mainGallery={props.fullScreenGallery}
-                openGallery={props.setIsGalleryOpen}
-                isFullScreenGallery={props.isFullScreenGallery}
                 swipeable={true}
                 draggable={true}
                 showDots={false}
@@ -39,8 +36,21 @@ const DetailGallery = (props) => {
                 shouldResetAutoplay={false}
                 autoPlay={false}
                 className="clt-detail-slider-gallery"
-                classNameSlider="clt-detail-slider-gallery-imgdiv"
-              />
+              >
+                {props.fullScreenGallery.map((value, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="clt-detail-slider-gallery-imgdiv"
+                      style={{
+                        backgroundImage: `url(${value.img})`,
+                      }}
+                    >
+                      <span>{value.text}</span>
+                    </div>
+                  );
+                })}
+              </CustomCarousel>
             </Col>
           </Row>
           <Row className="clt-gallery-container-footer">

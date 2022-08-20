@@ -11,6 +11,10 @@ import DetailSlider_1_3 from "../../../assets/img/detail_slider_1_3.png";
 import DetailSlider_1_4 from "../../../assets/img/detail_slider_1_4.png";
 import IconContactUs from "../../../assets/img/icon_contact_us.png";
 import IconReserve from "../../../assets/img/icon_reserve.png";
+import DetailSection4_1 from "../../../assets/img/detail_section_4_1.png";
+import DetailSection5_Icon1 from "../../../assets/img/detail_section_5_icon_1.png";
+import DetailSection5_Icon2 from "../../../assets/img/detail_section_5_icon_2.png";
+import DetailSection5_Icon3 from "../../../assets/img/detail_section_5_icon_3.png";
 import InnerNavbar from "../../../layouts/InnerNavbar";
 import { isBrowser, isMobile, isTablet } from "react-device-detect";
 import FooterBottomUp from "../../reusable/FooterBottomUp";
@@ -31,9 +35,11 @@ import {
   maraigeData,
   profesionnelData,
   religieuxData,
+  section4SliderResponsive,
 } from "../../../constants";
 import EventsNavbar from "../../reusable/EventsNavbar";
 import { baseUrl } from "../../../config";
+import DetailSection5 from "./sections/DetailSection5";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
@@ -78,6 +84,38 @@ const DetailPage = () => {
     {
       img: DetailSlider_1_4,
       text: "4/4",
+    },
+  ]);
+  const [section4Products, setSection4Products] = useState([
+    {
+      img: DetailSection4_1,
+      name: "Product 1.1",
+      secondary_text: "Secondary text",
+      description: "Description",
+    },
+    {
+      img: DetailSection4_1,
+      name: "Product 1.2",
+      secondary_text: "Secondary text",
+      description: "Description",
+    },
+    {
+      img: DetailSection4_1,
+      name: "Product 2.1",
+      secondary_text: "Secondary text",
+      description: "Description",
+    },
+    {
+      img: DetailSection4_1,
+      name: "Product 2.2",
+      secondary_text: "Secondary text",
+      description: "Description",
+    },
+    {
+      img: DetailSection4_1,
+      name: "Product 3.1",
+      secondary_text: "Secondary text",
+      description: "Description",
     },
   ]);
   useEffect(() => {
@@ -174,7 +212,7 @@ const DetailPage = () => {
     const disableState = totalItems - slidesToShow;
     return (
       <div className="d-flex justify-content-between clt-detail-left-section-2-header">
-        <h2 className="clt-detail-left-section-2-h2">Title section 2</h2>
+        <h2 className="clt-detail-left-section-2-h2">{rest.title}</h2>
         <div>
           <Button
             className={
@@ -202,14 +240,19 @@ const DetailPage = () => {
   };
   return (
     <React.Fragment>
-      <InnerNavbar title="Title Header" backClick="/" titleClick="/detail" shareTitle="Chateau La Tournelle" shareLink={`${baseUrl}/detail`} shareText="Chateau La Tournelle" />
+      <InnerNavbar
+        title="Title Header"
+        backClick="/"
+        titleClick="/detail"
+        shareTitle="Chateau La Tournelle"
+        shareLink={`${baseUrl}/detail`}
+        shareText="Chateau La Tournelle"
+      />
       <Container>
         <Row>
           <Col className="clt-detail-slider-maindiv">
             <CustomCarousel
               responsive={detailMainSliderResponsive}
-              mainGallery={mainGallery}
-              openGallery={() => openGallery("main")}
               swipeable={true}
               draggable={true}
               showDots={false}
@@ -218,8 +261,22 @@ const DetailPage = () => {
               shouldResetAutoplay={false}
               autoPlay={false}
               className="clt-detail-slider-main showMobile"
-              classNameSlider="clt-detail-slider-main-imgdiv"
-            />
+            >
+              {mainGallery.map((value, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="clt-detail-slider-main-imgdiv"
+                    style={{
+                      backgroundImage: `url(${value.img})`,
+                    }}
+                    onClick={() => openGallery("main")}
+                  >
+                    <span>{value.text}</span>
+                  </div>
+                );
+              })}
+            </CustomCarousel>
           </Col>
         </Row>
       </Container>
@@ -242,8 +299,6 @@ const DetailPage = () => {
               <Col className="clt-detail-slider-maindiv">
                 <CustomCarousel
                   responsive={detailMainSliderResponsive}
-                  mainGallery={mainGallery}
-                  openGallery={() => openGallery("main")}
                   swipeable={true}
                   draggable={true}
                   showDots={false}
@@ -252,8 +307,22 @@ const DetailPage = () => {
                   shouldResetAutoplay={false}
                   autoPlay={false}
                   className="clt-detail-slider-main hideMobile"
-                  classNameSlider="clt-detail-slider-main-imgdiv cursor-zoom-in"
-                />
+                >
+                  {mainGallery.map((value, index) => {
+                    return (
+                      <div
+                        key={index}
+                        className="clt-detail-slider-main-imgdiv cursor-zoom-in"
+                        style={{
+                          backgroundImage: `url(${value.img})`,
+                        }}
+                        onClick={() => openGallery("main")}
+                      >
+                        <span>{value.text}</span>
+                      </div>
+                    );
+                  })}
+                </CustomCarousel>
               </Col>
             </Row>
             <CustomHr
@@ -321,36 +390,172 @@ const DetailPage = () => {
             </Row>
             <Row className="hideMobile">
               <Col className="clt-detail-left-section-2-col">
-                <div className="clt-detail-left-section-2-dsk">
-                  <div className="d-flex flex-column-reverse">
-                    <CustomCarousel
-                      responsive={detailSecondarySliderResponsive}
-                      mainGallery={secondaryGallery}
-                      openGallery={() => openGallery("secondary")}
-                      arrows={false}
-                      shouldResetAutoplay={false}
-                      renderButtonGroupOutside={true}
-                      customButtonGroup={<DetailMainSliderArrows />}
-                      className="clt-detail-left-section-2-cards-div"
-                      classNameSlider="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main cursor-zoom-in"
-                    />
-                  </div>
+                <div className="d-flex flex-column-reverse">
+                  <CustomCarousel
+                    responsive={detailSecondarySliderResponsive}
+                    arrows={false}
+                    shouldResetAutoplay={false}
+                    renderButtonGroupOutside={true}
+                    customButtonGroup={
+                      <DetailMainSliderArrows title="Title Ssection 2" />
+                    }
+                    className="clt-detail-left-section-2-cards-div"
+                  >
+                    {secondaryGallery.map((value, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="d-flex justify-content-start align-items-start clt-detail-left-section-2-cards clt-detail-left-section-2-cards-main cursor-zoom-in"
+                          style={{
+                            backgroundImage: `url(${value.img})`,
+                          }}
+                          onClick={() => openGallery("secondary")}
+                        >
+                          <span>{value.text}</span>
+                        </div>
+                      );
+                    })}
+                  </CustomCarousel>
                 </div>
               </Col>
             </Row>
             <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
-
             <DetailSection3
               imgIconSection3={DetailIcon4}
               titleSection3="Title Section 3"
               subTextSection3="Text section 3"
             />
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
+            {/* section 4 */}
+            <Row className="showMobile">
+              <Col className="clt-detail-left-section-4-h2-mt clt-section-row-col-pd">
+                <h2 className="clt-detail-left-section-4-h2">
+                  Title Section 4
+                </h2>
+              </Col>
+            </Row>
+            <Row className="clt-detail-left-section-4-row showMobile">
+              <Col>
+                <Container className="clt-detail-left-section-4-row-container">
+                  <Row>
+                    <Col className="clt-detail-left-section-4-row-col">
+                      <div className="d-flex justify-content-start align-items-center clt-detail-left-section-4">
+                        {section4Products.map((value, index) => {
+                          return (
+                            <div key={index}>
+                              <div
+                                className="clt-detail-left-section-4-card-item cursor-zoom-in"
+                                onClick={() => console.log("open sidebar")}
+                              >
+                                <div className="d-flex justify-content-between align-items-start">
+                                  <div
+                                    className="clt-detail-left-section-4-card-item-div"
+                                    style={{
+                                      backgroundImage: `url(${value.img})`,
+                                    }}
+                                  ></div>
+                                  <div>
+                                    <i className="fa-light fa-chevron-right"></i>
+                                  </div>
+                                </div>
+                                <h2 className="clt-detail-left-section-4-card-item-h2">
+                                  {value.name}
+                                </h2>
+                                <p className="clt-detail-left-section-4-card-item-secondary">
+                                  {value.secondary_text}
+                                </p>
+                                <p className="clt-detail-left-section-4-card-item-desc">
+                                  {value.description}
+                                </p>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
+              </Col>
+            </Row>
+            <Row className="hideMobile">
+              <Col className="clt-detail-left-section-4-col">
+                <div className="d-flex flex-column-reverse">
+                  <CustomCarousel
+                    responsive={section4SliderResponsive}
+                    arrows={false}
+                    shouldResetAutoplay={false}
+                    renderButtonGroupOutside={true}
+                    customButtonGroup={
+                      <DetailMainSliderArrows title="Title section 4" />
+                    }
+                    className="clt-detail-left-section-4-cards-div"
+                  >
+                    {section4Products.map((value, index) => {
+                      return (
+                        <div
+                          key={index}
+                          className="clt-detail-left-section-4-card-item cursor-zoom-in"
+                          onClick={() => console.log("open sidebar")}
+                        >
+                          <div className="d-flex justify-content-between align-items-start">
+                            <div
+                              className="clt-detail-left-section-4-card-item-div"
+                              style={{
+                                backgroundImage: `url(${value.img})`,
+                              }}
+                            ></div>
+                            <div>
+                              <i className="fa-light fa-chevron-right"></i>
+                            </div>
+                          </div>
+                          <h2 className="clt-detail-left-section-4-card-item-h2">
+                            {value.name}
+                          </h2>
+                          <p className="clt-detail-left-section-4-card-item-secondary">
+                            {value.secondary_text}
+                          </p>
+                          <p className="clt-detail-left-section-4-card-item-desc">
+                            {value.description}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </CustomCarousel>
+                </div>
+              </Col>
+            </Row>
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
+            <DetailSection5
+              headTitleSection5="Title section 5"
+              sectionTextList={[
+                {
+                  subTitle: "SubTitle",
+                  subSections: [
+                    {
+                      img: DetailSection5_Icon1,
+                      title: "Text 1",
+                    },
+                    {
+                      img: DetailSection5_Icon2,
+                      title: "Text 2",
+                    },
+                  ],
+                },
+                {
+                  subTitle: "SubTitle",
+                  subSections: [
+                    {
+                      img: DetailSection5_Icon3,
+                      title: "Text 3",
+                    },
+                  ],
+                },
+              ]}
+            />
+            {/* Last section bottom */}
+            <Row className="clt-detail-footer-mb" />
           </Col>
-          <Col
-            lg={4}
-            xs={12}
-            className="hideMobile"
-          >
+          <Col lg={4} xs={12} className="hideMobile">
             <Row className="clt-sidebar-forms stickySideBar">
               <Col>
                 <div className="clt-detail-right-main">
@@ -474,7 +679,6 @@ const DetailPage = () => {
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
           responsive={detailMainSliderResponsive}
           isBrowser={isBrowser}
-          isFullScreenGallery={true}
           fullScreenGallery={fullScreenGallery}
         />
       )}

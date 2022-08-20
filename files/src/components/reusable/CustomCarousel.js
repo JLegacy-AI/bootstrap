@@ -16,20 +16,7 @@ const CustomCarousel = (props) => {
       customButtonGroup={props.customButtonGroup}
       className={props.className}
     >
-      {props.mainGallery.map((value, index) => {
-        return (
-          <div
-            key={index}
-            className={props.classNameSlider}
-            style={{
-              backgroundImage: `url(${value.img})`,
-            }}
-            onClick={!props.isFullScreenGallery && props.openGallery}
-          >
-            <span>{value.text}</span>
-          </div>
-        );
-      })}
+      {props.children}
     </Carousel>
   );
 };
