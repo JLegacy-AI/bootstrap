@@ -628,7 +628,7 @@
     padding: 0px 50px;
 }
 
-.clt-gallery-container-header-col button {
+.clt-gallery-container-header-col button, .clt-gallery-container-header-col button:hover {
     background: transparent !important;
     font-weight: 400;
     font-size: 16px;
@@ -1490,21 +1490,56 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
 
     /*ipad*/
+    .clt-detail-slider-maindiv {
+        padding: 0;
+    }
+    .clt-detail-slider-gallery {
+        border-radius: 0;
+    }
+    .clt-detail-slider-gallery-imgdiv {
+        height: 500px;
+        border-radius: 0px;
+    }
 
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
 
     /*ipad*/
+    .clt-detail-slider-maindiv {
+        padding: 0;
+    }
+    .clt-detail-slider-gallery-imgdiv {
+        height: 500px;
+        border-radius: 0px;
+    }
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 992px) {
+@media only screen and (max-width: 1200px) and (min-width: 992px) and (orientation:portrait)  {
 
     /*ipad pro*/
+    .clt-detail-slider-maindiv {
+        padding: 0;
+    }
+    .clt-detail-slider-gallery {
+        border-radius: 0;
+    }
+    .clt-detail-slider-gallery-imgdiv {
+        height: 500px;
+        border-radius: 0px;
+    }
 
 }
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
 
+    /*ipad pro*/
+    .clt-detail-slider-gallery-imgdiv {
+        height: 500px;
+        border-radius: 0px;
+    }
+
+}
 @media only screen and (min-width: 1600px) {
 
     /*large desktop*/
