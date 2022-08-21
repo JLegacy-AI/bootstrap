@@ -976,6 +976,10 @@
     font-family: 'Inter';
 }
 
+.clt_products_offcanvas {
+    width: 400px;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
@@ -1198,11 +1202,46 @@
     .clt-detail-left-section-4-h2 {
         font-size: 22px;
         font-weight: 600;
-        font-family: Inter;
         margin-bottom: 0px;
-        color: #000;
         line-height: 32px;
         letter-spacing: -0.2px;
+    }
+
+    .clt-detail-left-section-4-card-item {
+        width: 266px;
+        height: 250px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 150px;
+        height: 120px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 100%;
     }
 }
 
@@ -1400,14 +1439,12 @@
         align-items: center;
         font-size: 16px;
         font-weight: 500;
-        color: #000;
     }
 
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
         margin-bottom: 3px;
-        color: rgb(0, 0, 0);
     }
 
     .clt-gallery-container-header-col {
@@ -1432,6 +1469,43 @@
         margin-bottom: 0px;
         line-height: 32px;
         letter-spacing: -0.2px;
+    }
+
+    .clt-detail-left-section-4-card-item {
+        width: 266px;
+        height: 250px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 150px;
+        height: 120px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 100%;
     }
 }
 
@@ -1655,6 +1729,43 @@
         line-height: 32px;
         letter-spacing: -0.2px;
     }
+
+    .clt-detail-left-section-4-card-item {
+        width: 266px;
+        height: 250px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 150px;
+        height: 120px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
@@ -1668,9 +1779,50 @@
         border-radius: 0;
     }
 
+    .clt-detail-left-section-2-cards {
+        width: 320px;
+        height: 190px;
+    }
+
     .clt-detail-slider-gallery-imgdiv {
         height: 500px;
-        border-radius: 0px;
+    }
+
+    .clt-detail-left-section-4-card-item {
+        width: 210px;
+        height: 220px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 110px;
+        height: 90px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 500px;
     }
 
 }
@@ -1687,9 +1839,46 @@
         border-radius: 0px;
     }
 
+    .clt-detail-left-section-4-card-item {
+        width: 266px;
+        height: 250px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 150px;
+        height: 120px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 100%;
+    }
+
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 992px) and (orientation:portrait) {
+@media (max-width: 1200px) and (min-width: 992px) {
 
     /*ipad pro*/
     .clt-detail-slider-maindiv {
@@ -1702,7 +1891,48 @@
 
     .clt-detail-slider-gallery-imgdiv {
         height: 500px;
-        border-radius: 0px;
+    }
+
+    .clt-detail-left-section-2-cards {
+        width: 280px;
+        height: 190px;
+    }
+
+    .clt-detail-left-section-4-card-item {
+        width: 190px;
+        height: 210px;
+        border-radius: 20px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 100px;
+        height: 80px;
+    }
+
+    .clt-detail-left-section-4-card-item-h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .clt-detail-left-section-4-card-item-secondary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .clt-detail-left-section-4-card-item-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    .clt_products_offcanvas {
+        width: 400px;
     }
 
 }

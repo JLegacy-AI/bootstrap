@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Offcanvas, Row } from "react-bootstrap";
 import "./detail-page.css";
 import DetailIcon1 from "../../../assets/img/detail_icon_1.jpg";
 import DetailIcon2 from "../../../assets/img/detail_icon_2.jpg";
@@ -49,6 +49,7 @@ const DetailPage = () => {
   const [bottomUp, setBottomUp] = useState(false);
   const [isFormModal, setIsFormModal] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(false);
   const [fullScreenGallery, setFullScreenGallery] = useState([]);
   const [mainGallery, setMainGallery] = useState([
     {
@@ -445,7 +446,7 @@ const DetailPage = () => {
                             <div key={index}>
                               <div
                                 className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                                onClick={() => console.log("open sidebar")}
+                                onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
                               >
                                 <div className="d-flex justify-content-between align-items-start">
                                   <div
@@ -495,7 +496,7 @@ const DetailPage = () => {
                         <div
                           key={index}
                           className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                          onClick={() => console.log("open sidebar")}
+                          onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
                         >
                           <div className="d-flex justify-content-between align-items-start">
                             <div
@@ -678,10 +679,54 @@ const DetailPage = () => {
           galleryFooterTitle="1.1"
           setIsGalleryOpen={() => setIsGalleryOpen(!isGalleryOpen)}
           responsive={detailMainSliderResponsive}
-          isBrowser={isBrowser}
+          isBrowser={isBrowser || isTablet}
           fullScreenGallery={fullScreenGallery}
         />
       )}
+      <Offcanvas
+        placement="end"
+        className="clt_products_offcanvas"
+        show={isRightSidebarOpen}
+        onHide={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+      >
+        <Offcanvas.Header className="">
+          <React.Fragment>
+            <button
+              type="button"
+              className="btn-close shadow-none"
+              aria-label="Close"
+              // onClick={() => this.handleCloseSidebar("vehicleSidebarShow")}
+              onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+            ></button>
+            <Offcanvas.Title className="">
+              Mes véhicules
+            </Offcanvas.Title>
+          </React.Fragment>
+          {/* {this.state.editVehicle && (
+            <React.Fragment>
+              <button
+                type="button"
+                className="btn-close btn-back shadow-none d-flex"
+                aria-label="Close"
+                onClick={() => this.handleBack("editVehicle", "viewVehicles")}
+              >
+                <img
+                  src={require("../../../assets/img/back_arrow.png").default}
+                  className=""
+                  alt="ParkingAeroPortFr"
+                />
+              </button>
+              <Offcanvas.Title className="pfr_payment_header_title">
+                Mes véhicules
+              </Offcanvas.Title>
+              <div style={{ width: "28px" }}></div>
+            </React.Fragment>
+          )} */}
+        </Offcanvas.Header>
+        <Offcanvas.Body className="">
+          body
+        </Offcanvas.Body>
+      </Offcanvas>
     </React.Fragment>
   );
 };

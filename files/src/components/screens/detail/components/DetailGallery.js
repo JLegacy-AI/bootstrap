@@ -21,7 +21,7 @@ const DetailGallery = (props) => {
           <Row className="clt-gallery-container-body">
             <Col
               lg={{ span: 8, offset: 2 }}
-              md={12}
+              md={{ span: 10, offset: 1 }}
               sm={12}
               xs={12}
               className="clt-detail-slider-maindiv"
