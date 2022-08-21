@@ -446,7 +446,9 @@ const DetailPage = () => {
                             <div key={index}>
                               <div
                                 className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                                onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+                                onClick={() =>
+                                  setIsRightSidebarOpen(!isRightSidebarOpen)
+                                }
                               >
                                 <div className="d-flex justify-content-between align-items-start">
                                   <div
@@ -496,7 +498,9 @@ const DetailPage = () => {
                         <div
                           key={index}
                           className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                          onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+                          onClick={() =>
+                            setIsRightSidebarOpen(!isRightSidebarOpen)
+                          }
                         >
                           <div className="d-flex justify-content-between align-items-start">
                             <div
@@ -689,41 +693,18 @@ const DetailPage = () => {
         show={isRightSidebarOpen}
         onHide={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
       >
-        <Offcanvas.Header className="">
+        <Offcanvas.Header className="justify-content-start clt_products_offcanvas_header">
           <React.Fragment>
             <button
               type="button"
               className="btn-close shadow-none"
               aria-label="Close"
-              // onClick={() => this.handleCloseSidebar("vehicleSidebarShow")}
               onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
             ></button>
-            <Offcanvas.Title className="">
-              Mes véhicules
-            </Offcanvas.Title>
+            <Offcanvas.Title className="">Title Header</Offcanvas.Title>
           </React.Fragment>
-          {/* {this.state.editVehicle && (
-            <React.Fragment>
-              <button
-                type="button"
-                className="btn-close btn-back shadow-none d-flex"
-                aria-label="Close"
-                onClick={() => this.handleBack("editVehicle", "viewVehicles")}
-              >
-                <img
-                  src={require("../../../assets/img/back_arrow.png").default}
-                  className=""
-                  alt="ParkingAeroPortFr"
-                />
-              </button>
-              <Offcanvas.Title className="pfr_payment_header_title">
-                Mes véhicules
-              </Offcanvas.Title>
-              <div style={{ width: "28px" }}></div>
-            </React.Fragment>
-          )} */}
         </Offcanvas.Header>
-        <Offcanvas.Body className="">
+        <Offcanvas.Body className="clt_products_offcanvas_body">
           body
         </Offcanvas.Body>
       </Offcanvas>

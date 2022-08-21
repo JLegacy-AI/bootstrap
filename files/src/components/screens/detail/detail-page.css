@@ -980,6 +980,30 @@
     width: 400px;
 }
 
+.clt_products_offcanvas_header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.clt_products_offcanvas_header button {
+    font-size: 16px;
+    opacity: 1;
+    padding: 0 !important;
+}
+
+.clt_products_offcanvas_header .offcanvas-title {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.clt_products_offcanvas_body {
+    padding: 15px;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
