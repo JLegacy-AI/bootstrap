@@ -991,6 +991,14 @@
     padding: 0 !important;
 }
 
+.clt_products_offcanvas_header .btn-back {
+    background: none;
+}
+
+.clt_products_offcanvas_header .btn-back img {
+    width: 8px;
+}
+
 .clt_products_offcanvas_header .offcanvas-title {
     margin-left: 20px;
     font-size: 20px;
@@ -1001,18 +1009,27 @@
 }
 
 .clt_products_offcanvas_body {
-    padding: 25px;
+    padding: 0px;
 }
-.clt_products_offcanvas_body_mainrow{
+
+.clt_products_offcanvas_body_mainrow {
     margin-bottom: 40px;
+    padding: 0 25px;
 }
-.clt_products_offcanvas_body_maindiv{
+
+.clt_products_offcanvas_body .clt_products_offcanvas_body_mainrow:first-child {
+    padding-top: 25px;
+}
+
+.clt_products_offcanvas_body_maindiv {
     margin-bottom: 20px;
 }
-.clt_products_offcanvas_body_secdiv{
+
+.clt_products_offcanvas_body_secdiv {
     margin-bottom: 30px;
     cursor: pointer;
 }
+
 .clt_products_offcanvas_body_category {
     font-size: 24px;
     font-weight: 600;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Col, Container, Offcanvas, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./detail-page.css";
 import DetailIcon1 from "../../../assets/img/detail_icon_1.jpg";
 import DetailIcon2 from "../../../assets/img/detail_icon_2.jpg";
@@ -52,6 +52,11 @@ const DetailPage = () => {
   const [isFormModal, setIsFormModal] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(false);
+  const [isRightSiderBarProductList, setIsRightSiderBarProductList] =
+    useState(false);
+  const [isRightSiderBarProductDetail, setIsRightSiderBarProductDetail] =
+    useState(false);
+  const [productDetail, setProductDetail] = useState({});
   const [fullScreenGallery, setFullScreenGallery] = useState([]);
   const [mainGallery, setMainGallery] = useState([
     {
@@ -547,9 +552,11 @@ const DetailPage = () => {
                         <div
                           key={index}
                           className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                          onClick={() =>
-                            setIsRightSidebarOpen(!isRightSidebarOpen)
-                          }
+                          onClick={() => (
+                            setIsRightSidebarOpen(!isRightSidebarOpen),
+                            setIsRightSiderBarProductList(true),
+                            setIsRightSiderBarProductDetail(false)
+                          )}
                         >
                           <div className="d-flex justify-content-between align-items-start">
                             <div
@@ -743,47 +750,60 @@ const DetailPage = () => {
         onHide={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
         headerClassName="justify-content-start clt_products_offcanvas_header"
         bodyClassName="clt_products_offcanvas_body"
-        headerTitle="Title Header"
-        isBackBtn={true}
+        headerTitle={
+          isRightSiderBarProductList ? "Title Header" : productDetail.name
+        }
+        isBackBtn={isRightSiderBarProductDetail}
+        handleBack={() => (
+          setIsRightSiderBarProductDetail(false),
+          setIsRightSiderBarProductList(true)
+        )}
       >
-        {section4ProductsSidebar.map((val, i) => {
-          return (
-            <Row key={i} className="clt_products_offcanvas_body_mainrow">
-              <Col>
-                <Row className="clt_products_offcanvas_body_maindiv">
-                  <Col>
-                    <h2 className="clt_products_offcanvas_body_category">
-                      {val.category}
-                    </h2>
-                  </Col>
-                </Row>
-                {val.products.map((value, index) => {
-                  return (
-                    <Row
-                      key={index}
-                      className="clt_products_offcanvas_body_secdiv"
-                    >
-                      <Col lg={8} md={8} sm={8} xs={8}>
-                        <h2 className="clt_products_offcanvas_body_product">
-                          {value.name}
-                        </h2>
-                        <p className="clt_products_offcanvas_body_secondary">
-                          {value.secondary_text}
-                        </p>
-                        <p className="clt_products_offcanvas_body_desc">
-                          {value.description}
-                        </p>
-                      </Col>
-                      <Col lg={4} md={4} sm={4} xs={4}>
-                        <div className="clt_products_offcanvas_body_img"></div>
-                      </Col>
-                    </Row>
-                  );
-                })}
-              </Col>
-            </Row>
-          );
-        })}
+        {isRightSiderBarProductList &&
+          section4ProductsSidebar.map((val, i) => {
+            return (
+              <Row key={i} className="clt_products_offcanvas_body_mainrow">
+                <Col>
+                  <Row className="clt_products_offcanvas_body_maindiv">
+                    <Col>
+                      <h2 className="clt_products_offcanvas_body_category">
+                        {val.category}
+                      </h2>
+                    </Col>
+                  </Row>
+                  {val.products.map((value, index) => {
+                    return (
+                      <Row
+                        key={index}
+                        className="clt_products_offcanvas_body_secdiv"
+                        onClick={() => (
+                          setIsRightSiderBarProductDetail(true),
+                          setIsRightSiderBarProductList(false),
+                          setProductDetail(value)
+                        )}
+                      >
+                        <Col lg={8} md={8} sm={8} xs={8}>
+                          <h2 className="clt_products_offcanvas_body_product">
+                            {value.name}
+                          </h2>
+                          <p className="clt_products_offcanvas_body_secondary">
+                            {value.secondary_text}
+                          </p>
+                          <p className="clt_products_offcanvas_body_desc">
+                            {value.description}
+                          </p>
+                        </Col>
+                        <Col lg={4} md={4} sm={4} xs={4}>
+                          <div className="clt_products_offcanvas_body_img"></div>
+                        </Col>
+                      </Row>
+                    );
+                  })}
+                </Col>
+              </Row>
+            );
+          })}
+        {isRightSiderBarProductDetail && <>Product Details</>}
       </CustomOffCanvas>
     </React.Fragment>
   );
