@@ -119,6 +119,53 @@ const DetailPage = () => {
       description: "Description",
     },
   ]);
+  const [section4ProductsSidebar, setSection4ProductsSidebar] = useState([
+    {
+      category: "Category 1",
+      products: [
+        {
+          img: DetailSection4_1,
+          name: "Product 1.1",
+          secondary_text: "Secondary text",
+          description: "Description",
+        },
+        {
+          img: DetailSection4_1,
+          name: "Product 1.2",
+          secondary_text: "Secondary text",
+          description: "Description",
+        },
+      ],
+    },
+    {
+      category: "Category 2",
+      products: [
+        {
+          img: DetailSection4_1,
+          name: "Product 2.1",
+          secondary_text: "Secondary text",
+          description: "Description",
+        },
+        {
+          img: DetailSection4_1,
+          name: "Product 2.2",
+          secondary_text: "Secondary text",
+          description: "Description",
+        },
+      ],
+    },
+    {
+      category: "Category 3",
+      products: [
+        {
+          img: DetailSection4_1,
+          name: "Product 3.1",
+          secondary_text: "Secondary text",
+          description: "Description",
+        },
+      ],
+    },
+  ]);
   useEffect(() => {
     const stickyBarEl = document
       .querySelector(".stickyBar")
@@ -701,11 +748,48 @@ const DetailPage = () => {
               aria-label="Close"
               onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
             ></button>
-            <Offcanvas.Title className="">Title Header</Offcanvas.Title>
+            <Offcanvas.Title>Title Header</Offcanvas.Title>
           </React.Fragment>
         </Offcanvas.Header>
         <Offcanvas.Body className="clt_products_offcanvas_body">
-          body
+          {section4ProductsSidebar.map((val, i) => {
+            return (
+              <Row key={i} className="clt_products_offcanvas_body_mainrow">
+                <Col>
+                  <Row className="clt_products_offcanvas_body_maindiv">
+                    <Col>
+                      <h2 className="clt_products_offcanvas_body_category">
+                        {val.category}
+                      </h2>
+                    </Col>
+                  </Row>
+                  {val.products.map((value, index) => {
+                    return (
+                      <Row
+                        key={index}
+                        className="clt_products_offcanvas_body_secdiv"
+                      >
+                        <Col lg={8} md={8} sm={8} xs={8}>
+                          <h2 className="clt_products_offcanvas_body_product">
+                            {value.name}
+                          </h2>
+                          <p className="clt_products_offcanvas_body_secondary">
+                            {value.secondary_text}
+                          </p>
+                          <p className="clt_products_offcanvas_body_desc">
+                            {value.description}
+                          </p>
+                        </Col>
+                        <Col lg={4} md={4} sm={4} xs={4}>
+                          <div className="clt_products_offcanvas_body_img"></div>
+                        </Col>
+                      </Row>
+                    );
+                  })}
+                </Col>
+              </Row>
+            );
+          })}
         </Offcanvas.Body>
       </Offcanvas>
     </React.Fragment>
