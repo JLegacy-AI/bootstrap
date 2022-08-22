@@ -7,6 +7,7 @@ import ReactCodeInput from 'react-verification-code-input';
 
 import { firebase, auth } from './firebase';
 import { Alert } from 'bootstrap';
+import { IMG_ALT } from '../../../constants';
 
 
 class SignUp extends Component {
@@ -335,7 +336,7 @@ class SignUp extends Component {
                                                 <img src={require(`../../../assets/img/${props.ispasswordhide ? 'icon_pass_hide.png' : 'icon_pass_show.png'}`).default}
                                                     className="pfr_loginShowPass"
                                                     onClick={props.showHidePass}
-                                                    alt="ParkingAeroPortFr"
+                                                    alt={IMG_ALT}
                                                 />
                                             </Form.Floating>
                                         </Col>

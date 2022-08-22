@@ -32,6 +32,7 @@ import {
   anniversaireData,
   detailMainSliderResponsive,
   detailSecondarySliderResponsive,
+  IMG_ALT,
   maraigeData,
   profesionnelData,
   religieuxData,
@@ -40,6 +41,7 @@ import {
 import EventsNavbar from "../../reusable/EventsNavbar";
 import { baseUrl } from "../../../config";
 import DetailSection5 from "./sections/DetailSection5";
+import CustomOffCanvas from "../../reusable/CustomOffCanvas";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
@@ -680,14 +682,14 @@ const DetailPage = () => {
               className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
               onClick={() => openForm("reserve")}
             >
-              <img src={IconReserve} alt="CLT" />
+              <img src={IconReserve} alt={IMG_ALT} />
               <span>Reserve</span>
             </div>
             <div
               className="d-flex justify-content-start align-items-center clt-detail-footer-bottom-up-menus"
               onClick={() => openForm("contact")}
             >
-              <img src={IconContactUs} alt="CLT" />
+              <img src={IconContactUs} alt={IMG_ALT} />
               <span>Contact us (Ask, Visit...)</span>
             </div>
           </Col>
@@ -734,64 +736,55 @@ const DetailPage = () => {
           fullScreenGallery={fullScreenGallery}
         />
       )}
-      <Offcanvas
+      <CustomOffCanvas
         placement="end"
         className="clt_products_offcanvas"
         show={isRightSidebarOpen}
         onHide={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+        headerClassName="justify-content-start clt_products_offcanvas_header"
+        bodyClassName="clt_products_offcanvas_body"
+        headerTitle="Title Header"
+        isBackBtn={true}
       >
-        <Offcanvas.Header className="justify-content-start clt_products_offcanvas_header">
-          <React.Fragment>
-            <button
-              type="button"
-              className="btn-close shadow-none"
-              aria-label="Close"
-              onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
-            ></button>
-            <Offcanvas.Title>Title Header</Offcanvas.Title>
-          </React.Fragment>
-        </Offcanvas.Header>
-        <Offcanvas.Body className="clt_products_offcanvas_body">
-          {section4ProductsSidebar.map((val, i) => {
-            return (
-              <Row key={i} className="clt_products_offcanvas_body_mainrow">
-                <Col>
-                  <Row className="clt_products_offcanvas_body_maindiv">
-                    <Col>
-                      <h2 className="clt_products_offcanvas_body_category">
-                        {val.category}
-                      </h2>
-                    </Col>
-                  </Row>
-                  {val.products.map((value, index) => {
-                    return (
-                      <Row
-                        key={index}
-                        className="clt_products_offcanvas_body_secdiv"
-                      >
-                        <Col lg={8} md={8} sm={8} xs={8}>
-                          <h2 className="clt_products_offcanvas_body_product">
-                            {value.name}
-                          </h2>
-                          <p className="clt_products_offcanvas_body_secondary">
-                            {value.secondary_text}
-                          </p>
-                          <p className="clt_products_offcanvas_body_desc">
-                            {value.description}
-                          </p>
-                        </Col>
-                        <Col lg={4} md={4} sm={4} xs={4}>
-                          <div className="clt_products_offcanvas_body_img"></div>
-                        </Col>
-                      </Row>
-                    );
-                  })}
-                </Col>
-              </Row>
-            );
-          })}
-        </Offcanvas.Body>
-      </Offcanvas>
+        {section4ProductsSidebar.map((val, i) => {
+          return (
+            <Row key={i} className="clt_products_offcanvas_body_mainrow">
+              <Col>
+                <Row className="clt_products_offcanvas_body_maindiv">
+                  <Col>
+                    <h2 className="clt_products_offcanvas_body_category">
+                      {val.category}
+                    </h2>
+                  </Col>
+                </Row>
+                {val.products.map((value, index) => {
+                  return (
+                    <Row
+                      key={index}
+                      className="clt_products_offcanvas_body_secdiv"
+                    >
+                      <Col lg={8} md={8} sm={8} xs={8}>
+                        <h2 className="clt_products_offcanvas_body_product">
+                          {value.name}
+                        </h2>
+                        <p className="clt_products_offcanvas_body_secondary">
+                          {value.secondary_text}
+                        </p>
+                        <p className="clt_products_offcanvas_body_desc">
+                          {value.description}
+                        </p>
+                      </Col>
+                      <Col lg={4} md={4} sm={4} xs={4}>
+                        <div className="clt_products_offcanvas_body_img"></div>
+                      </Col>
+                    </Row>
+                  );
+                })}
+              </Col>
+            </Row>
+          );
+        })}
+      </CustomOffCanvas>
     </React.Fragment>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { IMG_ALT } from "../../../../constants";
 const DetailSection2 = (props) => {
   return (
     <Row>
@@ -15,7 +16,7 @@ const DetailSection2 = (props) => {
                 key={index}
               >
                 <div className="clt-detail-left-section-subdiv-1-div-img">
-                  <img src={value.imgIcon} alt="CLT" />
+                  <img src={value.imgIcon} alt={IMG_ALT} />
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-start clt-detail-left-section-subdiv-1-div-txt">
                   <h3>{value.title}</h3>

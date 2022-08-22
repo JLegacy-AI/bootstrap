@@ -2,9 +2,9 @@ import firebase from 'firebase';
   
 const firebaseConfig = {
     apiKey: "AIzaSyCEND51S7uRwNKYSs7qfMPX_wm5hMkRL4k",
-    authDomain: "parkingaeroportfr-96c99.firebaseapp.com",
-    projectId: "parkingaeroportfr-96c99",
-    storageBucket: "parkingaeroportfr-96c99.appspot.com",
+    authDomain: "chateaulatournelle-96c99.firebaseapp.com",
+    projectId: "chateaulatournelle-96c99",
+    storageBucket: "chateaulatournelle-96c99.appspot.com",
     messagingSenderId: "52637099214",
     appId: "1:52637099214:web:c1ca17549d5911a6a65c9f"
 };

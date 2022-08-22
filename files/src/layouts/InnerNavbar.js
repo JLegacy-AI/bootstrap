@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Navbar as HomeNavbar, Row, Col } from "react-bootstrap";
 import ShareIcon from "../assets/img/share.png";
 import { RWebShare } from "react-web-share";
+import { IMG_ALT } from "../constants";
 
 const InnerNavbar = (props) => {
   return (
@@ -44,7 +45,7 @@ const InnerNavbar = (props) => {
                     title: props.shareTitle,
                   }}
                 >
-                  <img src={ShareIcon} alt="Chateau La Tournelle" />
+                  <img src={ShareIcon} alt={IMG_ALT} />
                 </RWebShare>
               </HomeNavbar.Text>
             </Col>

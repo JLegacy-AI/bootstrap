@@ -3,7 +3,9 @@ import AnniversaireImg from "../assets/img/icon-card-2.png";
 import ProfesionnelImg from "../assets/img/icon-card-3.png";
 import ReligieuxImg from "../assets/img/icon-card-4.png";
 
-const homeSliderResponsive = {
+export const IMG_ALT = "Chateau La Tournelle";
+
+export const homeSliderResponsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
     items: 4,
@@ -21,31 +23,31 @@ const homeSliderResponsive = {
     items: 1,
   },
 };
-const maraigeData = {
+export const maraigeData = {
   type: 1,
   color: "#08875c",
   background: "#24775b",
   img: MaraigeImg,
 };
-const anniversaireData = {
+export const anniversaireData = {
   type: 2,
   color: "#015eea",
   background: "#025adf",
   img: AnniversaireImg,
 };
-const profesionnelData = {
+export const profesionnelData = {
   type: 3,
   color: "#ad1eac",
   background: "#c72fc3",
   img: ProfesionnelImg,
 };
-const religieuxData = {
+export const religieuxData = {
   type: 4,
   color: "#b3846d",
   background: "#d2997e",
   img: ReligieuxImg,
 };
-const detailMainSliderResponsive = {
+export const detailMainSliderResponsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
     items: 1,
@@ -63,7 +65,7 @@ const detailMainSliderResponsive = {
     items: 1,
   },
 };
-const detailSecondarySliderResponsive = {
+export const detailSecondarySliderResponsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
     items: 2.1,
@@ -85,7 +87,7 @@ const detailSecondarySliderResponsive = {
     slidesToSlide: 0.1,
   },
 };
-const section4SliderResponsive = {
+export const section4SliderResponsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
     items: 2.9,
@@ -106,14 +108,4 @@ const section4SliderResponsive = {
     items: 1.1,
     slidesToSlide: 0.1,
   },
-};
-export {
-  homeSliderResponsive,
-  maraigeData,
-  anniversaireData,
-  profesionnelData,
-  religieuxData,
-  detailMainSliderResponsive,
-  detailSecondarySliderResponsive,
-  section4SliderResponsive
 };

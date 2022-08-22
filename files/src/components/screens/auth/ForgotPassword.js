@@ -4,6 +4,7 @@ import './auth-modal.css';
 import 'react-phone-number-input/style.css'
 import PhoneInput, { formatPhoneNumberIntl } from 'react-phone-number-input';
 import ReactCodeInput from 'react-verification-code-input';
+import { IMG_ALT } from '../../../constants';
 
 class ForgotPassword extends Component {
     constructor(props) {
@@ -125,7 +126,7 @@ class ForgotPassword extends Component {
                                                     <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => this.onChangeLoginType('email')}>
                                                         <img src={require('../../../assets/img/icon_email.png').default}
                                                             className=""
-                                                            alt="ParkingAeroPortFr" />
+                                                            alt={IMG_ALT} />
                                                         <span>Réinitialiser avec Adresse e-mail</span>
                                                     </Button>
                                                 </Col>
@@ -137,7 +138,7 @@ class ForgotPassword extends Component {
                                                     <Button className='pfr_loginModalIconBtn shadow-none' onClick={() => this.onChangeLoginType('phone')}>
                                                         <img src={require('../../../assets/img/icon_phone.png').default}
                                                             className=""
-                                                            alt="ParkingAeroPortFr" />
+                                                            alt={IMG_ALT} />
                                                         <span>Réinitialiser avec un téléphone</span>
                                                     </Button>
                                                 </Col>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { maraigeData } from "../../constants";
+import { IMG_ALT, maraigeData } from "../../constants";
 import IconBar1 from "../../assets/img/icon-bar-1.png";
 import IconBar1Active from "../../assets/img/icon-bar-1-active.png";
 import IconBar2 from "../../assets/img/icon-bar-2.png";
@@ -30,7 +30,7 @@ const EventsNavbar = (props) => {
                           : { filter: "grayscale(1)" }
                       }
                       className=""
-                      alt="ParkingAeroPortFr"
+                      alt={IMG_ALT}
                     />
                     <h2
                       style={
@@ -60,7 +60,7 @@ const EventsNavbar = (props) => {
                           ? { filter: "grayscale(0)" }
                           : { filter: "grayscale(1)" }
                       }
-                      alt="ParkingAeroPortFr"
+                      alt={IMG_ALT}
                     />
                     <h2
                       style={
@@ -90,7 +90,7 @@ const EventsNavbar = (props) => {
                           : { filter: "grayscale(1)" }
                       }
                       className=""
-                      alt="ParkingAeroPortFr"
+                      alt={IMG_ALT}
                     />
                     <h2
                       style={
@@ -120,7 +120,7 @@ const EventsNavbar = (props) => {
                           : { filter: "grayscale(1)" }
                       }
                       className=""
-                      alt="ParkingAeroPortFr"
+                      alt={IMG_ALT}
                     />
                     <h2
                       style={

@@ -3,7 +3,7 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 import "./home-page.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { homeSliderResponsive } from "../../../constants";
+import { homeSliderResponsive, IMG_ALT } from "../../../constants";
 import HomeSection4Desktop from "../../../assets/img/home-section-4-professionnel.png";
 import HomeSection4Mobile from "../../../assets/img/home-section-4-mbl-professionnel.jpg";
 import HomeSection6 from "../../../assets/img/home-section-6.png";
@@ -217,13 +217,13 @@ const HomeProfessionalEvent = (props) => {
                 <img
                   src={HomeSection4Desktop}
                   className="clt-section-4-img-desktop"
-                  alt="ParkingAeroPortFr"
+                  alt={IMG_ALT}
                 />
                 <h2>Planifiez votre événement idéal</h2>
                 <img
                   src={HomeSection4Mobile}
                   className="clt-section-4-img-mbl"
-                  alt="ParkingAeroPortFr"
+                  alt={IMG_ALT}
                 />
               </div>
             </div>
@@ -329,7 +329,7 @@ const HomeProfessionalEvent = (props) => {
                 style={{ backgroundColor: `${props.eventType.background}` }}
               >
                 <h2>Découvrez le château en détail</h2>
-                <img src={HomeSection6} className="" alt="ParkingAeroPortFr" />
+                <img src={HomeSection6} className="" alt={IMG_ALT} />
                 <Button
                   onClick={() => console.log("clicked!")}
                   className="clt-section-6-btn shadow-none"

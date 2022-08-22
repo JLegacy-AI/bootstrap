@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Navbar as HomeNavbar, Row, Col } from "react-bootstrap";
 import AuthModal from "../components/screens/auth/AuthModal";
 import MenuBlack from "../assets/img/menu_black.png";
+import { IMG_ALT } from "../constants";
 
 const Navbar = () => {
   const [isLoginModal, setIsLoginModal] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
                 aria-controls="offcanvasNavbar"
                 className="pfr_navbarToggle"
               >
-                <img src={MenuBlack} className="" alt="ParkingAeroPortFr" />
+                <img src={MenuBlack} className="" alt={IMG_ALT} />
               </HomeNavbar.Toggle>
               <HomeNavbar.Brand href="/" className="d-flex pfr_navbarLogo">
                 Château la tournelle
