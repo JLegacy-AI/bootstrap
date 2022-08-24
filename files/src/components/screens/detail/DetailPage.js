@@ -797,7 +797,7 @@ const DetailPage = () => {
         placement="end"
         className="clt_products_offcanvas"
         show={isRightSidebarOpen}
-        onHide={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
+        onHide={() => setIsRightSidebarOpen(false)}
         headerClassName="justify-content-start clt_products_offcanvas_header"
         bodyClassName="clt_products_offcanvas_body"
         headerTitle={
