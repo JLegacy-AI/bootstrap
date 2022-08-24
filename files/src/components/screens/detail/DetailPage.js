@@ -135,12 +135,32 @@ const DetailPage = () => {
           name: "Product 1.1",
           secondary_text: "Secondary text",
           description: "Description",
+          subTexts: [
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+          ],
         },
         {
           img: DetailSection4_1,
           name: "Product 1.2",
           secondary_text: "Secondary text",
           description: "Description",
+          subTexts: [
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+          ],
         },
       ],
     },
@@ -152,12 +172,36 @@ const DetailPage = () => {
           name: "Product 2.1",
           secondary_text: "Secondary text",
           description: "Description",
+          subTexts: [
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+          ],
         },
         {
           img: DetailSection4_1,
           name: "Product 2.2",
           secondary_text: "Secondary text",
           description: "Description",
+          subTexts: [
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+          ],
         },
       ],
     },
@@ -169,6 +213,12 @@ const DetailPage = () => {
           name: "Product 3.1",
           secondary_text: "Secondary text",
           description: "Description",
+          subTexts: [
+            {
+              title: "Text 1",
+              subText: "Sub text",
+            },
+          ],
         },
       ],
     },
@@ -803,7 +853,47 @@ const DetailPage = () => {
               </Row>
             );
           })}
-        {isRightSiderBarProductDetail && <>Product Details</>}
+        {isRightSiderBarProductDetail && (
+          <Container className="clt_product_detail_offcanvas_body">
+            <Row>
+              <Col className="p-0">
+                <div
+                  className="image_div"
+                  style={{
+                    backgroundImage: `url(${productDetail.img})`,
+                  }}
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col className="header_text_div">
+                <h2>{productDetail.name}</h2>
+                <p>{productDetail.secondary_text}</p>
+              </Col>
+            </Row>
+            <CustomHr
+              colClass="clt_product_detail_offcanvas_hr_pd"
+              hrClass="p-0 m-0 clt-hr"
+            />
+            <Row>
+              {productDetail.subTexts.map((value, index) => {
+                return (
+                  <Col
+                    key={index}
+                    lg={12}
+                    md={12}
+                    sm={12}
+                    xs={12}
+                    className="sub_text_div"
+                  >
+                    <h2>{value.title}</h2>
+                    <p>{value.subText}</p>
+                  </Col>
+                );
+              })}
+            </Row>
+          </Container>
+        )}
       </CustomOffCanvas>
     </React.Fragment>
   );
