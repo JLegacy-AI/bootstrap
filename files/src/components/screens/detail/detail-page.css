@@ -130,7 +130,7 @@
 }
 
 .clt-section-hr-pd {
-    padding: 38px 15px;
+    padding: 30px 15px;
 }
 
 .clt-detail-left-section-1 {}
@@ -977,16 +977,19 @@
 }
 
 .clt_products_offcanvas {
-    width: 400px;
+    width: 440px;
 }
 
 .clt_products_offcanvas_header {
-    padding: 25px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 22px;
+    padding-left: 25px;
     border-bottom: 1px solid #eee;
 }
 
 .clt_products_offcanvas_header button {
-    font-size: 16px;
+    font-size: 14px;
     opacity: 1;
     padding: 0 !important;
 }
@@ -1000,11 +1003,11 @@
 }
 
 .clt_products_offcanvas_header .offcanvas-title {
-    margin-left: 20px;
-    font-size: 20px;
+    margin-left: 30px;
+    font-size: 18px;
     color: #000;
     font-family: 'Inter';
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0;
 }
 
@@ -1100,7 +1103,7 @@
 }
 
 .clt_product_detail_offcanvas_body .header_text_div p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Inter';
     color: #3b3b3b;
@@ -1118,7 +1121,7 @@
 }
 
 .clt_product_detail_offcanvas_body .sub_text_div h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Inter';
     color: #000;
@@ -1126,7 +1129,7 @@
 }
 
 .clt_product_detail_offcanvas_body .sub_text_div p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Inter';
     color: #3b3b3b;
@@ -1409,7 +1412,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -1417,13 +1420,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -1454,11 +1457,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -1472,8 +1475,8 @@
 
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -1546,7 +1549,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -1562,13 +1565,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -1849,7 +1852,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -1857,13 +1860,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -1882,7 +1885,7 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 400;
         color: #7f7f7f;
         font-family: 'Inter';
@@ -1893,11 +1896,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -1911,8 +1914,8 @@
 
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -1985,7 +1988,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2001,13 +2004,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2295,7 +2298,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -2303,13 +2306,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -2346,11 +2349,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -2364,8 +2367,8 @@
 
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -2438,7 +2441,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2454,13 +2457,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2535,7 +2538,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -2543,13 +2546,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -2572,11 +2575,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -2591,7 +2594,7 @@
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -2664,7 +2667,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2680,13 +2683,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2754,7 +2757,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -2762,13 +2765,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -2791,11 +2794,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -2809,8 +2812,8 @@
 
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -2883,7 +2886,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2899,13 +2902,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2981,7 +2984,7 @@
     }
 
     .clt-detail-left-sub-section-div-main {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
 
     .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -2989,13 +2992,13 @@
     }
 
     .clt-detail-left-sub-section-div-p p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
     }
 
     .clt-detail-left-sub-section-div {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -3018,11 +3021,11 @@
     }
 
     .clt_products_offcanvas_header {
-        padding: 25px;
+        padding: 18px 22px;
     }
 
     .clt_products_offcanvas_header button {
-        font-size: 16px;
+        font-size: 13px;
         padding: 0 !important;
     }
 
@@ -3036,8 +3039,8 @@
 
     .clt_products_offcanvas_header .offcanvas-title {
         margin-left: 20px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         margin-bottom: 0;
     }
 
@@ -3110,7 +3113,7 @@
     }
 
     .clt_product_detail_offcanvas_body .header_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3126,13 +3129,13 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div h2 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
     }
