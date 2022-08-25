@@ -310,6 +310,11 @@ const DetailPage = () => {
   const toggleForm = () => {
     setIsFormModal((prevState) => !prevState);
   };
+  const handleProductSlider = () => {
+    setIsRightSidebarOpen(!isRightSidebarOpen);
+    setIsRightSiderBarProductList(true);
+    setIsRightSiderBarProductDetail(false);
+  };
   const DetailMainSliderArrows = ({ next, previous, goToSlide, ...rest }) => {
     const {
       carouselState: { currentSlide, totalItems, slidesToShow },
@@ -550,9 +555,7 @@ const DetailPage = () => {
                             <div key={index}>
                               <div
                                 className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                                onClick={() =>
-                                  setIsRightSidebarOpen(!isRightSidebarOpen)
-                                }
+                                onClick={handleProductSlider}
                               >
                                 <div className="d-flex justify-content-between align-items-start">
                                   <div
@@ -602,11 +605,7 @@ const DetailPage = () => {
                         <div
                           key={index}
                           className="clt-detail-left-section-4-card-item cursor-zoom-in"
-                          onClick={() => (
-                            setIsRightSidebarOpen(!isRightSidebarOpen),
-                            setIsRightSiderBarProductList(true),
-                            setIsRightSiderBarProductDetail(false)
-                          )}
+                          onClick={handleProductSlider}
                         >
                           <div className="d-flex justify-content-between align-items-start">
                             <div
