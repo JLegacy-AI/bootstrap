@@ -884,7 +884,7 @@
 .clt-detail-left-section-4-card-item-desc {
     font-size: 16px;
     font-weight: 400;
-    color: #000;
+    color: #545454;
     margin-bottom: 0px;
     font-family: 'Inter';
     overflow: hidden;
@@ -1085,13 +1085,13 @@
     border-radius: 0px;
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 230px;
 }
 
 .clt_product_detail_offcanvas_body .header_text_div {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 16px;
 }
 
 .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -1111,9 +1111,9 @@
 }
 
 .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 16px;
 }
 
 .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -1364,10 +1364,10 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
-        margin-right: 10px;
+        margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
 
@@ -1533,13 +1533,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -1555,9 +1555,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -1804,10 +1804,10 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
-        margin-right: 10px;
+        margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
 
@@ -1972,13 +1972,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -1994,9 +1994,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -2238,10 +2238,10 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
-        margin-right: 10px;
+        margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
 
@@ -2325,10 +2325,10 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
-        margin-right: 10px;
+        margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
 
@@ -2425,13 +2425,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -2447,9 +2447,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -2651,13 +2651,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -2673,9 +2673,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -2709,7 +2709,7 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
         margin-right: 10px;
@@ -2870,13 +2870,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -2892,9 +2892,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
@@ -2936,10 +2936,10 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 266px;
+        width: 242px;
         height: 270px;
         border-radius: 16px;
-        margin-right: 10px;
+        margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
 
@@ -3097,13 +3097,13 @@
 
     .clt_product_detail_offcanvas_body .image_div {
         width: 100%;
-        height: 250px;
+        height: 205px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .header_text_div h2 {
@@ -3119,9 +3119,9 @@
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div, .clt_product_detail_offcanvas_hr_pd {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 25px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 16px;
     }
 
     .clt_product_detail_offcanvas_body .sub_text_div:last-child {
