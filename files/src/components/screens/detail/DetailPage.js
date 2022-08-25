@@ -502,7 +502,7 @@ const DetailPage = () => {
                     shouldResetAutoplay={false}
                     renderButtonGroupOutside={true}
                     customButtonGroup={
-                      <DetailMainSliderArrows title="Title Ssection 2" />
+                      <DetailMainSliderArrows title="Title Section 2" />
                     }
                     className="clt-detail-left-section-2-cards-div"
                   >
@@ -640,24 +640,24 @@ const DetailPage = () => {
               headTitleSection5="Title section 5"
               sectionTextList={[
                 {
-                  subTitle: "SubTitle",
+                  subTitle: "SUBTITLE",
                   subSections: [
                     {
                       img: DetailSection5_Icon1,
-                      title: "Text 1",
+                      title: "Table ronde",
                     },
                     {
                       img: DetailSection5_Icon2,
-                      title: "Text 2",
+                      title: "Table rectangle",
                     },
                   ],
                 },
                 {
-                  subTitle: "SubTitle",
+                  subTitle: "SUBTITLE",
                   subSections: [
                     {
                       img: DetailSection5_Icon3,
-                      title: "Text 3",
+                      title: "Accès handicapé",
                     },
                   ],
                 },

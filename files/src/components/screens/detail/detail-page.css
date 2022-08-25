@@ -434,9 +434,9 @@
 
 .clt-detail-right-main {
     border: 1px solid #eee;
-    border-radius: 10px;
-    box-shadow: 0px 0px 6px 2.6px #eee;
-    padding: 30px 25px;
+    border-radius: 16xpx;
+    box-shadow: 0px 0px 8px 1px #eee;
+    padding: 32px 30px;
 }
 
 .clt-sidebar-forms.stickySideBar {
@@ -485,9 +485,9 @@
     text-align: center;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Inter';
-    color: #aeadad;
+    color: #656464;
 }
 
 .clt-detail-right-toggle-tab.active {
@@ -835,8 +835,8 @@
 
 .clt-detail-left-section-4-card-item {
     width: 266px;
-    height: 250px;
-    border-radius: 20px;
+    height: 270px;
+    border-radius: 18px;
     overflow: hidden;
     margin-right: 10px;
     cursor: default;
@@ -854,8 +854,8 @@
     background-size: cover;
     border-radius: 13px;
     position: relative;
-    width: 150px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
 }
 
 .clt-detail-left-section-4-card-item-h2 {
@@ -940,7 +940,7 @@
 }
 
 .clt-detail-left-sub-section-div-main {
-    margin-bottom: 20px;
+    margin-bottom: 34px;
 }
 
 .clt-detail-left-section-subdiv-1 .clt-detail-left-sub-section-div-main:last-child {
@@ -948,7 +948,7 @@
 }
 
 .clt-detail-left-sub-section-div-p p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: #7f7f7f;
     font-family: 'Inter';
@@ -956,7 +956,7 @@
 }
 
 .clt-detail-left-sub-section-div {
-    margin-bottom: 10px;
+    margin-bottom: 23px;
 }
 
 .clt-detail-left-sub-section-div-main .clt-detail-left-sub-section-div:last-child {
@@ -1362,16 +1362,16 @@
 
     .clt-detail-left-section-4-card-item {
         width: 266px;
-        height: 250px;
-        border-radius: 20px;
+        height: 270px;
+        border-radius: 16px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
 
     .clt-detail-left-section-4-card-item-div {
         border-radius: 13px;
-        width: 150px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .clt-detail-left-section-4-card-item-h2 {
@@ -1441,6 +1441,14 @@
         margin-bottom: 0px;
     }
 
+    .clt-detail-left-sub-section-div-p p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #7f7f7f;
+        font-family: 'Inter';
+        margin-bottom: 10px;
+    }
+    
     .clt_products_offcanvas {
         width: 100%;
     }
@@ -1794,16 +1802,16 @@
 
     .clt-detail-left-section-4-card-item {
         width: 266px;
-        height: 250px;
-        border-radius: 20px;
+        height: 270px;
+        border-radius: 16px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
 
     .clt-detail-left-section-4-card-item-div {
         border-radius: 13px;
-        width: 150px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .clt-detail-left-section-4-card-item-h2 {
@@ -1873,6 +1881,13 @@
         margin-bottom: 0px;
     }
 
+    .clt-detail-left-sub-section-div-p p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #7f7f7f;
+        font-family: 'Inter';
+        margin-bottom: 10px;
+    }
     .clt_products_offcanvas {
         width: 100%;
     }
@@ -2221,16 +2236,16 @@
 
     .clt-detail-left-section-4-card-item {
         width: 266px;
-        height: 250px;
-        border-radius: 20px;
+        height: 270px;
+        border-radius: 16px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
 
     .clt-detail-left-section-4-card-item-div {
         border-radius: 13px;
-        width: 150px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .clt-detail-left-section-4-card-item-h2 {
@@ -2258,6 +2273,18 @@
         margin-bottom: 0px;
         line-height: 32px;
         letter-spacing: -0.6px;
+    }
+
+    .clt-detail-left-sub-section-div-p p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #7f7f7f;
+        font-family: 'Inter';
+        margin-bottom: 10px;
+    }
+    
+    .clt_products_offcanvas {
+        width: 100%;
     }
 
     .clt-detail-left-section-4 {
@@ -2292,6 +2319,20 @@
     .clt-detail-left-sub-section-div img {
         width: 25px;
         margin-right: 12px;
+    }
+
+    .clt-detail-left-section-4-card-item {
+        width: 266px;
+        height: 270px;
+        border-radius: 16px;
+        margin-right: 10px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .clt-detail-left-section-4-card-item-div {
+        border-radius: 13px;
+        width: 110px;
+        height: 110px;
     }
 
     .clt-detail-left-sub-section-div h3 {
@@ -2666,16 +2707,16 @@
 
     .clt-detail-left-section-4-card-item {
         width: 266px;
-        height: 250px;
-        border-radius: 20px;
+        height: 270px;
+        border-radius: 16px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
 
     .clt-detail-left-section-4-card-item-div {
         border-radius: 13px;
-        width: 150px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
 
     .clt-detail-left-section-4-card-item-h2 {
@@ -2892,17 +2933,17 @@
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 190px;
-        height: 210px;
-        border-radius: 20px;
+        width: 266px;
+        height: 270px;
+        border-radius: 16px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
 
     .clt-detail-left-section-4-card-item-div {
         border-radius: 13px;
-        width: 100px;
-        height: 80px;
+        width: 110px;
+        height: 110px;
     }
 
     .clt-detail-left-section-4-card-item-h2 {
