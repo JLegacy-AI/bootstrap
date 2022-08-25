@@ -2473,9 +2473,36 @@
 
     /*ipad*/
     .clt-detail-slider-maindiv {
-        padding: 0;
+        padding: 0px 15px;
     }
 
+    .clt-detail-left-section-2-cards-arrowBtn, .clt-detail-left-section-2-cards-arrowBtn:hover, .clt-detail-left-section-2-cards-arrowBtn:active, .clt-detail-left-section-2-cards-arrowBtn:focus, .clt-detail-left-section-2-cards-arrowBtn:active:focus {
+        width: 36px;
+        height: 36px;
+        border-radius: 50px;
+        overflow: hidden;
+        background: #ddd;
+        border: 1px solid #ddd;
+        box-shadow: none;
+        color: #000;
+        opacity: 1;
+        margin-right: 0rem!important;
+        margin-left: 10px;
+    }
+    
+    .clt-detail-section-1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .clt-gallery-container-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #dedddd;
+        height: 7vh;
+    }
+    
     .clt-detail-slider-gallery {
         border-radius: 0;
     }
@@ -2700,16 +2727,39 @@
 
     /*ipad*/
     .clt-detail-slider-maindiv {
-        padding: 0;
+        padding: 0px 15px;
     }
 
+    .clt-detail-section-1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .clt-detail-left-section-2-cards {
+        width: 315px;
+        height: 210px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-right: 17px !important;
+        cursor: default;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    .clt-gallery-container-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #dedddd;
+        height: 7vh;
+    }
+    
     .clt-detail-slider-gallery-imgdiv {
         height: 500px;
         border-radius: 0px;
     }
 
     .clt-detail-left-section-4-card-item {
-        width: 242px;
+        width: 216px;
         height: 270px;
         border-radius: 16px;
         margin-right: 10px;
@@ -2919,9 +2969,22 @@
 
     /*ipad pro*/
     .clt-detail-slider-maindiv {
-        padding: 0;
+        padding: 0px 15px;
     }
 
+    .clt-detail-section-1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .clt-gallery-container-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #dedddd;
+        height: 7vh;
+    }
+    
     .clt-detail-slider-gallery {
         border-radius: 0;
     }

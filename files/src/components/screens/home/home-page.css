@@ -1464,17 +1464,260 @@
 
     /*ipad*/
 
+    .clt-section-1-div {
+        height: 348px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 52px;
+        border-radius: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: rgba(0,0,0,.7098039215686275);
+    }
+
+    .clt-section-1-h2 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "inter";
+        color: #fff;
+        margin-bottom: 24px;
+        margin-right: 211px;
+    }
+
+    .clt-section-1-btn, .clt-section-1-btn:active, .clt-section-1-btn:focus, .clt-section-1-btn:hover {
+        background: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        font-family: "Inter";
+        font-size: 17.5px;
+        font-weight: 600;
+        box-shadow: none;
+        outline: none;
+        border: 1px solid #fff;
+        height: 36px;
+        position: relative;
+        width: 20%;
+        padding: 13px 28px 15px;
+    }
+
+    .clt-section-1-div-inner {
+        z-index: 1;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .clt-section-4 {
+        position: relative;
+        background-color: #000;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 40px 0;
+        padding: 74px 15px;
+    }
+
+    .clt-section-4 h2 {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        -webkit-transform: translate(50%,-50%);
+        transform: translate(50%,-50%);
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Mulish";
+        margin-bottom: 0;
+        width: 33%;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    
+    .clt-section-6-btn, .clt-section-6-btn:active, .clt-section-6-btn:focus, .clt-section-6-btn:hover {
+        width: 28%;
+    }
+
+    .clt-section-6 {
+        height: 348px;
+    }
+
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
 
     /*ipad*/
 
+    .clt-section-1-div {
+        height: 348px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 52px;
+        border-radius: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: rgba(0,0,0,.7098039215686275);
+    }
+
+    .clt-section-1-h2 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "inter";
+        color: #fff;
+        margin-bottom: 24px;
+        margin-right: 211px;
+    }
+
+    .clt-section-1-btn, .clt-section-1-btn:active, .clt-section-1-btn:focus, .clt-section-1-btn:hover {
+        background: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        font-family: "Inter";
+        font-size: 17.5px;
+        font-weight: 600;
+        box-shadow: none;
+        outline: none;
+        border: 1px solid #fff;
+        height: 36px;
+        position: relative;
+        width: 20%;
+        padding: 13px 28px 15px;
+    }
+
+    .clt-section-1-div-inner {
+        z-index: 1;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .clt-section-4 {
+        position: relative;
+        background-color: #000;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 40px 0;
+        padding: 74px 15px;
+    }
+
+    .clt-section-4 h2 {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        -webkit-transform: translate(50%,-50%);
+        transform: translate(50%,-50%);
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Mulish";
+        margin-bottom: 0;
+        width: 33%;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    
+    .clt-section-6-btn, .clt-section-6-btn:active, .clt-section-6-btn:focus, .clt-section-6-btn:hover {
+        width: 28%;
+    }
+    
+    .clt-section-6 {
+        height: 348px;
+    }
+
+
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
 
     /*ipad pro*/
+
+    .clt-section-1-div {
+        height: 348px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 52px;
+        border-radius: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: rgba(0,0,0,.7098039215686275);
+    }
+
+    .clt-section-1-h2 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "inter";
+        color: #fff;
+        margin-bottom: 24px;
+        margin-right: 211px;
+    }
+
+    .clt-section-1-btn, .clt-section-1-btn:active, .clt-section-1-btn:focus, .clt-section-1-btn:hover {
+        background: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        font-family: "Inter";
+        font-size: 17.5px;
+        font-weight: 600;
+        box-shadow: none;
+        outline: none;
+        border: 1px solid #fff;
+        height: 36px;
+        position: relative;
+        width: 20%;
+        padding: 13px 28px 15px;
+    }
+
+    .clt-section-1-div-inner {
+        z-index: 1;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .clt-section-4 {
+        position: relative;
+        background-color: #000;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 40px 0;
+        padding: 74px 15px;
+    }
+
+    .clt-section-4 h2 {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        -webkit-transform: translate(50%,-50%);
+        transform: translate(50%,-50%);
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Mulish";
+        margin-bottom: 0;
+        width: 33%;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    .clt-section-6-btn, .clt-section-6-btn:active, .clt-section-6-btn:focus, .clt-section-6-btn:hover {
+        width: 28%;
+    }
+
+    
+    .clt-section-6 {
+        height: 348px;
+    }
+
 
 }
 
