@@ -850,6 +850,14 @@
         padding-right: 15px;
     }
     
+    .pfr_innerNavbarLogo {
+        align-items: center;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        font-weight: 600;
+    }
 }
 
 
