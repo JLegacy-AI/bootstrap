@@ -429,8 +429,8 @@
     .pfr_navbarNav {
         padding-top: 0.6rem !important;
         padding-bottom: 0.6rem !important;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
     
     .pfr_navbarRow {
@@ -459,8 +459,8 @@
     .pfr_navbarNav {
         padding-top: 0.6rem !important;
         padding-bottom: 0.6rem !important;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
     
     .pfr_navbarNavInnerPages {
@@ -803,8 +803,8 @@
     .pfr_navbarNav {
         padding-top: 0.9rem !important;
         padding-bottom: 0.9rem !important;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .pfr_navbarRow {
