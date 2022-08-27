@@ -2500,7 +2500,7 @@
         justify-content: flex-start;
         align-items: center;
         border-bottom: 1px solid #dedddd;
-        height: 7vh;
+        height: 8vh;
     }
     
     .clt-detail-slider-gallery {
@@ -2513,12 +2513,12 @@
     }
 
     .clt-detail-slider-gallery-imgdiv {
-        height: 380px;
+        height: 400px;
     }
 
     
     .clt-detail-slider-main-imgdiv {
-        height: 350px;
+        height: 370px;
     }
     
 
@@ -2609,6 +2609,13 @@
 
     .clt_products_offcanvas_header {
         padding: 18px 22px;
+    }
+
+    .clt-gallery-container-header-col span {
+        margin-left: 21px;
+        font-size: 16px;
+        margin-bottom: 3px;
+        color: rgb(0, 0, 0);
     }
 
     .clt_products_offcanvas_header button {
@@ -2756,16 +2763,16 @@
         justify-content: flex-start;
         align-items: center;
         border-bottom: 1px solid #dedddd;
-        height: 7vh;
+        height: 8vh;
     }
     
     .clt-detail-slider-gallery-imgdiv {
-        height: 380px;
+        height: 400px;
     }
 
     
     .clt-detail-slider-main-imgdiv {
-        height: 350px;
+        height: 370px;
     }
 
     .clt-detail-left-section-4-card-item {
@@ -2828,6 +2835,13 @@
         font-size: 15px;
         font-weight: 400;
         margin-bottom: 10px;
+    }
+
+    .clt-gallery-container-header-col span {
+        margin-left: 21px;
+        font-size: 16px;
+        margin-bottom: 3px;
+        color: rgb(0, 0, 0);
     }
 
     .clt-detail-left-sub-section-div {
@@ -2982,6 +2996,14 @@
         padding: 0px 15px;
     }
 
+    .clt-gallery-container-header-col span {
+        margin-left: 21px;
+        font-size: 16px;
+        margin-bottom: 3px;
+        color: rgb(0, 0, 0);
+    }
+
+
     .clt-detail-section-1 {
         margin-top: 25px;
         margin-bottom: 25px;
@@ -2992,7 +3014,7 @@
         justify-content: flex-start;
         align-items: center;
         border-bottom: 1px solid #dedddd;
-        height: 7vh;
+        height: 8vh;
     }
     
     .clt-detail-slider-gallery {
@@ -3230,6 +3252,21 @@
     .clt-detail-slider-main-imgdiv {
         height: 380px;
     }
+
+    
+    .clt-gallery-container-header-col span {
+        margin-left: 21px;
+        font-size: 22.5px;
+        margin-bottom: 3px;
+        color: rgb(0, 0, 0);
+    }
+
+    
+    .clt-gallery-container-header {
+        height: 8vh;
+    }
+
+
     
 }
 
@@ -3246,7 +3283,18 @@
         height: 500px;
         border-radius: 0px;
     }
+    
 
+    .clt-gallery-container-header-col span {
+        margin-left: 21px;
+        font-size: 22.5px;
+        margin-bottom: 3px;
+        color: rgb(0, 0, 0);
+    }
+
+    .clt-gallery-container-header {
+        height: 8vh;
+    }
 
 }
 

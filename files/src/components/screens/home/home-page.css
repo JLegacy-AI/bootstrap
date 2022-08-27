@@ -1751,4 +1751,9 @@
         height: 282px;
     }
 
+    .clt-section-1-btn, .clt-section-1-btn:hover, .clt-section-1-btn:focus, .clt-section-1-btn:active {
+        width: 11.2%;
+    }
+    
+
 }
