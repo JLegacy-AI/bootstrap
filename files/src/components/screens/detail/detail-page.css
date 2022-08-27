@@ -2476,6 +2476,12 @@
         padding: 0px 15px;
     }
 
+    .clt-gallery-container-footer span {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+    }
+
     .clt-detail-left-section-2-cards-arrowBtn, .clt-detail-left-section-2-cards-arrowBtn:hover, .clt-detail-left-section-2-cards-arrowBtn:active, .clt-detail-left-section-2-cards-arrowBtn:focus, .clt-detail-left-section-2-cards-arrowBtn:active:focus {
         width: 36px;
         height: 36px;
@@ -2616,6 +2622,8 @@
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
+        font-weight: 600;
     }
 
     .clt_products_offcanvas_header button {
@@ -2743,6 +2751,12 @@
         padding: 0px 15px;
     }
 
+    .clt-gallery-container-footer span {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+    }
+
     .clt-detail-section-1 {
         margin-top: 25px;
         margin-bottom: 25px;
@@ -2842,6 +2856,8 @@
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
+        font-weight: 600;
     }
 
     .clt-detail-left-sub-section-div {
@@ -2996,11 +3012,19 @@
         padding: 0px 15px;
     }
 
+    .clt-gallery-container-footer span {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+    }
+
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
+        font-weight: 600;
     }
 
 
@@ -3253,12 +3277,19 @@
         height: 380px;
     }
 
-    
+    .clt-gallery-container-footer span {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+    }
+
     .clt-gallery-container-header-col span {
         margin-left: 21px;
-        font-size: 22.5px;
+        font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
+        font-weight: 600;
     }
 
     
@@ -3284,12 +3315,19 @@
         border-radius: 0px;
     }
     
+    .clt-gallery-container-footer span {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+    }
 
     .clt-gallery-container-header-col span {
-        margin-left: 21px;
-        font-size: 22.5px;
+        margin-left: 22px;
+        font-size: 16px;
         margin-bottom: 3px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
+        font-weight: 600;
     }
 
     .clt-gallery-container-header {
