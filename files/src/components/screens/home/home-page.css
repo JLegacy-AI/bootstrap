@@ -1510,6 +1510,12 @@
         margin-top: 15px;
     }
 
+    .clt-section-3-cards {
+        width: 290px;
+        height: 290px;
+        border-radius: 20px;
+    }
+    
     .clt-section-4 {
         position: relative;
         background-color: #000;
@@ -1595,6 +1601,12 @@
         z-index: 1;
         position: relative;
         margin-top: 15px;
+    }
+
+    .clt-section-3-cards {
+        width: 290px;
+        height: 290px;
+        border-radius: 20px;
     }
 
     .clt-section-4 {
@@ -1684,6 +1696,11 @@
         margin-top: 15px;
     }
 
+    .clt-section-3-cards {
+        width: 290px;
+        height: 290px;
+        border-radius: 20px;
+    }
     .clt-section-4 {
         position: relative;
         background-color: #000;
@@ -1721,8 +1738,17 @@
 
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (max-width: 1400px) and (min-width: 1200px) and (orientation:landscape) {
 
     /*large desktop*/
+
+    .clt-section-1-h2 {
+        margin-right: 655px;
+    }
+
+    .clt-section-3-cards {
+        width: 282px;
+        height: 282px;
+    }
 
 }

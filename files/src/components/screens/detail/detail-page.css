@@ -63,7 +63,7 @@
     position: relative;
 }
 
-.clt-detail-slider-main-imgdiv.cursor-zoom-in:hover {
+.cursor-zoom-in:hover {
     cursor: zoom-in;
 }
 
@@ -2513,8 +2513,14 @@
     }
 
     .clt-detail-slider-gallery-imgdiv {
-        height: 500px;
+        height: 380px;
     }
+
+    
+    .clt-detail-slider-main-imgdiv {
+        height: 350px;
+    }
+    
 
     .clt-detail-left-section-4-card-item {
         width: 210px;
@@ -2754,8 +2760,12 @@
     }
     
     .clt-detail-slider-gallery-imgdiv {
-        height: 500px;
-        border-radius: 0px;
+        height: 380px;
+    }
+
+    
+    .clt-detail-slider-main-imgdiv {
+        height: 350px;
     }
 
     .clt-detail-left-section-4-card-item {
@@ -2990,9 +3000,13 @@
     }
 
     .clt-detail-slider-gallery-imgdiv {
-        height: 500px;
+        height: 420px;
     }
 
+    .clt-detail-slider-main-imgdiv {
+        height: 380px;
+    }
+    
     .clt-detail-left-section-2-cards {
         width: 280px;
         height: 190px;
@@ -3205,17 +3219,38 @@
 
 }
 
-@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
 
     /*ipad pro*/
+    .clt-detail-slider-gallery-imgdiv {
+        height: 420px;
+        border-radius: 0px;
+    }
+
+    .clt-detail-slider-main-imgdiv {
+        height: 380px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) and (orientation:landscape) {
+
+    /*large desktop*/
+
+    .clt-detail-slider-main-imgdiv {
+        height: 380px;
+    }
+
     .clt-detail-slider-gallery-imgdiv {
         height: 500px;
         border-radius: 0px;
     }
 
+
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1400px) {
 
     /*large desktop*/
 
