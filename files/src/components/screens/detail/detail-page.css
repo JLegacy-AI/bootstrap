@@ -2502,11 +2502,7 @@
     }
     
     .clt-gallery-container-header {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        border-bottom: 1px solid #dedddd;
-        height: 7vh;
+        height: 5vh;
     }
     
     .clt-detail-slider-gallery {
@@ -2772,6 +2768,7 @@
         -webkit-user-select: none;
         user-select: none;
     }
+
     .clt-gallery-container-header {
         display: flex;
         justify-content: flex-start;
@@ -3038,7 +3035,7 @@
         justify-content: flex-start;
         align-items: center;
         border-bottom: 1px solid #dedddd;
-        height: 8vh;
+        height: 6vh;
     }
     
     .clt-detail-slider-gallery {
