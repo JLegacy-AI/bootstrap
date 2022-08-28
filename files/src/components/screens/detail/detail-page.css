@@ -865,9 +865,6 @@
     margin-bottom: 5px;
     font-family: 'Inter';
     margin-top: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .clt-detail-left-section-4-card-item-secondary {
@@ -876,9 +873,6 @@
     color: #000;
     margin-bottom: 5px;
     font-family: 'Inter';
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .clt-detail-left-section-4-card-item-desc {
@@ -887,9 +881,6 @@
     color: #545454;
     margin-bottom: 0px;
     font-family: 'Inter';
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .clt-detail-left-section-4-row {
