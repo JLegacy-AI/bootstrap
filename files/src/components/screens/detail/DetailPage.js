@@ -42,6 +42,7 @@ import EventsNavbar from "../../reusable/EventsNavbar";
 import { baseUrl } from "../../../config";
 import DetailSection5 from "./sections/DetailSection5";
 import CustomOffCanvas from "../../reusable/CustomOffCanvas";
+import DetailSection6 from "./sections/DetailSection6";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
@@ -661,6 +662,32 @@ const DetailPage = () => {
                   ],
                 },
               ]}
+            />
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
+            <DetailSection6
+              title="Title Section 6"
+              subTitle="Subtitle"
+              column1={{
+                title: "Title1",
+                subTitle: "Subtitle1",
+              }}
+              column2={{
+                title: "Title2",
+                subTitle: "Subtitle2",
+              }}
+              column3={{
+                title: "Title3",
+                subTitle: "Subtitle3",
+              }}
+              column4={{
+                title: "Title4",
+                subTitle: "Subtitle4",
+              }}
+              column5={{
+                title: "Title5",
+                subTitle: "Subtitle5",
+              }}
+              onClick={() => console.log("sidebar")}
             />
             {/* Last section bottom */}
             <Row className="clt-detail-footer-mb" />

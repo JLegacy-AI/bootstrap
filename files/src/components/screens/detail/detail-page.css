@@ -1127,6 +1127,84 @@
     margin-bottom: 0px;
 }
 
+.clt-detail-section-6 {}
+
+.clt-detail-section-6-header {}
+
+.clt-detail-section-6-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Inter";
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7f7f7f;
+    font-family: "Inter";
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-body {
+    margin-top: 30px !important;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.clt-detail-section-6-body .row:last-child .clt-detail-section-6-body-col {
+    border-bottom: 0px;
+}
+
+.clt-detail-section-6-body-col {
+    padding: 25px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.clt-detail-section-6-body-col.border-right {
+    border-right: 1px solid #eee;
+}
+
+.clt-detail-section-6-body h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    font-family: "Inter";
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-body p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7f7f7f;
+    font-family: "Inter";
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+    background: #eee;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #eee;
+    height: 56px;
+    position: relative;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*mobile*/
@@ -1442,7 +1520,7 @@
         font-family: 'Inter';
         margin-bottom: 10px;
     }
-    
+
     .clt_products_offcanvas {
         width: 100%;
     }
@@ -1882,6 +1960,7 @@
         font-family: 'Inter';
         margin-bottom: 10px;
     }
+
     .clt_products_offcanvas {
         width: 100%;
     }
@@ -2276,7 +2355,7 @@
         font-family: 'Inter';
         margin-bottom: 10px;
     }
-    
+
     .clt_products_offcanvas {
         width: 100%;
     }
@@ -2483,19 +2562,19 @@
         box-shadow: none;
         color: #000;
         opacity: 1;
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         margin-left: 10px;
     }
-    
+
     .clt-detail-section-1 {
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    
+
     .clt-gallery-container-header {
         height: 5vh;
     }
-    
+
     .clt-detail-slider-gallery {
         border-radius: 0;
     }
@@ -2509,11 +2588,11 @@
         height: 400px;
     }
 
-    
+
     .clt-detail-slider-main-imgdiv {
         height: 370px;
     }
-    
+
 
     .clt-detail-left-section-4-card-item {
         width: 210px;
@@ -2767,12 +2846,12 @@
         border-bottom: 1px solid #dedddd;
         height: 8vh;
     }
-    
+
     .clt-detail-slider-gallery-imgdiv {
         height: 400px;
     }
 
-    
+
     .clt-detail-slider-main-imgdiv {
         height: 370px;
     }
@@ -3020,7 +3099,7 @@
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    
+
     .clt-gallery-container-header {
         display: flex;
         justify-content: flex-start;
@@ -3028,7 +3107,7 @@
         border-bottom: 1px solid #dedddd;
         height: 6vh;
     }
-    
+
     .clt-detail-slider-gallery {
         border-radius: 0;
     }
@@ -3040,7 +3119,7 @@
     .clt-detail-slider-main-imgdiv {
         height: 380px;
     }
-    
+
     .clt-detail-left-section-2-cards {
         width: 280px;
         height: 190px;
@@ -3280,13 +3359,13 @@
         font-weight: 600;
     }
 
-    
+
     .clt-gallery-container-header {
         height: 8vh;
     }
 
 
-    
+
 }
 
 
@@ -3302,7 +3381,7 @@
         height: 500px;
         border-radius: 0px;
     }
-    
+
     .clt-gallery-container-footer span {
         font-size: 16px;
         font-weight: 600;
