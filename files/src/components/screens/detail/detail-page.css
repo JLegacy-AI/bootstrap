@@ -1223,7 +1223,6 @@
 .clt-detail-section-6-offcanvas-cat-h2.margin-top {
     margin-top: 25px;
 }
-
 .clt-detail-section-6-offcanvas-data-row {
     margin-top: 25px !important;
     border: 1px solid #eee;
@@ -1234,7 +1233,9 @@
     padding: 25px 25px;
     border-bottom: 1px solid #eee;
 }
-
+.clt-detail-section-6-offcanvas-data-row .col .row:last-child .clt-detail-section-6-offcanvas-data-row-col {
+    border-bottom: 0px;
+}
 .clt-detail-section-6-offcanvas-data-row-col.border-right {
     border-right: 1px solid #eee;
 }
