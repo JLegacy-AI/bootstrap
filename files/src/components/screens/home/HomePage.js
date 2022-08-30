@@ -62,7 +62,9 @@ const HomePage = () => {
                   Découvrez un château à 20min de Toulouse
                 </h2>
                 <Button
-                  onClick={() => history.push(`/detail`)}
+                  onClick={() =>
+                    history.push(`/detail/${maraigeData.detail_page}`)
+                  }
                   className="clt-section-1-btn shadow-none"
                 >
                   <span>Découvrir</span>

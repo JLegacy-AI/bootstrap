@@ -46,11 +46,13 @@ import DetailSection5 from "./sections/DetailSection5";
 import CustomOffCanvas from "../../reusable/CustomOffCanvas";
 import DetailSection6 from "./sections/DetailSection6";
 import DetailSection7 from "./sections/DetailSection7";
+import { useHistory } from "react-router-dom";
 
-const DetailPage = () => {
+const DetailPageProfessionalEvent = () => {
+  const history = useHistory();
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
   const [stickySidebar, setStickySidebar] = useState(undefined);
-  const [eventType, setEventType] = useState(maraigeData);
+  const [eventType, setEventType] = useState(profesionnelData);
   const [formType, setFormType] = useState("contact");
   const [bottomUp, setBottomUp] = useState(false);
   const [isFormModal, setIsFormModal] = useState(false);
@@ -358,9 +360,9 @@ const DetailPage = () => {
       <InnerNavbar
         title="Title Header"
         backClick="/"
-        titleClick="/detail"
+        titleClick={`/detail/${profesionnelData.detail_page}`}
         shareTitle="Chateau La Tournelle"
-        shareLink={`${baseUrl}/detail`}
+        shareLink={`${baseUrl}/detail/${profesionnelData.detail_page}`}
         shareText="Chateau La Tournelle"
       />
       <Container>
@@ -402,10 +404,18 @@ const DetailPage = () => {
       />
       <EventsNavbar
         eventType={eventType}
-        setEventTypeMaraige={() => setEventType(maraigeData)}
-        setEventTypeAnniversaire={() => setEventType(anniversaireData)}
-        setEventTypeReligieux={() => setEventType(religieuxData)}
-        setEventTypeProfesionnel={() => setEventType(profesionnelData)}
+        setEventTypeMaraige={() =>
+          history.push(`/detail/${maraigeData.detail_page}`)
+        }
+        setEventTypeAnniversaire={() =>
+          history.push(`/detail/${anniversaireData.detail_page}`)
+        }
+        setEventTypeReligieux={() =>
+          history.push(`/detail/${religieuxData.detail_page}`)
+        }
+        setEventTypeProfesionnel={() =>
+          history.push(`/detail/${profesionnelData.detail_page}`)
+        }
       />
       <Container>
         <Row className="clt-detail-sections-div">
@@ -998,4 +1008,4 @@ const DetailPage = () => {
     </React.Fragment>
   );
 };
-export default DetailPage;
+export default DetailPageProfessionalEvent;

@@ -28,24 +28,28 @@ export const maraigeData = {
   color: "#08875c",
   background: "#24775b",
   img: MaraigeImg,
+  detail_page: "maraige"
 };
-export const anniversaireData = {
+export const profesionnelData = {
   type: 2,
   color: "#015eea",
   background: "#025adf",
-  img: AnniversaireImg,
+  img: ProfesionnelImg,
+  detail_page: "profesionnel"
 };
-export const profesionnelData = {
+export const anniversaireData = {
   type: 3,
   color: "#ad1eac",
   background: "#c72fc3",
-  img: ProfesionnelImg,
+  img: AnniversaireImg,
+  detail_page: "anniversaire"
 };
 export const religieuxData = {
   type: 4,
   color: "#b3846d",
   background: "#d2997e",
   img: ReligieuxImg,
+  detail_page: "religieux"
 };
 export const detailMainSliderResponsive = {
   superLargeDesktop: {

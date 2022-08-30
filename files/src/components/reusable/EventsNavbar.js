@@ -1,6 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { IMG_ALT, maraigeData } from "../../constants";
+import {
+  anniversaireData,
+  IMG_ALT,
+  maraigeData,
+  profesionnelData,
+  religieuxData,
+} from "../../constants";
 import IconBar1 from "../../assets/img/icon-bar-1.png";
 import IconBar1Active from "../../assets/img/icon-bar-1-active.png";
 import IconBar2 from "../../assets/img/icon-bar-2.png";
@@ -9,6 +15,7 @@ import IconBar3 from "../../assets/img/icon-bar-3.png";
 import IconBar3Active from "../../assets/img/icon-bar-3-active.png";
 import IconBar4 from "../../assets/img/icon-bar-4.png";
 import IconBar4Active from "../../assets/img/icon-bar-4-active.png";
+
 const EventsNavbar = (props) => {
   return (
     <Container fluid>
@@ -50,7 +57,7 @@ const EventsNavbar = (props) => {
                   </div>
                   <div
                     className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                    onClick={props.setEventTypeAnniversaire}
+                    onClick={props.setEventTypeProfesionnel}
                   >
                     <img
                       src={IconBar2Active}
@@ -80,7 +87,7 @@ const EventsNavbar = (props) => {
                   </div>
                   <div
                     className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
-                    onClick={props.setEventTypeProfesionnel}
+                    onClick={props.setEventTypeAnniversaire}
                   >
                     <img
                       src={IconBar3Active}
