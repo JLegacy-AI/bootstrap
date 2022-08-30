@@ -1205,6 +1205,63 @@
     position: relative;
 }
 
+.clt-detail-section-6-offcanvas-row {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.clt-detail-section-6-offcanvas-cat-h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    font-family: "Inter";
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-offcanvas-cat-h2.margin-top {
+    margin-top: 25px;
+}
+
+.clt-detail-section-6-offcanvas-data-row {
+    margin-top: 25px !important;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.clt-detail-section-6-offcanvas-data-row-col {
+    padding: 25px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.clt-detail-section-6-offcanvas-data-row-col.border-right {
+    border-right: 1px solid #eee;
+}
+
+.clt-detail-section-6-offcanvas-data-row-col.border-bottom-none {
+    border-bottom: none;
+}
+
+.clt-detail-section-6-offcanvas-data-row-col h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    font-family: "Inter";
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-6-offcanvas-data-row-col p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7f7f7f;
+    font-family: "Inter";
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
 @media only screen and (max-width: 600px) {
 
     /*mobile*/

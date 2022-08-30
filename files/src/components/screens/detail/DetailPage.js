@@ -52,10 +52,11 @@ const DetailPage = () => {
   const [bottomUp, setBottomUp] = useState(false);
   const [isFormModal, setIsFormModal] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
-  const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(false);
-  const [isRightSiderBarProductList, setIsRightSiderBarProductList] =
+  const [isProductsSidebarOpen, setIsProductsSidebarOpen] = useState(false);
+  const [isProductsSidebarList, setIsProductsSidebarList] = useState(false);
+  const [isProductsSiderbarDetail, setIsProductsSiderbarDetail] =
     useState(false);
-  const [isRightSiderBarProductDetail, setIsRightSiderBarProductDetail] =
+  const [isSection6SiderbarDetail, setIsSection6SiderbarDetail] =
     useState(false);
   const [productDetail, setProductDetail] = useState({});
   const [fullScreenGallery, setFullScreenGallery] = useState([]);
@@ -312,9 +313,9 @@ const DetailPage = () => {
     setIsFormModal((prevState) => !prevState);
   };
   const handleProductSlider = () => {
-    setIsRightSidebarOpen(!isRightSidebarOpen);
-    setIsRightSiderBarProductList(true);
-    setIsRightSiderBarProductDetail(false);
+    setIsProductsSidebarOpen(!isProductsSidebarOpen);
+    setIsProductsSidebarList(true);
+    setIsProductsSiderbarDetail(false);
   };
   const DetailMainSliderArrows = ({ next, previous, goToSlide, ...rest }) => {
     const {
@@ -687,7 +688,7 @@ const DetailPage = () => {
                 title: "Title5",
                 subTitle: "Subtitle5",
               }}
-              onClick={() => console.log("sidebar")}
+              onClick={() => setIsSection6SiderbarDetail(true)}
             />
             {/* Last section bottom */}
             <Row className="clt-detail-footer-mb" />
@@ -822,20 +823,19 @@ const DetailPage = () => {
       <CustomOffCanvas
         placement="end"
         className="clt_products_offcanvas"
-        show={isRightSidebarOpen}
-        onHide={() => setIsRightSidebarOpen(false)}
+        show={isProductsSidebarOpen}
+        onHide={() => setIsProductsSidebarOpen(false)}
         headerClassName="justify-content-start clt_products_offcanvas_header"
         bodyClassName="clt_products_offcanvas_body"
         headerTitle={
-          isRightSiderBarProductList ? "Title Header" : productDetail.name
+          isProductsSidebarList ? "Title Header" : productDetail.name
         }
-        isBackBtn={isRightSiderBarProductDetail}
+        isBackBtn={isProductsSiderbarDetail}
         handleBack={() => (
-          setIsRightSiderBarProductDetail(false),
-          setIsRightSiderBarProductList(true)
+          setIsProductsSiderbarDetail(false), setIsProductsSidebarList(true)
         )}
       >
-        {isRightSiderBarProductList &&
+        {isProductsSidebarList &&
           section4ProductsSidebar.map((val, i) => {
             return (
               <Row key={i} className="clt_products_offcanvas_body_mainrow">
@@ -853,8 +853,8 @@ const DetailPage = () => {
                         key={index}
                         className="clt_products_offcanvas_body_secdiv"
                         onClick={() => (
-                          setIsRightSiderBarProductDetail(true),
-                          setIsRightSiderBarProductList(false),
+                          setIsProductsSiderbarDetail(true),
+                          setIsProductsSidebarList(false),
                           setProductDetail(value)
                         )}
                       >
@@ -879,7 +879,7 @@ const DetailPage = () => {
               </Row>
             );
           })}
-        {isRightSiderBarProductDetail && (
+        {isProductsSiderbarDetail && (
           <Container className="clt_product_detail_offcanvas_body">
             <Row>
               <Col className="p-0">
@@ -920,6 +920,70 @@ const DetailPage = () => {
             </Row>
           </Container>
         )}
+      </CustomOffCanvas>
+      <CustomOffCanvas
+        placement="end"
+        className="clt_products_offcanvas"
+        show={isSection6SiderbarDetail}
+        onHide={() => setIsSection6SiderbarDetail(false)}
+        headerClassName="justify-content-start clt_products_offcanvas_header"
+        bodyClassName="clt_products_offcanvas_body"
+        headerTitle="Title Header"
+      >
+        <Row className="clt-detail-section-6-offcanvas-row">
+          <Col>
+            <Row>
+              <Col>
+                <h2 className="clt-detail-section-6-offcanvas-cat-h2">
+                  Category 1
+                </h2>
+              </Col>
+            </Row>
+            <Row className="clt-detail-section-6-offcanvas-data-row m-0">
+              <Col>
+                <Row>
+                  <Col className="clt-detail-section-6-offcanvas-data-row-col border-right border-bottom-none">
+                    <h2>Title5</h2>
+                    <p>Subtitle5</p>
+                  </Col>
+                  <Col className="clt-detail-section-6-offcanvas-data-row-col border-bottom-none">
+                    <h2>Title5</h2>
+                    <p>Subtitle5</p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h2 className="clt-detail-section-6-offcanvas-cat-h2 margin-top">
+                  Category 2
+                </h2>
+              </Col>
+            </Row>
+            <Row className="clt-detail-section-6-offcanvas-data-row m-0">
+              <Col>
+                <Row>
+                  <Col className="clt-detail-section-6-offcanvas-data-row-col">
+                    <h2>Title5</h2>
+                    <p>Subtitle5</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className="clt-detail-section-6-offcanvas-data-row-col">
+                    <h2>Title5</h2>
+                    <p>Subtitle5</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className="clt-detail-section-6-offcanvas-data-row-col">
+                    <h2>Title5</h2>
+                    <p>Subtitle5</p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
       </CustomOffCanvas>
     </React.Fragment>
   );
