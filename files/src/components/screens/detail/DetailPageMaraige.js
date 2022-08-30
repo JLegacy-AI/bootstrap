@@ -404,18 +404,22 @@ const DetailPageMaraige = () => {
       />
       <EventsNavbar
         eventType={eventType}
-        setEventTypeMaraige={() =>
-          history.push(`/detail/${maraigeData.detail_page}`)
-        }
-        setEventTypeAnniversaire={() =>
-          history.push(`/detail/${anniversaireData.detail_page}`)
-        }
-        setEventTypeReligieux={() =>
-          history.push(`/detail/${religieuxData.detail_page}`)
-        }
-        setEventTypeProfesionnel={() =>
-          history.push(`/detail/${profesionnelData.detail_page}`)
-        }
+        setEventTypeMaraige={() => {
+          history.push(`/detail/${maraigeData.detail_page}`);
+          window.location.reload();
+        }}
+        setEventTypeAnniversaire={() => {
+          history.push(`/detail/${anniversaireData.detail_page}`);
+          window.location.reload();
+        }}
+        setEventTypeReligieux={() => {
+          history.push(`/detail/${religieuxData.detail_page}`);
+          window.location.reload();
+        }}
+        setEventTypeProfesionnel={() => {
+          history.push(`/detail/${profesionnelData.detail_page}`);
+          window.location.reload();
+        }}
       />
       <Container>
         <Row className="clt-detail-sections-div">
