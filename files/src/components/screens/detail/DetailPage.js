@@ -15,6 +15,8 @@ import DetailSection4_1 from "../../../assets/img/detail_section_4_1.png";
 import DetailSection5_Icon1 from "../../../assets/img/detail_section_5_icon_1.png";
 import DetailSection5_Icon2 from "../../../assets/img/detail_section_5_icon_2.png";
 import DetailSection5_Icon3 from "../../../assets/img/detail_section_5_icon_3.png";
+import DetailSection7ImageMobile from "../../../assets/img/detail_section_7_img_mobile.jpg";
+import DetailSection7ImageDesktop from "../../../assets/img/detail_section_7_img_desktop.jpg";
 import InnerNavbar from "../../../layouts/InnerNavbar";
 import { isBrowser, isMobile, isTablet } from "react-device-detect";
 import FooterBottomUp from "../../reusable/FooterBottomUp";
@@ -43,6 +45,7 @@ import { baseUrl } from "../../../config";
 import DetailSection5 from "./sections/DetailSection5";
 import CustomOffCanvas from "../../reusable/CustomOffCanvas";
 import DetailSection6 from "./sections/DetailSection6";
+import DetailSection7 from "./sections/DetailSection7";
 
 const DetailPage = () => {
   const [stickyBarTop, setstickyBarTop] = useState(undefined);
@@ -689,6 +692,13 @@ const DetailPage = () => {
                 subTitle: "Subtitle5",
               }}
               onClick={() => setIsSection6SiderbarDetail(true)}
+            />
+            <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
+            <DetailSection7
+              title="Title Section 7"
+              subTitle="Subtitle"
+              imageDesktop={DetailSection7ImageDesktop}
+              imageMobile={DetailSection7ImageMobile}
             />
             {/* Last section bottom */}
             <Row className="clt-detail-footer-mb" />

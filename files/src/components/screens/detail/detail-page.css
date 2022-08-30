@@ -1127,10 +1127,6 @@
     margin-bottom: 0px;
 }
 
-.clt-detail-section-6 {}
-
-.clt-detail-section-6-header {}
-
 .clt-detail-section-6-header h2 {
     font-size: 24px;
     font-weight: 600;
@@ -1223,6 +1219,7 @@
 .clt-detail-section-6-offcanvas-cat-h2.margin-top {
     margin-top: 25px;
 }
+
 .clt-detail-section-6-offcanvas-data-row {
     margin-top: 25px !important;
     border: 1px solid #eee;
@@ -1233,9 +1230,11 @@
     padding: 25px 25px;
     border-bottom: 1px solid #eee;
 }
+
 .clt-detail-section-6-offcanvas-data-row .col .row:last-child .clt-detail-section-6-offcanvas-data-row-col {
     border-bottom: 0px;
 }
+
 .clt-detail-section-6-offcanvas-data-row-col.border-right {
     border-right: 1px solid #eee;
 }
@@ -1261,6 +1260,39 @@
     margin-top: 5px;
     margin-bottom: 0;
     letter-spacing: -0.6px;
+}
+
+.clt-detail-section-7 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Inter";
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-7 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7f7f7f;
+    font-family: "Inter";
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: -0.6px;
+}
+
+.clt-detail-section-7-img-row {
+    margin-top: 30px !important;
+}
+
+.clt-detail-section-7-img-div {
+    background: #eee;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 13px;
+    width: 100%;
+    height: 250px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1702,6 +1734,118 @@
         font-weight: 400;
         margin-bottom: 0px;
     }
+
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2141,6 +2285,118 @@
         font-size: 18px;
         font-weight: 400;
         margin-bottom: 0px;
+    }
+
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
     }
 }
 
@@ -2595,6 +2851,118 @@
         font-weight: 400;
         margin-bottom: 0px;
     }
+
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:portrait) {
@@ -2866,6 +3234,117 @@
         margin-bottom: 0px;
     }
 
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation:landscape) {
@@ -3128,6 +3607,117 @@
         margin-bottom: 0px;
     }
 
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -3388,6 +3978,117 @@
         margin-bottom: 0px;
     }
 
+    .clt-detail-section-6-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-header p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body {
+        margin-top: 30px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-body-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-body h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        height: 56px;
+    }
+
+    .clt-detail-section-6-offcanvas-row {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-cat-h2.margin-top {
+        margin-top: 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row {
+        margin-top: 25px !important;
+        border-radius: 10px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col {
+        padding: 25px 25px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-6-offcanvas-data-row-col p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 0;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7 p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
+        letter-spacing: -0.6px;
+    }
+
+    .clt-detail-section-7-img-row {
+        margin-top: 30px !important;
+    }
+
+    .clt-detail-section-7-img-div {
+        border-radius: 13px;
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 1400px) and (min-width: 1200px) {
