@@ -12,7 +12,10 @@ const DetailFooter = (props) => {
           <Button
             onClick={props.setBottomUp}
             className="clt-detail-footer-mblButton shadow-none"
-            style={{ color: props.eventType.background }}
+            style={{
+              background: props.eventType.background,
+              border: `1px solid ${props.eventType.background}`,
+            }}
           >
             <span>
               Contact Us <i className="fa-light fa-chevron-down"></i>
