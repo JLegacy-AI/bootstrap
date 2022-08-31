@@ -868,7 +868,7 @@ const DetailPageMaraige = () => {
           section4ProductsSidebar.map((val, i) => {
             return (
               <Row key={i} className="clt_products_offcanvas_body_mainrow">
-                <Col>
+                <Col className="p-0">
                   <Row className="clt_products_offcanvas_body_maindiv">
                     <Col>
                       <h2 className="clt_products_offcanvas_body_category">
@@ -960,7 +960,7 @@ const DetailPageMaraige = () => {
         headerTitle="Title Header"
       >
         <Row className="clt-detail-section-6-offcanvas-row">
-          <Col>
+          <Col className="p-0">
             <Row>
               <Col>
                 <h2 className="clt-detail-section-6-offcanvas-cat-h2">
