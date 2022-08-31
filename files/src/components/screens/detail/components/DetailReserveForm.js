@@ -10,7 +10,10 @@ const DetailReserveForm = (props) => {
           </div>
         ) : (
           <>
-            <h2 className="clt-detail-right-head-heading">
+            <h2
+              className="clt-detail-right-head-heading"
+              style={{ color: props.eventType.color }}
+            >
               {props.formEventType}
             </h2>
             <div className="clt-detail-right-head-sub-div">
@@ -36,6 +39,10 @@ const DetailReserveForm = (props) => {
           <Button
             onClick={() => console.log("")}
             className="clt_formButton shadow-none"
+            style={{
+              background: props.eventType.background,
+              border: `1px solid ${props.eventType.background}`,
+            }}
           >
             <span>Reserve</span>
           </Button>

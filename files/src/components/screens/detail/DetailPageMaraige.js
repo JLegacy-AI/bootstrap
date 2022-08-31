@@ -749,6 +749,7 @@ const DetailPageMaraige = () => {
                       formTitle="Title"
                       formSubtitle="subtitle"
                       formEventType="WEDDING"
+                      eventType={eventType}
                     />
                   )}
                   {formType === "reserve" && (
@@ -756,6 +757,7 @@ const DetailPageMaraige = () => {
                       formTitle="Title"
                       formSubtitle="subtitle"
                       formEventType="WEDDING"
+                      eventType={eventType}
                     />
                   )}
                 </div>
@@ -821,6 +823,7 @@ const DetailPageMaraige = () => {
             formEventType="WEDDING"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
         {formType === "reserve" && (
@@ -830,6 +833,7 @@ const DetailPageMaraige = () => {
             formEventType="WEDDING"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
       </CustomModal>

@@ -749,6 +749,7 @@ const DetailPageAnniversary = () => {
                       formTitle="Title"
                       formSubtitle="subtitle"
                       formEventType="ANNIVERSARY"
+                      eventType={eventType}
                     />
                   )}
                   {formType === "reserve" && (
@@ -756,6 +757,7 @@ const DetailPageAnniversary = () => {
                       formTitle="Title"
                       formSubtitle="subtitle"
                       formEventType="ANNIVERSARY"
+                      eventType={eventType}
                     />
                   )}
                 </div>
@@ -818,18 +820,20 @@ const DetailPageAnniversary = () => {
           <DetailContactForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="WEDDING"
+            formEventType="ANNIVERSARY"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
         {formType === "reserve" && (
           <DetailReserveForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="WEDDING"
+            formEventType="ANNIVERSARY"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
       </CustomModal>

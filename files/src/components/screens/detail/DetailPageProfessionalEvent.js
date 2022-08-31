@@ -748,14 +748,16 @@ const DetailPageProfessionalEvent = () => {
                     <DetailContactForm
                       formTitle="Title"
                       formSubtitle="subtitle"
-                      formEventType="WEDDING"
+                      formEventType="PROFESSIONAL"
+                      eventType={eventType}
                     />
                   )}
                   {formType === "reserve" && (
                     <DetailReserveForm
                       formTitle="Title"
                       formSubtitle="subtitle"
-                      formEventType="WEDDING"
+                      formEventType="PROFESSIONAL"
+                      eventType={eventType}
                     />
                   )}
                 </div>
@@ -818,18 +820,20 @@ const DetailPageProfessionalEvent = () => {
           <DetailContactForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="WEDDING"
+            formEventType="PROFESSIONAL"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
         {formType === "reserve" && (
           <DetailReserveForm
             formTitle="Title"
             formSubtitle="subtitle"
-            formEventType="WEDDING"
+            formEventType="PROFESSIONAL"
             isModal={true}
             customFooterButton="clt-custom-modal-footer-btn"
+            eventType={eventType}
           />
         )}
       </CustomModal>
