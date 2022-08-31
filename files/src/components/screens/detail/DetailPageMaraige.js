@@ -770,6 +770,7 @@ const DetailPageMaraige = () => {
         title="Title"
         subtitle="subtitle"
         setBottomUp={() => setBottomUp(!bottomUp)}
+        eventType={eventType}
       />
       <FooterBottomUp
         bottomUp={bottomUp}
