@@ -1,19 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import {
-  anniversaireData,
-  IMG_ALT,
-  maraigeData,
-  profesionnelData,
-  religieuxData,
-} from "../../constants";
-import IconBar1 from "../../assets/img/icon-bar-1.png";
+import { IMG_ALT } from "../../constants";
 import IconBar1Active from "../../assets/img/icon-bar-1-active.png";
-import IconBar2 from "../../assets/img/icon-bar-2.png";
 import IconBar2Active from "../../assets/img/icon-bar-2-active.png";
-import IconBar3 from "../../assets/img/icon-bar-3.png";
 import IconBar3Active from "../../assets/img/icon-bar-3-active.png";
-import IconBar4 from "../../assets/img/icon-bar-4.png";
 import IconBar4Active from "../../assets/img/icon-bar-4-active.png";
 
 const EventsNavbar = (props) => {
@@ -26,7 +16,9 @@ const EventsNavbar = (props) => {
               <Col className="clt-section-2-row-col">
                 <div className="d-flex justify-content-start align-items-center clt-section-2">
                   <div
-                    className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
+                    className={`d-flex flex-column justify-content-center align-items-center clt-section-2-divs ${
+                      props.eventType.type === 1 && "active"
+                    }`}
                     onClick={props.setEventTypeMaraige}
                   >
                     <img
@@ -56,7 +48,9 @@ const EventsNavbar = (props) => {
                     </h2>
                   </div>
                   <div
-                    className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
+                    className={`d-flex flex-column justify-content-center align-items-center clt-section-2-divs ${
+                      props.eventType.type === 2 && "active"
+                    }`}
                     onClick={props.setEventTypeProfesionnel}
                   >
                     <img
@@ -86,7 +80,9 @@ const EventsNavbar = (props) => {
                     </h2>
                   </div>
                   <div
-                    className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
+                    className={`d-flex flex-column justify-content-center align-items-center clt-section-2-divs ${
+                      props.eventType.type === 3 && "active"
+                    }`}
                     onClick={props.setEventTypeAnniversaire}
                   >
                     <img
@@ -116,7 +112,9 @@ const EventsNavbar = (props) => {
                     </h2>
                   </div>
                   <div
-                    className="d-flex flex-column justify-content-center align-items-center clt-section-2-divs"
+                    className={`d-flex flex-column justify-content-center align-items-center clt-section-2-divs ${
+                      props.eventType.type === 4 && "active"
+                    }`}
                     onClick={props.setEventTypeReligieux}
                   >
                     <img

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./detail-page.css";
 import DetailIcon1 from "../../../assets/img/detail_icon_1.jpg";
@@ -18,7 +18,7 @@ import DetailSection5_Icon3 from "../../../assets/img/detail_section_5_icon_3.pn
 import DetailSection7ImageMobile from "../../../assets/img/detail_section_7_img_mobile.jpg";
 import DetailSection7ImageDesktop from "../../../assets/img/detail_section_7_img_desktop.jpg";
 import InnerNavbar from "../../../layouts/InnerNavbar";
-import { isBrowser, isMobile, isTablet } from "react-device-detect";
+import { isBrowser, isTablet } from "react-device-detect";
 import FooterBottomUp from "../../reusable/FooterBottomUp";
 import DetailFooter from "./components/DetailFooter";
 import DetailGallery from "./components/DetailGallery";
@@ -31,27 +31,20 @@ import DetailSection2 from "./sections/DetailSection2";
 import CustomHr from "../../reusable/CustomHr";
 import DetailSection3 from "./sections/DetailSection3";
 import {
-  anniversaireData,
   detailMainSliderResponsive,
   detailSecondarySliderResponsive,
   IMG_ALT,
-  maraigeData,
   profesionnelData,
-  religieuxData,
   section4SliderResponsive,
 } from "../../../constants";
-import EventsNavbar from "../../reusable/EventsNavbar";
 import { baseUrl } from "../../../config";
 import DetailSection5 from "./sections/DetailSection5";
 import CustomOffCanvas from "../../reusable/CustomOffCanvas";
 import DetailSection6 from "./sections/DetailSection6";
 import DetailSection7 from "./sections/DetailSection7";
-import { useHistory } from "react-router-dom";
+import DetailEventsNavbar from "./components/DetailEventsNavbar";
 
 const DetailPageProfessionalEvent = () => {
-  const history = useHistory();
-  const [stickyBarTop, setstickyBarTop] = useState(undefined);
-  const [stickySidebar, setStickySidebar] = useState(undefined);
   const [eventType, setEventType] = useState(profesionnelData);
   const [formType, setFormType] = useState("contact");
   const [bottomUp, setBottomUp] = useState(false);
@@ -230,71 +223,6 @@ const DetailPageProfessionalEvent = () => {
       ],
     },
   ]);
-  useEffect(() => {
-    const stickyBarEl = document
-      .querySelector(".stickyBar")
-      .getBoundingClientRect();
-    setstickyBarTop(stickyBarEl.top);
-    const stickySideBarEl = document
-      .querySelector(".stickySideBar")
-      .getBoundingClientRect();
-    setStickySidebar(stickySideBarEl.top);
-  }, []);
-
-  useEffect(() => {
-    if (!stickyBarTop) return;
-
-    window.addEventListener("scroll", isSticky);
-    return () => {
-      window.removeEventListener("scroll", isSticky);
-    };
-  }, [stickyBarTop]);
-  useEffect(() => {
-    if (!stickySidebar) return;
-
-    window.addEventListener("scroll", isSidebarSticky);
-    return () => {
-      window.removeEventListener("scroll", isSidebarSticky);
-    };
-  }, [stickySidebar]);
-
-  const isSticky = (e) => {
-    const stickyBarEl = document.querySelector(".stickyBar");
-    const scrollTop = window.scrollY;
-    let check;
-    if (isTablet) {
-      check = scrollTop >= stickyBarTop - 10;
-    } else if (isMobile) {
-      check = scrollTop >= stickyBarTop + 200;
-    } else {
-      check = scrollTop >= stickyBarTop - 10;
-    }
-
-    if (check) {
-      stickyBarEl.classList.add("is-sticky");
-    } else {
-      stickyBarEl.classList.remove("is-sticky");
-    }
-  };
-
-  const isSidebarSticky = (e) => {
-    const stickySideBarEl = document.querySelector(".stickySideBar");
-    const scrollTop = window.scrollY;
-    let check;
-    if (isTablet) {
-      check = false;
-    } else if (isMobile) {
-      check = false;
-    } else {
-      check = scrollTop >= stickySidebar - 10;
-    }
-
-    if (check) {
-      stickySideBarEl.classList.add("is-sticky");
-    } else {
-      stickySideBarEl.classList.remove("is-sticky");
-    }
-  };
 
   const openGallery = (type) => {
     if (type === "main") {
@@ -402,25 +330,7 @@ const DetailPageProfessionalEvent = () => {
         subTitleSection1="Sub title"
         imgIconSection1={DetailIcon1}
       />
-      <EventsNavbar
-        eventType={eventType}
-        setEventTypeMaraige={() => {
-          history.push(`/detail/${maraigeData.detail_page}`);
-          window.location.reload();
-        }}
-        setEventTypeAnniversaire={() => {
-          history.push(`/detail/${anniversaireData.detail_page}`);
-          window.location.reload();
-        }}
-        setEventTypeReligieux={() => {
-          history.push(`/detail/${religieuxData.detail_page}`);
-          window.location.reload();
-        }}
-        setEventTypeProfesionnel={() => {
-          history.push(`/detail/${profesionnelData.detail_page}`);
-          window.location.reload();
-        }}
-      />
+      <DetailEventsNavbar eventType={eventType} />
       <Container>
         <Row className="clt-detail-sections-div">
           <Col lg={8} xs={12}>
