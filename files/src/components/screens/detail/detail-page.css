@@ -16,11 +16,12 @@
 }
 
 .clt-detail-section-1-subdiv span {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-left: 10px;
     font-family: 'Inter';
     color: #000;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-sections-div {
@@ -172,7 +173,7 @@
 .clt-detail-left-section-subdiv-1-div-txt {}
 
 .clt-detail-left-section-subdiv-1-div-txt h3 {
-    font-size: 18.5px;
+    font-size: 16px;
     font-weight: 600;
     color: #000;
     margin-bottom: 2.8px;
@@ -181,7 +182,7 @@
 }
 
 .clt-detail-left-section-subdiv-1-div-txt p {
-    font-size: 18.5px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
     font-family: 'Inter';
@@ -411,16 +412,18 @@
 }
 
 .clt-detail-left-section-3-subdiv h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
+    letter-spacing: -0.2px;
     color: #000;
     margin-bottom: 1px;
     font-family: 'Inter';
 }
 
 .clt-detail-left-section-3 p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    letter-spacing: -0.2px;
     color: #000;
     font-family: 'Inter';
     margin-bottom: 0;
@@ -693,9 +696,10 @@
     align-items: center;
     width: 100%;
     border-radius: 12px;
-    font-size: 15px;
+    font-size: 16px;
     padding-top: 2px;
     font-weight: 600;
+    letter-spacing: -0.2px;
     box-shadow: none;
     outline: none;
     border: 1px solid #29b07d;
@@ -708,17 +712,18 @@
 }
 
 .clt-detail-footer-h-div h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-family: 'Inter';
     color: #000;
     margin-bottom: -1px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-footer-h-div span {
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.2px;
     font-family: "INTER";
     color: #000;
     margin-bottom: 0;
@@ -861,7 +866,8 @@
 }
 
 .clt-detail-left-section-4-card-item-h2 {
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 600;
     color: #000;
     margin-bottom: 5px;
@@ -871,6 +877,7 @@
 
 .clt-detail-left-section-4-card-item-secondary {
     font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 500;
     color: #000;
     margin-bottom: 5px;
@@ -879,6 +886,7 @@
 
 .clt-detail-left-section-4-card-item-desc {
     font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 400;
     color: #545454;
     margin-bottom: 0px;
@@ -957,12 +965,13 @@
 }
 
 .clt-detail-left-sub-section-div img {
-    width: 25px;
+    width: 24px;
     margin-right: 12px;
 }
 
 .clt-detail-left-sub-section-div h3 {
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 600;
     color: #000;
     margin-bottom: 0px;
@@ -1152,7 +1161,7 @@
 .clt-detail-section-6-body {
     margin-top: 30px !important;
     border: 1px solid #cbcbcb;
-    border-radius: 10px;
+    border-radius: 18px;
 }
 
 .clt-detail-section-6-body .row:last-child .clt-detail-section-6-body-col {
@@ -1160,7 +1169,7 @@
 }
 
 .clt-detail-section-6-body-col {
-    padding: 25px 25px;
+    padding: 20px 22px;
     border-bottom: 1px solid #cbcbcb;
 }
 
@@ -1169,11 +1178,12 @@
 }
 
 .clt-detail-section-6-body h2 {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     color: #333333;
     font-family: "Inter";
     margin-bottom: 0;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-6-body p {
@@ -1184,6 +1194,7 @@
     margin-top: 1px;
     margin-bottom: 0;
     line-height: 23px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -1366,9 +1377,10 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-left: 8px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-1 {
@@ -1406,16 +1418,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 2px;
         margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -1541,7 +1553,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -1549,12 +1562,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -1597,12 +1612,13 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -1757,17 +1773,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -1776,6 +1793,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -1921,9 +1939,10 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-left: 8px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-1 {
@@ -1961,16 +1980,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 2px;
         margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -2095,7 +2114,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -2103,12 +2123,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2151,12 +2173,13 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -2311,17 +2334,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -2330,6 +2354,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -2475,9 +2500,10 @@
     }
 
     .clt-detail-section-1-subdiv span {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-left: 8px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-1 {
@@ -2515,16 +2541,16 @@
     .clt-detail-left-section-subdiv-1-div-txt {}
 
     .clt-detail-left-section-subdiv-1-div-txt h3 {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 2px;
         margin-top: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt p {
-        font-size: 17px;
-        letter-spacing: -0.4px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0;
     }
@@ -2644,7 +2670,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -2652,12 +2679,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2712,7 +2741,7 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
@@ -2731,7 +2760,8 @@
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -2878,17 +2908,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -2897,6 +2928,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -3045,7 +3077,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -3053,12 +3086,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3101,12 +3136,13 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -3262,17 +3298,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -3281,6 +3318,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -3420,7 +3458,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -3428,12 +3467,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3485,12 +3526,13 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -3637,17 +3679,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -3656,6 +3699,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -3802,7 +3846,8 @@
     }
 
     .clt-detail-left-section-4-card-item-h2 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
         margin-top: 10px;
@@ -3810,12 +3855,14 @@
 
     .clt-detail-left-section-4-card-item-secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt-detail-left-section-4-card-item-desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3858,12 +3905,13 @@
     }
 
     .clt-detail-left-sub-section-div img {
-        width: 25px;
+        width: 24px;
         margin-right: 12px;
     }
 
     .clt-detail-left-sub-section-div h3 {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 0px;
     }
@@ -4010,17 +4058,18 @@
 
     .clt-detail-section-6-body {
         margin-top: 30px !important;
-        border-radius: 10px;
+        border-radius: 16px;
     }
 
     .clt-detail-section-6-body-col {
-        padding: 25px 25px;
+        padding: 20px 22px;
     }
 
     .clt-detail-section-6-body h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 500;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body p {
@@ -4029,6 +4078,7 @@
         margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
