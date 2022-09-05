@@ -26,7 +26,7 @@ export const homeSliderResponsive = {
 export const maraigeData = {
   type: 1,
   color: "#08875c",
-  background: "#28b07e",
+  background: "#1eab77",
   img: MaraigeImg,
   detail_page: "maraige"
 };
