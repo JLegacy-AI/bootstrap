@@ -12,7 +12,7 @@
 }
 
 .clt-detail-section-1-subdiv img {
-    width: 13px;
+    width: 12px;
 }
 
 .clt-detail-section-1-subdiv span {
@@ -137,16 +137,16 @@
 .clt-detail-left-section-1 {}
 
 .clt-detail-left-section-1-heading {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
     font-family: "Inter";
     margin-bottom: 0;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-left-section-subdiv-1 {
-    margin-top: 28px;
+    margin-top: 20px;
 }
 
 .clt-detail-left-section-subdiv-1-div {
@@ -155,19 +155,19 @@
 }
 
 .clt-detail-left-section-subdiv-1-div-img {
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     margin-right: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #fff;
     border: 1px solid #dedddd;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 
 .clt-detail-left-section-subdiv-1-div-img img {
-    width: 28px;
+    width: 24px;
 }
 
 .clt-detail-left-section-subdiv-1-div-txt {}
@@ -247,13 +247,13 @@
 }
 
 .clt-detail-left-section-2-h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "Inter";
     margin-bottom: 0px;
     color: #000;
     line-height: 32px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-left-section-2-cards-arrowBtn, .clt-detail-left-section-2-cards-arrowBtn:hover, .clt-detail-left-section-2-cards-arrowBtn:active, .clt-detail-left-section-2-cards-arrowBtn:focus, .clt-detail-left-section-2-cards-arrowBtn:active:focus {
@@ -277,7 +277,7 @@
 .clt-detail-left-section-2-cards {
     width: 386px;
     height: 231px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     margin-right: 10px;
     cursor: default;
@@ -406,7 +406,7 @@
 .clt-detail-left-section-3-subdiv {}
 
 .clt-detail-left-section-3-subdiv img {
-    width: 23.5px;
+    width: 22px;
     margin-right: 12px;
     margin-left: 5px;
 }
@@ -924,13 +924,13 @@
 }
 
 .clt-detail-left-section-4-h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "Inter";
     margin-bottom: 0px;
     color: #000;
     line-height: 32px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-left-section-4 {
@@ -1046,7 +1046,8 @@
 }
 
 .clt_products_offcanvas_body_product {
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 600;
     color: #000;
     margin-bottom: 5px;
@@ -1055,6 +1056,7 @@
 
 .clt_products_offcanvas_body_secondary {
     font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 500;
     color: #000;
     margin-bottom: 5px;
@@ -1063,6 +1065,7 @@
 
 .clt_products_offcanvas_body_desc {
     font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 400;
     color: #000;
     margin-bottom: 0px;
@@ -1140,12 +1143,12 @@
 }
 
 .clt-detail-section-6-header h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
     font-family: "Inter";
     margin-bottom: 0;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-6-header p {
@@ -1159,9 +1162,9 @@
 }
 
 .clt-detail-section-6-body {
-    margin-top: 30px !important;
+    margin-top: 20px !important;
     border: 1px solid #cbcbcb;
-    border-radius: 18px;
+    border-radius: 15px;
 }
 
 .clt-detail-section-6-body .row:last-child .clt-detail-section-6-body-col {
@@ -1187,7 +1190,7 @@
 }
 
 .clt-detail-section-6-body p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #7f7f7f;
     font-family: "Inter";
@@ -1221,7 +1224,7 @@
 }
 
 .clt-detail-section-6-offcanvas-cat-h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #333333;
     font-family: "Inter";
@@ -1240,9 +1243,9 @@
 }
 
 .clt-detail-section-6-offcanvas-data-row-col {
-    padding-top: 20px;
+    padding-top: 18px;
     padding-right: 22px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     padding-left: 22px;
     border-bottom: 1px solid #cbcbcb;
 }
@@ -1260,7 +1263,8 @@
 }
 
 .clt-detail-section-6-offcanvas-data-row-col h2 {
-    font-size: 17px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
     font-weight: 500;
     color: #333;
     font-family: "Inter";
@@ -1279,12 +1283,12 @@
 }
 
 .clt-detail-section-7 h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
     font-family: "Inter";
     margin-bottom: 0;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-7 p {
@@ -1305,7 +1309,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 13px;
+    border-radius: 15px;
     width: 100%;
     height: 250px;
 }
@@ -1373,7 +1377,7 @@
     }
 
     .clt-detail-section-1-subdiv img {
-        width: 14px;
+        width: 12px;
     }
 
     .clt-detail-section-1-subdiv span {
@@ -1408,7 +1412,7 @@
         width: 42px;
         height: 84%;
         margin-right: 10px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
@@ -1465,7 +1469,7 @@
     .clt-detail-left-section-2-cards {
         width: 310px;
         height: 195px;
-        border-radius: 12px;
+        border-radius: 15px;
         margin-right: 15px;
     }
 
@@ -1541,7 +1545,7 @@
     .clt-detail-left-section-4-card-item {
         width: 242px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
@@ -1575,11 +1579,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-4 {
@@ -1689,19 +1693,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -1757,10 +1764,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -1768,12 +1775,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -1788,7 +1795,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -1810,7 +1817,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -1826,20 +1833,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -1848,10 +1856,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -1866,7 +1874,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
@@ -1935,7 +1943,7 @@
     }
 
     .clt-detail-section-1-subdiv img {
-        width: 14px;
+        width: 12px;
     }
 
     .clt-detail-section-1-subdiv span {
@@ -1970,7 +1978,7 @@
         width: 42px;
         height: 84%;
         margin-right: 10px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
@@ -2027,7 +2035,7 @@
     .clt-detail-left-section-2-cards {
         width: 310px;
         height: 195px;
-        border-radius: 12px;
+        border-radius: 15px;
         margin-right: 15px;
     }
 
@@ -2102,7 +2110,7 @@
     .clt-detail-left-section-4-card-item {
         width: 242px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
@@ -2136,11 +2144,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-4 {
@@ -2250,19 +2258,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2318,10 +2329,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -2329,12 +2340,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -2349,7 +2360,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -2371,7 +2382,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -2387,20 +2398,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -2409,10 +2421,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -2427,7 +2439,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
@@ -2496,7 +2508,7 @@
     }
 
     .clt-detail-section-1-subdiv img {
-        width: 14px;
+        width: 12px;
     }
 
     .clt-detail-section-1-subdiv span {
@@ -2531,7 +2543,7 @@
         width: 42px;
         height: 84%;
         margin-right: 10px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
@@ -2588,7 +2600,7 @@
     .clt-detail-left-section-2-cards {
         width: 310px;
         height: 195px;
-        border-radius: 12px;
+        border-radius: 15px;
         margin-right: 15px;
     }
 
@@ -2658,7 +2670,7 @@
     .clt-detail-left-section-4-card-item {
         width: 242px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
@@ -2692,11 +2704,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-sub-section-div-p p {
@@ -2748,7 +2760,7 @@
     .clt-detail-left-section-4-card-item {
         width: 242px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
@@ -2824,19 +2836,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -2892,10 +2907,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -2903,12 +2918,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -2923,7 +2938,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -2945,7 +2960,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -2961,20 +2976,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -2983,10 +2999,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -3001,7 +3017,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
@@ -3065,7 +3081,7 @@
     .clt-detail-left-section-4-card-item {
         width: 210px;
         height: 220px;
-        border-radius: 20px;
+        border-radius: 15px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
@@ -3099,11 +3115,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-4 {
@@ -3214,19 +3230,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3282,10 +3301,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -3293,12 +3312,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -3313,7 +3332,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -3335,7 +3354,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -3351,20 +3370,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -3373,10 +3393,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -3391,7 +3411,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
@@ -3418,7 +3438,7 @@
     .clt-detail-left-section-2-cards {
         width: 315px;
         height: 210px;
-        border-radius: 20px;
+        border-radius: 15px;
         overflow: hidden;
         margin-right: 17px !important;
         cursor: default;
@@ -3446,7 +3466,7 @@
     .clt-detail-left-section-4-card-item {
         width: 216px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 10px;
         padding: 20px 20px 20px 20px;
     }
@@ -3480,11 +3500,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-4 {
@@ -3595,19 +3615,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -3663,10 +3686,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -3674,12 +3697,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -3694,7 +3717,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -3716,7 +3739,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -3732,20 +3755,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -3754,10 +3778,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -3772,7 +3796,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
@@ -3834,7 +3858,7 @@
     .clt-detail-left-section-4-card-item {
         width: 242px;
         height: 270px;
-        border-radius: 16px;
+        border-radius: 15px;
         margin-right: 16px;
         padding: 20px 20px 20px 20px;
     }
@@ -3868,11 +3892,11 @@
     }
 
     .clt-detail-left-section-4-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
         line-height: 32px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-left-section-4 {
@@ -3974,19 +3998,22 @@
     }
 
     .clt_products_offcanvas_body_product {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 600;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_secondary {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 5px;
     }
 
     .clt_products_offcanvas_body_desc {
         font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -4042,10 +4069,10 @@
     }
 
     .clt-detail-section-6-header h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-header p {
@@ -4053,12 +4080,12 @@
         font-weight: 400;
         margin-bottom: 0;
         margin-top: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-body {
-        margin-top: 30px !important;
-        border-radius: 16px;
+        margin-top: 16px !important;
+        border-radius: 15px;
     }
 
     .clt-detail-section-6-body-col {
@@ -4073,7 +4100,7 @@
     }
 
     .clt-detail-section-6-body p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -4095,7 +4122,7 @@
     }
 
     .clt-detail-section-6-offcanvas-cat-h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
         letter-spacing: -0.2px;
@@ -4111,20 +4138,21 @@
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding-top: 20px;
+        padding-top: 18px;
         padding-right: 22px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 17px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
         font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         margin-top: 1px;
         margin-bottom: 0;
@@ -4133,10 +4161,10 @@
     }
 
     .clt-detail-section-7 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 p {
@@ -4151,7 +4179,7 @@
     }
 
     .clt-detail-section-7-img-div {
-        border-radius: 13px;
+        border-radius: 15px;
         width: 100%;
         height: 250px;
     }
