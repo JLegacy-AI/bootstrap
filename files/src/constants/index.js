@@ -26,14 +26,14 @@ export const homeSliderResponsive = {
 export const maraigeData = {
   type: 1,
   color: "#08875c",
-  background: "#24775b",
+  background: "#28b07e",
   img: MaraigeImg,
   detail_page: "maraige"
 };
 export const profesionnelData = {
   type: 2,
-  color: "#015eea",
-  background: "#025adf",
+  color: "#1a73e8",
+  background: "#4285f4",
   img: ProfesionnelImg,
   detail_page: "profesionnel"
 };
