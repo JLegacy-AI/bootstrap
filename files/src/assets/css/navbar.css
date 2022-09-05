@@ -91,13 +91,16 @@
 
 .pfr_navbarRightTxt span {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     cursor: pointer;
     background: #eee;
     border-radius: 50px;
     color: #000 !important;
-    padding: 10px 16px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,10 +496,10 @@
         font-weight: 500;
         font-size: 14.22px;
         letter-spacing: -0.3px;
-        padding-bottom: 8px;
+        padding-bottom: 10px;
         padding-left: 12px;
         padding-right: 14px;
-        padding-top: 5px;
+        padding-top: 7px;
     }
 
     .pfr_navbarLogo {
@@ -688,12 +691,12 @@
 
     .pfr_navbarRightTxt span {
         font-weight: 500;
-        font-size: 15.22px;
+        font-size: 14px;
         letter-spacing: -0.3px;
-        padding-bottom: 9px;
-        padding-left: 14px;
-        padding-right: 16px;
-        padding-top: 6.5px;
+        padding-bottom: 11px;
+        padding-left: 13px;
+        padding-right: 15px;
+        padding-top: 8px;
     }
 
     .pfr_navOffCanvas {
@@ -875,7 +878,7 @@
 
     .pfr_navbarRightTxt span {
         font-weight: 500;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .pfr_navbarRightTxt span:nth-child(1) {

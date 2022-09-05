@@ -58,7 +58,7 @@
     background-size: cover;
     width: 100%;
     height: 458px;
-    border-radius: 13px;
+    border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -95,7 +95,7 @@
 .clt-detail-slider-gallery .react-multiple-carousel__arrow::before {
     font-size: 16px;
     margin-bottom: 2px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #000 !important;
 }
 
@@ -111,7 +111,7 @@
     background-size: cover;
     width: 100%;
     height: 600px;
-    border-radius: 18px;
+    border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -121,7 +121,7 @@
     color: #fff;
     background: rgba(0, 0, 0, .6313725490196078);
     padding: 5px 11px;
-    border-radius: 10px;
+    border-radius: 8px;
     position: absolute;
     bottom: 20px;
     right: 23px;
@@ -168,6 +168,7 @@
 
 .clt-detail-left-section-subdiv-1-div-img img {
     width: 24px;
+    margin-bottom: 2px;
 }
 
 .clt-detail-left-section-subdiv-1-div-txt {}
@@ -437,7 +438,7 @@
 
 .clt-detail-right-main {
     border: 1px solid #eee;
-    border-radius: 16px;
+    border-radius: 15px;
     box-shadow: 0px 0px 8px 1px #eee;
     padding: 32px 30px;
 }
@@ -531,27 +532,27 @@
 }
 
 .clt_inputFloat.form-floating>.form-control:focus~label, .clt_inputFloat.form-floating>.form-control:not(:placeholder-shown)~label, .clt_inputFloat.form-floating>.form-select~label {
-    opacity: .7;
+    opacity: .85;
     transform: scale(.8) translateY(-0.35rem) translateX(0.28rem);
     padding-top: 0.5rem;
     padding-right: 1.1rem;
     padding-bottom: 0.5rem;
     padding-left: 1.1rem;
     margin-top: 7.5px;
-    font-size: 15.5px;
+    font-size: 15px;
 }
 
 .clt_inputFloat input, .clt_inputFloat input:active, .clt_inputFloat input:focus {
-    height: 67px !important;
-    font-size: 16.5px;
+    height: 65px !important;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
     padding-top: 10px !important;
-    padding-right: 16.4px !important;
+    padding-right: 18px !important;
     padding-bottom: 0px !important;
-    padding-left: 16.4px !important;
+    padding-left: 18px !important;
     border-radius: 0px;
-    border: 1px solid #cccccc;
+    border: 1px solid #cbcbcb;
     border-top: none;
     outline: none;
     box-shadow: none;
@@ -561,8 +562,8 @@
     font-size: 16.5px;
     font-weight: 500;
     color: #000;
-    padding-left: 16.4px !important;
-    padding-right: 16.4px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
     padding-top: 28px !important;
     border-radius: 0px;
     border: 1px solid #cccccc;
@@ -572,14 +573,18 @@
 }
 
 .clt-detail-right-form-contact>div:first-of-type .clt_inputFloat input {
-    border-top: 1px solid #cccccc;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top: 1px solid #cbcbcb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form-floating>label {
+    padding-left: 18px;
 }
 
 .clt-detail-right-form-contact>div:last-of-type .clt_inputFloat textarea {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .clt-detail-right-form-reserve>div:first-of-type .clt_inputFloat input {
@@ -601,10 +606,10 @@
     box-shadow: none;
     outline: none;
     border: 1px solid #29b07d;
-    height: 56px;
+    height: 50px;
     position: relative;
     margin-top: 26px;
-    letter-spacing: .9px;
+    letter-spacing: -0.2px;
 }
 
 .clt-gallery-container {
@@ -1037,12 +1042,12 @@
 }
 
 .clt_products_offcanvas_body_category {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
     font-family: "Inter";
     margin-bottom: 0px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt_products_offcanvas_body_product {
@@ -1208,6 +1213,7 @@
     align-items: center;
     width: 100%;
     border-radius: 12px;
+    padding-bottom: 10px;
     font-size: 16px;
     font-weight: 600;
     box-shadow: none;
@@ -1409,14 +1415,15 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 42px;
-        height: 84%;
-        margin-right: 10px;
-        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        margin-right: 14px;
+        border-radius: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
         width: 24px;
+        margin-bottom: 2px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
@@ -1686,10 +1693,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -1807,7 +1814,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        padding-bottom: 10px;
+        height: 50px;
     }
 
     .clt-detail-section-6-offcanvas-row {
@@ -1975,14 +1983,15 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 42px;
-        height: 84%;
-        margin-right: 10px;
-        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        margin-right: 14px;
+        border-radius: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
         width: 24px;
+        margin-bottom: 2px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
@@ -2251,10 +2260,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -2372,7 +2381,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        padding-bottom: 10px;
+        height: 50px;
     }
 
     .clt-detail-section-6-offcanvas-row {
@@ -2540,14 +2550,15 @@
     }
 
     .clt-detail-left-section-subdiv-1-div-img {
-        width: 42px;
-        height: 84%;
-        margin-right: 10px;
-        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        margin-right: 14px;
+        border-radius: 8px;
     }
 
     .clt-detail-left-section-subdiv-1-div-img img {
         width: 24px;
+        margin-bottom: 2px;
     }
 
     .clt-detail-left-section-subdiv-1-div-txt {}
@@ -2829,10 +2840,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -2950,7 +2961,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        height: 50px;
+        padding-bottom: 10px;
     }
 
     .clt-detail-section-6-offcanvas-row {
@@ -3223,10 +3235,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -3344,7 +3356,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        height: 50px;
+        padding-bottom: 10px;
     }
 
     .clt-detail-section-6-offcanvas-row {
@@ -3608,10 +3621,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -3729,7 +3742,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        height: 50px;
+        padding-bottom: 10px;
     }
 
     .clt-detail-section-6-offcanvas-row {
@@ -3991,10 +4005,10 @@
     }
 
     .clt_products_offcanvas_body_category {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 0px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body_product {
@@ -4112,7 +4126,8 @@
         border-radius: 12px;
         font-size: 16px;
         font-weight: 600;
-        height: 56px;
+        height: 50px;
+        padding-bottom: 10px;
     }
 
     .clt-detail-section-6-offcanvas-row {
