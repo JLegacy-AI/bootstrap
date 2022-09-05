@@ -1151,7 +1151,7 @@
 
 .clt-detail-section-6-body {
     margin-top: 30px !important;
-    border: 1px solid #eee;
+    border: 1px solid #cbcbcb;
     border-radius: 10px;
 }
 
@@ -1161,11 +1161,11 @@
 
 .clt-detail-section-6-body-col {
     padding: 25px 25px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #cbcbcb;
 }
 
 .clt-detail-section-6-body-col.border-right {
-    border-right: 1px solid #eee;
+    border-right: 1px solid #cbcbcb;
 }
 
 .clt-detail-section-6-body h2 {
@@ -1181,8 +1181,9 @@
     font-weight: 400;
     color: #7f7f7f;
     font-family: "Inter";
-    margin-top: 5px;
+    margin-top: 1px;
     margin-bottom: 0;
+    line-height: 23px;
 }
 
 .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -1223,7 +1224,7 @@
 
 .clt-detail-section-6-offcanvas-data-row {
     margin-top: 20px !important;
-    border: 1px solid #eee;
+    border: 1px solid #cbcbcbcb;
     border-radius: 10px;
 }
 
@@ -1232,7 +1233,7 @@
     padding-right: 22px;
     padding-bottom: 20px;
     padding-left: 22px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #cbcbcb;
 }
 
 .clt-detail-section-6-offcanvas-data-row .col .row:last-child .clt-detail-section-6-offcanvas-data-row-col {
@@ -1240,7 +1241,7 @@
 }
 
 .clt-detail-section-6-offcanvas-data-row-col.border-right {
-    border-right: 1px solid #eee;
+    border-right: 1px solid #cbcbcb;
 }
 
 .clt-detail-section-6-offcanvas-data-row-col.border-bottom-none {
@@ -1260,7 +1261,7 @@
     font-weight: 400;
     color: #7f7f7f;
     font-family: "Inter";
-    margin-top: 2px;
+    margin-top: 1px;
     margin-bottom: 0;
     line-height: 23px;
     letter-spacing: -0.2px;
@@ -1772,8 +1773,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -1821,7 +1823,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
@@ -2325,8 +2327,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -2374,7 +2377,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
@@ -2891,8 +2894,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -2940,7 +2944,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
@@ -3274,8 +3278,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -3323,7 +3328,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
@@ -3648,8 +3653,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -3697,7 +3703,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
@@ -4020,8 +4026,9 @@
     .clt-detail-section-6-body p {
         font-size: 18px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 0;
+        line-height: 23px;
     }
 
     .clt-detail-section-6-body button, .clt-detail-section-6-body button:hover, .clt-detail-section-6-body button:focus, .clt-detail-section-6-body button:active {
@@ -4069,7 +4076,7 @@
     .clt-detail-section-6-offcanvas-data-row-col p {
         font-size: 17px;
         font-weight: 400;
-        margin-top: 2px;
+        margin-top: 1px;
         margin-bottom: 0;
         line-height: 23px;
         letter-spacing: -0.2px;
