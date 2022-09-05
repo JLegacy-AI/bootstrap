@@ -5,8 +5,8 @@
     right: 0;
     z-index: 1020; */
     border-bottom: 1px solid #dedddd;
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
 }
 
 .pfr_innerNavbarNavInnerPages {
@@ -878,7 +878,7 @@
     .pfr_innerNavbarLogo {
         align-items: center;
         margin-left: 22px;
-        font-size: 22.5px;
+        font-size: 16px;
         letter-spacing: -0.2px;
         font-weight: 600;
     }

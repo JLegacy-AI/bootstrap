@@ -434,7 +434,7 @@
 
 .clt-detail-right-main {
     border: 1px solid #eee;
-    border-radius: 16xpx;
+    border-radius: 16px;
     box-shadow: 0px 0px 8px 1px #eee;
     padding: 32px 30px;
 }
@@ -620,7 +620,7 @@
     justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid #dedddd;
-    height: 8vh;
+    height: 7vh;
 }
 
 .clt-gallery-container-header-col {
@@ -639,8 +639,9 @@
 .clt-gallery-container-header-col span {
     align-items: center;
     margin-left: 35px;
-    font-size: 22.5px;
-    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
     color: rgb(0, 0, 0);
 }
 
@@ -660,8 +661,9 @@
 
 .clt-gallery-container-footer span {
     align-items: center;
-    font-size: 22.5px;
-    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 600;
     color: rgb(0, 0, 0);
 }
 
@@ -995,11 +997,12 @@
 
 .clt_products_offcanvas_header .offcanvas-title {
     margin-left: 30px;
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
     font-family: 'Inter';
     font-weight: 600;
     margin-bottom: 0;
+    letter-spacing: -0.2px;
 }
 
 .clt_products_offcanvas_body {
@@ -1211,21 +1214,24 @@
     color: #333333;
     font-family: "Inter";
     margin-bottom: 0;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 .clt-detail-section-6-offcanvas-data-row {
-    margin-top: 25px !important;
+    margin-top: 20px !important;
     border: 1px solid #eee;
     border-radius: 10px;
 }
 
 .clt-detail-section-6-offcanvas-data-row-col {
-    padding: 25px 25px;
+    padding-top: 20px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+    padding-left: 22px;
     border-bottom: 1px solid #eee;
 }
 
@@ -1242,20 +1248,22 @@
 }
 
 .clt-detail-section-6-offcanvas-data-row-col h2 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333333;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
     font-family: "Inter";
     margin-bottom: 0;
 }
 
 .clt-detail-section-6-offcanvas-data-row-col p {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     color: #7f7f7f;
     font-family: "Inter";
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0;
+    line-height: 23px;
+    letter-spacing: -0.2px;
 }
 
 .clt-detail-section-7 h2 {
@@ -1632,6 +1640,7 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -1784,33 +1793,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -2179,6 +2193,7 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -2331,33 +2346,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -2739,6 +2759,7 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -2891,33 +2912,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -3116,6 +3142,7 @@
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -3268,33 +3295,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -3484,6 +3516,7 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -3636,33 +3669,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -3850,6 +3888,7 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 0;
+        letter-spacing: -0.2px;
     }
 
     .clt_products_offcanvas_body {
@@ -4002,33 +4041,38 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 0;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-6-offcanvas-cat-h2.margin-top {
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .clt-detail-section-6-offcanvas-data-row {
-        margin-top: 25px !important;
+        margin-top: 20px !important;
         border-radius: 10px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col {
-        padding: 25px 25px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 20px;
+        padding-left: 22px;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col h2 {
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 17px;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .clt-detail-section-6-offcanvas-data-row-col p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 0;
+        line-height: 23px;
+        letter-spacing: -0.2px;
     }
 
     .clt-detail-section-7 h2 {
@@ -4122,7 +4166,7 @@
     }
 
     .clt-gallery-container-header {
-        height: 8vh;
+        height: 6,3vh;
     }
 
 }
