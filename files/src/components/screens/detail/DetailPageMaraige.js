@@ -15,6 +15,11 @@ import DetailSection4_1 from "../../../assets/img/detail_section_4_1.png";
 import DetailSection5_Icon1 from "../../../assets/img/detail_section_5_icon_1.png";
 import DetailSection5_Icon2 from "../../../assets/img/detail_section_5_icon_2.png";
 import DetailSection5_Icon3 from "../../../assets/img/detail_section_5_icon_3.png";
+import DetailSection5_Icon4 from "../../../assets/img/detail_section_5_icon_4.png";
+import DetailSection5_Icon5 from "../../../assets/img/detail_section_5_icon_5.png";
+import DetailSection5_Icon6 from "../../../assets/img/detail_section_5_icon_6.png";
+import DetailSection5_Icon7 from "../../../assets/img/detail_section_5_icon_7.png";
+import DetailSection5_Icon8 from "../../../assets/img/detail_section_5_icon_8.png";
 import DetailSection7ImageMobile from "../../../assets/img/detail_section_7_img_mobile.jpg";
 import DetailSection7ImageDesktop from "../../../assets/img/detail_section_7_img_desktop.jpg";
 import InnerNavbar from "../../../layouts/InnerNavbar";
@@ -568,20 +573,45 @@ const DetailPageMaraige = () => {
               headTitleSection5="Title section 5"
               sectionTextList={[
                 {
-                  subTitle: "SUBTITLE",
+                  subTitle: "MEUBLE",
                   subSections: [
                     {
                       img: DetailSection5_Icon1,
-                      title: "Table ronde",
+                      title: "Table ronde (20)",
                     },
                     {
                       img: DetailSection5_Icon2,
-                      title: "Table rectangle",
+                      title: "Table rectangle (30)",
+                    },
+                    {
+                      img: DetailSection5_Icon7,
+                      title: "Chaise (150)",
+                    },
+                    {
+                      img: DetailSection5_Icon6,
+                      title: "Couvert (fourni par traiteur ou vous)",
                     },
                   ],
                 },
                 {
-                  subTitle: "SUBTITLE",
+                  subTitle: "MATÉRIEL",
+                  subSections: [
+                    {
+                      img: DetailSection5_Icon8,
+                      title: "Wifi",
+                    },
+                    {
+                      img: DetailSection5_Icon5,
+                      title: "Vidéoprojecteur",
+                    },
+                    {
+                      img: DetailSection5_Icon4,
+                      title: "Microphone",
+                    },
+                  ],
+                },
+                {
+                  subTitle: "INSTALLATION",
                   subSections: [
                     {
                       img: DetailSection5_Icon3,
