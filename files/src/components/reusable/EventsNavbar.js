@@ -28,7 +28,7 @@ const EventsNavbar = (props) => {
                           ? { filter: "grayscale(0)" }
                           : { filter: "grayscale(1)" }
                       }
-                      className=""
+                      className="clt-no-active-event"
                       alt={IMG_ALT}
                     />
                     <h2
@@ -55,7 +55,7 @@ const EventsNavbar = (props) => {
                   >
                     <img
                       src={IconBar2Active}
-                      className=""
+                      className="clt-no-active-event"
                       style={
                         props.eventType.type === 2
                           ? { filter: "grayscale(0)" }
@@ -92,7 +92,7 @@ const EventsNavbar = (props) => {
                           ? { filter: "grayscale(0)" }
                           : { filter: "grayscale(1)" }
                       }
-                      className=""
+                      className="clt-no-active-event"
                       alt={IMG_ALT}
                     />
                     <h2
@@ -124,7 +124,7 @@ const EventsNavbar = (props) => {
                           ? { filter: "grayscale(0)" }
                           : { filter: "grayscale(1)" }
                       }
-                      className=""
+                      className="clt-no-active-event"
                       alt={IMG_ALT}
                     />
                     <h2
