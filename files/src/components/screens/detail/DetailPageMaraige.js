@@ -623,8 +623,8 @@ const DetailPageMaraige = () => {
             />
             <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
             <DetailSection6
-              title="Title Section 6"
-              subTitle="Subtitle"
+              title="Règles et conditions"
+              subTitle="En réservant le château, vous acceptez les règles et conditions. Prenez connaissances des conditions ci-dessous."
               column1={{
                 title: "Title1",
                 subTitle: "Subtitle1",
@@ -649,8 +649,8 @@ const DetailPageMaraige = () => {
             />
             <CustomHr colClass="clt-section-hr-pd" hrClass="p-0 m-0 clt-hr" />
             <DetailSection7
-              title="Title Section 7"
-              subTitle="Subtitle"
+              title="Localisation"
+              subTitle="42 Rue Seveso, 31150 Fenouillet"
               imageDesktop={DetailSection7ImageDesktop}
               imageMobile={DetailSection7ImageMobile}
             />

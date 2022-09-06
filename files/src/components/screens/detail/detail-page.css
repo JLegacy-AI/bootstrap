@@ -713,6 +713,7 @@
 
 .clt-detail-footer-mblButton i {
     font-size: 13px;
+    margin-left: 8px;
 }
 
 .clt-detail-footer-h-div h2 {
@@ -1299,7 +1300,7 @@
 .clt-detail-section-7 p {
     font-size: 18px;
     font-weight: 400;
-    color: #6f706f;
+    color: #000;
     font-family: "Inter";
     margin-bottom: 0;
     margin-top: 10px;
@@ -1404,7 +1405,7 @@
     }
 
     .clt-detail-left-section-subdiv-1 {
-        margin-top: 20px;
+        margin-top: 12px;
         margin-bottom: -5px;
     }
 
@@ -1972,7 +1973,7 @@
     }
 
     .clt-detail-left-section-subdiv-1 {
-        margin-top: 20px;
+        margin-top: 12px;
         margin-bottom: -5px;
     }
 
@@ -2539,7 +2540,7 @@
     }
 
     .clt-detail-left-section-subdiv-1 {
-        margin-top: 20px;
+        margin-top: 12px;
         margin-bottom: -5px;
     }
 
