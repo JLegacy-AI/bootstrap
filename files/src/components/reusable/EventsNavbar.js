@@ -5,6 +5,10 @@ import IconBar1Active from "../../assets/img/icon-bar-1-active.png";
 import IconBar2Active from "../../assets/img/icon-bar-2-active.png";
 import IconBar3Active from "../../assets/img/icon-bar-3-active.png";
 import IconBar4Active from "../../assets/img/icon-bar-4-active.png";
+import IconBar1 from "../../assets/img/icon-bar-1.png";
+import IconBar2 from "../../assets/img/icon-bar-2.png";
+import IconBar3 from "../../assets/img/icon-bar-3.png";
+import IconBar4 from "../../assets/img/icon-bar-4.png";
 
 const EventsNavbar = (props) => {
   return (
@@ -22,12 +26,7 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeMaraige}
                   >
                     <img
-                      src={IconBar1Active}
-                      style={
-                        props.eventType.type === 1
-                          ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
-                      }
+                      src={IconBar1}
                       className=""
                       alt={IMG_ALT}
                     />
@@ -54,13 +53,8 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeProfesionnel}
                   >
                     <img
-                      src={IconBar2Active}
+                      src={IconBar2}
                       className=""
-                      style={
-                        props.eventType.type === 2
-                          ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
-                      }
                       alt={IMG_ALT}
                     />
                     <h2
@@ -86,12 +80,7 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeAnniversaire}
                   >
                     <img
-                      src={IconBar3Active}
-                      style={
-                        props.eventType.type === 3
-                          ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
-                      }
+                      src={IconBar3}
                       className=""
                       alt={IMG_ALT}
                     />
@@ -118,12 +107,7 @@ const EventsNavbar = (props) => {
                     onClick={props.setEventTypeReligieux}
                   >
                     <img
-                      src={IconBar4Active}
-                      style={
-                        props.eventType.type === 4
-                          ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
-                      }
+                      src={IconBar4}
                       className=""
                       alt={IMG_ALT}
                     />
