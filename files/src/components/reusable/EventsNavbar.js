@@ -30,6 +30,14 @@ const EventsNavbar = (props) => {
                       className=""
                       alt={IMG_ALT}
                     />
+                    <img
+                      src={IconBar1Active}
+                      style={
+                        props.eventType.type === 1
+                      }
+                      className=""
+                      alt={IMG_ALT}
+                    />
                     <h2
                       style={
                         props.eventType.type === 1
@@ -57,6 +65,16 @@ const EventsNavbar = (props) => {
                       className=""
                       alt={IMG_ALT}
                     />
+                    <img
+                      src={IconBar2Active}
+                      style={
+                        props.eventType.type === 2
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(0)" }
+                      }
+                      className=""
+                      alt={IMG_ALT}
+                    />
                     <h2
                       style={
                         props.eventType.type === 2
@@ -81,6 +99,16 @@ const EventsNavbar = (props) => {
                   >
                     <img
                       src={IconBar3}
+                      className=""
+                      alt={IMG_ALT}
+                    />
+                    <img
+                      src={IconBar3Active}
+                      style={
+                        props.eventType.type === 3
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
+                      }
                       className=""
                       alt={IMG_ALT}
                     />
