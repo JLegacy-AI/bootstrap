@@ -26,7 +26,7 @@ const EventsNavbar = (props) => {
                       style={
                         props.eventType.type === 1
                           ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
+                          : { color: "#8c8c8c" }
                       }
                       className=""
                       alt={IMG_ALT}
@@ -59,7 +59,7 @@ const EventsNavbar = (props) => {
                       style={
                         props.eventType.type === 2
                           ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
+                          : { color: "#8c8c8c" }
                       }
                       alt={IMG_ALT}
                     />
@@ -90,7 +90,7 @@ const EventsNavbar = (props) => {
                       style={
                         props.eventType.type === 3
                           ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
+                          : { color: "#8c8c8c" }
                       }
                       className=""
                       alt={IMG_ALT}
@@ -122,7 +122,7 @@ const EventsNavbar = (props) => {
                       style={
                         props.eventType.type === 4
                           ? { filter: "grayscale(0)" }
-                          : { filter: "grayscale(1)" }
+                          : { color: "#8c8c8c" }
                       }
                       className=""
                       alt={IMG_ALT}
