@@ -25,28 +25,28 @@ export const homeSliderResponsive = {
 };
 export const maraigeData = {
   type: 1,
-  color: "#08875c",
+  color: "#189f6e",
   background: "#189f6e",
   img: MaraigeImg,
   detail_page: "maraige"
 };
 export const profesionnelData = {
   type: 2,
-  color: "#1a73e8",
+  color: "#4285f4",
   background: "#4285f4",
   img: ProfesionnelImg,
   detail_page: "profesionnel"
 };
 export const anniversaireData = {
   type: 3,
-  color: "#ad1eac",
+  color: "#c72fc3",
   background: "#c72fc3",
   img: AnniversaireImg,
   detail_page: "anniversaire"
 };
 export const religieuxData = {
   type: 4,
-  color: "#b3846d",
+  color: "#d2997e",
   background: "#d2997e",
   img: ReligieuxImg,
   detail_page: "religieux"
