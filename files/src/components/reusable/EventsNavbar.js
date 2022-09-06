@@ -25,8 +25,8 @@ const EventsNavbar = (props) => {
                       src={IconBar1Active}
                       style={
                         props.eventType.type === 1
-                          ? { color: `${props.eventType.color}` }
-                          : { color: `#8c8c8c` }
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt={IMG_ALT}
@@ -55,12 +55,12 @@ const EventsNavbar = (props) => {
                   >
                     <img
                       src={IconBar2Active}
+                      className=""
                       style={
                         props.eventType.type === 2
-                          ? { color: `${props.eventType.color}` }
-                          : { color: `#8c8c8c` }
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
-                      className=""
                       alt={IMG_ALT}
                     />
                     <h2
@@ -89,8 +89,8 @@ const EventsNavbar = (props) => {
                       src={IconBar3Active}
                       style={
                         props.eventType.type === 3
-                          ? { color: `${props.eventType.color}` }
-                          : { color: `#8c8c8c` }
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt={IMG_ALT}
@@ -121,8 +121,8 @@ const EventsNavbar = (props) => {
                       src={IconBar4Active}
                       style={
                         props.eventType.type === 4
-                          ? { color: `${props.eventType.color}` }
-                          : { color: `#8c8c8c` }
+                          ? { filter: "grayscale(0)" }
+                          : { filter: "grayscale(1)" }
                       }
                       className=""
                       alt={IMG_ALT}
