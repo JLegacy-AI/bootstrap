@@ -25,7 +25,7 @@ const EventsNavbar = (props) => {
                       src={IconBar1Active}
                       style={
                         props.eventType.type === 1
-                          ? { color: "#8c8c8c" }
+                          ? { filter: "grayscale(0)" }
                           : { color: "#8c8c8c" }
                       }
                       className=""
@@ -58,7 +58,7 @@ const EventsNavbar = (props) => {
                       className=""
                       style={
                         props.eventType.type === 2
-                          ? { color: "#8c8c8c"" }
+                          ? { filter: "grayscale(0)" }
                           : { color: "#8c8c8c" }
                       }
                       alt={IMG_ALT}
@@ -89,7 +89,7 @@ const EventsNavbar = (props) => {
                       src={IconBar3Active}
                       style={
                         props.eventType.type === 3
-                          ? { color: "#8c8c8c" }
+                          ? { filter: "grayscale(0)" }
                           : { color: "#8c8c8c" }
                       }
                       className=""
@@ -121,7 +121,7 @@ const EventsNavbar = (props) => {
                       src={IconBar4Active}
                       style={
                         props.eventType.type === 4
-                          ? { color: "#8c8c8c" }
+                          ? { filter: "grayscale(0)" }
                           : { color: "#8c8c8c" }
                       }
                       className=""
