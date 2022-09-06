@@ -430,8 +430,8 @@
 
     /*mobile*/
     .pfr_navbarNav {
-        padding-top: 0.6rem !important;
-        padding-bottom: 0.6rem !important;
+        padding-top: 0.4rem !important;
+        padding-bottom: 0.4rem !important;
         padding-left: 7px;
         padding-right: 7px;
     }
@@ -460,8 +460,8 @@
     }
 
     .pfr_navbarNav {
-        padding-top: 0.6rem !important;
-        padding-bottom: 0.6rem !important;
+        padding-top: 0.4rem !important;
+        padding-bottom: 0.4rem !important;
         padding-left: 7px;
         padding-right: 7px;
     }
@@ -504,8 +504,8 @@
 
     .pfr_navbarLogo {
         margin-left: 12px;
-        font-size: 21px;
-        letter-spacing: -0.4px;
+        font-size: 20px;
+        letter-spacing: -0.2px;
         font-weight: 600;
     }
 

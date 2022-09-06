@@ -1506,14 +1506,14 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
     }
 
     .clt-gallery-container-footer span {
         align-items: center;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
         color: #000;
     }
 
@@ -2082,13 +2082,13 @@
     .clt-gallery-container-footer span {
         align-items: center;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
     }
 
     .clt-gallery-container-header-col {
@@ -2642,14 +2642,15 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
+        letter-spacing: -0.2px;
     }
 
     .clt-gallery-container-footer span {
         align-items: center;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
         color: #000;
     }
 
@@ -3185,7 +3186,7 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
         letter-spacing: -0.2px;
         font-weight: 600;
@@ -3543,7 +3544,7 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
         letter-spacing: -0.2px;
         font-weight: 600;
@@ -3831,7 +3832,7 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
         letter-spacing: -0.2px;
         font-weight: 600;
@@ -4220,7 +4221,7 @@
     .clt-gallery-container-header-col span {
         margin-left: 21px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
         letter-spacing: -0.2px;
         font-weight: 600;
@@ -4258,7 +4259,7 @@
     .clt-gallery-container-header-col span {
         margin-left: 22px;
         font-size: 16px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         color: rgb(0, 0, 0);
         letter-spacing: -0.2px;
         font-weight: 600;

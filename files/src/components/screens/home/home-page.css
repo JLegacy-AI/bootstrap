@@ -251,6 +251,7 @@
 
 .clt-section-3-cards-main h2 {
     font-size: 30px;
+    letter-spacing: -0.2px;
     font-weight: 700;
     font-family: Mulish;
     margin-bottom: 0;
@@ -362,6 +363,7 @@
     right: 50%;
     transform: translate(50%, -50%);
     font-size: 35px;
+    letter-spacing: -0.2px;
     font-weight: 700;
     font-family: 'Mulish';
     margin-bottom: 0;
@@ -710,12 +712,13 @@
 
     .clt-section-3-cards-main h2 {
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
-        margin-top: 26px;
+        margin-top: 22px;
         padding: 20px;
         width: 80%;
-        line-height: 35px;
+        line-height: 34px;
     }
 
 
@@ -774,6 +777,7 @@
         right: 0;
         transform: none;
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
         width: 90%;
@@ -1015,12 +1019,13 @@
 
     .clt-section-3-cards-main h2 {
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
-        margin-top: 26px;
+        margin-top: 22px;
         padding: 20px;
         width: 80%;
-        line-height: 35px;
+        line-height: 34px;
     }
 
     .clt-section-3-cards-end h2 {
@@ -1078,6 +1083,7 @@
         right: 0;
         transform: none;
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
         width: 90%;
@@ -1317,12 +1323,13 @@
 
     .clt-section-3-cards-main h2 {
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
-        margin-top: 26px;
+        margin-top: 22px;
         padding: 20px;
         width: 80%;
-        line-height: 35px;
+        line-height: 34px;
     }
 
     .clt-section-3-cards-end h2 {
@@ -1380,6 +1387,7 @@
         right: 0;
         transform: none;
         font-size: 30px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         margin-bottom: 0;
         width: 90%;
@@ -1572,6 +1580,7 @@
         -webkit-transform: translate(50%,-50%);
         transform: translate(50%,-50%);
         font-size: 28px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         font-family: "Mulish";
         margin-bottom: 0;
@@ -1665,6 +1674,7 @@
         -webkit-transform: translate(50%,-50%);
         transform: translate(50%,-50%);
         font-size: 28px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         font-family: "Mulish";
         margin-bottom: 0;
@@ -1757,6 +1767,7 @@
         -webkit-transform: translate(50%,-50%);
         transform: translate(50%,-50%);
         font-size: 28px;
+        letter-spacing: -0.2px;
         font-weight: 700;
         font-family: "Mulish";
         margin-bottom: 0;

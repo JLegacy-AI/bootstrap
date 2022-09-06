@@ -39,7 +39,7 @@ const EventsNavbar = (props) => {
                               borderBottom: `2px solid ${props.eventType.color}`,
                             }
                           : {
-                              color: `#7f7f7f`,
+                              color: `#8c8c8c`,
                               borderBottom: `2px solid transparent`,
                             }
                       }
@@ -71,7 +71,7 @@ const EventsNavbar = (props) => {
                               borderBottom: `2px solid ${props.eventType.color}`,
                             }
                           : {
-                              color: `#7f7f7f`,
+                              color: `#8c8c8c`,
                               borderBottom: `2px solid transparent`,
                             }
                       }
@@ -103,7 +103,7 @@ const EventsNavbar = (props) => {
                               borderBottom: `2px solid ${props.eventType.color}`,
                             }
                           : {
-                              color: `#7f7f7f`,
+                              color: `#8c8c8c`,
                               borderBottom: `2px solid transparent`,
                             }
                       }
@@ -135,7 +135,7 @@ const EventsNavbar = (props) => {
                               borderBottom: `2px solid ${props.eventType.color}`,
                             }
                           : {
-                              color: `#7f7f7f`,
+                              color: `#8c8c8c`,
                               borderBottom: `2px solid transparent`,
                             }
                       }
